@@ -24,11 +24,38 @@ per cycle, never two in a row.
 - Unlock window is SHARED across all blocked apps (global state)
 - One question per unlock cycle — never two questions in a row
 
+## Technical Decisions Made During Build
+- **App blocking approach**: Android Accessibility Service, NOT Usage Stats API.
+  Android 14+ blocks activity launches from background services — accessibility 
+  services are exempt. Requires user to enable in Settings → Accessibility.
+  Use `typeAllMask` + `android:isAccessibilityTool="true"` for API 34+ compatibility.
+- **Timer expiry**: Scheduled via `Handler.postDelayed` inside the accessibility 
+  service so it can launch Doomlock mid-session from the service context.
+- **Shared state**: Unlock expiry written to both AsyncStorage (JS) and 
+  SharedPreferences (native) so the accessibility service can read it without 
+  going through the JS bridge.
+- **Supabase keys**: Uses publishable keys (`sb_publishable_...`), not anon keys.
+  Variable name is `SUPABASE_PUBLISHABLE_KEY`. Works identically in `createClient()`.
+- **targetSdkVersion**: 36 (Android 16). Emulator runs API 37.
+- **AsyncStorage version**: Pinned to v1.23.1 — v2.x has a KMP dependency 
+  (`storage-android`) that breaks the Android build.
+- **URL polyfill**: `react-native-url-polyfill` imported in `index.js` (not 
+  `supabase.ts`) with `unstable_enablePackageExports: true` in Metro config.
+- **Blocked apps list** (stored in SharedPreferences as `blocked_packages`):
+  - Instagram: `com.instagram.android`
+  - TikTok: `com.zhiliaoapp.musically`
+  - YouTube: `com.google.android.youtube`
+  - Twitter/X: `com.twitter.android`
+  - Snapchat: `com.snapchat.android`
+  - Facebook: `com.facebook.katana`
+  - Reddit: `com.reddit.frontpage`
+
 ## Current Build State
-- React Native project scaffolded and running on Android emulator
-- App.tsx contains a basic "Hello Doomlock" test screen
-- Supabase project created but schema not yet configured
-- GitHub: github.com/cbrianj92/doomlock
+Steps 1–9 complete. Core mechanic is fully working and tested on emulator.
+- Question screen fetches from Supabase, validates answers, shows explanations
+- Unlock timer persists across app closes (AsyncStorage + SharedPreferences)
+- Accessibility service blocks apps on window change AND kicks user out mid-session when timer expires
+- GitHub: github.com/cbrianj92/DOOMLOCK (note: repo name is uppercase)
 
 ## Folder Structure — Always Follow This
 ```
@@ -108,7 +135,7 @@ export default ComponentName;
 - Progress is tracked per user in Supabase after every answer
 - Supabase auth gates all data access — user must be logged in
 
-## Supabase Schema (planned)
+## Supabase Schema (live)
 ```
 questions table:
   id, subject, difficulty, question_text, 
@@ -121,20 +148,26 @@ progress table:
   id, user_id, question_id, is_correct, 
   answered_at, unlock_duration_granted
 ```
+- RLS enabled on both tables
+- questions: anon + authenticated read (questions are not sensitive)
+- progress: authenticated read/insert own rows only
+- `get_random_question()` SQL function returns one random question
+- 4 seed questions loaded (Math ×2, Reading ×1, Writing ×1)
+- Auth not yet wired up — progress table unused until step 11
 
 ## MVP Build Order — Follow This Sequence
-1. Folder structure setup
-2. Constants file (colors, timing)
-3. Supabase connection service
-4. Supabase schema (questions + progress tables)
-5. Question screen UI
-6. Fetch real question from Supabase
-7. Answer validation + explanation display
-8. Unlock timer (global state)
-9. App blocking integration
-10. Onboarding flow
-11. Auth (sign up / log in)
-12. Progress screen
+1. ✅ Folder structure setup
+2. ✅ Constants file (colors, timing)
+3. ✅ Supabase connection service
+4. ✅ Supabase schema (questions + progress tables)
+5. ✅ Question screen UI
+6. ✅ Fetch real question from Supabase
+7. ✅ Answer validation + explanation display
+8. ✅ Unlock timer (global state)
+9. ✅ App blocking integration
+10. ⬜ Onboarding flow
+11. ⬜ Auth (sign up / log in)
+12. ⬜ Progress screen
 
 ## Session Rules — Follow These Every Session
 - Read this file before doing anything
