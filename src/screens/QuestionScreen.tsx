@@ -1,13 +1,13 @@
 import React, { useEffect, useRef, useState } from 'react';
 import {
   ActivityIndicator,
-  SafeAreaView,
   ScrollView,
   StyleSheet,
   Text,
   TouchableOpacity,
   View,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { BorderRadius, Colors, Spacing, Typography } from '../constants';
 import AnswerButton from '../components/AnswerButton';
 import Timer from '../components/Timer';
@@ -153,7 +153,7 @@ const QuestionScreen: React.FC<Props> = ({
 
   if (questionLoading || (!isPractice && unlockLoading)) {
     return (
-      <SafeAreaView style={styles.centered}>
+      <SafeAreaView style={styles.centered} edges={['top']}>
         <ActivityIndicator size="large" color={Colors.accent} />
         <Text style={styles.loadingText}>Loading…</Text>
       </SafeAreaView>
@@ -162,7 +162,7 @@ const QuestionScreen: React.FC<Props> = ({
 
   if (!isPractice && isUnlocked) {
     return (
-      <SafeAreaView style={styles.safe}>
+      <SafeAreaView style={styles.safe} edges={['top']}>
         <View style={styles.header}>
           <Text style={styles.appName}>Doomlock</Text>
         </View>
@@ -178,7 +178,7 @@ const QuestionScreen: React.FC<Props> = ({
 
   if (error || !question) {
     return (
-      <SafeAreaView style={styles.centered}>
+      <SafeAreaView style={styles.centered} edges={['top']}>
         <Text style={styles.errorText}>{error ?? 'No question available.'}</Text>
         <TouchableOpacity style={styles.retryButton} onPress={refetch}>
           <Text style={styles.retryText}>Try Again</Text>
@@ -211,7 +211,7 @@ const QuestionScreen: React.FC<Props> = ({
   }
 
   return (
-    <SafeAreaView style={styles.safe}>
+    <SafeAreaView style={styles.safe} edges={['top']}>
       <View style={styles.header}>
         <Text style={styles.appName}>Doomlock</Text>
         <View style={styles.headerRow}>
