@@ -164,6 +164,14 @@ const SettingsScreen: React.FC = () => {
           ))}
         </View>
 
+        <View style={styles.proBox}>
+          <Text style={styles.proBoxTitle}>Doomlock Pro</Text>
+          <Text style={styles.proBoxBody}>
+            Pro features including subject selection are coming at launch.
+            Thanks for beta testing!
+          </Text>
+        </View>
+
         <Text style={[styles.sectionTitle, styles.sectionTitleSpaced]}>
           Account
         </Text>
@@ -294,6 +302,24 @@ const styles = StyleSheet.create({
   appName: {
     ...Typography.body,
     color: Colors.text,
+  },
+  proBox: {
+    marginTop: Spacing.lg,
+    backgroundColor: '#f0f7ff',
+    borderRadius: BorderRadius.card,
+    padding: Spacing.md,
+  },
+  proBoxTitle: {
+    ...Typography.body,
+    fontWeight: '700',
+    color: Colors.primary,
+    marginBottom: 4,
+  },
+  proBoxBody: {
+    ...Typography.body,
+    fontSize: 14,
+    color: Colors.text,
+    lineHeight: 22,
   },
   deleteButton: {
     borderWidth: 1,

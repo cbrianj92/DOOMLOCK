@@ -43,6 +43,10 @@ const SubjectSelectionScreen: React.FC<Props> = ({ onBack }) => {
           <Text style={styles.subheading}>
             Practice a specific SAT or ACT subject area.
           </Text>
+          <Text style={styles.proNote}>
+            Subject selection is a Pro feature coming at public launch. Your
+            interest has been noted!
+          </Text>
         </View>
 
         <View style={styles.subjectList}>
@@ -101,6 +105,13 @@ const styles = StyleSheet.create({
   subheading: {
     ...Typography.body,
     color: Colors.textLight,
+  },
+  proNote: {
+    ...Typography.body,
+    fontSize: 13,
+    color: Colors.textLight,
+    marginTop: Spacing.xs,
+    lineHeight: 20,
   },
   subjectList: {
     gap: Spacing.sm,
