@@ -1,0 +1,266 @@
+[
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Data Representation",
+    "difficulty": "Hard",
+    "passage": "A biochemist measured enzyme reaction rates (V, in μmol/min per mg protein) with and without an inhibitor at four substrate concentrations (S, in mmol/L). Without inhibitor — S=1: 0.12; S=5: 0.48; S=10: 0.75; S=20: 0.95. With inhibitor — S=1: 0.06; S=5: 0.27; S=10: 0.50; S=20: 0.78. The biochemist calculated the ratio of inhibited to uninhibited reaction rate at each concentration to assess where the inhibitor's effect was weakest.",
+    "question": "At which substrate concentration is the inhibitor's effect the weakest, as measured by the ratio of inhibited to uninhibited reaction rate?",
+    "choices": {
+      "A": "S = 1 mmol/L",
+      "B": "S = 5 mmol/L",
+      "C": "S = 20 mmol/L",
+      "D": "S = 10 mmol/L"
+    },
+    "correct": "C",
+    "explanation": "The ratio (inhibited/uninhibited) at each concentration: S=1: 0.06/0.12 = 0.50; S=5: 0.27/0.48 ≈ 0.56; S=10: 0.50/0.75 ≈ 0.67; S=20: 0.78/0.95 ≈ 0.82. The highest ratio (0.82) at S=20 indicates the inhibited reaction is closest to the uninhibited rate — meaning the inhibitor's effect is weakest at the highest substrate concentration. This is consistent with competitive inhibition, where excess substrate outcompetes the inhibitor.",
+    "distractor_rationale": {
+      "A": "This results from selecting S=1 — where the inhibitor halves the reaction rate (ratio 0.50), representing the strongest inhibitor effect — and confusing the smallest ratio with the weakest effect rather than the largest ratio.",
+      "B": "This results from selecting S=5 without computing all four ratios to determine which is largest, perhaps choosing a middle value as a compromise.",
+      "C": "N/A",
+      "D": "This results from selecting S=10 because it is between the extremes, perhaps assuming the inhibitor's effect is most moderate at a middle concentration — the ratio at S=10 (0.67) is the third highest, not the highest."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Research Summaries",
+    "difficulty": "Hard",
+    "passage": "A neuroscientist studied how caffeine affects reaction time and accuracy in a vigilance task over a 6-hour session. Twenty participants completed two sessions (with 200 mg caffeine or placebo) in counterbalanced order. Caffeine reduced reaction time by 12% in hours 1–2 but only 3% in hours 5–6. Error rates in the caffeine condition were 8% lower than the placebo in hours 1–2 but did not differ significantly in hours 5–6.",
+    "question": "Based on the research summary, which conclusion is best supported?",
+    "choices": {
+      "A": "Caffeine's performance benefits on reaction time and accuracy diminish substantially over a 6-hour period.",
+      "B": "Caffeine has no meaningful effect on vigilance task performance at any time point.",
+      "C": "Caffeine improves reaction time and accuracy equally throughout the entire 6-hour session.",
+      "D": "Caffeine increases error rates in the later hours of a vigilance session compared to the placebo condition."
+    },
+    "correct": "A",
+    "explanation": "The data show strong early benefits (12% faster reaction time, 8% fewer errors in hours 1–2) that diminish to near-negligible levels by hours 5–6 (3% reaction time difference; no significant error rate difference). A correctly captures this decline. B ignores the significant hours 1–2 benefits. C incorrectly extends the early benefits to the entire session. D misreads the hours 5–6 finding — error rates were not significantly different between conditions, not higher in the caffeine condition.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from reading the hours 5–6 finding (no significant error rate difference) and incorrectly generalizing it to the entire 6-hour session, ignoring the significant performance benefits documented in hours 1–2.",
+      "C": "This results from noting that caffeine showed clear improvements in hours 1–2 and projecting this finding forward, without recognizing that the hours 5–6 data show substantially diminished effects.",
+      "D": "This results from misreading the hours 5–6 finding — the study found no significant difference in error rates between conditions at that time point, not that caffeine increased errors."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Graph Interpretation",
+    "difficulty": "Hard",
+    "passage": "A physicist graphed the position of two oscillating objects over time. Object P has an amplitude of 4 cm and a period of 2 seconds. Object Q has an amplitude of 6 cm and a period of 3 seconds. Both objects start at their maximum positive displacement at t = 0. Position follows the cosine function: position = amplitude × cos(2π × t / period).",
+    "question": "At t = 3 seconds, what is the relationship between the positions of Object P and Object Q?",
+    "choices": {
+      "A": "Both objects are at their maximum positive displacement.",
+      "B": "Both objects are at the zero position, passing through center.",
+      "C": "Object P is at its maximum positive displacement; Object Q is at its maximum negative displacement.",
+      "D": "Object P is at its maximum negative displacement; Object Q is at its maximum positive displacement."
+    },
+    "correct": "D",
+    "explanation": "Object P: position = 4 × cos(2π × 3/2) = 4 × cos(3π) = 4 × (−1) = −4 cm (maximum negative). Object Q: position = 6 × cos(2π × 3/3) = 6 × cos(2π) = 6 × 1 = +6 cm (maximum positive). D is correct. A is wrong — P is at maximum negative, not positive. B is wrong — neither object is at zero. C swaps the two objects' actual positions.",
+    "distractor_rationale": {
+      "A": "This results from assuming both objects return to their starting position at t=3 because it is a 'round number,' without recognizing that P's period is 2 seconds (so t=3 = 1.5 periods, placing P at maximum negative displacement).",
+      "B": "This results from confusing the zero-crossing time (which occurs at quarter-period intervals) with the positions at t=3 seconds, which correspond to maximum displacements for both objects.",
+      "C": "This results from correctly identifying that t=3 is one full period for Object Q (maximum positive) but inverting Object P's position — 1.5 periods places P at maximum negative displacement, not maximum positive.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Drawing Conclusions",
+    "difficulty": "Hard",
+    "passage": "A sociologist studied ice cream sales and drowning rates across 30 coastal cities over five years, analyzed monthly. The data showed a strong positive correlation (r = 0.82) between monthly ice cream sales and monthly drowning rates — months with high ice cream sales tended to have high drowning rates. The researcher also collected data on average monthly temperature at each city.",
+    "question": "Which conclusion is best supported by the data AND the broader context provided?",
+    "choices": {
+      "A": "Eating ice cream directly increases the risk of drowning.",
+      "B": "Both ice cream sales and drowning rates are likely driven by a third variable — warm temperatures — rather than being causally related to each other.",
+      "C": "Drowning risk causes ice cream sales to increase because people prefer to eat ice cream near water.",
+      "D": "The correlation coefficient of 0.82 demonstrates that ice cream consumption causes drowning."
+    },
+    "correct": "B",
+    "explanation": "The strong correlation between ice cream sales and drownings most plausibly reflects a common cause: warm weather increases both beach activity (raising drowning risk) and ice cream consumption. The collection of temperature data signals that this confounding variable was recognized. B correctly identifies this third-variable explanation. A and C infer direct causation from correlation in opposite directions without justification. D misinterprets the r value — a high correlation coefficient does not establish causation.",
+    "distractor_rationale": {
+      "A": "This results from inferring direct causation from the positive correlation — because ice cream sales and drownings correlate, A concludes one causes the other, ignoring the possibility of a confounding third variable.",
+      "B": "N/A",
+      "C": "This results from reversing the (equally unjustified) causal direction — concluding drownings cause ice cream sales — which is as unsupported by correlation as the reverse causal claim.",
+      "D": "This results from misinterpreting correlation coefficients: a high r value (0.82) quantifies the strength of a statistical relationship but cannot establish causation."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Conflicting Viewpoints",
+    "difficulty": "Hard",
+    "passage": "Two geologists debate the primary cause of sea level changes during the last glacial maximum (~20,000 years ago). Geologist 1 argues sea level was primarily controlled by ice sheet volume — as ice sheets grew, sea level fell because water became locked in land ice. Geologist 2 argues that tectonic subsidence of ocean basins played a comparable role, as expanding ocean basins could accommodate more water independently of ice volume. Both agree sea levels were approximately 120 meters lower than today.",
+    "question": "Which evidence would most effectively challenge Geologist 2's argument?",
+    "choices": {
+      "A": "Confirmation that sea levels were approximately 120 meters lower at the last glacial maximum.",
+      "B": "Ice core data showing ice sheet volume increased by an amount consistent with a 120-meter sea level drop if ocean basin volume is assumed constant.",
+      "C": "Geological measurements showing that ocean basin volumes did not change significantly during the glacial period.",
+      "D": "Evidence that ice sheets covered a larger geographic area than Geologist 2 assumes."
+    },
+    "correct": "C",
+    "explanation": "Geologist 2's specific claim is that expanding ocean basins contributed to sea level changes. Geological measurements directly showing that ocean basin volumes did not change during the glacial period would remove Geologist 2's proposed mechanism. A is evidence both geologists already agree upon and does not distinguish their positions. B assumes Geologist 2 is wrong (constant basin volume) as a premise — circular reasoning rather than direct evidence. D adds support for larger ice sheets but does not directly address the ocean basin expansion claim.",
+    "distractor_rationale": {
+      "A": "This results from selecting evidence that both geologists already accept (sea level was ~120 m lower) — confirming the magnitude of change does not help distinguish between their proposed causes.",
+      "B": "This results from selecting data that assume Geologist 2's mechanism did not occur (constant basin volume) in order to confirm Geologist 1 — this is circular reasoning that assumes the conclusion rather than testing Geologist 2's specific claim.",
+      "C": "N/A",
+      "D": "This results from selecting evidence relevant to Geologist 1's ice volume argument rather than directly targeting Geologist 2's specific claim about ocean basin expansion."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Experimental Design",
+    "difficulty": "Hard",
+    "passage": "A pharmacologist designed a double-blind, placebo-controlled trial to test a new pain reliever. Two hundred chronic back pain patients were randomly assigned to receive the active drug or an identical-looking placebo. Neither patients nor the administering physicians knew which condition each patient was in. Pain severity was self-reported on a 10-point scale before and after 6 weeks of treatment.",
+    "question": "Why is it critical that neither the patients nor the physicians knew which condition each patient was assigned to?",
+    "choices": {
+      "A": "To prevent both conscious and unconscious bias from affecting patient pain reports and physician assessments.",
+      "B": "To ensure all participants reported the same baseline pain level before the study began.",
+      "C": "To control for differences in the chemical composition of the active drug and the placebo.",
+      "D": "To eliminate the possibility that any participant would withdraw from the study before its completion."
+    },
+    "correct": "A",
+    "explanation": "Blinding both patients and physicians controls for bias in two directions: patients who know they received the active drug may report greater improvement (placebo effect), and physicians who know may unconsciously assess or treat patients differently. A correctly captures this dual-bias rationale. B describes the purpose of random assignment, not blinding. C misunderstands blinding — the chemical difference between drug and placebo is exactly what is being tested, not controlled by blinding. D is not the primary purpose of double-blinding; dropout prevention is addressed through study design and follow-up procedures.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from confusing the purpose of random assignment (distributing baseline characteristics evenly) with the purpose of blinding (preventing bias in reporting and assessment after assignment).",
+      "C": "This results from confusing the purpose of blinding with the purpose of the placebo itself — blinding hides which group received which treatment; it does not control the chemical difference between them.",
+      "D": "This results from assuming that blinding primarily affects participant retention, when the fundamental purpose of double-blinding is to eliminate reporting and assessment bias rather than to prevent dropouts."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Variable Identification",
+    "difficulty": "Hard",
+    "passage": "An agricultural researcher tested whether nitrogen fertilizer application rate affects crop yield across three different soil types. She applied nitrogen at 0, 50, 100, and 150 kg/ha to wheat plots at three test sites: sandy soil, clay soil, and loam soil. Each combination of fertilizer rate and soil type had three replicate plots. Wheat yield (kg/ha) was measured at harvest. Rainfall and temperature were monitored but not controlled.",
+    "question": "In this experiment, which pair correctly identifies the two independent variables?",
+    "choices": {
+      "A": "Wheat yield and soil type",
+      "B": "Rainfall and temperature",
+      "C": "Number of replicate plots and wheat yield",
+      "D": "Nitrogen application rate and soil type"
+    },
+    "correct": "D",
+    "explanation": "An independent variable is deliberately manipulated by the researcher. Here, both nitrogen application rate (0, 50, 100, 150 kg/ha) and soil type (sandy, clay, loam) were deliberately varied to study their effects on yield. D correctly identifies both. A pairs the dependent variable (wheat yield — the measured outcome) with soil type. B identifies variables that were monitored but not controlled or deliberately manipulated. C pairs a design feature (replicates) with the dependent variable.",
+    "distractor_rationale": {
+      "A": "This results from confusing the dependent variable (wheat yield) with an independent variable, pairing it with soil type rather than recognizing that yield is the measured outcome.",
+      "B": "This results from selecting rainfall and temperature — which were observed but not deliberately manipulated — as independent variables, when they are nuisance variables monitored for context.",
+      "C": "This results from confusing replicate plots (a design element used to estimate variability) with an independent variable, and pairing it with the dependent variable wheat yield.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Data Representation",
+    "difficulty": "Hard",
+    "passage": "A physiologist measured oxygen consumption (mL O₂/min) and blood lactate (mmol/L) at four exercise intensities. Subject averages — Rest: O₂ = 250, lactate = 0.8. Low: O₂ = 800, lactate = 1.2. Moderate: O₂ = 1,800, lactate = 2.1. High: O₂ = 3,200, lactate = 8.4. She analyzed which consecutive intensity transition showed the greatest proportional increase in blood lactate.",
+    "question": "Between which two consecutive exercise intensities does blood lactate show the greatest proportional increase?",
+    "choices": {
+      "A": "Rest to Low",
+      "B": "Moderate to High",
+      "C": "Low to Moderate",
+      "D": "Rest to High (the full range)"
+    },
+    "correct": "B",
+    "explanation": "Proportional increases: Rest→Low = (1.2−0.8)/0.8 = 50%; Low→Moderate = (2.1−1.2)/1.2 = 75%; Moderate→High = (8.4−2.1)/2.1 = 300%. The Moderate to High transition shows a 300% proportional increase — far greater than any other consecutive pair. B is correct. A (50%) and C (75%) are substantially smaller. D spans multiple transitions and does not represent a single consecutive interval.",
+    "distractor_rationale": {
+      "A": "This results from noting that the absolute lactate change from Rest to Low (0.4 mmol/L) seems notable relative to the very small starting value, without computing all four proportional increases and comparing them.",
+      "B": "N/A",
+      "C": "This results from selecting Low to Moderate because it represents a noticeable increase below the high-intensity threshold, without recognizing that the proportional jump from Moderate to High (300%) dwarfs it (75%).",
+      "D": "This results from computing the total lactate range across all intensities rather than identifying the single consecutive transition with the greatest proportional increase."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Drawing Conclusions",
+    "difficulty": "Hard",
+    "passage": "Two hypotheses predict how a toxin affects cell membrane permeability. Hypothesis 1: The toxin creates pores in the lipid bilayer, increasing permeability and allowing ions to leak out. Hypothesis 2: The toxin binds to membrane protein channels and closes them, decreasing ion flux. A researcher treated cell membranes with the toxin and measured intracellular K⁺ concentration over 60 minutes. K⁺ fell steadily from 140 mmol/L to 102 mmol/L. Typical intracellular K⁺ is high (~140 mmol/L) and extracellular K⁺ is low.",
+    "question": "Which hypothesis does the experimental data best support, and why?",
+    "choices": {
+      "A": "Hypothesis 2, because falling intracellular K⁺ shows that ion flux has been reduced by channel closure.",
+      "B": "Hypothesis 2, because the toxin appears to be blocking K⁺ channels and trapping potassium inside the cell.",
+      "C": "Hypothesis 1, because K⁺ leaving the cell (falling intracellular concentration) is consistent with increased permeability allowing outward leakage.",
+      "D": "Hypothesis 1, because falling intracellular K⁺ indicates the toxin is creating channels that import Na⁺, displacing potassium."
+    },
+    "correct": "C",
+    "explanation": "Intracellular K⁺ fell from 140 to 102 mmol/L, meaning K⁺ is leaving the cell. K⁺ moves down its concentration gradient — from high concentration inside to low concentration outside — through pores. This is consistent with Hypothesis 1 (pore formation allowing outward leakage). Hypothesis 2 predicts channel closure, which would trap K⁺ inside and maintain or raise intracellular concentration, not decrease it. C is correct. A and B misidentify falling K⁺ as consistent with channel closure. D correctly identifies Hypothesis 1 but proposes an incorrect mechanism (Na⁺ import).",
+    "distractor_rationale": {
+      "A": "This results from misinterpreting falling intracellular K⁺ as evidence of reduced ion flux — if channels were blocked (Hypothesis 2), K⁺ would be trapped inside and concentration would remain high, not fall.",
+      "B": "This results from misreading the falling intracellular K⁺ as evidence that K⁺ is trapped inside by blocked channels — blocking channels would maintain high intracellular K⁺, whereas the observed decrease indicates K⁺ is actively leaving the cell.",
+      "C": "N/A",
+      "D": "This results from correctly identifying Hypothesis 1 (pore formation) but providing an incorrect mechanism — pores created by the toxin allow K⁺ to leak OUT down its concentration gradient; the data do not implicate Na⁺ import as the driver of falling K⁺."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Conflicting Viewpoints",
+    "difficulty": "Hard",
+    "passage": "Two astronomers debate why the outer planets are far larger than the inner planets. Astronomer 1 argues outer planets formed beyond the 'frost line' — where temperatures allow water, methane, and ammonia to freeze — creating large solid icy cores that then gravity-captured vast amounts of gas. Astronomer 2 argues that disk instability played a major role: portions of the protoplanetary disk may have been dense and cold enough to collapse directly into gas giants without first forming a solid core.",
+    "question": "Which evidence would most directly challenge Astronomer 1's core accretion model?",
+    "choices": {
+      "A": "Discovery of a gas giant planet located well within what would have been the frost line of its host star system.",
+      "B": "Confirmation that Jupiter's core is composed primarily of ice and rock.",
+      "C": "Evidence that the frost line in our solar system lies between Mars and Jupiter.",
+      "D": "Discovery of numerous rocky planets in the outer regions of another solar system."
+    },
+    "correct": "A",
+    "explanation": "Astronomer 1's model requires that gas giants form beyond the frost line, where ice can accumulate into large solid cores. A gas giant found inside the frost line of a star system would show that large planets can form without the frost-line icy-core mechanism, directly challenging core accretion. B supports Astronomer 1 (an icy rocky core is exactly what the model predicts). C describes the frost line position consistent with Astronomer 1's model. D introduces distant rocky planets, which may complicate both models but targets neither specifically.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from selecting evidence that confirms Astronomer 1's prediction — a solid icy core in Jupiter is exactly what core accretion predicts — rather than evidence that challenges it.",
+      "C": "This results from selecting the frost line location between Mars and Jupiter, which is consistent with Astronomer 1's model and provides supporting rather than challenging evidence.",
+      "D": "This results from selecting evidence about rocky planets in outer regions, which raises interesting questions but is less directly targeted at Astronomer 1's specific frost line and core accretion mechanism than a gas giant inside the frost line."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Graph Interpretation",
+    "difficulty": "Hard",
+    "passage": "A chemist measured O₂ gas produced (mL) from H₂O₂ decomposition with and without MnO₂ catalyst over 5 minutes. Without catalyst — t=0: 0; t=1: 2; t=2: 4; t=3: 5.5; t=4: 6.5; t=5: 7 mL. With catalyst — t=0: 0; t=1: 18; t=2: 30; t=3: 36; t=4: 39; t=5: 40 mL. She plotted both curves and analyzed the reaction behavior at t=5 minutes.",
+    "question": "Based on the data, which statement best compares the behavior of the two reactions at t = 5 minutes?",
+    "choices": {
+      "A": "Both reactions are producing gas at the same rapid rate at t = 5 minutes.",
+      "B": "The reaction without the catalyst has produced more total gas by t = 5 minutes.",
+      "C": "The reaction rates in both conditions are accelerating at t = 5 minutes.",
+      "D": "Both reactions appear to be approaching a plateau in gas production by t = 5 minutes."
+    },
+    "correct": "D",
+    "explanation": "Per-minute increments without catalyst: 2, 2, 1.5, 1, 0.5 mL — declining toward a plateau near 7 mL. With catalyst: 18, 12, 6, 3, 1 mL — also declining sharply toward a plateau near 40 mL. Both conditions show decreasing production rates at t=5, indicating both are leveling off. D is correct. A is wrong — rates are low and slowing in both conditions. B is wrong — the catalyst condition (40 mL) produced far more than the uncatalyzed condition (7 mL). C is wrong — the decreasing increments indicate deceleration, not acceleration.",
+    "distractor_rationale": {
+      "A": "This results from noting that both reactions are still producing gas at t=5 and incorrectly concluding both are at a rapid rate — the diminishing per-minute increments in both conditions show rates are slowing substantially.",
+      "B": "This results from reversing the comparison — the catalyzed reaction produced 40 mL total by t=5, far more than the 7 mL produced in the uncatalyzed condition.",
+      "C": "This results from misreading the trend — the per-minute production increments are clearly decreasing in both conditions, indicating slowing (deceleration), not acceleration.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Unit Analysis",
+    "difficulty": "Hard",
+    "passage": "A geochemist measures CO₂ emission from a soil sample at 5.2 mg CO₂ per gram of soil per hour (mg CO₂/g soil/hr). She needs to convert this to micrograms of CO₂ per gram of soil per minute (μg CO₂/g soil/min) for comparison with a published dataset. There are 1,000 micrograms in 1 milligram, and 60 minutes in 1 hour.",
+    "question": "What is the emission rate expressed in μg CO₂/g soil/min?",
+    "choices": {
+      "A": "0.087 μg CO₂/g soil/min",
+      "B": "86.7 μg CO₂/g soil/min",
+      "C": "312 μg CO₂/g soil/min",
+      "D": "5,200 μg CO₂/g soil/min"
+    },
+    "correct": "B",
+    "explanation": "Two conversions are required: (1) mg → μg: multiply by 1,000; (2) per hour → per minute: divide by 60. Applying both: 5.2 mg/g/hr × 1,000 μg/mg ÷ 60 min/hr = 5,200 ÷ 60 ≈ 86.7 μg/g/min. B is correct. A (0.087) results from dividing by 60 without first multiplying by 1,000. C (312) results from multiplying by 60 instead of dividing. D (5,200) results from converting mg to μg without dividing by 60.",
+    "distractor_rationale": {
+      "A": "This results from dividing 5.2 by 60 to convert hours to minutes without first multiplying by 1,000 to convert milligrams to micrograms — performing only one of the two required unit conversions.",
+      "B": "N/A",
+      "C": "This results from multiplying by 60 instead of dividing when converting from per-hour to per-minute — treating the conversion as if more minutes per hour means a higher per-minute rate.",
+      "D": "This results from converting milligrams to micrograms (5.2 × 1,000 = 5,200) without dividing by 60 to convert per-hour to per-minute — performing only one of the two required conversions."
+    }
+  }
+]

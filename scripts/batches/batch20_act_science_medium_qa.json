@@ -1,0 +1,398 @@
+[
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Data Representation",
+    "difficulty": "Medium",
+    "passage": "A food scientist analyzed the fat, protein, and carbohydrate content per 100g serving of four common nuts. Peanuts: 49g fat, 26g protein, 16g carbs. Almonds: 50g fat, 21g protein, 22g carbs. Cashews: 44g fat, 18g protein, 30g carbs. Walnuts: 65g fat, 15g protein, 14g carbs. All values are rounded to the nearest gram. The scientist was investigating which nut best supports muscle recovery after exercise.",
+    "question": "Based on the data, which nut has the highest protein content per 100g serving?",
+    "choices": {
+      "A": "Peanuts",
+      "B": "Almonds",
+      "C": "Cashews",
+      "D": "Walnuts"
+    },
+    "correct": "A",
+    "explanation": "Protein values per 100g: Peanuts = 26g, Almonds = 21g, Cashews = 18g, Walnuts = 15g. Peanuts (26g) have the highest protein content. B (Almonds, 21g) is second. C (Cashews, 18g) has the highest carbohydrate content, not protein. D (Walnuts, 15g) has the highest fat content at 65g, not the highest protein.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from noting that almonds have the highest fat content alongside peanuts and incorrectly extending this to protein, or from misreading the protein row in the data.",
+      "C": "This results from confusing carbohydrate content — cashews have the highest at 30g — with protein content, selecting the wrong nutrient category.",
+      "D": "This results from confusing fat content — walnuts have the highest at 65g — with protein content, selecting the wrong nutrient column."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Research Summaries",
+    "difficulty": "Medium",
+    "passage": "A soil scientist investigated how organic matter content affects water retention. She prepared five soil samples with varying organic matter percentages: 1%, 2%, 3%, 4%, and 5%. Each sample was saturated with 200 mL of water and allowed to drain for 24 hours. Water retained was: 42 mL, 58 mL, 74 mL, 91 mL, and 107 mL, respectively. Soil texture and particle size were held constant across all samples.",
+    "question": "Based on the research summary, which statement best describes the relationship between organic matter content and water retention?",
+    "choices": {
+      "A": "Water retention decreases as organic matter content increases.",
+      "B": "Water retention increases as organic matter content increases.",
+      "C": "Water retention remains constant regardless of organic matter content.",
+      "D": "Water retention increases until 3% organic matter, then decreases at higher percentages."
+    },
+    "correct": "B",
+    "explanation": "Water retained increases consistently from 42 mL (1% OM) to 58, 74, 91, and 107 mL (5% OM) — a steady increase at each step. B correctly describes this positive relationship. A reverses the observed trend. C ignores the consistent incremental increases in retention. D misidentifies a peak at 3% (74 mL), when the data show continued increases at 4% (91 mL) and 5% (107 mL).",
+    "distractor_rationale": {
+      "A": "This results from reversing the observed trend — the data show water retention increasing, not decreasing, as organic matter content increases.",
+      "B": "N/A",
+      "C": "This results from ignoring the consistent 16-17 mL increase in water retention for each additional 1% of organic matter and concluding that content has no effect.",
+      "D": "This results from misidentifying 3% organic matter as a peak and inferring a decline afterward, when the data show continued increases through 4% (91 mL) and 5% (107 mL)."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Graph Interpretation",
+    "difficulty": "Medium",
+    "passage": "A physicist measured the velocity of a model rocket at one-second intervals after launch. At t=0: 0 m/s. At t=1: 15 m/s. At t=2: 28 m/s. At t=3: 39 m/s. At t=4: 48 m/s. At t=5: 55 m/s. The rocket burned its fuel during these first 5 seconds and then coasted. Velocity data were plotted on a time-velocity graph.",
+    "question": "Based on the data, which statement best describes the trend in the rocket's acceleration during the first 5 seconds?",
+    "choices": {
+      "A": "Acceleration was constant at 15 m/s² throughout the burn phase.",
+      "B": "Acceleration was zero because the rocket moved at a constant rate.",
+      "C": "Acceleration was positive but decreasing — the velocity increased by smaller increments each second.",
+      "D": "Acceleration increased steadily from 0 to 55 m/s² during the burn."
+    },
+    "correct": "C",
+    "explanation": "The per-second velocity increases are: +15, +13, +11, +9, +7 m/s. The rocket is accelerating (velocity increases each second) but the acceleration itself decreases because the increments shrink. C is correct. A is wrong — only the first interval was +15 m/s/s; subsequent intervals decrease. B is wrong — velocity clearly increases each second, indicating nonzero acceleration. D confuses total velocity change with acceleration, which is actually decreasing.",
+    "distractor_rationale": {
+      "A": "This results from computing only the first interval (t0→t1 = 15 m/s/s) and assuming this rate continues, without checking that subsequent intervals decrease (13, 11, 9, 7 m/s/s).",
+      "B": "This results from confusing the coasting phase (after t=5) with the burn phase, or from misreading the data as showing no velocity change during the 5-second burn.",
+      "C": "N/A",
+      "D": "This results from noting that total velocity increases from 0 to 55 m/s and incorrectly concluding that acceleration also increases steadily, rather than computing the per-second increments which show a decreasing pattern."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Drawing Conclusions",
+    "difficulty": "Medium",
+    "passage": "An environmental scientist tracked dissolved oxygen (DO) levels and fish population counts in a lake over four years as an invasive algae species expanded. Year 1: DO = 9.2 mg/L, fish count = 850. Year 2: DO = 7.8 mg/L, fish count = 710. Year 3: DO = 6.1 mg/L, fish count = 540. Year 4: DO = 4.5 mg/L, fish count = 320. Native plant cover also declined by 40% over this period.",
+    "question": "Which conclusion is best supported by the data?",
+    "choices": {
+      "A": "The declining fish population caused the decrease in dissolved oxygen levels.",
+      "B": "Native plant loss was the primary driver of the fish population decline.",
+      "C": "Dissolved oxygen levels and fish population counts are unrelated in this dataset.",
+      "D": "Declining dissolved oxygen levels are associated with declining fish populations in this lake."
+    },
+    "correct": "D",
+    "explanation": "The data show both DO and fish counts declining consistently across all four years. This establishes an association between the two variables. D correctly states this association without claiming causation. A reverses the possible causal direction without evidence. B introduces a specific mechanism (native plant loss) as primary cause, but the data only establish correlation between DO and fish counts, not a root cause. C directly contradicts the clear parallel decline visible in the data.",
+    "distractor_rationale": {
+      "A": "This results from reversing the causal direction — the data show DO and fish counts declining together without indicating which variable drives the other; inferring that fish decline causes DO decline is not supported.",
+      "B": "This results from selecting a plausible mechanism (native plant loss affecting oxygen production) and treating it as the established primary cause, when the data only show a correlation between DO and fish counts.",
+      "C": "This results from ignoring the clear parallel decline in both DO and fish count across all four years — the two variables move together consistently.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Data Representation",
+    "difficulty": "Medium",
+    "passage": "A student studied how voltage affects current in a resistor circuit using a fixed 10-ohm resistor. She applied voltages of 5V, 10V, 15V, and 20V and recorded the resulting current: 0.50 A, 1.00 A, 1.50 A, and 2.00 A, respectively. She noted that the ratio of voltage to current remained constant across all measurements.",
+    "question": "Based on the data, what current would be produced by an applied voltage of 25V in this circuit?",
+    "choices": {
+      "A": "2.50 A",
+      "B": "2.00 A",
+      "C": "3.00 A",
+      "D": "5.00 A"
+    },
+    "correct": "A",
+    "explanation": "The data show a constant ratio: V/I = 10 Ω at every point (Ohm's Law). For 25V: I = V/R = 25/10 = 2.50 A. A is correct. B (2.00 A) is the current for 20V — the last tested value — without extrapolating. C (3.00 A) results from incorrectly adding 1.0 A to the last value. D (5.00 A) results from dividing voltage by the smallest current rather than applying the consistent ratio.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from reporting the current for 20V — the highest tested voltage — rather than applying the constant V/I ratio to calculate the extrapolated current for 25V.",
+      "C": "This results from adding 1.0 A to the last measured current (2.00 A) rather than applying the constant ratio of 0.1 A per volt, which correctly gives 2.50 A.",
+      "D": "This results from dividing voltage (25) by the smallest current value in the table (0.50 A from the 5V reading) rather than applying the consistent 10 Ω resistance to the new voltage."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Experimental Design",
+    "difficulty": "Medium",
+    "passage": "A psychologist tested whether background music affects reading comprehension. She recruited 60 participants and divided them randomly into three groups of 20: one read in silence, one with classical music, and one with pop music. All groups read the same passage and answered the same 20 comprehension questions in the same room on the same day under identical fluorescent lighting.",
+    "question": "Which aspect of the experimental design best ensures that differences in comprehension scores reflect the music condition rather than other factors?",
+    "choices": {
+      "A": "Using 20 participants per group provides adequate statistical power for the study.",
+      "B": "All groups read the same passage and answered the same questions under identical room conditions.",
+      "C": "The sessions all took place on the same day, minimizing day-to-day variation.",
+      "D": "Classical and pop music represent contrasting musical styles, ensuring the treatments are meaningfully different."
+    },
+    "correct": "B",
+    "explanation": "By standardizing the reading passage, comprehension questions, room, and lighting across all groups, the only factor that differs is the music condition. B is the key control feature that isolates the independent variable. A (sample size) affects statistical power to detect differences but does not ensure differences are due to the music. C (same day) reduces day-to-day variation but is less central than standardizing the test itself. D addresses the distinctiveness of the treatments, not the control of confounding variables.",
+    "distractor_rationale": {
+      "A": "This results from selecting sample size as the key design element, when statistical power helps detect differences but doesn't ensure that observed differences are caused by the music manipulation rather than confounds.",
+      "B": "N/A",
+      "C": "This results from selecting session timing as the key controlling factor, when standardizing the passage and test content more directly ensures the music condition is the only variable that differs.",
+      "D": "This results from reasoning about the representativeness of the music types rather than identifying the design feature that controls for variables unrelated to the music."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Variable Identification",
+    "difficulty": "Medium",
+    "passage": "A pharmacologist tested the effect of three drug doses (5 mg, 10 mg, and 20 mg) on heart rate in laboratory mice. Twelve mice were randomly assigned to each dose group (36 mice total). Heart rate was measured in beats per minute before and after drug administration. Temperature, time of day, and housing conditions were identical across all groups.",
+    "question": "What is the dependent variable in this experiment?",
+    "choices": {
+      "A": "The dose of drug administered (5 mg, 10 mg, or 20 mg)",
+      "B": "The number of mice assigned to each group",
+      "C": "The heart rate of the mice, measured in beats per minute",
+      "D": "The temperature maintained in the lab"
+    },
+    "correct": "C",
+    "explanation": "The dependent variable is the outcome being measured in response to the independent variable. The researcher measured heart rate (in bpm) to assess the drug's effect. C is correct. A is the independent variable — the factor deliberately varied. B is a feature of the experimental design (group size), not a measured outcome. D is a controlled variable — temperature was held constant, not measured as an outcome.",
+    "distractor_rationale": {
+      "A": "This results from confusing the independent variable (the drug dose, which was deliberately changed) with the dependent variable (the measured outcome — heart rate).",
+      "B": "This results from selecting the number of mice per group — a design parameter — rather than the variable being measured as a response to the treatment.",
+      "C": "N/A",
+      "D": "This results from selecting a controlled variable (lab temperature was held constant) rather than the variable that was measured to assess the drug's effect."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Conflicting Viewpoints",
+    "difficulty": "Medium",
+    "passage": "Two ecologists debate whether removing apex predators triggers ecosystem-wide trophic cascades. Ecologist 1 argues that removing apex predators — such as wolves from Yellowstone — causes prey populations to explode, leading to overgrazing, vegetation depletion, and stream bank erosion. Ecologist 2 argues that the evidence for broad trophic cascades is weaker than claimed, noting that Yellowstone prey populations were also influenced by harsh winters and hunting regulations, not predator presence alone.",
+    "question": "How does Ecologist 2's argument challenge Ecologist 1's?",
+    "choices": {
+      "A": "By arguing that apex predators have no ecological role in any type of ecosystem.",
+      "B": "By claiming that wolves were never actually removed from Yellowstone.",
+      "C": "By stating that Yellowstone's vegetation has remained unchanged over time.",
+      "D": "By suggesting that factors other than predator presence may better explain the observed prey population changes."
+    },
+    "correct": "D",
+    "explanation": "Ecologist 2 cites harsh winters and hunting regulations as alternative explanations for Yellowstone prey population changes, challenging Ecologist 1's claim that predator removal is the primary driver. D accurately captures this alternative-explanation argument. A overstates Ecologist 2's position — Ecologist 2 questions trophic cascade evidence in this specific case, not the ecological role of predators universally. B misrepresents the argument — Ecologist 2 does not dispute the historical facts about wolf removal. C invents a denial that Ecologist 2 never makes.",
+    "distractor_rationale": {
+      "A": "This results from overstating Ecologist 2's scope — Ecologist 2 questions the strength of trophic cascade evidence in Yellowstone specifically, not whether apex predators have any ecological role in any ecosystem.",
+      "B": "This results from confusing Ecologist 2's challenge to the causal mechanism with a factual dispute about whether wolf removal occurred — Ecologist 2 does not dispute the historical event.",
+      "C": "This results from inventing a factual denial that Ecologist 2 never makes — Ecologist 2 challenges the cause of observed changes, not whether changes in vegetation occurred.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Unit Analysis",
+    "difficulty": "Medium",
+    "passage": "A pharmacist must calculate the total dose of a new medication for a patient. The prescribed dose is 150 micrograms per kilogram of body weight (μg/kg). The patient weighs 70 kilograms. The pharmacist needs to convert the total dose from micrograms (μg) to milligrams (mg) for the prescription label. There are 1,000 micrograms in 1 milligram.",
+    "question": "What total dose in milligrams should the pharmacist prepare?",
+    "choices": {
+      "A": "10.5 mg",
+      "B": "105 mg",
+      "C": "1.05 mg",
+      "D": "150 mg"
+    },
+    "correct": "A",
+    "explanation": "Step 1 — total dose in μg: 150 μg/kg × 70 kg = 10,500 μg. Step 2 — convert to mg: 10,500 μg ÷ 1,000 μg/mg = 10.5 mg. A is correct. B (105 mg) results from dividing by 100 instead of 1,000. C (1.05 mg) results from dividing by 10,000 instead of 1,000. D (150 mg) results from reporting the per-kg dose without multiplying by body weight.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from multiplying 150 × 70 = 10,500 and then dividing by 100 instead of 1,000 when converting micrograms to milligrams.",
+      "C": "This results from dividing the total microgram value by 10,000 rather than 1,000, over-converting by a factor of 10.",
+      "D": "This results from reporting the original per-kilogram dose (150 μg/kg) without multiplying by the patient's 70 kg body weight or converting to milligrams."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Research Summaries",
+    "difficulty": "Medium",
+    "passage": "A marine biologist monitored 50 coral colonies monthly for two years to study the effect of water temperature on bleaching. Temperatures below 28°C were associated with full pigmentation. Temperatures above 29°C triggered bleaching in the majority of colonies. Months with temperatures above 30°C showed bleaching in over 90% of colonies. The two months when temperatures exceeded 31°C were associated with 100% bleaching and colony mortality in 30% of cases.",
+    "question": "Based on the research summary, what happens to coral bleaching prevalence as water temperature rises above 29°C?",
+    "choices": {
+      "A": "Bleaching decreases as temperature rises above 29°C.",
+      "B": "Bleaching remains stable regardless of temperature changes above 29°C.",
+      "C": "Bleaching becomes more severe and widespread as temperature rises above 29°C.",
+      "D": "Bleaching peaks at exactly 29°C and decreases at higher temperatures."
+    },
+    "correct": "C",
+    "explanation": "The passage describes progressively worse outcomes: majority bleaching above 29°C, over 90% bleaching above 30°C, and 100% bleaching with 30% mortality above 31°C. This consistent escalation supports C. A reverses the trend. B ignores the clear difference between outcomes at 29°C, 30°C, and 31°C. D misidentifies 29°C as a peak when the passage shows increasing severity at higher thresholds.",
+    "distractor_rationale": {
+      "A": "This results from reversing the described trend — the passage explicitly shows bleaching increasing in both prevalence and severity as temperature rises above 29°C.",
+      "B": "This results from ignoring the passage's description of escalating bleaching severity across the 29°C, 30°C, and 31°C thresholds and assuming no further increase.",
+      "C": "N/A",
+      "D": "This results from misidentifying 29°C as the maximum bleaching threshold and assuming higher temperatures somehow reverse the effect, when the passage shows each higher threshold corresponds to greater bleaching."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Graph Interpretation",
+    "difficulty": "Medium",
+    "passage": "A biologist measured bacterial growth rate at six glucose concentrations: 0, 10, 20, 40, 80, and 160 mmol/L. Growth rates (doublings per hour): 0, 0.8, 1.4, 1.8, 2.0, and 2.0, respectively. The data were plotted as a curve with growth rate on the y-axis and glucose concentration on the x-axis. The curve levels off at the highest concentrations.",
+    "question": "Based on the data, what happens to bacterial growth rate as glucose concentration increases from 40 to 160 mmol/L?",
+    "choices": {
+      "A": "Growth rate continues to increase proportionally with glucose concentration.",
+      "B": "Growth rate increases between 40 and 80 mmol/L but plateaus between 80 and 160 mmol/L.",
+      "C": "Growth rate decreases at high glucose concentrations, suggesting toxicity.",
+      "D": "Growth rate fluctuates unpredictably above 40 mmol/L."
+    },
+    "correct": "B",
+    "explanation": "From 40 to 80 mmol/L, the growth rate increases from 1.8 to 2.0 doublings/hr. From 80 to 160 mmol/L, the growth rate remains at 2.0 doublings/hr — a plateau. B accurately describes this pattern. A is wrong — the proportional increase observed below 40 mmol/L levels off above 80 mmol/L. C is wrong — the growth rate does not decrease; it plateaus. D is wrong — the plateau is a consistent, predictable pattern.",
+    "distractor_rationale": {
+      "A": "This results from assuming the proportional relationship visible at lower concentrations (0 to 40 mmol/L) continues at higher concentrations, without noticing that growth rate reaches 2.0 at 80 mmol/L and does not increase further.",
+      "B": "N/A",
+      "C": "This results from misinterpreting the leveling-off of growth rate as a decline caused by glucose toxicity, when the data show growth rate holding steady at 2.0 — not decreasing — at the highest concentrations.",
+      "D": "This results from ignoring the clear plateau pattern and treating the stable 2.0 doublings per hour at 80 and 160 mmol/L as inconsistency rather than recognizing it as a saturating response."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Data Representation",
+    "difficulty": "Medium",
+    "passage": "A materials scientist tested the tensile strength of four composite materials (A, B, C, D) at three temperatures: 20°C, 100°C, and 200°C. Tensile strength in megapascals (MPa) — Material A: 420, 380, 290. Material B: 350, 340, 330. Material C: 510, 400, 210. Material D: 380, 370, 365. All materials were tested using standardized protocols with identical specimen dimensions.",
+    "question": "Which material shows the greatest percentage decrease in tensile strength from 20°C to 200°C?",
+    "choices": {
+      "A": "Material C",
+      "B": "Material A",
+      "C": "Material B",
+      "D": "Material D"
+    },
+    "correct": "A",
+    "explanation": "Percent decrease = (initial − final) ÷ initial × 100. Material A: (420−290)/420 ≈ 31.0%. Material B: (350−330)/350 ≈ 5.7%. Material C: (510−210)/510 ≈ 58.8%. Material D: (380−365)/380 ≈ 3.9%. Material C shows the greatest percentage decrease at approximately 58.8%. A is correct. Material A (B) is second at 31%, while Materials B (C) and D (D) show very small percentage losses.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from selecting Material A because it has the second-largest absolute drop (130 MPa) without computing the percentage loss relative to its starting value — Material C's 300 MPa drop from a starting value of 510 MPa yields a much larger percentage decrease.",
+      "C": "This results from selecting Material B, which shows the most consistent strength across temperatures, perhaps confusing stability (small percentage change) with large decrease.",
+      "D": "This results from selecting Material D, which also shows a small absolute and relative decline, possibly confusing D's consistent values with the large percentage loss shown by Material C."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Drawing Conclusions",
+    "difficulty": "Medium",
+    "passage": "A psychologist examined the relationship between hours of sleep and standardized attention test performance. Participants were assigned to sleep 4, 6, 8, or 10 hours per night for one week. Attention scores (out of 100): 4 hours = 52, 6 hours = 68, 8 hours = 84, 10 hours = 83. Each group contained 25 age-matched participants. Tests were administered in a controlled lab setting.",
+    "question": "Which conclusion is best supported by the data?",
+    "choices": {
+      "A": "Attention performance increases proportionally with every additional hour of sleep.",
+      "B": "Sleep has no significant effect on attention performance.",
+      "C": "Attention performance improves with more sleep up to about 8 hours, after which additional sleep provides little further benefit.",
+      "D": "Ten hours of sleep produces worse attention than 8 hours because excess sleep impairs cognition."
+    },
+    "correct": "C",
+    "explanation": "Scores rise from 52 (4 hrs) to 68 (6 hrs) to 84 (8 hrs), then plateau at 83 (10 hrs) — essentially unchanged from 8 hours. C correctly identifies both the improvement trend and the plateau. A is wrong — the 10-hour score (83) is not higher than the 8-hour score (84), so gains do not continue proportionally. B ignores the 32-point difference between 4 and 8 hours. D overstates the one-point difference between 8 and 10 hours as evidence of harm.",
+    "distractor_rationale": {
+      "A": "This results from projecting the consistent gains observed from 4 to 8 hours forward to 10 hours, without recognizing that the 10-hour score (83) is essentially identical to the 8-hour score (84), indicating the gains have leveled off.",
+      "B": "This results from ignoring the 32-point difference between the 4-hour group (52) and the 8-hour group (84) and incorrectly concluding that sleep has no meaningful effect.",
+      "C": "N/A",
+      "D": "This results from noting that the 10-hour score (83) is slightly lower than the 8-hour score (84) and interpreting this one-point difference as evidence that excess sleep causes cognitive harm — a conclusion not supported by such a small difference."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Experimental Design",
+    "difficulty": "Medium",
+    "passage": "A botanist tested whether fertilizer brand affects tomato yield. She planted 60 tomato seedlings in identical pots with identical soil. Group 1 (20 plants) received Brand X fertilizer weekly. Group 2 (20 plants) received Brand Y fertilizer weekly. Group 3 (20 plants) received no fertilizer. All plants received identical water and were placed on the same greenhouse bench under identical lighting. After 10 weeks, she weighed the tomatoes harvested from each plant.",
+    "question": "Why was it important to include Group 3, the no-fertilizer control group, in this experiment?",
+    "choices": {
+      "A": "To provide additional data points that increase the study's statistical sample size.",
+      "B": "To test whether the tomato plants could survive without any fertilizer at all.",
+      "C": "To control for differences in soil quality across the three groups.",
+      "D": "To establish a baseline yield without fertilizer, enabling comparison of whether either fertilizer brand actually improves yield."
+    },
+    "correct": "D",
+    "explanation": "A control group provides a baseline against which to measure the effect of the treatments. Without Group 3, the researcher could compare Brand X to Brand Y but could not determine whether either fertilizer improves yield compared to no fertilizer at all. D is correct. A addresses sample size, not the purpose of a control group. B misidentifies the control's purpose as testing plant survival rather than establishing a yield baseline. C is wrong — soil quality was controlled by using identical soil in all groups.",
+    "distractor_rationale": {
+      "A": "This results from focusing on sample size as the benefit of including Group 3, when the purpose of a control group is to establish a no-treatment baseline for comparison, not primarily to increase sample size.",
+      "B": "This results from misidentifying the control group's purpose as testing plant survival under zero-fertilizer conditions rather than establishing a baseline yield for comparison.",
+      "C": "This results from selecting soil quality as the variable controlled by Group 3, when soil quality was already controlled by using identical soil in all three groups — the control group's purpose is the no-fertilizer baseline.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Conflicting Viewpoints",
+    "difficulty": "Medium",
+    "passage": "Two climate scientists debate the role of solar variability in twentieth-century temperature change. Scientist A argues that increases in solar irradiance drove significant warming between 1900 and 1950, contributing to the temperature rise before major industrial emissions growth. Scientist B argues that satellite data collected since 1979 show solar irradiance has remained relatively stable while global temperatures have continued rising — evidence that solar variability alone cannot explain late-twentieth-century warming.",
+    "question": "Which evidence would most directly support Scientist A's argument?",
+    "choices": {
+      "A": "Evidence that global temperatures have continued rising steadily since 1979.",
+      "B": "Historical reconstructions showing measurable solar irradiance increases between 1900 and 1950.",
+      "C": "Data showing industrial CO₂ emissions rose sharply after 1950.",
+      "D": "Satellite measurements confirming stable solar irradiance since 1979."
+    },
+    "correct": "B",
+    "explanation": "Scientist A specifically claims solar irradiance increases drove warming between 1900 and 1950. Direct historical evidence showing solar irradiance did increase during that period would directly support this claim. B is correct. A supports Scientist B's argument (recent warming despite stable sun). C is more relevant to greenhouse gas explanations for post-1950 warming, not Scientist A's specific solar-warming claim. D is the evidence Scientist B already cites against solar variability.",
+    "distractor_rationale": {
+      "A": "This results from selecting evidence relevant to the modern warming period — rising temperatures since 1979 actually supports Scientist B's argument that solar variability cannot explain recent warming.",
+      "B": "N/A",
+      "C": "This results from selecting evidence about industrial emissions that is more relevant to post-1950 greenhouse gas explanations, not to Scientist A's specific claim about solar-driven warming from 1900 to 1950.",
+      "D": "This results from selecting the satellite data already cited as Scientist B's evidence against solar variability — this evidence supports Scientist B's argument, not Scientist A's."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Variable Identification",
+    "difficulty": "Medium",
+    "passage": "An environmental engineer studied how noise intensity affects wildlife activity in a nature reserve. She used speakers to create controlled noise at three intensities: 50 decibels (dB), 70 dB, and 90 dB, at 10 sites each (30 sites total). She placed motion-activated cameras at each site to count animal movements per hour. All sites had similar vegetation cover, and each trial ran for the same duration.",
+    "question": "In this experiment, what is the independent variable?",
+    "choices": {
+      "A": "The noise intensity produced by the speakers (50 dB, 70 dB, or 90 dB)",
+      "B": "Animal movement count per hour recorded by the cameras",
+      "C": "The ambient temperature during each trial",
+      "D": "The type of vegetation cover at each site"
+    },
+    "correct": "A",
+    "explanation": "The independent variable is the factor the researcher deliberately manipulates. The engineer set three specific noise intensities (50, 70, 90 dB) using speakers to test their effect. A is correct. B is the dependent variable — the measured outcome. C is a variable that was observed but not controlled or deliberately varied — it is a nuisance variable. D is a controlled variable — vegetation cover was held similar across sites, not manipulated.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from confusing the dependent variable (animal activity — the measured outcome) with the independent variable (noise intensity — the deliberately varied factor).",
+      "C": "This results from selecting ambient temperature, which was observed but not deliberately varied or controlled, treating a noted nuisance variable as the factor being tested.",
+      "D": "This results from selecting vegetation cover, which was held similar across sites (a controlled variable) rather than deliberately changed across conditions."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Graph Interpretation",
+    "difficulty": "Medium",
+    "passage": "A chemist monitored the concentration of a reactant (in mol/L) over 8 minutes. Measurements: t=0: 1.00; t=1: 0.82; t=2: 0.68; t=3: 0.56; t=4: 0.46; t=5: 0.38; t=6: 0.32; t=7: 0.27; t=8: 0.23 mol/L. The data were plotted as a curve with concentration on the y-axis and time on the x-axis. The chemist noted the curve's shape was not linear.",
+    "question": "Based on the data, which statement best describes how the rate of concentration decrease changes over time?",
+    "choices": {
+      "A": "The rate of decrease is constant — concentration drops by the same amount each minute.",
+      "B": "The rate of decrease is zero because the concentration never reaches zero.",
+      "C": "The rate of decrease slows over time — concentration drops by smaller amounts each minute.",
+      "D": "The rate of decrease accelerates — concentration drops by larger amounts each minute."
+    },
+    "correct": "C",
+    "explanation": "Per-minute decreases: 0.18, 0.14, 0.12, 0.10, 0.08, 0.06, 0.05, 0.04 mol/L — the decrements shrink each minute. The reaction rate is positive (concentration still falls) but decreasing. C is correct. A is wrong — the decrements clearly vary from 0.18 to 0.04. B is wrong — the rate of decrease is never zero; it is positive throughout. D is wrong — the decrements are getting smaller, not larger.",
+    "distractor_rationale": {
+      "A": "This results from noting that concentration decreases at every time point and incorrectly assuming the rate is constant, without computing the per-minute decrements (0.18, 0.14, 0.12...) which clearly decrease.",
+      "B": "This results from confusing whether the rate of decrease is zero with whether the concentration itself reaches zero — the rate of decrease is nonzero throughout; it is simply slowing.",
+      "C": "N/A",
+      "D": "This results from confusing the direction of change (concentration is still decreasing, which might suggest ongoing 'acceleration') with the rate of change — the per-minute drops get smaller each interval, indicating deceleration."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Unit Analysis",
+    "difficulty": "Medium",
+    "passage": "A chemical engineer calculates the flow rate of a liquid through an industrial pipeline. The flow rate is 2.5 liters per second (L/s). The engineer must convert this rate to cubic meters per hour (m³/hr) for a building permit application. There are 1,000 liters in 1 cubic meter, and there are 3,600 seconds in 1 hour.",
+    "question": "What is the flow rate expressed in m³/hr?",
+    "choices": {
+      "A": "0.0025 m³/hr",
+      "B": "25 m³/hr",
+      "C": "2,500 m³/hr",
+      "D": "9 m³/hr"
+    },
+    "correct": "D",
+    "explanation": "Step 1 — convert seconds to hours: 2.5 L/s × 3,600 s/hr = 9,000 L/hr. Step 2 — convert liters to cubic meters: 9,000 L/hr ÷ 1,000 L/m³ = 9 m³/hr. D is correct. A (0.0025) results from converting L to m³ first without multiplying by 3,600. B (25) results from using an incorrect conversion of 360 s/hr instead of 3,600. C (2,500) results from multiplying by 1,000 instead of dividing when converting liters to cubic meters.",
+    "distractor_rationale": {
+      "A": "This results from converting liters to cubic meters first (2.5 ÷ 1,000 = 0.0025) without first converting seconds to hours — performing only one of the two required unit conversions.",
+      "B": "This results from using 360 as the conversion factor for seconds to hours instead of the correct 3,600, yielding 2.5 × 360 = 900 L/hr ÷ 36 = 25 — an error from misremembering the time conversion factor.",
+      "C": "This results from multiplying the flow rate by 1,000 (treating L as smaller than m³ in the wrong direction) rather than dividing, reversing the liters-to-cubic-meters conversion.",
+      "D": "N/A"
+    }
+  }
+]

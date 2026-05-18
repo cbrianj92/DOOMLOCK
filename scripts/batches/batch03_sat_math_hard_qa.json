@@ -1,0 +1,257 @@
+[
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Linear Equations",
+    "difficulty": "Hard",
+    "passage": null,
+    "question": "If |2x - 5| = 11, what is the sum of all solutions?",
+    "choices": { "A": "5", "B": "8", "C": "-3", "D": "11" },
+    "correct": "A",
+    "explanation": "Solve both cases. Case 1: 2x - 5 = 11 → x = 8. Case 2: 2x - 5 = -11 → x = -3. Sum = 8 + (-3) = 5.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This is the solution from the positive case only (x = 8). The student ignored the negative case of the absolute value.",
+      "C": "This is the solution from the negative case only (x = -3). The student ignored the positive case of the absolute value.",
+      "D": "This is the value on the right side of the equation (11), not a solution or their sum."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Systems of Equations",
+    "difficulty": "Hard",
+    "passage": null,
+    "question": "For the system of equations 2x - y = 7 and 3x + 2y = 0, what is the value of xy?",
+    "choices": { "A": "-3", "B": "-6", "C": "2", "D": "-1" },
+    "correct": "B",
+    "explanation": "From 2x - y = 7: y = 2x - 7. Substituting: 3x + 2(2x - 7) = 0 → 7x = 14 → x = 2. Then y = 2(2) - 7 = -3. So xy = 2 × (-3) = -6.",
+    "distractor_rationale": {
+      "A": "This is the value of y alone (y = -3), not the product xy.",
+      "B": "N/A",
+      "C": "This is the value of x alone (x = 2), not the product xy.",
+      "D": "This is x + y = 2 + (-3) = -1. The student computed the sum rather than the product."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Systems of Equations",
+    "difficulty": "Hard",
+    "passage": null,
+    "question": "The system of equations 3x - ky = 5 and 6x - 8y = 11 has no solution. What is the value of k?",
+    "choices": { "A": "8", "B": "2", "C": "4", "D": "6" },
+    "correct": "C",
+    "explanation": "For no solution, the lines must be parallel: equal slopes, different intercepts. Slope of line 1 = 3/k; slope of line 2 = 6/8 = 3/4. Setting equal: 3/k = 3/4 → k = 4. Verifying: multiplying the first equation by 2 gives 6x - 8y = 10 ≠ 11, confirming the lines are parallel, not identical.",
+    "distractor_rationale": {
+      "A": "This is the y-coefficient from the second equation (8), applied directly without scaling by the ratio between the equations.",
+      "B": "This is the scale factor between the x-coefficients (6/3 = 2), which the student reported as k instead of applying it to the y-coefficient: 8/2 = 4.",
+      "C": "N/A",
+      "D": "This is the x-coefficient from the second equation (6), confused with the y-coefficient that needs to be matched."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Inequalities",
+    "difficulty": "Hard",
+    "passage": null,
+    "question": "Which of the following represents the complete solution to |2x - 4| <= 10?",
+    "choices": { "A": "-3 <= x <= 7", "B": "x <= 7", "C": "x <= -3 or x >= 7", "D": "-5 <= x <= 5" },
+    "correct": "A",
+    "explanation": "Rewrite as -10 <= 2x - 4 <= 10. Add 4: -6 <= 2x <= 14. Divide by 2: -3 <= x <= 7.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from solving only the upper bound (2x - 4 <= 10 → x <= 7) and ignoring the lower bound from the absolute value.",
+      "C": "This is the solution to |2x - 4| >= 10 rather than <= 10. The student solved the inequality with the direction reversed.",
+      "D": "This results from ignoring the -4 inside the absolute value and solving |2x| <= 10 instead: -10 <= 2x <= 10 → -5 <= x <= 5."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Quadratics",
+    "difficulty": "Hard",
+    "passage": null,
+    "question": "For what value of k does the equation x^2 + 6x + k = 0 have exactly one real solution?",
+    "choices": { "A": "36", "B": "-9", "C": "3", "D": "9" },
+    "correct": "D",
+    "explanation": "Exactly one solution means the discriminant equals zero: b^2 - 4ac = 0. With a=1, b=6, c=k: 36 - 4k = 0 → k = 9.",
+    "distractor_rationale": {
+      "A": "This is b^2 = 36, the value before dividing by 4. The student stopped after computing the discriminant without finishing the equation.",
+      "B": "This results from a sign error: writing 36 + 4k = 0 instead of 36 - 4k = 0, giving k = -9.",
+      "C": "This results from taking the square root of the correct answer: sqrt(9) = 3, applying an unnecessary extra step.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Quadratics",
+    "difficulty": "Hard",
+    "passage": null,
+    "question": "If p and q are the two solutions to 2x^2 - 8x + 3 = 0, what is the value of p^2 + q^2?",
+    "choices": { "A": "10", "B": "13", "C": "16", "D": "64" },
+    "correct": "B",
+    "explanation": "By Vieta's formulas: p + q = 8/2 = 4 and pq = 3/2. Then p^2 + q^2 = (p + q)^2 - 2pq = 16 - 2(3/2) = 16 - 3 = 13.",
+    "distractor_rationale": {
+      "A": "This results from using pq = 3 instead of 3/2 (forgetting to divide by the leading coefficient a = 2): (p+q)^2 - 2pq = 16 - 6 = 10.",
+      "B": "N/A",
+      "C": "This is (p + q)^2 = 16, before subtracting 2pq. The student computed the square of the sum but omitted the correction term.",
+      "D": "This results from computing (-b)^2 = 8^2 = 64, using the raw coefficient instead of dividing by a to find p + q."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Functions",
+    "difficulty": "Hard",
+    "passage": null,
+    "question": "If f(x) = (3x - 1) / (x + 2), what is the value of f^(-1)(2)?",
+    "choices": { "A": "5/4", "B": "-5", "C": "5", "D": "3" },
+    "correct": "C",
+    "explanation": "To find f^(-1)(2), solve f(x) = 2: (3x - 1)/(x + 2) = 2 → 3x - 1 = 2(x + 2) = 2x + 4 → x = 5.",
+    "distractor_rationale": {
+      "A": "This is f(2), not f^(-1)(2). The student evaluated the function at 2 rather than finding which input gives an output of 2: f(2) = (6-1)/(2+2) = 5/4.",
+      "B": "This results from a sign error when isolating x in the inverse derivation: writing x(y − 3) = 1 + 2y instead of x(y − 3) = −1 − 2y, which gives x = (1 + 2·2)/(2 − 3) = 5/(−1) = −5.",
+      "C": "N/A",
+      "D": "This results from an arithmetic error when distributing: expanding 2(x + 2) as 2x + 2 instead of 2x + 4, giving 3x - 1 = 2x + 2 → x = 3."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Functions",
+    "difficulty": "Hard",
+    "passage": null,
+    "question": "A function f satisfies f(x + 2) = f(x) + 3 for all integers x. If f(1) = 4, what is f(9)?",
+    "choices": { "A": "28", "B": "19", "C": "31", "D": "16" },
+    "correct": "D",
+    "explanation": "Apply the rule repeatedly: f(3) = f(1) + 3 = 7; f(5) = 10; f(7) = 13; f(9) = 16. From f(1) to f(9) is 4 increments of +3, giving f(9) = 4 + 4(3) = 16.",
+    "distractor_rationale": {
+      "A": "This results from applying the +3 increment for every integer step from 1 to 9 (8 steps) instead of every 2nd integer step (4 steps): 4 + 8(3) = 28.",
+      "B": "This results from an off-by-one error, counting 5 increments instead of 4: 4 + 5(3) = 19.",
+      "C": "This results from using 9 as the number of increments rather than the number of steps needed: 4 + 9(3) = 31.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Ratios & Proportions",
+    "difficulty": "Hard",
+    "passage": null,
+    "question": "A 40-liter solution is 20% acid by volume. If 10 liters of water are added, what percent of the resulting mixture is acid?",
+    "choices": { "A": "16%", "B": "20%", "C": "8%", "D": "10%" },
+    "correct": "A",
+    "explanation": "Acid volume = 20% of 40 = 8 liters. New total = 40 + 10 = 50 liters. New concentration = 8/50 × 100 = 16%.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This is the original concentration. The student did not recalculate after the dilution, assuming the percentage stays the same.",
+      "C": "This results from confusing the volume of acid (8 liters) with its percentage (8%), reporting liters as if they were a percent.",
+      "D": "This results from using twice the original solution volume as the denominator: 8/80 = 10%, as if 40 more liters were added instead of 10."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Percentages",
+    "difficulty": "Hard",
+    "passage": null,
+    "question": "An item's price increases by 50%, then decreases by 30%, then increases by 20%. What single percent change from the original price is equivalent to all three changes combined?",
+    "choices": { "A": "26%", "B": "40%", "C": "25%", "D": "20%" },
+    "correct": "A",
+    "explanation": "Apply each change sequentially: 1.50 × 0.70 × 1.20 = 1.05 × 1.20 = 1.26. The net change is +26%.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from summing the three percent values as plain integers: 50 - 30 + 20 = 40%.",
+      "C": "This results from correctly multiplying for the first two changes (1.50 × 0.70 = 1.05) but adding the final 20% as a decimal instead of multiplying: 1.05 + 0.20 = 1.25 → 25%.",
+      "D": "This results from subtracting only the first two changes and ignoring the third: 50% - 30% = 20%."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Statistics & Data",
+    "difficulty": "Hard",
+    "passage": null,
+    "question": "The mean of a set of 5 numbers is 14. When one number is removed, the mean of the remaining 4 numbers is 12. What was the removed number?",
+    "choices": { "A": "2", "B": "13", "C": "22", "D": "48" },
+    "correct": "C",
+    "explanation": "Total of the 5 numbers: 5 × 14 = 70. Total of the remaining 4: 4 × 12 = 48. The removed number = 70 - 48 = 22.",
+    "distractor_rationale": {
+      "A": "This is the difference between the two means (14 - 12 = 2), not the removed value.",
+      "B": "This is the average of the two means: (14 + 12)/2 = 13, which has no meaningful interpretation here.",
+      "C": "N/A",
+      "D": "This is the total of the remaining 4 numbers (4 × 12 = 48), not the removed number."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Statistics & Data",
+    "difficulty": "Hard",
+    "passage": null,
+    "question": "A class of 20 students has a mean score of 75. After 5 more students join, the mean of all 25 students is 73. What is the mean score of the 5 new students?",
+    "choices": { "A": "73", "B": "75", "C": "65", "D": "60" },
+    "correct": "C",
+    "explanation": "Total for original 20: 20 × 75 = 1500. Total for all 25: 25 × 73 = 1825. New students' total: 1825 - 1500 = 325. Mean of 5 new students: 325 / 5 = 65.",
+    "distractor_rationale": {
+      "A": "This is the new combined mean (73), not the mean of just the 5 new students.",
+      "B": "This is the original class mean (75). The student assumed the 5 new students did not change anything.",
+      "C": "N/A",
+      "D": "This results from an arithmetic error computing 25 × 73: using 1800 instead of 1825 (computing 25 × 72), giving (1800 - 1500)/5 = 60."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Geometry",
+    "difficulty": "Hard",
+    "passage": null,
+    "question": "A cylinder has a radius of 3 cm and a height of 8 cm. If both the radius and the height are doubled, by what factor does the volume increase?",
+    "choices": { "A": "4", "B": "8", "C": "16", "D": "2" },
+    "correct": "B",
+    "explanation": "Volume of a cylinder = pi*r^2*h. When r and h are both doubled: V_new = pi*(2r)^2*(2h) = pi*4r^2*2h = 8*pi*r^2*h = 8V. The volume increases by a factor of 8.",
+    "distractor_rationale": {
+      "A": "This results from applying the squared scale factor for 2D area (2^2 = 4) rather than accounting for all three dimensions of volume.",
+      "B": "N/A",
+      "C": "This results from treating the radius as contributing two separate linear dimensions: computing 2 × 2 × 2 × 2 = 16 instead of (2^2) × 2 = 8.",
+      "D": "This is the linear scale factor applied to each dimension individually, not the resulting multiplicative change in volume."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Geometry",
+    "difficulty": "Hard",
+    "passage": null,
+    "question": "A square with side length 10 is inscribed in a circle. What is the area of the region inside the circle but outside the square?",
+    "choices": { "A": "50pi", "B": "100", "C": "25pi - 100", "D": "50pi - 100" },
+    "correct": "D",
+    "explanation": "The diagonal of the square = 10*sqrt(2), which equals the circle's diameter, so r = 5*sqrt(2). Circle area = pi*(5*sqrt(2))^2 = 50pi. The region outside the square but inside the circle = 50pi - 100.",
+    "distractor_rationale": {
+      "A": "This is the total area of the circle (50pi), not the region inside the circle but outside the square.",
+      "B": "This is the area of the square (10^2 = 100), not the region between the two shapes.",
+      "C": "This results from using r = 5 instead of r = 5*sqrt(2), incorrectly treating the side length as the diameter: pi*(5)^2 - 100 = 25pi - 100.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Word Problems",
+    "difficulty": "Hard",
+    "passage": null,
+    "question": "Machine A fills a tank in 6 hours working alone. Machine B fills the same tank in 4 hours working alone. How many hours will it take both machines working simultaneously to fill the tank?",
+    "choices": { "A": "5", "B": "2.4", "C": "10", "D": "24" },
+    "correct": "B",
+    "explanation": "Combined rate = 1/6 + 1/4 = 2/12 + 3/12 = 5/12 tanks per hour. Time = 1 / (5/12) = 12/5 = 2.4 hours.",
+    "distractor_rationale": {
+      "A": "This results from averaging the two times: (6 + 4)/2 = 5. This is incorrect because it ignores that rates, not times, add directly.",
+      "B": "N/A",
+      "C": "This results from adding the two times: 6 + 4 = 10. Adding times is not a valid operation for combined work.",
+      "D": "This results from multiplying the two times: 6 × 4 = 24, confusing this with the combined rate formula."
+    }
+  }
+]

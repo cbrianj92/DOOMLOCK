@@ -1,0 +1,442 @@
+[
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Main Idea",
+    "difficulty": "Medium",
+    "passage": "Urban areas typically experience temperatures several degrees higher than surrounding rural regions — a phenomenon called the heat island effect. Concrete and asphalt absorb solar energy and release it slowly at night, while reduced vegetation limits natural cooling through evapotranspiration. As extreme heat events intensify with climate change, planners are turning to green roofs, urban tree canopies, and reflective pavements. However, these solutions require substantial funding and are often deployed unevenly, with wealthier neighborhoods receiving the greatest benefits.",
+    "question": "Which of the following best states the central claim of this passage?",
+    "choices": {
+      "A": "Urban heat islands are caused primarily by a lack of trees in city centers.",
+      "B": "Reflective pavements are the most effective intervention for reducing urban heat.",
+      "C": "While urban heat islands pose growing risks, mitigation efforts face both technical and equity challenges.",
+      "D": "Climate change is the sole driver of rising temperatures in urban environments."
+    },
+    "correct": "C",
+    "explanation": "The passage covers three connected threads: the physical causes of heat islands, the mitigation strategies being adopted, and the limitation that those strategies are applied unequally. C integrates all three. A is too narrow — the passage cites multiple causes (asphalt, concrete, reduced vegetation), not just a lack of trees. B singles out one solution as most effective, which the passage never claims. D overstates — the passage identifies physical urban materials as causes, with climate change intensifying existing heat events, not causing all of them.",
+    "distractor_rationale": {
+      "A": "This results from focusing on one physical cause (reduced vegetation) and overgeneralizing it as the only cause, ignoring that heat-absorbing surfaces are also described as primary contributors.",
+      "B": "This results from misreading the list of mitigation strategies as an argument for one specific solution, when the passage presents all three (green roofs, tree canopies, reflective pavements) as options without ranking them.",
+      "C": "N/A",
+      "D": "This results from misreading the passage's statement that climate change intensifies heat events as a claim that climate change alone causes urban heat islands, when heat-absorbing materials are identified as the foundational cause."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Main Idea",
+    "difficulty": "Medium",
+    "passage": "The placebo effect — improvement in a patient's condition following a medically inert treatment — is often dismissed as imaginary. Yet researchers have documented measurable physiological changes: some placebo treatments trigger genuine reductions in pain signals, lower cortisol levels, and improved motor function in patients with Parkinson's disease. These findings suggest that the mind's expectations can produce real biological responses, complicating the sharp distinction many clinicians draw between real and fake medicine.",
+    "question": "What is the central claim of this passage?",
+    "choices": {
+      "A": "The placebo effect produces measurable biological changes, challenging the idea that it is merely imaginary.",
+      "B": "Placebos are equally effective as standard medical treatments for most conditions.",
+      "C": "Patients with Parkinson's disease respond better to placebos than to standard drug therapies.",
+      "D": "Researchers have proven that the mind controls all aspects of physical health."
+    },
+    "correct": "A",
+    "explanation": "The passage moves from the common dismissal of placebos as imaginary to the evidence of real physiological changes, concluding that this complicates the real/fake distinction in medicine. A captures this arc accurately. B overstates — the passage does not claim placebos are as effective as standard treatments across most conditions. C is too narrow — Parkinson's is one example, and the passage does not say placebos outperform standard therapy. D is an extreme overstatement; the passage argues for limited cases of mind-body connection, not total mind control of health.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from misreading the argument that placebos can produce real effects as a claim that they are equally effective as all standard treatments, which the passage does not assert.",
+      "C": "This results from elevating a single illustrative example (Parkinson's patients) to the status of the passage's central claim, when it is used only as one piece of evidence for the broader argument.",
+      "D": "This results from overgeneralizing the passage's limited claim — that expectations can produce real biological responses in specific contexts — into the sweeping assertion that the mind controls all physical health."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Main Idea",
+    "difficulty": "Medium",
+    "passage": "Peer review is the process by which scientists evaluate each other's research before it is published in academic journals. Defenders argue it ensures quality by catching errors and filtering weak methodology. Critics, however, point to cases where flawed studies passed review while important findings were rejected. Some researchers propose supplementing traditional peer review with open post-publication review, in which the broader scientific community comments on published work continuously. Neither camp disputes that some form of quality control is necessary.",
+    "question": "Which of the following best states the main idea of this passage?",
+    "choices": {
+      "A": "Peer review is the most reliable method available for ensuring accuracy in published scientific research.",
+      "B": "Open post-publication review should immediately replace traditional peer review across all scientific fields.",
+      "C": "Most scientists agree that peer review functions well and requires only minor adjustments.",
+      "D": "Peer review serves an important function, but its limitations have prompted proposals for reform."
+    },
+    "correct": "D",
+    "explanation": "The passage presents peer review's purpose (quality control), its critiques (flawed studies pass, good ones rejected), and a proposed supplement (open post-publication review), while noting all parties agree quality control is needed. D captures this balanced view — value plus limitations plus reform pressure. A ignores the criticisms laid out in the passage. B overstates one reform proposal as the author's recommendation; the passage only describes the proposal neutrally. C contradicts the passage, which explicitly describes critics who argue the system fails in significant ways.",
+    "distractor_rationale": {
+      "A": "This results from reading only the defenders' argument and concluding the passage endorses peer review as the gold standard, when the passage gives equal weight to critics' objections.",
+      "B": "This results from misreading a neutral description of one reform proposal as the author's prescriptive recommendation, when the passage presents it as one option without endorsing it.",
+      "C": "This results from misreading the final sentence — which says neither side disputes the need for quality control — as agreement that peer review currently works well, when it only confirms agreement on the principle, not the practice.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Inference",
+    "difficulty": "Medium",
+    "passage": "Dr. Reyes reviewed the grant application twice before signing her name. The proposed study would be the first in the country to test the new compound in humans, and the projected benefits were substantial. Still, she paused at the section on informed consent procedures, reading the single-paragraph summary three times. She pulled out a red pen, wrote three pages of comments, and delayed her signature until revisions were submitted.",
+    "question": "What can be inferred about Dr. Reyes's attitude toward the research proposal?",
+    "choices": {
+      "A": "She opposed the research on ethical grounds and intended to block it entirely.",
+      "B": "She supported the research's potential benefits but had significant concerns about the consent procedures.",
+      "C": "She was uncertain whether the proposed compound had any genuine therapeutic potential.",
+      "D": "She believed the informed consent section was already more detailed than required."
+    },
+    "correct": "B",
+    "explanation": "The passage establishes that Dr. Reyes acknowledged the 'substantial' projected benefits (supporting the research's goals) but focused her scrutiny on the consent section — reading it three times, writing three pages of comments, and delaying her signature. This combination supports B: she endorsed the research's value but had serious concerns about consent procedures specifically. A overstates — she delayed, not blocked, and wrote comments rather than rejecting the application outright. C is contradicted by her acknowledgment of substantial projected benefits. D is directly contradicted by her writing three pages of commentary on the consent section.",
+    "distractor_rationale": {
+      "A": "This results from interpreting the delay and red-pen comments as outright rejection, when the passage describes conditional approval requiring revisions — a less drastic action than blocking the research.",
+      "B": "N/A",
+      "C": "This results from misreading Dr. Reyes's hesitation about consent procedures as doubt about the compound's value, when the passage explicitly states the projected benefits were described as substantial.",
+      "D": "This results from misreading her three-page response as a sign she found the section too long, when her detailed comments indicate she found it insufficient rather than excessive."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Inference",
+    "difficulty": "Medium",
+    "passage": "The Arecibo Observatory in Puerto Rico, once the world's largest single-dish radio telescope, was decommissioned in 2020 after cable failures. For decades it was the instrument of choice for tracking near-Earth asteroids and searching for extraterrestrial radio signals. The National Science Foundation cited repair costs as prohibitive. A replacement facility with a wider field of view but smaller dish diameter was later approved by the NSF.",
+    "question": "Based on the passage, what can be inferred about the replacement facility compared to Arecibo?",
+    "choices": {
+      "A": "The replacement will be better suited to scanning large areas of sky but may be less sensitive for deep, focused observations.",
+      "B": "The replacement will cost significantly more than Arecibo's repairs would have.",
+      "C": "The replacement will be able to detect radio signals that were beyond Arecibo's technological capability.",
+      "D": "The NSF approved the replacement because it has a larger dish than Arecibo."
+    },
+    "correct": "A",
+    "explanation": "A wider field of view means the replacement can survey larger portions of sky in less time — better for wide-area work. A smaller dish means less surface area to collect radio signals, which reduces sensitivity for faint or distant sources requiring focused observation. A captures this trade-off. B is not supported — the passage gives no cost comparison for the replacement. C is not supported — the passage does not describe any improvement in detection capability. D directly contradicts the passage, which states the replacement has a smaller, not larger, dish.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from assuming that if the NSF rejected repair costs, any approved replacement must be even more expensive, when the passage provides no cost information about the replacement facility.",
+      "C": "This results from assuming that a newer facility must have superior detection capability, when the passage specifies a smaller dish — which would reduce, not expand, the ability to detect faint signals.",
+      "D": "This results from misreading 'wider field of view' as equivalent to 'larger dish,' when the passage explicitly describes the replacement as having a smaller dish diameter than Arecibo."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Inference",
+    "difficulty": "Medium",
+    "passage": "The self-help industry generates approximately eleven billion dollars in annual revenue in the United States alone. Shelves overflow with books promising transformation in thirty days, six steps, or one simple habit. Yet despite this market saturation, studies of well-being have shown no long-term improvement in population-level happiness over the past three decades. One might reasonably ask whether the industry's primary function is to sell hope rather than to deliver it.",
+    "question": "Which of the following best describes the author's implied attitude toward the self-help industry?",
+    "choices": {
+      "A": "Admiration for its ability to address widespread human needs for self-improvement",
+      "B": "Neutrality, as the passage simply presents facts without drawing any conclusions",
+      "C": "Skepticism about whether the industry produces the outcomes it promises",
+      "D": "Alarm about the systematic financial exploitation of psychologically vulnerable consumers"
+    },
+    "correct": "C",
+    "explanation": "The phrase 'one might reasonably ask whether the industry's primary function is to sell hope rather than to deliver it' is editorially loaded — it implies the industry may be failing at its stated purpose. This tone indicates skepticism about outcomes. A is contradicted by the implied critique in the final sentence. B is incorrect — 'one might reasonably ask' is the author's editorial voice, not neutral reporting. D overstates; the passage criticizes effectiveness, not necessarily the ethical intentions of sellers, and does not focus on 'vulnerable' consumers specifically.",
+    "distractor_rationale": {
+      "A": "This results from reading the passage's description of the industry's scale and the widespread demand for self-improvement books as admiration for the industry, rather than setup for the skeptical conclusion.",
+      "B": "This results from misreading the first three sentences, which do present facts, as the full tone of the passage, without recognizing that the final rhetorical question reveals the author's editorial perspective.",
+      "C": "N/A",
+      "D": "This results from extending the author's critique of ineffectiveness into a moral argument about exploitation that the passage does not make — the author questions results, not the ethics of targeting vulnerable groups."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Vocabulary in Context",
+    "difficulty": "Medium",
+    "passage": "The city council's highway reroute was controversial, but the urban planner described it as an inevitable concession to fiscal reality. Three independent cost analyses had converged on the same conclusion: the original alignment required tunneling through protected wetlands, adding four hundred million dollars to the project budget. The reroute sacrificed some travel efficiency but preserved both the wetlands and the city's long-term financial solvency.",
+    "question": "As used in the passage, \"concession\" most nearly means",
+    "choices": {
+      "A": "gift freely given to another party",
+      "B": "decisive victory over an opposing position",
+      "C": "formal acknowledgment of a legal claim",
+      "D": "compromise that involves giving something up"
+    },
+    "correct": "D",
+    "explanation": "The passage describes the reroute as something that 'sacrificed some travel efficiency' to preserve wetlands and fiscal health. This trade-off — giving up one thing to gain another — is the essence of a compromise. D matches this context. A (free gift) does not fit because the passage describes a trade-off, not a voluntary giving without loss. B (victory) contradicts the passage, which notes that something (efficiency) was sacrificed. C (legal acknowledgment) does not fit the urban planning context described.",
+    "distractor_rationale": {
+      "A": "This results from associating 'concession' with charitable giving, a common meaning in everyday language, rather than recognizing that in this context it describes a calculated trade-off with a cost.",
+      "B": "This results from misreading the council's decision to proceed with the reroute as a victory, when the passage emphasizes that something (travel efficiency) was sacrificed in the process.",
+      "C": "This results from applying a legal meaning of 'concession' (formal acknowledgment of a claim) that does not fit the fiscal and planning context of the passage.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Vocabulary in Context",
+    "difficulty": "Medium",
+    "passage": "After the volcanic eruption blanketed surrounding farmland in ash, the regional government declared the area unsuitable for agriculture. Within three years, however, the mineral-rich volcanic deposits had begun to transform the soil composition. Farmers who returned early described yields that were surprisingly robust — some crops outperformed pre-eruption baselines by significant margins, challenging the initial assessment of long-term agricultural viability.",
+    "question": "As used in the passage, \"robust\" most nearly means",
+    "choices": {
+      "A": "unusual or unexpected in character",
+      "B": "strong and high-performing",
+      "C": "resistant to disease and environmental stress",
+      "D": "visually large or well-developed in appearance"
+    },
+    "correct": "B",
+    "explanation": "The passage uses 'robust' to describe yields that 'outperformed pre-eruption baselines by significant margins' — meaning the crops produced more than normal. This aligns with B (strong and high-performing). A (unusual) describes the element of surprise but is captured by the word 'surprisingly' earlier in the sentence, not by 'robust' itself. C (disease-resistant) is a valid use of 'robust' in biology but is not the meaning supported by the yield-and-baseline comparison in this context. D (visually large) is not supported by any visual description in the passage.",
+    "distractor_rationale": {
+      "A": "This results from associating 'robust' with the surprising outcome described in the passage, when 'surprisingly' carries that connotation and 'robust' specifically describes the strength of the yields.",
+      "B": "N/A",
+      "C": "This results from applying a scientific use of 'robust' (disease-resistant, as in 'robust strain') that is valid in biology but does not match the yield-comparison context here.",
+      "D": "This results from associating 'robust' with physical size or appearance — a common everyday connotation — rather than recognizing its meaning as high-performing output in this context."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Vocabulary in Context",
+    "difficulty": "Medium",
+    "passage": "The documentary filmmaker approached her subject with deliberate restraint. Rather than inserting her own commentary, she allowed long stretches of silence to carry the emotional weight of scenes. Critics noted that this approach demanded patience from viewers but rewarded them with an unusually authentic portrayal of her subjects' daily lives. The filmmaker described her method as a commitment to letting reality speak for itself.",
+    "question": "As used in the passage, \"restraint\" most nearly means",
+    "choices": {
+      "A": "a deliberate choice to limit one's own expressive intervention",
+      "B": "physical confinement imposed by an external authority",
+      "C": "emotional coldness that prevents genuine connection with a subject",
+      "D": "strict adherence to a formal set of rules governing filmmaking"
+    },
+    "correct": "A",
+    "explanation": "The filmmaker chose not to insert commentary and used silence deliberately — she limited her own intervention in the storytelling. This is self-imposed limitation of expression, matching A. B (physical confinement) is a different common meaning of restraint that clearly does not apply here. C (emotional coldness) is contradicted by the passage, which describes an 'unusually authentic portrayal' suggesting deep engagement. D (formal rules) is not supported — the restraint is described as the filmmaker's personal stylistic choice, not compliance with external standards.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from selecting a common primary-dictionary meaning of 'restraint' (confinement) that clearly does not fit the filmmaking context described in the passage.",
+      "C": "This results from misreading the filmmaker's choice to withhold commentary as emotional detachment, when the passage indicates the approach produced an authentic, emotionally resonant portrayal.",
+      "D": "This results from assuming 'restraint' in an artistic context refers to following formal conventions, when the passage describes it as the filmmaker's deliberate personal methodology."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Evidence Support",
+    "difficulty": "Medium",
+    "passage": "A four-year study followed 800 middle school students in a structured mentoring program. Students who met with mentors weekly showed improved academic performance, higher high school completion rates, and lower disciplinary incidents compared to a matched control group. The researchers noted that frequency of mentor contact was the strongest predictor of outcomes — students who met mentors monthly showed no statistically significant improvement over the control group.",
+    "question": "A student argues that it is the regularity of mentor contact — not simply having a mentor — that drives program success. Which evidence from the passage most directly supports this claim?",
+    "choices": {
+      "A": "Students in the program showed improved academic performance and higher graduation rates.",
+      "B": "The study followed 800 middle school students across four years.",
+      "C": "Students who met mentors monthly showed no statistically significant improvement over the control group.",
+      "D": "The program studied students from multiple schools in a matched control design."
+    },
+    "correct": "C",
+    "explanation": "The student's claim is that frequency is the key variable, not just mentor enrollment. C directly supports this by showing that students with a mentor who met only monthly — still enrolled in the program — showed no improvement. This comparison isolates frequency as the active ingredient. A describes positive outcomes for high-frequency participants but does not compare different frequency levels. B describes study design and is irrelevant to the claim. D describes the methodology and does not address what drives outcomes.",
+    "distractor_rationale": {
+      "A": "This results from selecting the most prominent positive outcome without recognizing that it applies to high-frequency participants only — it shows that the program can work, not that frequency specifically explains why.",
+      "B": "This results from confusing methodological detail (study scope and duration) with evidence for the specific causal claim being argued.",
+      "C": "N/A",
+      "D": "This results from selecting the study's control group design as evidence, which is a feature of methodology, not evidence addressing whether frequency or mere enrollment causes improvement."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Evidence Support",
+    "difficulty": "Medium",
+    "passage": "Researchers studying ancient migration analyzed DNA from 200 archaeological sites across Southeast Asia. They found genetic signatures consistent with a major population expansion from Taiwan approximately 5,000 years ago — a pattern aligning with linguistic evidence showing that most Austronesian languages trace to a Taiwanese ancestral language. Stone tool traditions and crop domestication records also support this timeline. The convergence of independent evidence types strengthens confidence in the theory.",
+    "question": "A student claims that the Taiwanese origin theory for Austronesian populations is especially credible because it is supported by multiple independent lines of evidence. Which detail best supports this specific claim?",
+    "choices": {
+      "A": "Researchers analyzed DNA from 200 archaeological sites across Southeast Asia.",
+      "B": "The population expansion is estimated to have occurred approximately 5,000 years ago.",
+      "C": "Genetic signatures from the study are consistent with a Taiwanese population origin.",
+      "D": "Genetic data, linguistic evidence, stone tool traditions, and crop records all independently point to the same origin and timeline."
+    },
+    "correct": "D",
+    "explanation": "The student's claim is specifically about the credibility that comes from multiple independent evidence types converging. D is the only choice that explicitly names all four types (genetic, linguistic, stone tools, crop domestication), directly supporting the claim about convergence. A describes only one study method within one evidence type (genetic). B is a date mentioned in one line of evidence, not a demonstration of independence across types. C is one finding from one evidence type and does not address the convergence argument.",
+    "distractor_rationale": {
+      "A": "This results from selecting a detail about the scale of the genetic study, which supports the rigor of one type of evidence but does not address the student's specific claim about multiple independent evidence types.",
+      "B": "This results from selecting a specific data point (the date) that appears in the genetic evidence, without recognizing that this single figure from one source does not demonstrate convergence across independent evidence streams.",
+      "C": "This results from selecting the key finding of the genetic study, which supports the theory generally but does not address the student's argument about credibility from multiple independent lines of evidence.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Evidence Support",
+    "difficulty": "Medium",
+    "passage": "A university hospital reduced patient readmission rates by implementing a standardized discharge checklist. The checklist required nurses to verify that patients understood their medications, had follow-up appointments scheduled, and knew warning signs requiring emergency care. Over eighteen months, readmission rates for patients discharged using the checklist dropped twenty-two percent compared to the prior year. Patients discharged without the checklist during the same period showed no significant change in readmission rates.",
+    "question": "A student argues that the checklist itself — not simply increased nursing attention — caused the drop in readmissions. Which evidence most directly supports this claim?",
+    "choices": {
+      "A": "Readmission rates dropped twenty-two percent over the eighteen-month period.",
+      "B": "Patients discharged without the checklist showed no significant change in readmission rates during the same period.",
+      "C": "The checklist required nurses to verify medication understanding and follow-up scheduling.",
+      "D": "The hospital implemented the checklist as a standardized procedure for all eligible patients."
+    },
+    "correct": "B",
+    "explanation": "The student's claim is that the checklist — not just extra nursing time and attention — drove improvement. B is the critical piece of evidence: patients who received nurse attention at discharge but without the checklist did not improve. This comparison isolates the checklist as the active factor. A shows a positive result but does not separate the checklist from other possible causes. C describes checklist contents but does not demonstrate its independent effect. D describes implementation without comparing outcomes.",
+    "distractor_rationale": {
+      "A": "This results from selecting the headline outcome (22% drop) without recognizing that this figure alone doesn't prove the checklist was the cause — it could reflect other changes occurring simultaneously.",
+      "B": "N/A",
+      "C": "This results from selecting the description of what the checklist contains, which explains its mechanism but does not provide the comparison needed to isolate its causal effect from nursing attention generally.",
+      "D": "This results from selecting an implementation detail that describes how widely the checklist was used rather than evidence that separates the checklist's effect from the effect of nurse contact itself."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Author's Purpose",
+    "difficulty": "Medium",
+    "passage": "Throughout the nineteenth century, physicians widely recommended bed rest as the primary treatment for nearly every serious illness. A century later, the medical consensus has reversed: extended bed rest accelerates muscle atrophy, impairs circulation, and increases blood clot risk. What changed was not the patients — it was the accumulation of evidence and the willingness of the medical community to revise entrenched practices. Scientific knowledge, the history suggests, is never truly finished.",
+    "question": "The author's primary purpose in writing this passage is to",
+    "choices": {
+      "A": "illustrate how scientific knowledge evolves and challenge the assumption that established medical consensus is permanent",
+      "B": "criticize nineteenth-century physicians for recommending harmful treatments without sufficient evidence",
+      "C": "argue that bed rest should be permanently banned from all modern treatment protocols",
+      "D": "provide a comprehensive historical summary of medical treatment practices from the 1800s to the present"
+    },
+    "correct": "A",
+    "explanation": "The final sentence — 'Scientific knowledge is never truly finished' — reveals the author's broader purpose: the bed rest reversal illustrates the evolving and provisional nature of medical consensus. A captures this accurately. B focuses too narrowly on blame; the tone is analytical rather than accusatory, and the passage does not condemn past physicians. C is not supported — the passage describes the reversal of bed rest but does not call for a permanent ban. D overstates the scope; the passage uses one historical example to make a broader philosophical point about knowledge, not to survey medical history comprehensively.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from reading the description of past harmful recommendations as an implicit condemnation of nineteenth-century physicians, when the author's tone is reflective rather than critical and the final sentence generalizes the lesson to all scientific knowledge.",
+      "C": "This results from misreading the passage's conclusion — that bed rest was reversed — as a prescriptive call to ban it, when the passage uses bed rest as an illustrative example rather than as a policy argument.",
+      "D": "This results from reading the historical detail (nineteenth century through present) as the primary purpose, when that detail is a vehicle for the broader philosophical argument made in the final sentence."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Author's Purpose",
+    "difficulty": "Medium",
+    "passage": "The Great Pacific Garbage Patch is often depicted in news coverage as a solid island of floating plastic. In reality, it is a diffuse field of microplastics — particles smaller than five millimeters — suspended at various depths throughout a vast ocean region. This distinction matters: clean-up strategies designed to scoop floating debris cannot effectively address dispersed microscopic particles, which are ingested by marine organisms and enter the food chain long before they reach the surface.",
+    "question": "The author's primary purpose in writing this passage is to",
+    "choices": {
+      "A": "persuade readers to reduce their personal plastic consumption to protect marine ecosystems",
+      "B": "argue that news media consistently misrepresents environmental science for dramatic effect",
+      "C": "correct a widespread misconception and explain why the accurate picture has practical consequences",
+      "D": "describe the methods scientists use to measure the concentration of microplastics in open ocean"
+    },
+    "correct": "C",
+    "explanation": "The author identifies a popular misconception (solid island of plastic), corrects it (diffuse microplastic field), and then explains why the distinction matters practically (clean-up methods fail against microscopic particles). C captures all three moves. A (reduce personal plastic use) is never argued. B overstates — the passage critiques one specific news depiction, not media accuracy as a general pattern. D (describing measurement methods) is not addressed anywhere in the passage.",
+    "distractor_rationale": {
+      "A": "This results from assuming that a passage about ocean plastic must be making a call to action about personal consumption behavior, when the author's focus is on correcting a conceptual error and its technical implications.",
+      "B": "This results from misreading the critique of one specific news depiction as a sweeping argument about media misrepresentation generally, when the author uses a single example without claiming media consistently distorts environmental science.",
+      "C": "N/A",
+      "D": "This results from misidentifying the passage's subject matter as scientific methodology, when the passage never describes how researchers measure microplastics and instead focuses on the conceptual and practical implications of the correct description."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Author's Purpose",
+    "difficulty": "Medium",
+    "passage": "In 1854, physician John Snow identified the source of a London cholera outbreak by mapping cases geographically and tracing them to a contaminated water pump on Broad Street. At the time, germ theory was not accepted; most physicians attributed disease to miasma — bad air. Snow's methodology — systematic data collection and spatial analysis — was ultimately vindicated when the pump handle was removed and new cases ceased. His work is now recognized as a founding moment of epidemiology.",
+    "question": "The author's primary purpose in writing this passage is to",
+    "choices": {
+      "A": "argue that miasma theory caused greater harm to public health than germ theory ever could",
+      "B": "explain how modern epidemiologists continue to use Snow's geographic mapping techniques today",
+      "C": "compare nineteenth-century medical beliefs with current scientific understanding of disease transmission",
+      "D": "demonstrate how rigorous data analysis produced a correct scientific conclusion before its theoretical framework existed"
+    },
+    "correct": "D",
+    "explanation": "The passage's narrative arc centers on Snow reaching the right conclusion (contaminated water) through systematic data mapping — before germ theory was accepted as the theoretical explanation. D captures this 'method-preceded-theory' insight, which is the passage's central message. A focuses on comparing the two disease theories as a primary purpose, but miasma theory is background context, not the main subject. B describes modern epidemiology; the passage is about Snow's historical case with no mention of current practice. C partially applies but misses the emphasis on Snow's data methodology as the focal point.",
+    "distractor_rationale": {
+      "A": "This results from focusing on the contrast between miasma theory and correct understanding as the passage's primary purpose, when Snow's methodological achievement — reaching the right answer without the right theory — is the central point.",
+      "B": "This results from reading 'founding moment of epidemiology' as an invitation to discuss modern applications, when the passage focuses entirely on the historical case and makes no claims about current practice.",
+      "C": "This results from noticing the contrast between 1854 beliefs and subsequent vindication but misidentifying it as the primary purpose, when the comparison serves to highlight Snow's methodological breakthrough rather than to survey the history of disease theory.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Text Structure",
+    "difficulty": "Medium",
+    "passage": "The introduction of non-native cane toads to Australia in 1935 illustrates both the appeal and the peril of biological control. Originally imported from Hawaii to eliminate sugar cane beetles, the toads failed because they could not climb the cane stalks where beetles feed. Freed from natural predators and thriving on native insects, the toad population exploded. Today cane toads number in the hundreds of millions and threaten native predator populations across northern Australia.",
+    "question": "How does the author organize this passage?",
+    "choices": {
+      "A": "A scientific debate about biological control is introduced and both sides are weighed against each other.",
+      "B": "An attempted solution is introduced, its failure is explained, and the unintended consequences are described.",
+      "C": "The complete life cycle of the cane toad is traced from its natural habitat to its invasive spread.",
+      "D": "Two ecological case studies — one successful, one unsuccessful — are compared to draw a broader lesson."
+    },
+    "correct": "B",
+    "explanation": "The passage presents a solution (import toads to control beetles), explains why it failed (toads couldn't reach beetles on stalks), and then describes the cascading result (toad population explosion threatening native species). B maps precisely to this three-part structure. A — no debate with two sides; only one perspective is presented. C — the passage does not describe the toad's biological life cycle; it narrates an ecological history. D — only one case study is discussed; no successful comparison case appears.",
+    "distractor_rationale": {
+      "A": "This results from misreading the opening phrase 'both the appeal and the peril' as a signal that two competing arguments will be evaluated, when those words summarize a single case study that demonstrates both qualities simultaneously.",
+      "B": "N/A",
+      "C": "This results from confusing the passage's narrative of the toad's spread across Australia with a biological description of the animal's life cycle — the passage traces an ecological history, not a developmental biology sequence.",
+      "D": "This results from misreading the opening comparative phrase ('both the appeal and the peril') as a signal that two separate case studies will follow, when only the cane toad case is discussed throughout."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Text Structure",
+    "difficulty": "Medium",
+    "passage": "Ancient Mesopotamian city-states and ancient Egyptian civilization developed writing systems independently, but both began by using symbols to track grain and livestock inventories before those symbols evolved into tools for recording laws, stories, and history. In Mesopotamia, cuneiform developed from pictographs pressed into clay tablets. In Egypt, hieroglyphics developed on papyrus and stone. Despite different materials and symbol systems, both civilizations followed the same trajectory: accounting first, then narrative.",
+    "question": "How is this passage primarily organized?",
+    "choices": {
+      "A": "Two parallel examples are compared to reveal a shared underlying pattern.",
+      "B": "A single civilization's development of writing is traced from its earliest to its most advanced form.",
+      "C": "Events in the history of ancient writing are presented in strict chronological order.",
+      "D": "A cause-and-effect relationship between trade and the development of writing is argued through one central example."
+    },
+    "correct": "A",
+    "explanation": "The passage describes both Mesopotamia and Egypt side by side — different materials and forms, but the same trajectory — and concludes with the shared pattern (accounting before narrative). A accurately describes this parallel-with-shared-conclusion structure. B — two civilizations are discussed, not one. C — the passage does not list events in chronological sequence; it uses a compare-and-contrast structure with a thematic conclusion. D — the comparison uses two examples, not one, and the causal argument is about administrative need driving writing development, not trade specifically.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from reading only the middle section describing one civilization (Mesopotamia or Egypt) and concluding the passage is a single-subject trace, missing that both are described as parallel examples.",
+      "C": "This results from noting that the passage mentions a historical sequence (symbols used for accounting before evolving into narrative) and incorrectly concluding the overall structure is chronological, when the structure is comparative.",
+      "D": "This results from misidentifying the driving force behind writing development as trade (a plausible inference about ancient economies) rather than the administrative inventory-tracking the passage explicitly describes, and from seeing 'one central example' when two parallel ones are used."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Data Interpretation",
+    "difficulty": "Medium",
+    "passage": "A transportation study measured average commute times in four cities before and after express bus lanes were added. In City A, commute time fell from 60 minutes to 42 minutes — the largest absolute reduction in the study. In City B, commute time remained unchanged at 52 minutes. In City C, commute time fell from 40 minutes to 26 minutes. In City D, commute time fell from 45 minutes to 38 minutes. Researchers attributed variation in outcomes to differences in pre-existing traffic congestion.",
+    "question": "According to the data in the passage, which city experienced the greatest percentage reduction in average commute time?",
+    "choices": {
+      "A": "City A",
+      "B": "City B",
+      "C": "City C",
+      "D": "City D"
+    },
+    "correct": "C",
+    "explanation": "Percentage reduction = (reduction ÷ original) × 100. City A: 18 ÷ 60 = 30%. City B: 0% (unchanged). City C: 14 ÷ 40 = 35%. City D: 7 ÷ 45 ≈ 15.6%. City C has the largest percentage reduction at 35%, even though City A had the larger absolute reduction of 18 minutes. This distinction between absolute and percentage change is key — the passage even labels City A's reduction as 'the largest absolute reduction' to highlight the difference.",
+    "distractor_rationale": {
+      "A": "This results from selecting the city with the largest absolute reduction (18 minutes) without computing percentage reduction, confusing 'most minutes saved' with 'greatest proportional improvement.'",
+      "B": "This results from selecting City B, whose commute time was unchanged, perhaps misreading the data — City B shows 0% change and cannot have the greatest reduction.",
+      "C": "N/A",
+      "D": "This results from selecting City D, which had the smallest absolute reduction (7 minutes), likely due to misreading the data table rather than computing percentage reduction."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Data Interpretation",
+    "difficulty": "Medium",
+    "passage": "A school district tracked student attendance across three grade levels for two consecutive years. In Year 1, sixth-graders had 94% attendance, seventh-graders had 91%, and eighth-graders had 89%. In Year 2, sixth-grade attendance improved to 97%, seventh-grade remained at 91%, and eighth-grade attendance fell to 85%. The district calculated each grade's two-year average to allocate tutoring resources, prioritizing grades with the lowest averages.",
+    "question": "Based on the data, which grade had the lowest two-year average attendance rate?",
+    "choices": {
+      "A": "Sixth grade",
+      "B": "Eighth grade",
+      "C": "Seventh grade",
+      "D": "All three grades had equivalent two-year averages."
+    },
+    "correct": "B",
+    "explanation": "Two-year averages: Sixth grade = (94 + 97) ÷ 2 = 95.5%. Seventh grade = (91 + 91) ÷ 2 = 91%. Eighth grade = (89 + 85) ÷ 2 = 87%. Eighth grade has the lowest average at 87%. A (sixth grade) has the highest average at 95.5%. C (seventh grade) is in the middle at 91%. D is clearly false — all three averages differ.",
+    "distractor_rationale": {
+      "A": "This results from confusing 'lowest' with 'highest' — sixth grade has the highest two-year average (95.5%), not the lowest.",
+      "B": "N/A",
+      "C": "This results from selecting the grade whose attendance rate did not change between years, mistaking consistency for a low average, when seventh grade's stable 91% is higher than eighth grade's declining average of 87%.",
+      "D": "This results from not calculating the averages at all and incorrectly assuming the question is unanswerable or that the differences are negligible."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Data Interpretation",
+    "difficulty": "Medium",
+    "passage": "A nutritionist tracked participants' average daily caloric intake across a six-week dietary study. During the first two weeks, participants averaged 2,400 calories per day. During weeks three through five, the daily average dropped to 1,800 calories. In the final week, the average returned to 2,400 calories per day. The nutritionist then calculated the overall average daily intake across all six weeks to evaluate the intervention.",
+    "question": "What was the participants' overall average daily caloric intake across the full six-week period?",
+    "choices": {
+      "A": "2,400 calories",
+      "B": "1,800 calories",
+      "C": "2,200 calories",
+      "D": "2,100 calories"
+    },
+    "correct": "D",
+    "explanation": "Because the periods have different durations, the overall average must be weighted by the number of weeks. Weeks 1–2 (2 weeks): 2,400 × 2 = 4,800 total. Weeks 3–5 (3 weeks): 1,800 × 3 = 5,400 total. Week 6 (1 week): 2,400 × 1 = 2,400 total. Sum = 12,600 calories over 6 weeks. Overall average = 12,600 ÷ 6 = 2,100 calories per day. D is correct.",
+    "distractor_rationale": {
+      "A": "This results from reporting one of the recurring period values (2,400) as the overall average without performing any calculation, likely because it appears in two of the three periods.",
+      "B": "This results from reporting the lowest period value (1,800) as the overall average without performing any calculation.",
+      "C": "This results from averaging the three reported values equally — (2,400 + 1,800 + 2,400) ÷ 3 = 2,200 — without accounting for the fact that each period lasted a different number of weeks, giving the three-week low-calorie period more weight than a simple average would assign.",
+      "D": "N/A"
+    }
+  }
+]

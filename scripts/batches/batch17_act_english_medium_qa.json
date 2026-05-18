@@ -1,0 +1,266 @@
+[
+  {
+    "exam": "ACT",
+    "subject": "English",
+    "skill": "Subject-Verb Agreement",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "In the sentence \"The quality of the proposals submitted by the research teams [blank] unclear,\" which verb form is correct?",
+    "choices": {
+      "A": "remain, because \"proposals\" and \"teams\" are both plural and influence the verb",
+      "B": "remains, because \"quality\" is the true subject of the sentence and is singular",
+      "C": "have remained, because multiple teams submitted multiple proposals over time",
+      "D": "are remaining, because the situation described is ongoing"
+    },
+    "correct": "B",
+    "explanation": "The true subject of the sentence is 'quality,' a singular noun. The prepositional phrases 'of the proposals submitted by the research teams' modify the subject but do not change its number. Singular subject 'quality' requires singular verb 'remains.' A, C, and D all result from allowing the plural nouns in the intervening phrases to override the singular subject.",
+    "distractor_rationale": {
+      "A": "This results from selecting a verb that agrees with the nearest plural nouns ('proposals,' 'teams') rather than with the true subject 'quality,' which is singular.",
+      "B": "N/A",
+      "C": "This results from letting the plural nouns within the prepositional phrases trigger a plural present perfect form rather than attending to the singular subject 'quality.'",
+      "D": "This results from treating the ongoing present condition as requiring a progressive form and using a plural verb, failing to identify 'quality' as the singular true subject."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "English",
+    "skill": "Pronoun Agreement",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "In the sentence \"The board of directors voted to extend [blank] annual meeting by one day,\" which pronoun correctly agrees with the antecedent in formal American English?",
+    "choices": {
+      "A": "their, because \"directors\" is plural and is the noun closest to the pronoun",
+      "B": "it's, because the board is a single entity acting on its own meeting",
+      "C": "they're, because the board members agreed collectively as a group",
+      "D": "its, because \"board\" is a singular collective noun acting as one unit"
+    },
+    "correct": "D",
+    "explanation": "In formal American English, collective nouns like 'board' are treated as singular when the group acts as one unit. The antecedent is 'board' (singular), so the correct possessive pronoun is 'its.' A incorrectly treats 'directors' — a plural noun within the noun phrase — as the antecedent. B and C are contractions (it is; they are), not possessive pronouns, and cannot serve as possessive modifiers.",
+    "distractor_rationale": {
+      "A": "This results from treating 'directors' — the plural noun embedded within 'board of directors' — as the antecedent rather than 'board,' the singular collective noun head.",
+      "B": "This results from confusing the contraction 'it's' (it is) with the possessive pronoun 'its' — the sentence requires a possessive pronoun, not a verb phrase.",
+      "C": "This results from confusing the contraction 'they're' (they are) with a possessive pronoun; the sentence requires a possessive form to modify 'annual meeting,' not a predicate.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "English",
+    "skill": "Verb Tense",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "In the sentence \"If the shipment [blank] on time, the factory would have met its production quota,\" which verb form correctly completes a past unreal conditional?",
+    "choices": {
+      "A": "had arrived, because the sentence is a past unreal conditional requiring the past perfect in the if-clause",
+      "B": "arrived, because the simple past is standard in all conditional if-clauses",
+      "C": "arrives, because conditional statements use present tense in the if-clause",
+      "D": "will have arrived, because the main clause predicts a completed future outcome"
+    },
+    "correct": "A",
+    "explanation": "The main clause uses 'would have met,' which signals a third conditional (past unreal) — a hypothetical situation that did not happen. In third conditionals, the if-clause requires the past perfect (had + past participle). A is correct. B applies the rule for second conditionals (present unreal). C applies first conditional rules (future-possible situations). D incorrectly uses future perfect, misreading 'would have met' as a future reference.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from applying the verb rule for first or second conditionals rather than recognizing that 'would have met' signals a third conditional, which requires past perfect in the if-clause.",
+      "C": "This results from applying the first conditional rule (If X happens, Y will happen) rather than identifying the third conditional structure signaled by 'would have met.'",
+      "D": "This results from misidentifying 'would have met' as a future reference and incorrectly using future perfect in the subordinate clause rather than past perfect."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "English",
+    "skill": "Punctuation",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "Which of the following sentences uses punctuation correctly?",
+    "choices": {
+      "A": "The three main ingredients are: flour, sugar, and butter.",
+      "B": "The hikers were exhausted, they set up camp before sunset.",
+      "C": "The study reached a clear conclusion: more exercise leads to better sleep quality.",
+      "D": "He worked all night on the report; but still missed the deadline."
+    },
+    "correct": "C",
+    "explanation": "C uses a colon correctly: it follows a complete independent clause ('The study reached a clear conclusion') and introduces an explanation of what that conclusion was. A incorrectly places a colon after the linking verb 'are' and before its complement — a colon should not separate a verb from its object. B is a comma splice joining two independent clauses with only a comma. D places a semicolon before 'but,' but 'but still missed the deadline' is not an independent clause (no subject), so the semicolon is incorrect.",
+    "distractor_rationale": {
+      "A": "This results from inserting a colon after the linking verb 'are' before a list — a colon must follow a complete independent clause, not interrupt a verb-complement construction.",
+      "B": "This results from joining two independent clauses with only a comma, creating a comma splice — a coordinating conjunction, semicolon, or period is required.",
+      "C": "N/A",
+      "D": "This results from placing a semicolon before 'but still missed the deadline,' which is a dependent phrase lacking a subject and cannot function as the second independent clause a semicolon requires."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "English",
+    "skill": "Subject-Verb Agreement",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "In the sentence \"Among the many findings of the commission [blank] a series of surprising recommendations,\" which verb form is correct?",
+    "choices": {
+      "A": "were, because \"findings\" and \"recommendations\" are both plural",
+      "B": "was, because the true subject \"a series\" is singular, even though it follows the verb in this inverted sentence",
+      "C": "have been, because the commission delivered multiple findings over time",
+      "D": "are, because the recommendations remain in effect and affect current policy"
+    },
+    "correct": "B",
+    "explanation": "This is an inverted sentence where the subject ('a series of surprising recommendations') follows the verb. The true subject is 'a series,' which is singular, so the verb must be singular: 'was.' A uses a plural verb prompted by 'findings' and 'recommendations,' which are not the subject. C uses present perfect (have been) based on the plural nouns rather than on the singular subject 'a series.' D uses a present-tense plural verb, also ignoring the singular subject.",
+    "distractor_rationale": {
+      "A": "This results from treating 'findings' or 'recommendations' — both plural — as the subject rather than identifying 'a series,' the delayed subject of the inverted sentence, which is singular.",
+      "B": "N/A",
+      "C": "This results from applying a plural present perfect form prompted by the plural nouns in the sentence rather than attending to 'a series,' the singular true subject.",
+      "D": "This results from treating the ongoing relevance of the recommendations as requiring a present-tense plural verb, failing to identify 'a series' as the singular subject."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "English",
+    "skill": "Redundancy & Concision",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "Which sentence most concisely expresses the same idea without redundancy?",
+    "choices": {
+      "A": "At this point in time, the committee is currently reviewing the submitted applications.",
+      "B": "Due to the reason that funds are limited, travel will be restricted.",
+      "C": "The new software update will improve and enhance overall system performance.",
+      "D": "The committee is reviewing the submitted applications."
+    },
+    "correct": "D",
+    "explanation": "D states the idea with no redundancy. A combines 'at this point in time' and 'currently,' both of which are already implied by the present progressive 'is reviewing' — three ways of expressing the same temporal meaning. B uses 'due to the reason that' where the single word 'because' suffices. C pairs the synonyms 'improve' and 'enhance,' which communicate the same outcome. D eliminates all redundancy while preserving the full meaning.",
+    "distractor_rationale": {
+      "A": "This results from retaining 'at this point in time' and 'currently' alongside the present progressive 'is reviewing' — three expressions of present time where zero additional modifiers are needed.",
+      "B": "This results from accepting 'due to the reason that' as a standard formal construction rather than recognizing it as a wordy substitution for the single word 'because.'",
+      "C": "This results from treating 'improve' and 'enhance' as referring to two distinct outcomes rather than recognizing them as near-synonyms that each fully express the same meaning.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "English",
+    "skill": "Transitions",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "Choose the transition that best fits: \"Renewable energy sources have grown dramatically over the past decade. ______, fossil fuels still account for more than 80% of global energy consumption.\"",
+    "choices": {
+      "A": "Even so",
+      "B": "Furthermore",
+      "C": "As a result",
+      "D": "In particular"
+    },
+    "correct": "A",
+    "explanation": "'Even so' (A) acknowledges the prior point (renewable growth) while introducing a contrasting fact (fossil fuels still dominate) — the precise logical relationship the sentence expresses. B ('Furthermore') would add more evidence of renewable growth, pointing in the wrong direction. C ('As a result') implies fossil fuel dominance caused the renewable growth — a backward causal claim. D ('In particular') implies the second sentence specifies a subset of the first, when it introduces an independent contrasting statistic.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from selecting an additive transition that implies the second sentence provides further evidence of renewables' success, when it actually qualifies that success with a contrasting fact.",
+      "C": "This results from selecting a cause-and-effect transition that implies fossil fuel dominance resulted from renewable growth — a relationship that reverses the logical direction of the two sentences.",
+      "D": "This results from selecting a specifying transition that implies the fossil fuel statistic narrows or exemplifies the renewable growth claim, when it introduces an independent contrasting data point."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "English",
+    "skill": "Verb Tense",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "In the sentence \"The researcher discovered that participants who [blank] regularly for the previous six months showed the greatest cognitive improvements,\" which verb form is correct?",
+    "choices": {
+      "A": "exercise, because the participants continue exercising after the study ended",
+      "B": "exercised, because the study is described in the past tense and simple past is standard",
+      "C": "had exercised, because the six months of exercise preceded the discovery and requires the past perfect",
+      "D": "are exercising, because the participants' habits are described as an ongoing behavior"
+    },
+    "correct": "C",
+    "explanation": "The phrase 'the previous six months' establishes that the exercise happened before the researcher's discovery (itself a past event). An action completed before another past event requires the past perfect: 'had exercised.' A uses present tense, which contradicts the past-tense context. B uses simple past, which fails to show that the six months of exercise preceded the discovery. D uses present progressive, which is incompatible with the past-tense narrative.",
+    "distractor_rationale": {
+      "A": "This results from inferring that participants continue exercising and using present tense — but the sentence describes their behavior during the study period, not after it ended.",
+      "B": "This results from matching the surrounding simple past narrative without recognizing that 'the previous six months' signals an action that preceded the discovery, requiring the past perfect.",
+      "C": "N/A",
+      "D": "This results from treating the exercise routine as a present ongoing behavior rather than recognizing that 'the previous six months' signals a completed past period that predates the researcher's discovery."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "English",
+    "skill": "Punctuation",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "Which of the following sentences uses a semicolon correctly?",
+    "choices": {
+      "A": "The conference attracted participants from many countries; such as France, Japan, and Brazil.",
+      "B": "The first session covered data collection; the second addressed statistical analysis.",
+      "C": "She wanted to attend; however she couldn't get the time off work.",
+      "D": "My favorite season is autumn; because of the colorful leaves and cooler temperatures."
+    },
+    "correct": "B",
+    "explanation": "B correctly uses a semicolon to join two closely related independent clauses: 'The first session covered data collection' and 'the second addressed statistical analysis.' A incorrectly uses a semicolon before 'such as France, Japan, and Brazil,' which is a phrase, not an independent clause. C uses a semicolon before 'however' correctly but omits the required comma after 'however.' D uses a semicolon before 'because,' introducing a subordinate clause rather than an independent one.",
+    "distractor_rationale": {
+      "A": "This results from treating 'such as France, Japan, and Brazil' as an independent clause when it is actually a prepositional phrase — semicolons can only join two independent clauses.",
+      "B": "N/A",
+      "C": "This results from correctly using a semicolon before the conjunctive adverb 'however' but omitting the required comma after it — conjunctive adverbs used after a semicolon must be followed by a comma.",
+      "D": "This results from placing a semicolon before a subordinate clause introduced by 'because' — semicolons can only join independent clauses, not a main clause and a dependent clause."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "English",
+    "skill": "Sentence Combining",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "Which option best combines these two sentences into one grammatically correct sentence? \"The hurricane caused significant flooding. Many families were forced to evacuate.\"",
+    "choices": {
+      "A": "The hurricane caused significant flooding, many families were forced to evacuate.",
+      "B": "The hurricane caused significant flooding and many families were forced to evacuate the area and their homes.",
+      "C": "Causing significant flooding, many families were forced to evacuate by the hurricane.",
+      "D": "The hurricane caused significant flooding, forcing many families to evacuate."
+    },
+    "correct": "D",
+    "explanation": "D correctly uses a participial phrase ('forcing many families to evacuate') to show the result of the flooding without creating a comma splice or dangling modifier. A is a comma splice — two independent clauses joined only by a comma. B is grammatically acceptable but wordy, using two 'and' conjunctions and adding unnecessary detail. C contains a dangling modifier — 'causing significant flooding' is placed next to 'families,' implying they caused the flooding rather than the hurricane.",
+    "distractor_rationale": {
+      "A": "This results from joining two independent clauses with only a comma, creating a comma splice — a coordinating conjunction, semicolon, or subordinating conjunction is required.",
+      "B": "This results from chaining two 'and' conjunctions to link clauses, creating a wordy run-on sentence that lacks the concision and logical clarity of a participial phrase.",
+      "C": "This results from creating a dangling modifier — 'causing significant flooding' is adjacent to 'families,' making it appear the families caused the flooding rather than the hurricane.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "English",
+    "skill": "Redundancy & Concision",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "Which option most concisely expresses the same idea?",
+    "choices": {
+      "A": "The merger was finalized in March 2024.",
+      "B": "The merger was finalized and completed in March of the year 2024.",
+      "C": "The merger was made final and brought to its conclusion in March 2024.",
+      "D": "In the month of March 2024, the merger was made to be complete and final."
+    },
+    "correct": "A",
+    "explanation": "A states the fact precisely with no redundancy. B pairs 'finalized' and 'completed' (synonyms) and adds 'of the year,' which is redundant since '2024' already specifies the year. C pairs 'made final' and 'brought to its conclusion,' two wordy phrases that mean exactly what 'finalized' means alone. D uses 'in the month of' (redundant with 'March') and 'made to be complete and final' (two wordy synonyms for 'finalized').",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from accepting 'finalized and completed' as two distinct actions rather than recognizing them as synonyms, and from keeping the redundant phrase 'of the year' alongside a year that already identifies itself.",
+      "C": "This results from accepting 'made final and brought to its conclusion' as emphatic rather than redundant — both phrases communicate exactly what the single word 'finalized' communicates.",
+      "D": "This results from accepting 'in the month of' as formal phrasing rather than recognizing it as redundant with 'March,' and treating 'made to be complete and final' as precise rather than wordy."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "English",
+    "skill": "Parallel Structure",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "Which sentence uses correct parallel structure?",
+    "choices": {
+      "A": "The professor told students to read the chapter, that they should take notes, and completing the practice problems.",
+      "B": "The documentary explores how climate change begins, why it accelerates, and the ways in which solutions are being developed.",
+      "C": "The professor told students to read the chapter, to take notes, and to complete the practice problems.",
+      "D": "The new initiative will reduce waste, it will improve efficiency, and cutting operating costs."
+    },
+    "correct": "C",
+    "explanation": "C uses three parallel infinitive phrases — 'to read,' 'to take,' and 'to complete' — all in the same grammatical form. A mixes an infinitive ('to read'), a that-clause ('that they should take notes'), and a gerund ('completing'). B mixes two indirect question clauses ('how,' 'why') with a noun phrase ('the ways in which'). D mixes two future-tense clauses ('will reduce,' 'will improve') with a participial phrase ('cutting'), producing three incompatible forms.",
+    "distractor_rationale": {
+      "A": "This results from mixing an infinitive phrase ('to read the chapter'), a that-clause ('that they should take notes'), and a gerund phrase ('completing the practice problems') — three different grammatical forms that violate parallel structure.",
+      "B": "This results from mixing two indirect question clauses ('how climate change begins,' 'why it accelerates') with a noun phrase ('the ways in which solutions are being developed'), which disrupts the parallel pattern established by the first two elements.",
+      "C": "N/A",
+      "D": "This results from mixing two future-tense independent clauses ('will reduce waste,' 'will improve efficiency') with a participial phrase ('cutting operating costs'), which cannot serve as a parallel third element in a verb series."
+    }
+  }
+]

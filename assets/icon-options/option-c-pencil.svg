@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Background -->
+  <rect width="512" height="512" rx="96" fill="#1a3a5c"/>
+
+  <!-- Shackle arc (slightly left of center) -->
+  <path d="M 148 278 L 148 222 C 148 138 316 138 316 222 L 316 278"
+        fill="none" stroke="white" stroke-width="44" stroke-linecap="round"/>
+
+  <!-- Lock body -->
+  <rect x="112" y="262" width="216" height="182" rx="22" fill="white"/>
+
+  <!-- Keyhole -->
+  <circle cx="220" cy="338" r="20" fill="#1a3a5c"/>
+  <rect x="209" y="336" width="22" height="40" rx="5" fill="#1a3a5c"/>
+
+  <!-- Pencil overlapping lower-right (rotated -45deg, pivot at center 340,370) -->
+  <g transform="translate(340,360) rotate(-42)">
+    <!-- Pencil body -->
+    <rect x="-14" y="-95" width="28" height="155" rx="5" fill="#2E75B6"/>
+    <!-- Pencil tip (triangle) -->
+    <polygon points="-14,60 14,60 0,94" fill="white"/>
+    <!-- Eraser end -->
+    <rect x="-14" y="-110" width="28" height="20" rx="4" fill="white" opacity="0.6"/>
+  </g>
+</svg>

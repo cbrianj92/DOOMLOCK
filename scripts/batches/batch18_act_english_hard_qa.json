@@ -1,0 +1,178 @@
+[
+  {
+    "exam": "ACT",
+    "subject": "English",
+    "skill": "Subject-Verb Agreement",
+    "difficulty": "Hard",
+    "passage": null,
+    "question": "In the sentence \"Neither the data gathered by the researchers nor the conclusion drawn from those findings [blank] particularly compelling to the reviewers,\" which verb form is correct?",
+    "choices": {
+      "A": "were, because \"findings\" immediately precedes the verb and is plural",
+      "B": "are, because both data and conclusions together constitute a plural compound subject",
+      "C": "was, because with neither/nor, the verb agrees with the nearest subject noun, \"conclusion,\" which is singular",
+      "D": "have been, because the sentence describes something evaluated over the course of a review"
+    },
+    "correct": "C",
+    "explanation": "With neither/nor constructions, the verb agrees with the subject closest to it. The two subjects are 'the data' and 'the conclusion.' 'Conclusion' is the nearer subject and is singular, so the verb must be singular: 'was.' A uses the plural noun 'findings' — which is part of a prepositional phrase modifying 'conclusion,' not a subject — as the basis for agreement. B treats neither/nor as a compound subject that creates plurality, which it does not. D introduces a present perfect without justification.",
+    "distractor_rationale": {
+      "A": "This results from using 'findings' — which immediately precedes the blank but belongs to a prepositional phrase modifying 'conclusion' — as the basis for verb agreement rather than identifying 'conclusion' as the nearest true subject.",
+      "B": "This results from treating 'neither...nor' as a compound subject that joins two nouns into a plural unit, when in fact neither/nor follows a proximity rule and does not create a plural subject.",
+      "C": "N/A",
+      "D": "This results from adding an implied temporal dimension and selecting a present perfect verb form, when the sentence is a simple past-tense observation requiring singular 'was.'"
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "English",
+    "skill": "Pronoun Agreement",
+    "difficulty": "Hard",
+    "passage": null,
+    "question": "In the sentence \"Between you and [blank], the decision should rest with whoever has the most experience,\" which pronoun is grammatically correct?",
+    "choices": {
+      "A": "me, because \"between\" is a preposition and requires an object pronoun in the objective case",
+      "B": "I, because pronouns following \"and\" must be in the subjective case",
+      "C": "myself, because the reflexive form is used when referring back to the speaker",
+      "D": "us, because the sentence addresses multiple people and the pronoun should be plural"
+    },
+    "correct": "A",
+    "explanation": "'Between' is a preposition, and prepositions require object pronouns in the objective case. The entire phrase 'between you and me' is the object of the preposition, so both pronouns must be objective case: 'you' and 'me.' B incorrectly applies the subjective-case rule for compound subjects ('She and I went') to what is actually the object of a preposition. C misuses the reflexive 'myself,' which is only used when the subject and object are the same person or for emphasis. D incorrectly introduces a plural 'us.'",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from applying the rule that compound subjects take the subjective case ('She and I') without recognizing that 'between you and ___' is the object of a preposition, which requires objective case throughout.",
+      "C": "This results from confusing reflexive pronouns ('myself') with standard personal pronouns — reflexives are used only when the subject and object of a verb refer to the same person, or for emphasis; they cannot serve as objects of prepositions.",
+      "D": "This results from treating 'between you and ___' as a reference to a broader group and selecting a plural objective pronoun, when the phrase refers specifically to two individuals and requires a singular objective-case form."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "English",
+    "skill": "Verb Tense",
+    "difficulty": "Hard",
+    "passage": null,
+    "question": "In the sentence \"Galileo proved through observation that the Earth [blank] around the Sun, not the other way around,\" which verb form is correct?",
+    "choices": {
+      "A": "had orbited, because Galileo's discovery is a completed past event requiring the past perfect",
+      "B": "was orbiting, because Galileo was observing a process happening at a specific point in time",
+      "C": "orbited, because the past-tense verb \"proved\" requires all subsequent clauses to match its tense",
+      "D": "orbits, because universal scientific truths are expressed in the present tense regardless of the reporting verb's tense"
+    },
+    "correct": "D",
+    "explanation": "When a reporting verb in the past tense introduces a universal scientific truth or law, the truth remains in the present tense. That the Earth orbits the Sun is an enduring physical fact, not a historical event, so 'orbits' (present tense) is correct even though 'proved' is past tense. A applies sequence-of-tenses rules to a universal truth, which is an exception to those rules. B treats the orbit as a past action in progress. C mechanically matches tenses without recognizing the universal-truth exception.",
+    "distractor_rationale": {
+      "A": "This results from applying strict sequence-of-tenses logic and using past perfect for what appears to be an earlier event, without recognizing that scientific truths retain the present tense even in past-tense narratives.",
+      "B": "This results from treating Earth's orbit as a specific observed moment rather than an enduring scientific fact, and applying the past progressive to suggest an action in progress at a past point in time.",
+      "C": "This results from mechanically matching all verbs to the past-tense reporting verb 'proved' — a common but incorrect approach for universal scientific truths, which are exempt from sequence-of-tenses requirements.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "English",
+    "skill": "Punctuation",
+    "difficulty": "Hard",
+    "passage": null,
+    "question": "Which of the following sentences uses punctuation correctly?",
+    "choices": {
+      "A": "The panel met on three occasions — in January, in March, and in September — to review; the findings.",
+      "B": "The panel identified three priorities: reducing emissions, investing in renewable infrastructure, and updating building codes.",
+      "C": "The scientist — who had worked on the project for a decade was credited with the breakthrough.",
+      "D": "She argued that, the policy would succeed if given adequate time to take effect."
+    },
+    "correct": "B",
+    "explanation": "B uses a colon correctly: it follows a complete independent clause ('The panel identified three priorities') and introduces a list that explains what those priorities are. A correctly uses em dashes to set off the parenthetical list but then incorrectly places a semicolon before 'the findings' — a semicolon cannot separate a preposition ('to review') from its object. C opens an em dash parenthetical ('— who had worked on the project for a decade') but fails to close it with a second em dash before 'was credited.' D incorrectly places a comma after 'that,' separating a subordinating conjunction from the clause it introduces.",
+    "distractor_rationale": {
+      "A": "This results from correctly using em dashes to set off a parenthetical list but then incorrectly placing a semicolon before 'the findings,' separating the infinitive 'to review' from its object — a semicolon cannot interrupt a verb phrase and its complement.",
+      "B": "N/A",
+      "C": "This results from opening an em dash parenthetical ('— who had worked on the project for a decade') but omitting the closing em dash before 'was credited,' leaving the parenthetical unclosed and the sentence's structure broken.",
+      "D": "This results from inserting a comma after 'that' before the noun clause it introduces — no comma should separate a subordinating conjunction like 'that' from the clause it governs."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "English",
+    "skill": "Transitions",
+    "difficulty": "Hard",
+    "passage": null,
+    "question": "Choose the transition that best connects these ideas: \"Critics argue a basic income guarantee might reduce the incentive to work. ______, its effects on labor supply remain theoretically ambiguous: even if some workers reduce hours, others currently excluded from the workforce might enter it.\"",
+    "choices": {
+      "A": "As a result",
+      "B": "On the contrary",
+      "C": "In any case",
+      "D": "By the same token"
+    },
+    "correct": "C",
+    "explanation": "'In any case' (C) signals that the following point holds regardless of the prior dispute — the labor supply effects are ambiguous no matter which side of the debate one accepts, because the mechanism cuts both ways. A ('As a result') incorrectly implies the critics' concern caused the theoretical ambiguity. B ('On the contrary') implies the next sentence flatly contradicts the critics, when it actually acknowledges their concern as one possibility within a theoretically ambiguous outcome. D ('By the same token') implies a parallel or analogous conclusion, when the next sentence introduces a complicating factor that resists simple alignment with either side.",
+    "distractor_rationale": {
+      "A": "This results from selecting a causal transition implying that critics' concern about work incentives directly produced the theoretical ambiguity, when the ambiguity stems from independent economic reasoning about multiple effects.",
+      "B": "This results from selecting a contradiction transition implying the next sentence refutes the critics, when it actually acknowledges their concern as one of two possible outcomes within a theoretically uncertain picture.",
+      "C": "N/A",
+      "D": "This results from selecting a parallel-reasoning transition implying the next sentence draws an analogous conclusion to the critics' argument, when it instead introduces a countervailing mechanism that complicates both sides of the debate."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "English",
+    "skill": "Sentence Combining",
+    "difficulty": "Hard",
+    "passage": null,
+    "question": "Which option best combines these three ideas into one grammatically correct sentence? \"The company reported record profits. It had just completed a major restructuring. This surprised industry analysts.\"",
+    "choices": {
+      "A": "The company, having just completed a major restructuring, reported record profits — a result that surprised industry analysts.",
+      "B": "The company reported record profits, it had just completed a major restructuring which surprised industry analysts.",
+      "C": "Having just completed a major restructuring, the surprise of analysts was that the company reported record profits.",
+      "D": "The company reported record profits that had just completed a major restructuring, surprising industry analysts."
+    },
+    "correct": "A",
+    "explanation": "A correctly uses a participial phrase ('having just completed a major restructuring') modifying 'the company,' and an em dash to introduce an appositive ('a result that surprised industry analysts') that explains the significance. B is a comma splice and contains an ambiguous relative clause — 'which surprised analysts' could modify 'restructuring' rather than the profit announcement. C has a dangling modifier — 'having just completed a major restructuring' appears to modify 'the surprise of analysts.' D attaches 'that had just completed a major restructuring' to 'profits,' making it seem the profits completed the restructuring.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from joining two independent clauses with only a comma (comma splice) and creating an ambiguous relative clause — 'which surprised industry analysts' could modify 'major restructuring' rather than the announcement of record profits.",
+      "C": "This results from creating a dangling modifier — 'having just completed a major restructuring' is placed adjacent to 'the surprise of analysts' rather than to 'the company,' implying analysts completed the restructuring.",
+      "D": "This results from attaching the relative clause 'that had just completed a major restructuring' to 'profits' rather than to 'the company,' making it appear the profits — not the company — completed the restructuring."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "English",
+    "skill": "Redundancy & Concision",
+    "difficulty": "Hard",
+    "passage": null,
+    "question": "Which sentence most concisely conveys the complete idea?",
+    "choices": {
+      "A": "The board will make a determination as to whether an approval of the budget proposal should take place.",
+      "B": "It is the intention of the board to conduct a review of whether an approval of the budget should be made.",
+      "C": "The board will be engaged in the process of determining whether to give its approval to the budget proposal.",
+      "D": "The board will decide whether to approve the budget."
+    },
+    "correct": "D",
+    "explanation": "D replaces all nominalizations with direct verbs: 'decide' instead of 'make a determination as to,' and 'approve' instead of 'an approval of...should take place.' A uses two nominalizations ('make a determination,' 'an approval of...should take place') where two simple verbs suffice. B uses three layers of nominalization ('intention of,' 'conduct a review of,' 'an approval...should be made'). C uses 'be engaged in the process of determining' for 'decide' and 'give its approval to' for 'approve,' adding many words for no additional meaning.",
+    "distractor_rationale": {
+      "A": "This results from accepting 'make a determination as to' as equivalent to 'decide' and 'an approval...should take place' as equivalent to 'approve,' treating nominalized phrases as standard rather than as inflated versions of simple verbs.",
+      "B": "This results from using three nominalized constructions ('intention of,' 'conduct a review of,' 'an approval...should be made') in place of three simple verbs ('intend,' 'determine,' 'approve'), multiplying words without adding meaning.",
+      "C": "This results from accepting 'be engaged in the process of determining' as a standard expression for 'decide' and 'give its approval to' as standard for 'approve' — both are heavily inflated nominalizations that D replaces with precise single verbs.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "English",
+    "skill": "Parallel Structure",
+    "difficulty": "Hard",
+    "passage": null,
+    "question": "Which sentence uses correct parallel structure in a complex that-clause series?",
+    "choices": {
+      "A": "The contract stipulates that vendors must submit invoices within 30 days, that they will maintain insurance coverage, and for disputes to be resolved through arbitration.",
+      "B": "The contract stipulates that vendors must submit invoices within 30 days, that they must maintain insurance coverage, and that disputes must be resolved through arbitration.",
+      "C": "The contract stipulates submitting invoices within 30 days, that insurance coverage is maintained, and for disputes, arbitration.",
+      "D": "The contract stipulates vendors submitting invoices within 30 days, to maintain insurance coverage, and that disputes must go to arbitration."
+    },
+    "correct": "B",
+    "explanation": "B uses three parallel that-clauses — 'that vendors must submit,' 'that they must maintain,' and 'that disputes must be resolved' — all in identical grammatical form. A breaks the pattern with its third element: 'for disputes to be resolved' is a for-infinitive phrase, not a that-clause. C mixes a gerund phrase ('submitting invoices'), a that-clause, and an abbreviated noun phrase. D mixes a participial phrase ('vendors submitting'), an infinitive phrase ('to maintain'), and a that-clause — three incompatible forms.",
+    "distractor_rationale": {
+      "A": "This results from establishing two that-clauses and then switching to a for-infinitive phrase ('for disputes to be resolved') for the third element, breaking the parallel grammatical pattern.",
+      "B": "N/A",
+      "C": "This results from mixing a gerund phrase ('submitting invoices'), a that-clause ('that insurance coverage is maintained'), and an abbreviated noun phrase ('for disputes, arbitration') — three incompatible grammatical forms.",
+      "D": "This results from mixing a participial phrase ('vendors submitting invoices within 30 days'), an infinitive phrase ('to maintain insurance coverage'), and a that-clause ('that disputes must go to arbitration') — three different structures where one consistent form is required."
+    }
+  }
+]

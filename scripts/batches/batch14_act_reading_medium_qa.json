@@ -1,0 +1,398 @@
+[
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Main Idea",
+    "difficulty": "Medium",
+    "passage": "In the early 1900s, urban planners believed that widening roads would reduce traffic congestion. Decades of experience have revealed the opposite: wider roads attract more drivers, a phenomenon called 'induced demand.' When a highway is expanded, commuters who previously avoided it or traveled at off-peak hours begin using it, filling capacity as quickly as it was added. Cities like Seoul and San Francisco have found that removing highways — not widening them — can actually improve traffic flow and revitalize neighborhoods.",
+    "question": "The main idea of the passage is that",
+    "choices": {
+      "A": "expanding roads does not reliably reduce traffic congestion and may worsen it",
+      "B": "induced demand was first identified by urban planners in the early 1900s",
+      "C": "Seoul and San Francisco set the global standard for traffic management",
+      "D": "commuters choose routes based solely on road width"
+    },
+    "correct": "A",
+    "explanation": "The passage argues against the traditional assumption that wider roads solve congestion by introducing induced demand and showing that removing highways can be more effective. A captures this central argument. B misattributes induced demand's identification to early planners, who actually held the opposite assumption. C overstates a supporting example. D oversimplifies a detail that the passage uses to explain a broader phenomenon.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from associating induced demand with the early-1900s planners mentioned in the passage, when in fact those planners held the opposite assumption — induced demand describes what was later discovered to be wrong about their approach.",
+      "C": "This results from elevating a supporting example (Seoul and San Francisco) into the passage's central claim rather than recognizing them as illustrations of the main point.",
+      "D": "This results from oversimplifying the passage's description of driver behavior into a single-factor rule the passage does not state."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Inference",
+    "difficulty": "Medium",
+    "passage": "For centuries, European mapmakers filled uncharted regions of their maps with illustrations of sea monsters, dragons, and other fantastical creatures. Historians once assumed this was meant to warn travelers of real dangers. More recent scholarship suggests the monsters were aesthetic conventions, used to fill blank space attractively rather than to convey geographic information. Fewer than a handful of surviving historical maps contain the phrase 'here be dragons,' though the expression has become widely associated with historical cartography.",
+    "question": "Based on the passage, it can be inferred that",
+    "choices": {
+      "A": "European travelers were frightened by the creatures depicted on maps",
+      "B": "most historical maps have not survived to the present day",
+      "C": "the popular image of medieval maps covered in monster warnings may be inaccurate",
+      "D": "mapmakers deliberately misled travelers about the dangers of uncharted regions"
+    },
+    "correct": "C",
+    "explanation": "The passage notes that 'here be dragons' appears on fewer than a handful of surviving maps yet 'has become widely associated with historical cartography' — implying the popular perception significantly exceeds the historical reality. C correctly captures this inference. A is not supported by the passage. B may be true but is not an inference the passage invites. D contradicts the scholarly view that monsters were aesthetic, not intended to communicate danger.",
+    "distractor_rationale": {
+      "A": "This results from assuming that map imagery would have frightened travelers when the passage explicitly questions whether these images conveyed any real danger at all.",
+      "B": "This results from inferring from the word 'surviving' that many maps are lost — possibly true historically, but not an inference the passage supports or invites.",
+      "C": "N/A",
+      "D": "This results from applying the outdated historical assumption (monsters as warnings) that the passage directly challenges with more recent scholarship."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Vocabulary in Context",
+    "difficulty": "Medium",
+    "passage": "The city's new transit hub was designed to be a nexus for all major transportation lines. Commuters arriving by rail, bus, or ferry would converge at a single terminal, reducing the confusion of transfers between separate stations scattered across different neighborhoods. Planners argued that consolidating services would not only cut travel time but also reduce the city's overall carbon footprint by making public transit more attractive than private cars.",
+    "question": "As used in the passage, the word \"nexus\" most nearly means",
+    "choices": {
+      "A": "obstacle",
+      "B": "central connecting point",
+      "C": "financial center",
+      "D": "departure terminal"
+    },
+    "correct": "B",
+    "explanation": "In context, the transit hub serves as the place where all transportation lines come together — a central connecting point. B is correct. A ('obstacle') is the opposite of what a nexus is; the hub is designed to reduce confusion. C ('financial center') is a prior association with 'nexus' that does not apply to a transit context. D ('departure terminal') is too narrow — the hub handles arrivals and transfers as well as departures.",
+    "distractor_rationale": {
+      "A": "This results from misreading the passage's description of the problem the hub solves (confusion) as a description of the hub itself.",
+      "B": "N/A",
+      "C": "This results from a prior association of 'nexus' with commercial or financial contexts that does not apply here.",
+      "D": "This results from associating 'nexus' with the transit terminal described in the passage and substituting a related but overly narrow synonym."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Evidence Support",
+    "difficulty": "Medium",
+    "passage": "Proponents of four-day workweeks argue that reducing hours boosts productivity and employee morale. Critics counter that the model only works in knowledge-based industries and would be impractical for healthcare, retail, or manufacturing. Iceland conducted large-scale trials between 2015 and 2019, shifting thousands of public sector workers to 35-hour weeks at full pay. The trials reported no decline in service quality and showed significant improvements in worker wellbeing. Iceland has since rolled out shorter hours across most of its public sector.",
+    "question": "Which piece of evidence best supports the claim that a shorter workweek does not harm productivity?",
+    "choices": {
+      "A": "Critics say the model is impractical for many industries.",
+      "B": "Proponents argue that the four-day week improves morale.",
+      "C": "Iceland began its trial by shifting workers to 35-hour weeks.",
+      "D": "Iceland's trials showed no decline in service quality during shortened hours."
+    },
+    "correct": "D",
+    "explanation": "The specific claim is that a shorter workweek does not harm productivity. D directly supports this with measured outcomes: Iceland's trials reported no decline in service quality, which is a direct measure of work output. A describes opposition to the claim, not support for it. B is an assertion by advocates, not empirical evidence. C describes the trial's design (how hours were reduced), not its measured outcome.",
+    "distractor_rationale": {
+      "A": "This results from misidentifying a counterargument as supporting evidence — critics raise doubts, which is the opposite of support.",
+      "B": "This results from selecting an unverified claim by proponents rather than empirical results from the trial.",
+      "C": "This results from selecting the trial's setup rather than its measured outcome — the design of the experiment, not what it found.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Author's Purpose",
+    "difficulty": "Medium",
+    "passage": "Every summer, millions of tourists descend on Venice, Italy. Cruise ships tower over medieval churches, souvenir stalls crowd ancient squares, and the narrow canals choke with gondolas hired by day-trippers who will never spend the night. Meanwhile, the city's permanent population has fallen from 175,000 in the 1950s to fewer than 50,000 today, as locals flee rising rents and a service economy that no longer serves them. Venice is becoming a museum of itself — beautiful, crowded, and hollow.",
+    "question": "The primary purpose of this passage is to",
+    "choices": {
+      "A": "argue that mass tourism is destroying Venice as a living community",
+      "B": "explain the economic forces driving rent increases in European cities",
+      "C": "describe the physical geography of Venice for first-time visitors",
+      "D": "compare modern Venice to other Italian cities facing depopulation"
+    },
+    "correct": "A",
+    "explanation": "The passage uses vivid, critical language ('choke,' 'hollow,' 'museum of itself') to argue that tourism is hollowing out Venice's community. The final metaphor makes the argument explicit. A captures this persuasive purpose. B is too narrow — rising rents are one detail in a broader argument. C is wrong — the passage is critical, not descriptive for visitors. D is not supported — no other Italian cities are mentioned.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from focusing on the single detail about rising rents rather than recognizing it as one example supporting a broader argument about the consequences of mass tourism.",
+      "C": "This results from the passage's mention of canals, churches, and squares leading the reader to mistake a critical argument for a descriptive travel piece.",
+      "D": "This results from the mention of population decline and inferring a comparison to other cities that the passage never makes."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Text Structure",
+    "difficulty": "Medium",
+    "passage": "The story of penicillin's discovery is usually told as a happy accident. In 1928, Alexander Fleming noticed that a mold had contaminated one of his bacterial cultures and was killing bacteria around it. He identified the mold and hypothesized it produced an antibacterial substance, but lacked the chemistry expertise to isolate it. More than a decade later, Howard Florey and Ernst Chain refined the substance into a usable drug — and it was their work, not Fleming's, that saved millions of lives in World War II.",
+    "question": "How does the passage develop its central idea?",
+    "choices": {
+      "A": "It presents a debate between scientists and resolves it with new evidence.",
+      "B": "It traces a cause-and-effect chain from a single discovery to widespread impact.",
+      "C": "It introduces a common narrative and then complicates it with additional context.",
+      "D": "It compares Fleming's methods to those of Florey and Chain to determine which was superior."
+    },
+    "correct": "C",
+    "explanation": "The passage opens by acknowledging 'the story usually told' (Fleming's happy accident) and then complicates it by revealing that Florey and Chain's work — not Fleming's — is what made penicillin clinically useful. C accurately describes this structure. A is wrong — there is no debate between scientists. B describes a causal chain but misses the key structural move of establishing and then revising an existing narrative. D is wrong — the passage contrasts contributions without evaluating methodology.",
+    "distractor_rationale": {
+      "A": "This results from noting that multiple scientists are mentioned and inferring a debate, when in fact they contributed sequentially and the passage presents only one interpretation of events.",
+      "B": "This results from focusing on the causal chain (discovery → isolation → drug → lives saved) and missing the key structural device: a familiar story is set up and then revised.",
+      "C": "N/A",
+      "D": "This results from noting that Fleming is contrasted with Florey and Chain and inferring a methodological comparison, when the passage actually contrasts the completeness of their contributions, not their experimental methods."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Data Interpretation",
+    "difficulty": "Medium",
+    "passage": "A city tracked emergency room visits due to air quality over four seasons. In spring, there were 270 visits; in summer, 480; in fall, 250; and in winter, 150. The city also recorded average particulate matter (PM2.5) readings: spring 9 μg/m³, summer 20 μg/m³, fall 11 μg/m³, and winter 8 μg/m³. City officials noted that ER visits appeared to rise as PM2.5 levels increased.",
+    "question": "Based on the data, which season had the highest ratio of ER visits per μg/m³ of PM2.5?",
+    "choices": {
+      "A": "Summer",
+      "B": "Spring",
+      "C": "Fall",
+      "D": "Winter"
+    },
+    "correct": "B",
+    "explanation": "To find the ratio, divide each season's ER visits by its PM2.5 reading: Spring = 270 ÷ 9 = 30; Summer = 480 ÷ 20 = 24; Fall = 250 ÷ 11 ≈ 22.7; Winter = 150 ÷ 8 = 18.75. Spring has the highest ratio (30 visits per μg/m³). A (Summer) has the most total visits but a lower ratio when divided by its higher PM2.5 level. C (Fall) and D (Winter) both have lower ratios than Spring.",
+    "distractor_rationale": {
+      "A": "This results from selecting the season with the highest absolute number of ER visits (summer, 480) rather than dividing each season's visits by its PM2.5 reading to compute the ratio.",
+      "B": "N/A",
+      "C": "This results from selecting fall, which has a mid-range PM2.5 value, without completing the division to compare its ratio against all four seasons.",
+      "D": "This results from reasoning that fewer visits relative to low pollution implies a high ratio, without actually computing 150 ÷ 8 = 18.75 — the lowest ratio of the four seasons."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Main Idea",
+    "difficulty": "Medium",
+    "passage": "For decades, scientists believed that the deep ocean was largely lifeless — too dark, cold, and pressurized for complex organisms. The discovery of hydrothermal vents in 1977 overturned this assumption entirely. These underwater geothermal fissures release superheated, mineral-rich water and support thriving ecosystems of tube worms, clams, shrimp, and bacteria that derive energy from chemical reactions rather than sunlight. These chemosynthetic communities survive independently of solar energy, redefining scientific understanding of where life can exist.",
+    "question": "The main idea of the passage is that",
+    "choices": {
+      "A": "the deep ocean was once thought to be completely uninhabited",
+      "B": "hydrothermal vents produce more heat than scientists initially expected",
+      "C": "tube worms and clams are uniquely suited to extreme environments",
+      "D": "the discovery of hydrothermal vents fundamentally changed scientific understanding of where life can exist"
+    },
+    "correct": "D",
+    "explanation": "The passage moves from an old assumption (lifeless deep ocean) through a key discovery (hydrothermal vents, 1977) to its broader significance (life without sunlight, redefined understanding of life's possibilities). D captures this full arc. A describes only the opening assumption, not the main point. B is not stated — the passage does not discuss the amount of heat relative to expectations. C highlights specific organisms as a supporting detail, not the overarching argument.",
+    "distractor_rationale": {
+      "A": "This results from treating the passage's opening sentence (the old assumption) as the main idea rather than as the context the passage immediately overturns.",
+      "B": "This results from associating 'superheated' water with a claim about the quantity of heat that the passage never makes.",
+      "C": "This results from selecting specific organisms mentioned in the passage and elevating a supporting detail to the level of the main argument.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Inference",
+    "difficulty": "Medium",
+    "passage": "When a sports team wins a championship, fans in the team's city often describe the victory using 'we' — 'we won,' 'we played great.' This linguistic pattern, called BIRGing (Basking in Reflected Glory), has been documented by psychologists since the 1970s. Fans also exhibit the reverse: after a loss, they distance themselves linguistically, saying 'they lost' rather than 'we lost.' The phenomenon suggests that people selectively affiliate with successful groups to boost their own self-esteem.",
+    "question": "Based on the passage, it can be inferred that",
+    "choices": {
+      "A": "a fan would be more likely to use 'they' when describing their team after a poor performance",
+      "B": "BIRGing occurs only in professional sports contexts",
+      "C": "psychologists disagree about whether BIRGing improves self-esteem",
+      "D": "fans who attend games in person are less likely to say 'they lost' than those who watch at home"
+    },
+    "correct": "A",
+    "explanation": "The passage explicitly states that after losses, fans say 'they lost' rather than 'we lost,' distancing themselves from failure. A correctly infers that fans are more likely to use 'they' when their team performs poorly. B is not supported — the passage makes no claim about BIRGing being limited to professional sports. C is not supported — the passage presents BIRGing as documented without mentioning debate. D is not supported — attendance is never discussed.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from noting that the passage uses sports examples and incorrectly inferring that BIRGing is limited to professional or any specific type of sports context.",
+      "C": "This results from inferring controversy where the passage presents BIRGing as a documented psychological phenomenon without mentioning any scholarly disagreement.",
+      "D": "This results from introducing physical attendance as a variable when the passage does not mention it as relevant to language choice."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Vocabulary in Context",
+    "difficulty": "Medium",
+    "passage": "The committee's decision to delay the vote was seen as an expedient move rather than a principled one. Several members privately admitted they lacked the political courage to take a public stance before the election. By postponing, they avoided alienating any constituency while preserving the appearance of careful deliberation. Critics argued that the delay was not thoughtful governance but a calculated means of dodging controversy until the political climate became more favorable.",
+    "question": "As used in the passage, the word \"expedient\" most nearly means",
+    "choices": {
+      "A": "quick",
+      "B": "necessary",
+      "C": "convenient and self-serving",
+      "D": "politically neutral"
+    },
+    "correct": "C",
+    "explanation": "In context, 'expedient' describes a decision made not on principle but to avoid political cost — a self-serving convenience. C best captures this meaning. A ('quick') is a common meaning of expedient but misses the moral dimension the passage establishes. B ('necessary') lacks the self-interested quality the passage emphasizes. D ('politically neutral') is the opposite of what the passage describes: the delay was a calculated act of political avoidance.",
+    "distractor_rationale": {
+      "A": "This results from equating 'expedient' with 'quick' — a meaning it sometimes carries — without recognizing the self-serving, unprincipled connotation the passage emphasizes through words like 'calculated' and 'dodging.'",
+      "B": "This results from interpreting the committee's delay as a required political action rather than recognizing the passage's critical framing, which presents it as chosen for self-interest rather than necessity.",
+      "C": "N/A",
+      "D": "This results from misreading the committee's aim of avoiding constituency alienation as political neutrality, when the passage describes the opposite: deliberate avoidance of controversy for political advantage."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Evidence Support",
+    "difficulty": "Medium",
+    "passage": "Proponents of bilingual education argue that learning two languages simultaneously strengthens cognitive skills. Studies have found that bilingual children perform better than monolingual peers on tasks requiring attention switching and mental flexibility. Critics argue that selection bias may be at play — children from families that prioritize bilingual education may already have academic advantages. A 2021 longitudinal study tracked 800 children from similar socioeconomic backgrounds from birth through age ten and still found significant cognitive advantages in the bilingual group.",
+    "question": "Which evidence best addresses the critics' concern about selection bias?",
+    "choices": {
+      "A": "Bilingual children switch attention more efficiently than monolingual peers.",
+      "B": "A longitudinal study controlled for socioeconomic background and still found cognitive advantages.",
+      "C": "Studies show bilingual children outperform monolingual peers on mental flexibility tasks.",
+      "D": "Proponents argue that learning two languages strengthens cognitive skills."
+    },
+    "correct": "B",
+    "explanation": "The critics' specific concern is that bilingual children may have pre-existing advantages from family background, not from language learning itself. The 2021 longitudinal study addresses this directly by controlling for socioeconomic background — removing the confounding variable — and still finding an advantage. B is the only option that responds to the selection bias critique. A and C report findings but don't address whether those findings account for the bias. D is an unsupported assertion, not evidence.",
+    "distractor_rationale": {
+      "A": "This results from selecting a positive finding about bilingual children without checking whether it addresses the specific methodological concern (selection bias) raised by critics.",
+      "B": "N/A",
+      "C": "This results from selecting findings from the earlier studies — the same studies critics already questioned due to selection bias — rather than evidence that controls for that bias.",
+      "D": "This results from selecting advocates' claims rather than empirical evidence designed to respond to the critics' concern."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Author's Purpose",
+    "difficulty": "Medium",
+    "passage": "In the eighteenth century, coffeehouses in London became informal centers of intellectual life. Merchants, politicians, scientists, and writers gathered around the same tables to share newspapers, debate current events, and exchange ideas across social boundaries that would have been unthinkable elsewhere. The philosopher Jürgen Habermas later called such spaces the 'public sphere' — arenas where private citizens could engage in rational debate about common concerns. Some historians argue that the modern concept of democracy owes more to the coffeehouse than to any formal institution.",
+    "question": "The author's primary purpose in this passage is to",
+    "choices": {
+      "A": "critique Jürgen Habermas's concept of the public sphere as historically inaccurate",
+      "B": "argue that coffeehouses should be revived as modern democratic spaces",
+      "C": "describe the layout and daily atmosphere of eighteenth-century London coffeehouses",
+      "D": "illustrate how informal social spaces can carry significant historical and political consequences"
+    },
+    "correct": "D",
+    "explanation": "The passage connects coffeehouses to cross-class intellectual exchange, to the concept of the public sphere, and ultimately to democracy's development — using a specific historical example to make a broader point about the power of informal social spaces. D captures this illustrative-argumentative purpose. A misreads the passage, which invokes Habermas approvingly. B extends the passage's admiration into a prescriptive recommendation it never makes. C is wrong — the passage never describes the physical layout of a coffeehouse.",
+    "distractor_rationale": {
+      "A": "This results from noting Habermas is named in the passage and incorrectly inferring a critical stance, when the passage uses his concept approvingly to support its own argument.",
+      "B": "This results from extending the passage's implicit appreciation for coffeehouses into a prescriptive recommendation the passage does not make.",
+      "C": "This results from the passage's setting (London coffeehouses) leading the reader to mistake a historical argument for a descriptive, atmospheric account.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Data Interpretation",
+    "difficulty": "Medium",
+    "passage": "A researcher measured the relationship between study hours and exam scores for 60 students. Students who studied 0–2 hours averaged 58 points, those who studied 3–5 hours averaged 72 points, those who studied 6–8 hours averaged 81 points, and those who studied 9+ hours averaged 85 points. The researcher noted a strong positive correlation, though the gains decreased as study time increased.",
+    "question": "According to the data, what was the increase in average score from the 0–2 hour group to the 3–5 hour group?",
+    "choices": {
+      "A": "14 points",
+      "B": "9 points",
+      "C": "27 points",
+      "D": "4 points"
+    },
+    "correct": "A",
+    "explanation": "The 0–2 hour group averaged 58 points and the 3–5 hour group averaged 72 points. 72 − 58 = 14 points. B (9 points) is the gain from the 3–5 hour group to the 6–8 hour group (81 − 72). C (27 points) is the total gain from the lowest to the highest group (85 − 58). D (4 points) is the smallest increment, from the 6–8 hour group to the 9+ hour group (85 − 81).",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from computing the increase between the wrong pair of groups — from the 3–5 hour group (72) to the 6–8 hour group (81) — rather than from the 0–2 hour group (58) to the 3–5 hour group (72).",
+      "C": "This results from computing the total range from the lowest-scoring group (58) to the highest-scoring group (85) rather than the first-to-second group increase.",
+      "D": "This results from computing the smallest increment in the dataset — the 6–8 hour group (81) to the 9+ hour group (85) — rather than the increase between the first and second groups."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Main Idea",
+    "difficulty": "Medium",
+    "passage": "Standardized testing has long been controversial in American education. Supporters argue that uniform metrics allow fair comparison across schools and identify students who need support. Critics counter that standardized tests reflect cultural and socioeconomic bias, punish schools in lower-income districts, and reduce teaching to 'teaching to the test.' Recent years have seen a growing number of colleges moving to test-optional admissions policies, questioning whether these exams accurately predict academic success at all.",
+    "question": "The passage is primarily concerned with",
+    "choices": {
+      "A": "defending standardized testing as an essential tool for educational equity",
+      "B": "presenting the ongoing debate over the value and fairness of standardized testing",
+      "C": "explaining why colleges have adopted test-optional policies",
+      "D": "describing the historical origins of standardized testing in the United States"
+    },
+    "correct": "B",
+    "explanation": "The passage presents supporters' arguments and critics' counterarguments, then closes with the test-optional trend — reflecting an unresolved, ongoing debate. B accurately captures this balanced, debate-centered focus. A is wrong — the passage does not advocate for testing; it presents both views. C is too narrow — the test-optional shift is only the final closing detail. D is wrong — no historical origins of standardized testing are discussed.",
+    "distractor_rationale": {
+      "A": "This results from reading the supporters' arguments in isolation rather than recognizing that the passage balances them with an equal presentation of critics' views.",
+      "B": "N/A",
+      "C": "This results from treating the final detail (test-optional admissions) as the passage's primary concern rather than as a closing example of the broader ongoing debate.",
+      "D": "This results from the phrase 'long been controversial' suggesting a historical account, when the passage is structured around a contemporary policy debate rather than historical origins."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Inference",
+    "difficulty": "Medium",
+    "passage": "In the nineteenth century, women in the United States were barred from most professions, could not vote, and had limited legal standing even over their own property. Reformers who challenged these conditions faced significant public ridicule. Yet within fifty years of the first women's rights convention at Seneca Falls in 1848, women had won the right to practice law in several states, gained access to higher education, and built the organizational infrastructure that would culminate in the Nineteenth Amendment in 1920.",
+    "question": "Based on the passage, it can be inferred that",
+    "choices": {
+      "A": "the women's rights movement achieved all of its goals by 1900",
+      "B": "public ridicule effectively slowed the progress of women's rights reformers",
+      "C": "the women's rights movement made significant advances despite facing strong initial opposition",
+      "D": "the Nineteenth Amendment was passed primarily because women gained access to higher education"
+    },
+    "correct": "C",
+    "explanation": "The passage describes strong initial opposition (legal barriers, public ridicule) and then shows substantial achievements within fifty years — legal access to professions, education, and eventually voting rights. C correctly infers that progress was made in spite of opposition. A overstates — the Nineteenth Amendment came in 1920, not within fifty years of 1848 (which would be 1898). B is contradicted by the passage, which shows reform continued despite ridicule. D is an unsupported causal link the passage does not establish.",
+    "distractor_rationale": {
+      "A": "This results from noting that significant advances occurred 'within fifty years of 1848' and incorrectly concluding all goals were met by roughly 1900, when in fact the Nineteenth Amendment — the culminating achievement — was passed in 1920.",
+      "B": "This results from interpreting the mention of 'significant public ridicule' as an effective barrier, when the passage implies the opposite — that reform continued and succeeded despite it.",
+      "C": "N/A",
+      "D": "This results from selecting one factor the passage mentions (access to higher education) and treating it as the primary cause of the Nineteenth Amendment, a causal claim the passage does not make."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Text Structure",
+    "difficulty": "Medium",
+    "passage": "In 2003, a massive power blackout cascaded across the northeastern United States and Canada, leaving 55 million people without electricity. Investigators traced the failure to a software bug in Ohio that prevented operators from receiving accurate system readings. Unable to identify the problem, operators took no action; excess load transferred to neighboring grid segments, each of which failed in turn. The event revealed that complex interdependent systems can fail catastrophically from a single, seemingly minor initial fault.",
+    "question": "How is the passage primarily organized?",
+    "choices": {
+      "A": "Two competing explanations are offered for the same event.",
+      "B": "A scientific principle is introduced and then supported with a historical example.",
+      "C": "An expert opinion is challenged by an alternative interpretation.",
+      "D": "A specific event is described and then used to illustrate a broader principle."
+    },
+    "correct": "D",
+    "explanation": "The passage narrates the 2003 blackout, traces its cause step by step, and ends with a general observation about how complex systems fail from minor initial faults. This is a specific-to-general structure. A is wrong — only one explanation is given. B is wrong — the principle appears at the end as a conclusion drawn from the event, not at the beginning as a premise. C is wrong — no competing interpretation is introduced.",
+    "distractor_rationale": {
+      "A": "This results from noting the cascading chain of failures and inferring that multiple explanations are competing, when in fact the passage presents a single, uncontested causal sequence.",
+      "B": "This results from misidentifying the order of information — the principle about complex systems comes at the end as a conclusion, not at the beginning as a premise being illustrated.",
+      "C": "This results from noting that investigators 'traced' the failure and assuming this implies a challenge to a prior explanation, when the passage presents only one account.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Evidence Support",
+    "difficulty": "Medium",
+    "passage": "Urban heat islands occur when cities absorb and retain more heat than surrounding rural areas due to dark pavement, buildings, and reduced vegetation. Researchers studying ways to cool cities have tested several strategies: planting urban trees, painting rooftops white, and installing green roofs covered with vegetation. A five-year study in Phoenix found that neighborhoods with higher tree canopy coverage recorded average summer temperatures 3°F lower than comparable neighborhoods with minimal tree coverage.",
+    "question": "Which piece of evidence best supports the claim that increasing urban tree coverage can reduce city temperatures?",
+    "choices": {
+      "A": "Neighborhoods with more trees recorded temperatures 3°F lower than those without.",
+      "B": "Cities retain more heat than rural areas due to dark surfaces and reduced vegetation.",
+      "C": "Green roofs and white rooftops are also strategies for reducing urban heat.",
+      "D": "The Phoenix study ran for five years across multiple neighborhoods."
+    },
+    "correct": "A",
+    "explanation": "The specific claim is that tree coverage reduces city temperatures. A directly supports this with measured data: neighborhoods with higher tree canopy were 3°F cooler. B describes why urban heat islands form but does not address the effectiveness of trees. C describes other cooling strategies, not tree coverage. D describes the study's duration and scope but not its measured outcome — the temperature difference.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from selecting evidence about why cities get hot rather than evidence that tree coverage specifically reduces that heat.",
+      "C": "This results from selecting other cooling strategies mentioned alongside trees rather than the evidence specifically about what trees accomplish.",
+      "D": "This results from selecting the study's design details (duration, scope) rather than its outcome — the actual temperature difference measured between neighborhoods."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Data Interpretation",
+    "difficulty": "Medium",
+    "passage": "A marine biologist measured the population of three fish species in a protected reef over four years. Species X went from 1,200 to 1,500 individuals. Species Y went from 800 to 600 individuals. Species Z went from 400 to 700 individuals. The researcher calculated percent change for each species to assess population health across the study period.",
+    "question": "Which species showed the greatest percent increase in population over the four-year period?",
+    "choices": {
+      "A": "Species X",
+      "B": "Species Z",
+      "C": "Species Y",
+      "D": "Species X and Species Z equally"
+    },
+    "correct": "B",
+    "explanation": "Percent change = (new − old) ÷ old × 100. Species X: (1,500 − 1,200) ÷ 1,200 = 300 ÷ 1,200 = 25%. Species Y: (600 − 800) ÷ 800 = −25% (a decline). Species Z: (700 − 400) ÷ 400 = 300 ÷ 400 = 75%. Species Z had the greatest percent increase at 75%. A (Species X) gained the same 300 individuals in absolute terms but only 25%. C (Species Y) declined. D is wrong because 25% ≠ 75%.",
+    "distractor_rationale": {
+      "A": "This results from selecting Species X because it has the largest absolute increase (300 individuals) without dividing by the starting population — missing that Species Z also gained 300 individuals from a smaller base, yielding a much higher percent increase.",
+      "B": "N/A",
+      "C": "This results from confusing an increase with a decrease — Species Y's population fell from 800 to 600, representing a 25% decline, not any increase.",
+      "D": "This results from noting that both Species X and Species Z gained exactly 300 individuals and assuming equal absolute gains produce equal percent changes, without accounting for their different starting populations (1,200 vs. 400)."
+    }
+  }
+]

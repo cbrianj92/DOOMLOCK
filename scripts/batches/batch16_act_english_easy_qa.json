@@ -1,0 +1,178 @@
+[
+  {
+    "exam": "ACT",
+    "subject": "English",
+    "skill": "Subject-Verb Agreement",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "In the sentence \"Either the coach or the players [blank] the game plan before each match,\" which verb form is grammatically correct?",
+    "choices": {
+      "A": "decides, because \"either\" is always singular and governs the verb directly",
+      "B": "decides, because \"coach\" appears first and sets the number for the verb",
+      "C": "decided, because the sentence describes a habitual past action",
+      "D": "decide, because with either/or constructions, the verb agrees with the noun closest to it"
+    },
+    "correct": "D",
+    "explanation": "With either/or constructions, the verb agrees with the subject nearest to it. The noun closest to the verb is 'players,' which is plural, so the verb must be 'decide.' A is wrong — 'either' does not govern verb agreement on its own. B is wrong — proximity, not position, determines agreement. C is wrong — 'each match' signals a habitual present, not past tense.",
+    "distractor_rationale": {
+      "A": "This results from treating 'either' as a singular pronoun that governs the verb directly rather than applying the either/or proximity rule.",
+      "B": "This results from defaulting to the first noun in the sentence (coach) as the subject that controls verb agreement, rather than the noun closest to the verb (players).",
+      "C": "This results from misreading 'each match' as a signal of past habit requiring the past tense rather than a recurring present-tense action.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "English",
+    "skill": "Pronoun Agreement",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "In the sentence \"Each of the students must submit [blank] final essay by Friday,\" which pronoun correctly agrees with the antecedent?",
+    "choices": {
+      "A": "their, because the students are a group and group nouns take plural pronouns",
+      "B": "his or her, because \"each\" is a singular indefinite pronoun requiring a singular pronoun",
+      "C": "its, because \"each\" refers to an unspecified individual",
+      "D": "they're, because it refers to all the students collectively"
+    },
+    "correct": "B",
+    "explanation": "The antecedent is 'each,' a singular indefinite pronoun, so it requires a singular pronoun. 'His or her' is the grammatically correct singular form. A ('their') incorrectly treats 'students' — not 'each' — as the antecedent. C ('its') is used for non-human subjects, not people. D ('they're') is the contraction for 'they are,' a verb phrase, not a possessive pronoun.",
+    "distractor_rationale": {
+      "A": "This results from focusing on 'students' (plural) as the antecedent rather than 'each' (singular), which is the actual subject controlling pronoun agreement.",
+      "B": "N/A",
+      "C": "This results from confusing 'each' with an inanimate subject — 'its' is used for non-human nouns, not for people being referenced by a singular indefinite pronoun.",
+      "D": "This results from confusing the contraction 'they're' (they are) with a possessive pronoun; the sentence requires a possessive form, not a verb phrase."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "English",
+    "skill": "Verb Tense",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "In the sentence \"By the time the guests arrived, the chef [blank] the entire meal,\" which verb form correctly expresses an action completed before another past action?",
+    "choices": {
+      "A": "had prepared, because the meal was finished before the guests arrived, requiring the past perfect",
+      "B": "prepared, because both actions happened in the past and simple past is sufficient",
+      "C": "has prepared, because the meal was recently completed before the guests arrived",
+      "D": "prepares, because the sentence describes a habitual routine at the chef's restaurant"
+    },
+    "correct": "A",
+    "explanation": "When one past action is completed before another past action, the earlier action takes the past perfect (had + past participle). The meal was finished before the guests arrived, so 'had prepared' is correct. B ('prepared') uses simple past for both events, which fails to show which happened first. C ('has prepared') is present perfect, which links a past action to the present — not to an earlier past event. D ('prepares') is present tense, which contradicts the past-tense context.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from using simple past for both events rather than recognizing that when one past action precedes another, the earlier one requires the past perfect (had + past participle) to show sequence.",
+      "C": "This results from confusing the present perfect (has prepared), which connects a past action to the present, with the past perfect (had prepared), which connects an earlier past action to a later past event.",
+      "D": "This results from misreading 'the guests arrived' as a habitual present-tense context rather than recognizing that the sentence describes a specific completed past event."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "English",
+    "skill": "Punctuation",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "Which of the following sentences uses commas correctly?",
+    "choices": {
+      "A": "The meeting was long, but, productive.",
+      "B": "We visited Paris France and Rome Italy on our trip.",
+      "C": "My sister, who lives in Boston, is visiting this weekend.",
+      "D": "She brought, sandwiches, chips, and lemonade to the picnic."
+    },
+    "correct": "C",
+    "explanation": "C correctly uses two commas to set off a non-restrictive relative clause ('who lives in Boston') — information that is parenthetical and not essential to identify the subject. A incorrectly adds a comma after 'but' when 'productive' is simply the adjective complement, not a new clause. B omits required commas after city names in city-country pairs ('Paris, France' and 'Rome, Italy'). D incorrectly inserts a comma between the verb 'brought' and its direct object 'sandwiches.'",
+    "distractor_rationale": {
+      "A": "This results from correctly placing a comma before 'but' as if joining two clauses, but then incorrectly adding a second comma after 'but,' when 'productive' is simply a predicate adjective requiring no punctuation.",
+      "B": "This results from omitting the commas required after city names when city-country pairs are listed in a sentence.",
+      "C": "N/A",
+      "D": "This results from inserting a comma between the verb 'brought' and its direct object 'sandwiches,' which is incorrect — commas do not separate a verb from its object."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "English",
+    "skill": "Transitions",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "Choose the transition word that best fits the blank: \"The experiment was designed carefully; ______, the results were inconclusive.\"",
+    "choices": {
+      "A": "therefore",
+      "B": "additionally",
+      "C": "in other words",
+      "D": "nevertheless"
+    },
+    "correct": "D",
+    "explanation": "The sentence expresses a contrast: careful design did not lead to clear results. 'Nevertheless' (D) correctly signals this unexpected contrast. A ('therefore') signals a cause-and-effect conclusion, implying the inconclusive results followed logically from the careful design — the opposite meaning. B ('additionally') signals addition, not contrast. C ('in other words') signals restatement or clarification, not contrast.",
+    "distractor_rationale": {
+      "A": "This results from selecting a cause-and-effect transition that implies careful design logically produced inconclusive results — the opposite of the contrast the sentence expresses.",
+      "B": "This results from selecting an additive transition that implies the inconclusive results simply add to the information about the careful design, rather than contrasting with what would be expected.",
+      "C": "This results from selecting a clarification transition that implies the second clause restates the first, when inconclusive results are not a restatement of careful design.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "English",
+    "skill": "Sentence Combining",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "Which option best combines these two sentences into one clear sentence? \"The trail was muddy. We decided to turn back.\"",
+    "choices": {
+      "A": "The trail was muddy, we decided to turn back.",
+      "B": "Because the trail was muddy, we decided to turn back.",
+      "C": "The trail was muddy; however, we decided to turn back.",
+      "D": "The trail was muddy, but we decided to turn back."
+    },
+    "correct": "B",
+    "explanation": "The logical relationship between the sentences is causal: the mud caused the decision. 'Because' (B) correctly signals this cause-and-effect relationship. A creates a comma splice by joining two independent clauses with only a comma. C uses 'however,' a contrast transition, when the relationship is causal, not oppositional. D uses 'but,' which signals contrast or obstacle, misrepresenting the cause-and-effect relationship.",
+    "distractor_rationale": {
+      "A": "This results from joining two independent clauses with only a comma, creating a comma splice — independent clauses must be joined by a coordinating conjunction, semicolon, or subordinating conjunction.",
+      "B": "N/A",
+      "C": "This results from selecting 'however,' a contrast transition, when the relationship between the clauses is causal — the muddy trail is the reason for the decision, not an opposing factor.",
+      "D": "This results from selecting 'but,' which signals contrast or opposition, when the muddy trail is the cause of the decision, not an obstacle to a desired outcome."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "English",
+    "skill": "Redundancy & Concision",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "Which version of the underlined portion most concisely expresses the idea without redundancy? \"The new policy will [blank] overtime pay.\"",
+    "choices": {
+      "A": "eliminate",
+      "B": "end and terminate all future",
+      "C": "bring to an end and conclude",
+      "D": "discontinue and stop"
+    },
+    "correct": "A",
+    "explanation": "'Eliminate' (A) is a single precise verb that communicates the complete meaning with no redundancy. B pairs two synonyms ('end' and 'terminate') and adds 'all future,' which is unnecessary because overtime pay is inherently prospective. C pairs 'bring to an end' and 'conclude,' two expressions for the same idea. D pairs 'discontinue' and 'stop,' another redundant synonym pair. All incorrect options use multiple words where one would suffice.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from pairing two synonyms ('end' and 'terminate') and adding the redundant phrase 'all future' — overtime pay is inherently future, so specifying 'all future' adds no information.",
+      "C": "This results from pairing two expressions for the same idea ('bring to an end' and 'conclude'), using a wordy phrase where a single verb would communicate the meaning completely.",
+      "D": "This results from pairing two synonyms ('discontinue' and 'stop') when a single verb communicates the meaning without repetition."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "English",
+    "skill": "Parallel Structure",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "Which sentence uses correct parallel structure?",
+    "choices": {
+      "A": "She enjoys hiking, to swim, and running.",
+      "B": "The report was long, expensive, and poorly being written.",
+      "C": "He is responsible for managing the team, training new staff, and reporting to executives.",
+      "D": "The company aims to reduce costs, improving morale, and that customer service will expand."
+    },
+    "correct": "C",
+    "explanation": "C uses three parallel gerund phrases — managing, training, and reporting — all in the same grammatical form. A mixes forms: two gerunds ('hiking,' 'running') with one infinitive ('to swim'). B mixes two standard adjectives ('long,' 'expensive') with the nonstandard participial phrase 'poorly being written' instead of a parallel adjective. D mixes three incompatible forms: an infinitive phrase ('to reduce costs'), a gerund phrase ('improving morale'), and a noun clause ('that customer service will expand').",
+    "distractor_rationale": {
+      "A": "This results from mixing gerunds ('hiking,' 'running') with an infinitive ('to swim'), which breaks parallel structure — all items in a list must take the same grammatical form.",
+      "B": "This results from mixing standard adjectives ('long,' 'expensive') with the nonstandard phrase 'poorly being written'; a parallel construction would use a simple adjective form such as 'poorly written.'",
+      "C": "N/A",
+      "D": "This results from mixing an infinitive phrase ('to reduce costs'), a gerund phrase ('improving morale'), and a noun clause ('that customer service will expand') — three different grammatical forms where one consistent form is required."
+    }
+  }
+]

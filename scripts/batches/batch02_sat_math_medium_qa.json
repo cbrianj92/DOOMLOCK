@@ -1,0 +1,342 @@
+[
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Linear Equations",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "Line l passes through the points (2, 5) and (4, 11). What is the y-intercept of line l?",
+    "choices": { "A": "-1", "B": "3", "C": "1", "D": "5" },
+    "correct": "A",
+    "explanation": "Slope = (11-5)/(4-2) = 3. Using point-slope with (2,5): y - 5 = 3(x - 2) → y = 3x - 1. The y-intercept is -1.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This is the slope of the line, not the y-intercept. The student found m = 3 correctly but stopped there.",
+      "C": "A sign error when solving for b: 5 = 3(2) + b → 5 = 6 + b → b = -1, but the student wrote +1.",
+      "D": "The student confused the y-coordinate of the given point (2, 5) with the y-intercept of the line. The y-intercept occurs at x = 0, not x = 2."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Linear Equations",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "The sum of three consecutive integers is 51. What is the largest of the three integers?",
+    "choices": { "A": "16", "B": "17", "C": "18", "D": "19" },
+    "correct": "C",
+    "explanation": "Let the integers be n, n+1, n+2. Then n + (n+1) + (n+2) = 3n + 3 = 51, so 3n = 48 and n = 16. The largest integer is n + 2 = 18.",
+    "distractor_rationale": {
+      "A": "This is the smallest integer n = 16, not the largest. The student solved correctly but reported the wrong value.",
+      "B": "This is the middle integer n + 1 = 17. The student found the median of the three rather than the maximum.",
+      "C": "N/A",
+      "D": "This results from finding the middle value (51/3 = 17) and then adding 2, incorrectly treating the middle integer as the smallest."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Systems of Equations",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "If 2x + y = 14 and x + 2y = 13, what is the value of x + y?",
+    "choices": { "A": "5", "B": "9", "C": "4", "D": "27" },
+    "correct": "B",
+    "explanation": "Add the two equations: (2x + y) + (x + 2y) = 14 + 13, giving 3x + 3y = 27. Divide both sides by 3: x + y = 9.",
+    "distractor_rationale": {
+      "A": "This is the value of x alone (x = 5). The student solved for x but did not compute x + y.",
+      "B": "N/A",
+      "C": "This is the value of y alone (y = 4). The student solved for y but did not compute x + y.",
+      "D": "This is 3(x + y) = 27 before dividing by 3. The student added the equations correctly but forgot the final division step."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Systems of Equations",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "At a school fair, children's tickets cost $3 and adult tickets cost $5. A total of 120 tickets were sold for $460. How many adult tickets were sold?",
+    "choices": { "A": "70", "B": "20", "C": "25", "D": "50" },
+    "correct": "D",
+    "explanation": "Let a = adult tickets, c = children's tickets. Then a + c = 120 and 5a + 3c = 460. Substituting c = 120 - a: 5a + 3(120 - a) = 460 → 5a + 360 - 3a = 460 → 2a = 100 → a = 50.",
+    "distractor_rationale": {
+      "A": "This is the number of children's tickets (c = 70), not adult tickets. The student solved the system correctly but reported the wrong variable.",
+      "B": "This results from dividing the remaining money ($100) by the adult ticket price ($5) instead of the price difference ($2): 100 ÷ 5 = 20.",
+      "C": "This results from dividing the remaining money ($100) by the average ticket price ($4): 100 ÷ 4 = 25.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Inequalities",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "How many integer values of x satisfy both x > -2 and 2x - 5 ≤ 7?",
+    "choices": { "A": "7", "B": "9", "C": "8", "D": "6" },
+    "correct": "C",
+    "explanation": "From x > -2, the smallest integer is x = -1. From 2x - 5 ≤ 7: 2x ≤ 12, so x ≤ 6. The integers satisfying both are -1, 0, 1, 2, 3, 4, 5, 6 — a total of 8 values.",
+    "distractor_rationale": {
+      "A": "This results from starting the count at 0 instead of -1, missing that -1 satisfies x > -2: counting 0 through 6 gives 7 values.",
+      "B": "This results from treating x > -2 as x ≥ -2, including -2 in the count: -2 through 6 gives 9 values.",
+      "C": "N/A",
+      "D": "This results from counting only positive integers 1 through 6, ignoring the negative integers that also satisfy the inequalities."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Inequalities",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "For which values of x is 3 - 2x > x - 6?",
+    "choices": { "A": "x < 3", "B": "x > 3", "C": "x < -1", "D": "x > -1" },
+    "correct": "A",
+    "explanation": "Add 6 to both sides and add 2x to both sides: 3 + 6 > x + 2x → 9 > 3x → x < 3.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from solving the inequality correctly but flipping the direction of the inequality sign at the final step without dividing by a negative number.",
+      "C": "This results from subtracting 6 from 3 rather than adding it when rearranging: getting -3 > 3x → x < -1.",
+      "D": "This results from the same arithmetic error as C (getting -3 > 3x) combined with also flipping the inequality sign: x > -1."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Quadratics",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "What is the minimum value of f(x) = x^2 - 6x + 13?",
+    "choices": { "A": "13", "B": "4", "C": "-4", "D": "3" },
+    "correct": "B",
+    "explanation": "Complete the square: x^2 - 6x + 13 = (x^2 - 6x + 9) + 4 = (x - 3)^2 + 4. Since (x - 3)^2 >= 0, the minimum value is 4, reached when x = 3.",
+    "distractor_rationale": {
+      "A": "This is f(0) = 13, the y-intercept of the parabola, not the minimum value.",
+      "B": "N/A",
+      "C": "This results from a sign error when applying the vertex formula: computing -(b^2/4a - c) = -(9 - 13) = -4 rather than c - b^2/4a = 13 - 9 = 4.",
+      "D": "This is the x-coordinate of the vertex, not the minimum value. The student found where the minimum occurs (x = 3) but not what the minimum value is."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Quadratics",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "If x^2 + bx - 12 = 0 has solutions x = 3 and x = -4, what is the value of b?",
+    "choices": { "A": "-1", "B": "-7", "C": "7", "D": "1" },
+    "correct": "D",
+    "explanation": "The quadratic with roots 3 and -4 factors as (x - 3)(x + 4) = x^2 + x - 12, so b = 1. Alternatively, by Vieta's formulas, the sum of the roots equals -b: 3 + (-4) = -1 = -b, giving b = 1.",
+    "distractor_rationale": {
+      "A": "This is the sum of the roots (3 + (-4) = -1), which equals -b, not b. The student applied Vieta's formula but forgot the negation.",
+      "B": "This results from adding the magnitudes of both roots and negating: -(3 + 4) = -7, incorrectly treating both roots as positive before summing.",
+      "C": "This results from adding the magnitudes of both roots without considering their signs: 3 + 4 = 7.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Functions",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "If f(x) = 2x + 1 and g(x) = x^2 - 3, what is the value of f(g(4))?",
+    "choices": { "A": "27", "B": "78", "C": "9", "D": "13" },
+    "correct": "A",
+    "explanation": "First evaluate the inner function: g(4) = 4^2 - 3 = 16 - 3 = 13. Then apply the outer function: f(13) = 2(13) + 1 = 27.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from reversing the composition, computing g(f(4)) instead of f(g(4)): f(4) = 9, then g(9) = 81 - 3 = 78.",
+      "C": "This results from evaluating f(4) = 2(4) + 1 = 9 and stopping, without first applying g to get the input for f.",
+      "D": "This results from evaluating g(4) = 13 and stopping, reporting the intermediate result instead of passing it into f."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Functions",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "The function h is defined by h(x) = (x + 2) / (x - 3). For what value of x is h(x) undefined?",
+    "choices": { "A": "-2", "B": "2", "C": "3", "D": "-3" },
+    "correct": "C",
+    "explanation": "A rational function is undefined when its denominator equals zero. Setting x - 3 = 0 gives x = 3.",
+    "distractor_rationale": {
+      "A": "This results from setting the numerator equal to zero instead of the denominator: x + 2 = 0 gives x = -2.",
+      "B": "This results from correctly setting x - 3 = 0 but making an arithmetic error: writing x = 2 instead of x = 3.",
+      "C": "N/A",
+      "D": "This results from misreading the denominator as x + 3 instead of x - 3, giving x + 3 = 0 → x = -3."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Ratios & Proportions",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "A map uses a scale of 1.5 inches to represent 60 miles. Two cities are 5 inches apart on the map. What is the actual distance between the cities, in miles?",
+    "choices": { "A": "90", "B": "8", "C": "300", "D": "200" },
+    "correct": "D",
+    "explanation": "Set up the proportion: 1.5/60 = 5/x. Cross-multiplying: 1.5x = 300, so x = 200 miles. Equivalently, 1 inch = 40 miles, and 5 × 40 = 200.",
+    "distractor_rationale": {
+      "A": "This results from multiplying the two scale values together (1.5 × 60 = 90) without using the 5-inch map distance.",
+      "B": "This results from finding the correct unit rate (40 miles per inch) but then dividing by 5 instead of multiplying: 40 ÷ 5 = 8.",
+      "C": "This results from ignoring the 1.5-inch denominator and treating the scale as 1 inch = 60 miles: 5 × 60 = 300.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Ratios & Proportions",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "A mixture is made by combining salt and water in a ratio of 2:7. If 18 grams of salt are used, how many grams does the total mixture weigh?",
+    "choices": { "A": "63", "B": "81", "C": "18", "D": "126" },
+    "correct": "B",
+    "explanation": "The ratio 2:7 means the mixture has 2 + 7 = 9 total parts. Since 18 grams of salt corresponds to 2 parts, each part = 9 grams. Total mixture = 9 parts × 9 grams = 81 grams.",
+    "distractor_rationale": {
+      "A": "This is the weight of the water only (7 parts × 9 grams = 63 grams), not the total mixture.",
+      "B": "N/A",
+      "C": "This is the weight of the salt alone. The student reported one component rather than the total.",
+      "D": "This results from multiplying the salt amount directly by the water's ratio value without first finding the unit: 18 × 7 = 126."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Percentages",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "A store marks up the wholesale price of an item by 40%, then offers a 25% discount on the marked-up price. What is the net percent change from the original wholesale price?",
+    "choices": { "A": "15%", "B": "-15%", "C": "5%", "D": "10%" },
+    "correct": "C",
+    "explanation": "After the 40% markup: price = 1.40 × original. After the 25% discount: 1.40 × 0.75 = 1.05 × original. The net change is +5%.",
+    "distractor_rationale": {
+      "A": "This results from subtracting the discount percent from the markup percent as plain integers: 40 - 25 = 15%.",
+      "B": "This results from subtracting in the reverse order: 25 - 40 = -15%.",
+      "C": "N/A",
+      "D": "This results from multiplying the two percentages directly: 40% × 25% = 10%, which is not a valid way to combine sequential percent changes."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Percentages",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "A town's population increased by 20% over the first decade and then decreased by 20% over the second decade. What is the overall percent change in population after both decades?",
+    "choices": { "A": "-4%", "B": "0%", "C": "4%", "D": "-40%" },
+    "correct": "A",
+    "explanation": "After the 20% increase: 1.20P. After the 20% decrease applied to the new value: 1.20 × 0.80 × P = 0.96P. The net change is -4%.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from assuming that equal percentage increases and decreases cancel out. They do not, because the 20% decrease is applied to the larger post-increase value.",
+      "C": "This results from correctly computing the 4% magnitude but reporting it as a gain rather than a loss.",
+      "D": "This results from subtracting the decimal multipliers: 0.80 - 1.20 = -0.40, misinterpreting this as -40%."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Statistics & Data",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "In a dataset of 7 numbers, the median is 15, the mean is 16, and the range is 14. If the smallest value is 8, what is the largest value?",
+    "choices": { "A": "29", "B": "30", "C": "14", "D": "22" },
+    "correct": "D",
+    "explanation": "Range = largest - smallest, so largest = smallest + range = 8 + 14 = 22. The median and mean are not needed to answer this question.",
+    "distractor_rationale": {
+      "A": "This results from adding the range to the median instead of to the smallest value: 15 + 14 = 29.",
+      "B": "This results from adding the range to the mean instead of to the smallest value: 16 + 14 = 30.",
+      "C": "This results from reporting the range itself (14) as the largest value, rather than adding it to the smallest value.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Statistics & Data",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "The number of books read by students in a class is: 1 book (4 students), 2 books (6 students), 3 books (3 students), 4 books (2 students). What is the mean number of books read per student?",
+    "choices": { "A": "2", "B": "2.2", "C": "2.5", "D": "6" },
+    "correct": "B",
+    "explanation": "Weighted sum: 1(4) + 2(6) + 3(3) + 4(2) = 4 + 12 + 9 + 8 = 33. Total students: 4 + 6 + 3 + 2 = 15. Mean = 33 ÷ 15 = 2.2.",
+    "distractor_rationale": {
+      "A": "This is the mode (2 books, the most common value) and also the median. The student found the wrong measure of center.",
+      "B": "N/A",
+      "C": "This results from averaging the four book-count values without weighting by frequency: (1+2+3+4)/4 = 2.5.",
+      "D": "This is the highest frequency (6 students read 2 books), not the mean number of books."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Geometry",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "A right triangle has legs of length 6 and 8. A square is drawn with the hypotenuse of the triangle as one of its sides. What is the area of the square?",
+    "choices": { "A": "100", "B": "50", "C": "196", "D": "24" },
+    "correct": "A",
+    "explanation": "By the Pythagorean theorem, hypotenuse = sqrt(6^2 + 8^2) = sqrt(36 + 64) = sqrt(100) = 10. Area of the square = 10^2 = 100.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from dividing the sum of squares by 2 instead of taking its square root: (36 + 64) / 2 = 50.",
+      "C": "This results from adding the two legs to find the hypotenuse instead of using the Pythagorean theorem: 6 + 8 = 14, then 14^2 = 196.",
+      "D": "This is the area of the triangle (0.5 × 6 × 8 = 24), not the area of the square on the hypotenuse."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Geometry",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "A circle has a circumference of 20π. What is the area of the circle?",
+    "choices": { "A": "20π", "B": "10π", "C": "100π", "D": "400π" },
+    "correct": "C",
+    "explanation": "Circumference C = 2πr, so 20π = 2πr → r = 10. Area = πr^2 = π(10)^2 = 100π.",
+    "distractor_rationale": {
+      "A": "This is the circumference itself. The student reported the given value rather than converting to area.",
+      "B": "This results from using the radius directly in the area formula without squaring it: π × 10 = 10π.",
+      "C": "N/A",
+      "D": "This results from squaring the circumference coefficient rather than the radius: π × 20^2 = 400π."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Word Problems",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "Together, Maria and Carlos have 48 books. Maria has 6 more than twice the number Carlos has. How many books does Maria have?",
+    "choices": { "A": "14", "B": "34", "C": "42", "D": "27" },
+    "correct": "B",
+    "explanation": "Let c = Carlos's books. Then Maria's books m = 2c + 6, and m + c = 48. Substituting: (2c + 6) + c = 48 → 3c = 42 → c = 14. Maria has 2(14) + 6 = 34 books.",
+    "distractor_rationale": {
+      "A": "This is the number of books Carlos has (c = 14). The student solved the system correctly but reported the wrong person's count.",
+      "B": "N/A",
+      "C": "This is 3c = 42, the equation before dividing by 3. The student stopped one step early and reported the intermediate value.",
+      "D": "This results from adding the extra 6 to the total and dividing by 2: (48 + 6) / 2 = 27, using an incorrect averaging approach."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Word Problems",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "A train travels from City A to City B at 40 mph, then returns at 60 mph. What is the train's average speed for the entire round trip, in mph?",
+    "choices": { "A": "50", "B": "100", "C": "40", "D": "48" },
+    "correct": "D",
+    "explanation": "Let d = one-way distance. Total distance = 2d. Total time = d/40 + d/60 = 3d/120 + 2d/120 = 5d/120. Average speed = 2d ÷ (5d/120) = 240/5 = 48 mph.",
+    "distractor_rationale": {
+      "A": "This is the arithmetic average of the two speeds: (40 + 60)/2 = 50. This is incorrect because more time is spent traveling at the slower speed.",
+      "B": "This results from adding the two speeds: 40 + 60 = 100, confusing the sum with the average.",
+      "C": "This is the slower of the two speeds. The student may have assumed the slower leg determines the overall average.",
+      "D": "N/A"
+    }
+  }
+]

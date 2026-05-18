@@ -1,0 +1,332 @@
+[
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Main Idea",
+    "difficulty": "Hard",
+    "passage": "The notion that ancient peoples were fundamentally less rational than modern humans persists despite abundant counter-evidence. Cave paintings from 40,000 years ago display sophisticated spatial reasoning. Neolithic astronomical alignments required systematic, multi-year observation. Mathematical logic embedded in Egyptian land surveys rivals contemporary applied geometry. What modern observers frequently misread as superstition often proves to be ritual encoding practical knowledge systems. The source of error, the evidence suggests, lies not in ancient cognition but in the interpretive frameworks modern scholarship imposes on unfamiliar evidence.",
+    "question": "Which of the following best captures the passage's central argument?",
+    "choices": {
+      "A": "Ancient humans possessed artistic and mathematical abilities far superior to those of modern humans.",
+      "B": "Modern researchers have deliberately distorted evidence of ancient intelligence for cultural and ideological reasons.",
+      "C": "Ancient ritual and symbolic practices were primarily vehicles for transmitting practical survival knowledge.",
+      "D": "The perceived irrationality of ancient peoples reflects flaws in modern interpretive frameworks rather than in ancient cognition itself."
+    },
+    "correct": "D",
+    "explanation": "The passage's final and culminating sentence explicitly places the error in 'the interpretive frameworks modern scholarship imposes on unfamiliar evidence,' not in ancient cognition. D reflects this precisely. A inverts the argument — the passage argues for parity and against the rationality hierarchy, not for ancient superiority. B introduces deliberate distortion, which the passage does not assert; the error described is interpretive, not intentional. C describes one supporting detail (ritual encoding practical knowledge) but mistakes it for the central argument, which is about the source of modern misunderstanding.",
+    "distractor_rationale": {
+      "A": "This results from misreading the passage's argument that ancient cognitive ability was underestimated as a claim that ancient people surpassed modern humans, reversing the direction of comparison the passage actually makes.",
+      "B": "This results from misreading 'interpretive frameworks' as deliberate ideological distortion, when the passage implies this is an unexamined methodological error rather than an intentional act.",
+      "C": "This results from elevating one illustrative detail ('ritual embedded in practical knowledge systems') to the status of the passage's central argument, missing the broader point about flawed modern interpretive frameworks.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Main Idea",
+    "difficulty": "Hard",
+    "passage": "Economists have long assumed that providing workers greater autonomy increases productivity — yet a growing body of field studies complicates this picture. In structured manufacturing environments, workers given broad workflow discretion showed higher job satisfaction but no improvement in output. In creative industries, autonomy correlated with productivity only when paired with clear performance metrics. The pattern that emerges is not that autonomy is productive or unproductive in itself, but that its effects depend entirely on how accountability is structured alongside it — a nuance most managerial frameworks fail to capture.",
+    "question": "Which of the following best states the central claim of this passage?",
+    "choices": {
+      "A": "Workplace autonomy consistently suppresses productivity in manufacturing environments and should be curtailed.",
+      "B": "The relationship between autonomy and productivity is not inherent but depends on how accountability is structured alongside it.",
+      "C": "Workers in creative industries are inherently more productive than workers in structured manufacturing environments.",
+      "D": "Economists overvalued workplace autonomy because they failed to study manufacturing contexts before forming their consensus."
+    },
+    "correct": "B",
+    "explanation": "The passage's concluding sentence explicitly states that the effect of autonomy 'depends entirely on how accountability is structured alongside it.' B captures this conditional relationship. A overstates and distorts — manufacturing workers showed no improvement in output (not a reduction), and the passage does not recommend curtailing autonomy. C is not argued — the passage compares autonomy effects across industries, not overall worker productivity levels. D misidentifies the economists' error; the passage says field studies 'complicate' a general assumption, not that a specific industry was overlooked.",
+    "distractor_rationale": {
+      "A": "This results from misreading 'no improvement in output' in manufacturing as evidence of a reduction in productivity, and then converting the descriptive finding into a policy prescription the passage never makes.",
+      "B": "N/A",
+      "C": "This results from reading the creative industry finding (autonomy correlated with productivity when paired with metrics) as a claim about inherently higher creative worker productivity, when the passage only describes a conditional relationship between autonomy, accountability, and output.",
+      "D": "This results from misidentifying the economists' error as a sampling problem (studying wrong industries) rather than the more precise claim the passage makes: that they missed the moderating role of accountability structure."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Main Idea",
+    "difficulty": "Hard",
+    "passage": "For most of the twentieth century, the Sapir-Whorf hypothesis — the claim that language shapes thought — was dismissed by mainstream linguistics as philosophically interesting but empirically unsupported. Recent experimental work has reframed the debate. Studies show that speakers of languages without spatial reference terms like 'left' and 'right' navigate differently than English speakers, using cardinal directions instead. These findings do not confirm the strong form of the hypothesis — that language determines thought — but do suggest that linguistic structure influences certain cognitive strategies in measurable ways.",
+    "question": "Which of the following best states the main point the passage is making?",
+    "choices": {
+      "A": "Recent evidence partially rehabilitates the idea that language influences thought, though not in the absolute form originally proposed.",
+      "B": "The Sapir-Whorf hypothesis has been conclusively proven by experiments involving spatial navigation and language structure.",
+      "C": "Speakers of all languages develop equivalent cognitive strategies despite surface-level differences in vocabulary.",
+      "D": "Mainstream linguistics was correct to dismiss the Sapir-Whorf hypothesis until experimental methods became sufficiently rigorous."
+    },
+    "correct": "A",
+    "explanation": "The passage presents a carefully qualified position: the strong form is not confirmed, but recent evidence 'does suggest' measurable linguistic influence on cognition. A captures this nuanced partial rehabilitation. B overstates — 'conclusively proven' contradicts 'do not confirm the strong form.' C is directly contradicted by the navigation example, which shows speakers of different languages do develop different cognitive strategies. D is contradicted by the passage, which says recent work 'reframed the debate,' implying the earlier dismissal was premature rather than permanently valid.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from reading 'recent experimental work has reframed the debate' as confirmation of the hypothesis, when the passage explicitly states the findings do not confirm the hypothesis in its strong form.",
+      "C": "This results from misreading the passage as arguing for linguistic universalism — the opposite of its actual point — perhaps by focusing on the word 'dismissed' and inferring the passage sides with the dismissers.",
+      "D": "This results from misreading the passage's historical framing (hypothesis was dismissed) as the author's own endorsement of that dismissal, when the passage goes on to describe evidence that complicates the dismissal."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Inference",
+    "difficulty": "Hard",
+    "passage": "The city of Portview built a new waterfront park on reclaimed industrial land. The park opened with twelve food vendors, a performance stage, and an accessible fishing pier. One year after opening, the city's survey showed that 78% of visitors came specifically for programmed events — concerts and festivals — rather than for passive recreation. The city's parks department subsequently allocated 60% of its annual maintenance budget to event infrastructure and reduced general landscaping funds by 40%.",
+    "question": "What can be most reasonably inferred from the combination of the survey result and the subsequent budget reallocation?",
+    "choices": {
+      "A": "The parks department determined that passive recreation areas held no value for any segment of the park's visitor population.",
+      "B": "The parks department was required by municipal law to redirect maintenance funds in proportion to visitor survey results.",
+      "C": "The budget reallocation was driven primarily by the survey finding that most visitors prioritize programmed events over passive amenities.",
+      "D": "Food vendors and the fishing pier generated more operating revenue than the performance stage infrastructure."
+    },
+    "correct": "C",
+    "explanation": "The passage presents the survey result (78% came for events) and the budget decision (60% to event infrastructure, 40% cut to landscaping) in direct sequence, establishing a logical causal link. C correctly identifies that the budget followed the survey's finding about visitor priorities. A overstates — 22% of visitors came for passive recreation, so the passage does not support a conclusion that no visitors value it. B invents a legal requirement not mentioned anywhere in the passage. D is speculation about revenue from specific amenities that the passage never addresses.",
+    "distractor_rationale": {
+      "A": "This results from misreading 'reduced general landscaping funds' as evidence that passive recreation was completely devalued, when the passage only describes a reduction, not elimination, and 22% of visitors still use passive facilities.",
+      "B": "This results from imposing a legal-compliance explanation for the budget decision that is not supported by any language in the passage, when the sequence of events points to a data-driven administrative decision.",
+      "C": "N/A",
+      "D": "This results from introducing a revenue-generation rationale for the budget reallocation that is not mentioned or implied anywhere in the passage, which describes visitor preference, not financial returns from different facilities."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Inference",
+    "difficulty": "Hard",
+    "passage": "Iron supplementation programs in developing nations have produced measurable improvements in cognitive test scores among children previously showing signs of deficiency. However, the same programs applied to non-deficient children have shown no cognitive benefit and, in some cases, modest negative effects on growth markers. International nutrition organizations have continued recommending universal supplementation programs without stratifying by deficiency status. Critics have described this as a case of policy outpacing the evidence.",
+    "question": "What does the passage most strongly imply about the international nutrition organizations' approach?",
+    "choices": {
+      "A": "Their programs have caused widespread and severe harm to non-deficient children in developing nations.",
+      "B": "They have intentionally ignored evidence about non-deficient children to protect existing funding arrangements.",
+      "C": "Their policies are more cautious and targeted than the existing evidence actually warrants.",
+      "D": "Their universal recommendation fails to account for evidence that the intervention benefits only deficient children."
+    },
+    "correct": "D",
+    "explanation": "The passage establishes a clear gap: the evidence shows benefits only for deficient children, while the organizations recommend universal programs without distinguishing by deficiency status. D accurately describes this mismatch. A overstates — the passage mentions 'modest negative effects on growth markers,' not widespread severe harm. B invents deliberate deception not implied by the passage, which describes the situation as policy outpacing evidence — a lag, not intentional suppression. C is the opposite of what the passage implies: the organizations' universal approach is less targeted than the evidence justifies, making their policy too broad, not too cautious.",
+    "distractor_rationale": {
+      "A": "This results from misreading 'modest negative effects on growth markers' as evidence of widespread severe harm, dramatically overstating both the scope and severity described in the passage.",
+      "B": "This results from misreading 'policy outpacing evidence' as evidence of intentional deception or self-interest, when the phrase describes a temporal lag between evidence accumulation and policy updating rather than deliberate suppression.",
+      "C": "This results from misreading the direction of the policy problem — the organizations are being too broad and untargeted, not too cautious; their policy covers more people than the evidence supports rather than fewer.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Vocabulary in Context",
+    "difficulty": "Hard",
+    "passage": "The geologist's report on the bedrock formation was characteristically spare: three pages where colleagues typically produced fifteen. She included no speculation, no survey of the existing literature, and nothing that could not be independently verified from field measurements. When a junior researcher asked why the report lacked context, she replied that context not derivable from data was, in her view, an indulgence the science could not afford. Her colleagues described her style as rigorous; her critics called it impoverished.",
+    "question": "As used in the passage, \"spare\" most nearly means",
+    "choices": {
+      "A": "available and held in reserve for future use",
+      "B": "minimal and stripped of all non-essential content",
+      "C": "lenient or merciful in evaluating others' work",
+      "D": "careful and protective of limited research resources"
+    },
+    "correct": "B",
+    "explanation": "The passage uses 'spare' to describe a three-page report where fifteen pages were typical — a report with no speculation, no literature survey, and nothing beyond independently verifiable data. This is a document stripped to bare essentials. B matches this meaning. A (held in reserve) is the most common everyday meaning of 'spare' (as in 'spare key') but does not fit the context of describing a report's character. C (lenient/merciful) is another common meaning of 'spare' (as in 'spare someone') that clearly does not apply. D (careful with resources) reflects the word 'sparing' rather than 'spare' and is not the sense used here.",
+    "distractor_rationale": {
+      "A": "This results from selecting the most familiar everyday meaning of 'spare' (a spare tire, spare room) without recognizing that in this context it describes the style of the report, not a quantity held in reserve.",
+      "B": "N/A",
+      "C": "This results from selecting the 'to spare someone' meaning of spare (to show leniency or mercy), which is a valid English use but clearly does not fit the description of a technical geological report.",
+      "D": "This results from confusing 'spare' with 'sparing' — the related adjective meaning careful not to waste — rather than recognizing that 'spare' here means minimal and unadorned in its own content."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Vocabulary in Context",
+    "difficulty": "Hard",
+    "passage": "Critics of the new urban transit proposal were quick to label it quixotic — a grand vision with no realistic funding mechanism and no political coalition behind it. The proposal's author, however, pointed to analogous projects that had seemed equally impractical at their conception and were now operating successfully. She argued that what critics called impracticality was simply unfamiliarity with a new model, and that the proposal's idealism was a feature rather than a defect of forward-looking infrastructure planning.",
+    "question": "As used in the passage, \"quixotic\" most nearly means",
+    "choices": {
+      "A": "impractically idealistic in a way that disregards realistic constraints",
+      "B": "deliberately misleading or strategically deceptive in presentation",
+      "C": "innovative but insufficiently detailed in its technical and financial specifications",
+      "D": "ideologically motivated and opposed by entrenched political interests"
+    },
+    "correct": "A",
+    "explanation": "'Quixotic' (from the literary character Don Quixote) means pursuing grand ideals without regard for practical limitations. The critics use it to describe a vision with 'no realistic funding mechanism and no political coalition' — an impractical dream. The passage confirms the idealism-versus-practicality framing when the author argues that the 'proposal's idealism was a feature rather than a defect.' A captures this. B (deliberately deceptive) is entirely unrelated — critics challenge feasibility, not honesty. C (insufficiently detailed) describes a different problem than the passage identifies, which is lack of funding and political support. D (opposed by corrupt interests) introduces political opposition as the defining feature, when the critics' concern is about the proposal's own lack of feasibility.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from misreading 'quixotic' as related to deception or dishonesty, when the critics' objection is about the proposal's feasibility, not its truthfulness.",
+      "C": "This results from associating 'quixotic' with incompleteness or poor planning rather than with impractical idealism — the critics specifically cite the absence of funding and political coalitions, not insufficient technical detail.",
+      "D": "This results from confusing the absence of a political coalition (a weakness of the proposal's support structure) with opposition from entrenched interests (an external force working against it), when the passage describes the proposal's own lack of resources, not resistance from others."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Evidence Support",
+    "difficulty": "Hard",
+    "passage": "A behavioral study found that students who spent an hour reading fiction before a conflict-resolution exercise showed significantly greater empathy in their responses than students who read nonfiction or a personal finance article. The researchers argued that fiction — not reading itself — activated perspective-taking skills. A follow-up study using the same design but replacing fiction with long-form journalism about real people's personal narratives produced empathy scores comparable to the fiction group.",
+    "question": "A student claims the researchers' conclusion — that fiction specifically drives the empathy effect — is challenged by the follow-up study. Which statement best explains why the follow-up challenges this conclusion?",
+    "choices": {
+      "A": "The follow-up used long-form journalism, which is nonfiction, and nonfiction was already tested in the original study.",
+      "B": "The follow-up study used the same experimental design as the original, which ensures both studies are equally methodologically reliable.",
+      "C": "The follow-up suggests that personal narrative content — rather than fictional form specifically — may be the active factor driving the empathy effect.",
+      "D": "The follow-up confirmed the original findings because its empathy scores were comparable to the fiction group, which validates the researchers' conclusion."
+    },
+    "correct": "C",
+    "explanation": "The follow-up replaced fiction with long-form journalism about real people's personal narratives and produced comparable empathy scores. If fiction specifically caused empathy, a nonfiction text should not have matched it. The fact that it did suggests the active ingredient may be personal narrative content, regardless of whether it is fictional or not — challenging the 'fiction specifically' claim. C captures this. A is misleading: the original nonfiction control was a finance article, not personal narrative journalism — a meaningfully different type of nonfiction, so the follow-up is not redundant. B addresses methodological equivalence, not the interpretive challenge. D misreads 'comparable scores with a different treatment' as confirmation of the original claim, when it actually undermines it.",
+    "distractor_rationale": {
+      "A": "This results from categorizing both the original nonfiction control and the follow-up journalism as simply 'nonfiction,' ignoring the meaningful difference between a personal finance article and long-form personal narrative journalism — a distinction that matters for what was being tested.",
+      "B": "This results from confusing methodological consistency (same design = comparable reliability) with interpretive implication, when the question asks why the follow-up's result challenges the researchers' conclusion rather than whether the study was well-designed.",
+      "C": "N/A",
+      "D": "This results from misreading comparable scores as confirmation of the original hypothesis — the logic inverts the actual implication: if a nonfiction text produces the same empathy as fiction, it suggests fiction is not the uniquely necessary condition the researchers claimed."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Evidence Support",
+    "difficulty": "Hard",
+    "passage": "A pharmaceutical company claimed its new medication reduced migraine frequency by 40% compared to placebo. Independent researchers noted that trial participants could identify whether they received the active drug due to its distinctive side effects, raising concerns about placebo unblinding. The company countered that subjective reports were validated by objective neuroimaging: participants who received the drug showed decreased activity in known migraine-associated brain regions. The independent researchers maintained that neuroimaging results could themselves be subject to response bias in open-label conditions.",
+    "question": "A student argues that the neuroimaging data strengthens confidence in the drug's effectiveness because it provides objective evidence beyond self-reporting. Which detail from the passage most directly challenges this argument?",
+    "choices": {
+      "A": "The drug reduced migraine frequency by 40% compared to placebo.",
+      "B": "Trial participants could identify whether they received the active drug due to its side effects.",
+      "C": "Independent researchers were the first to raise the concern about placebo unblinding in the trial.",
+      "D": "Independent researchers maintained that neuroimaging results could themselves be subject to response bias in open-label conditions."
+    },
+    "correct": "D",
+    "explanation": "The student's claim is that neuroimaging is objective evidence that transcends the self-reporting problem. D directly counters this by stating that independent researchers argued neuroimaging too can be affected by response bias in open-label conditions — meaning the 'objectivity' of brain scans does not automatically protect them from the same expectation effects that distort self-reports. A restates the effectiveness claim being supported, not challenged. B establishes the original blinding concern but does not specifically address whether neuroimaging is also susceptible to it. C identifies who raised the concern without capturing the specific challenge to neuroimaging's claimed objectivity.",
+    "distractor_rationale": {
+      "A": "This results from selecting the headline claim being defended rather than evidence that challenges it — the 40% figure is part of the argument the student is making, not a challenge to any aspect of that argument.",
+      "B": "This results from selecting the detail that established the original blinding problem for self-reports, without recognizing that this does not address the student's specific claim that neuroimaging offers an objective alternative immune to that problem.",
+      "C": "This results from selecting a detail about attribution (who raised the concern) rather than the substantive content of the challenge, which is the specific argument that neuroimaging is also susceptible to response bias.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Author's Purpose",
+    "difficulty": "Hard",
+    "passage": "Lewis Carroll's Alice in Wonderland is typically categorized as children's literature, yet its internal logic subverts nearly every convention of the genre as Carroll knew it. Victorian children's books were earnest vehicles for moral instruction; Carroll's text is deliberately amoral, rewarding neither virtue nor wickedness. Its authority figures are arbitrary and absurd. Its rules change without explanation. Scholars who approach it primarily as whimsy miss the degree to which the text is a sustained satirical critique of Victorian institutional authority — encoded in a form adults would dismiss as mere entertainment.",
+    "question": "The author's primary purpose in writing this passage is to",
+    "choices": {
+      "A": "challenge the dominant classification of Alice in Wonderland and argue that it functions as coded social satire",
+      "B": "argue that Victorian children's literature was systematically used as a vehicle for political indoctrination",
+      "C": "demonstrate that Carroll's text fails as children's literature because it lacks the moral instruction the genre required",
+      "D": "survey the range of scholarly interpretations of Alice in Wonderland across different critical traditions"
+    },
+    "correct": "A",
+    "explanation": "The author argues that the children's literature classification misses the text's real function — sustained satirical critique of institutional authority disguised as entertainment. A captures this reframing of the classification. B overextends the argument to all Victorian children's literature, when the passage only discusses Carroll's subversion of that genre. C misreads the argument: the author celebrates the text's amorality as intentional satirical design, not failure. D overstates the scope; the author presents one interpretive argument, noting that scholars who read it as 'whimsy' miss the deeper layer — this is an argument, not a survey of multiple scholarly positions.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from misreading the passage's description of Victorian children's books as moral instruction vehicles as an argument about political indoctrination across the genre, when the passage uses this context only to sharpen the contrast with Carroll's deliberate subversion.",
+      "C": "This results from misreading the author's tone as critical of Carroll's amorality, when the author's final sentence — describing the text as 'a sustained satirical critique... encoded in a form adults would dismiss' — frames the amorality as a sophisticated strategic choice, not a failure.",
+      "D": "This results from misreading 'scholars who approach it primarily as whimsy' as the introduction of a scholarly debate with multiple sides, when the author presents this only as the dominant view being corrected, not as a position among equals."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Author's Purpose",
+    "difficulty": "Hard",
+    "passage": "Popular representations of the scientific method depict a linear sequence: hypothesis, experiment, conclusion. Practicing scientists, however, describe something far messier — years of inconclusive results, experiments run before hypotheses are clearly formed, conclusions revised after publication. Science studies scholars argue that the clean linear model serves a rhetorical function: it makes scientific knowledge appear more systematic and authoritative than the actual process warrants. This does not mean scientific conclusions are unreliable, but it does suggest that public confidence in science rests partly on a carefully maintained fiction about how science works.",
+    "question": "The author's primary purpose in writing this passage is to",
+    "choices": {
+      "A": "argue that the scientific method is fundamentally flawed and produces conclusions that cannot be trusted",
+      "B": "explain why individual scientists choose to present their methods as more linear than they actually experienced them",
+      "C": "reveal a gap between the public image of scientific process and its actual practice, and analyze what that gap accomplishes",
+      "D": "summarize science studies scholars' finding that the scientific community deliberately deceives the public about research methodology"
+    },
+    "correct": "C",
+    "explanation": "The passage moves from exposing the gap (linear model vs. messy reality) to analyzing what the gap does (rhetorical function of appearing systematic and authoritative), concluding that public confidence rests on a 'carefully maintained fiction.' C captures both the revelation and the functional analysis. A overstates — the passage explicitly says 'this does not mean scientific conclusions are unreliable.' B misidentifies the purpose as explaining individual scientists' motives rather than analyzing the structural rhetorical function of the linear model. D introduces 'deliberately deceives,' which implies intentional dishonesty; the passage frames this as a structural rhetorical function, not conscious deception by individuals.",
+    "distractor_rationale": {
+      "A": "This results from misreading the critique of the linear model's accuracy as a general attack on scientific reliability, when the passage explicitly distinguishes between how science is represented and whether its conclusions can be trusted.",
+      "B": "This results from misidentifying the passage's subject as individual scientists' rhetorical choices rather than the structural rhetorical function of the linear model as a widespread public-facing representation of science.",
+      "C": "N/A",
+      "D": "This results from misreading 'carefully maintained fiction' as evidence of deliberate collective deception, when the passage describes this as a structural feature of public science communication rather than an intentional coordinated act by the scientific community."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Text Structure",
+    "difficulty": "Hard",
+    "passage": "Arguing that social media causes political polarization requires more care than the evidence typically receives. Studies consistently show that heavy social media users are more partisan than light users or non-users. But the inference that social media causes this correlation ignores a competing explanation: highly partisan individuals may simply be more drawn to social media in the first place. Some longitudinal studies that controlled for prior partisanship found no significant effect of increased social media use on subsequent polarization levels.",
+    "question": "How is this passage primarily organized?",
+    "choices": {
+      "A": "A research consensus is presented and then defended against an emerging challenge from longitudinal studies.",
+      "B": "A common causal claim is introduced, an alternative explanation is offered, and evidence supporting the alternative is cited.",
+      "C": "Two conflicting studies on social media and polarization are presented and their methodological differences evaluated.",
+      "D": "A list of correlations between social media use and partisan behavior is assembled and interpreted as evidence of a causal relationship."
+    },
+    "correct": "B",
+    "explanation": "The passage: (1) presents a common claim ('social media causes polarization'), (2) offers an alternative explanation (partisan individuals self-select into heavy social media use), and (3) cites longitudinal evidence consistent with the alternative (no effect when prior partisanship is controlled). B maps precisely to this structure. A inverts the direction — the passage questions the consensus rather than defending it. C overstates: the passage describes two patterns of studies but does not compare their methodologies in any detail. D misrepresents the structure — the passage critiques a single correlation as potentially spurious rather than assembling multiple correlations to build a causal case.",
+    "distractor_rationale": {
+      "A": "This results from misreading the passage's argumentative direction — the consensus being questioned is 'social media causes polarization,' which the author challenges rather than defends; the longitudinal evidence appears as support for the alternative, not a challenge to the author's position.",
+      "B": "N/A",
+      "C": "This results from noting that the passage mentions two types of studies (correlational and longitudinal) and inferring that they are being compared methodologically, when the passage only describes what each type found without evaluating their methodological differences.",
+      "D": "This results from misreading the opening description of the correlation finding (heavy users are more partisan) as the author's own causal argument, when the author immediately introduces it as a claim requiring more careful scrutiny."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Text Structure",
+    "difficulty": "Hard",
+    "passage": "One could reasonably argue that space exploration funding is a luxury the world cannot afford while billions lack clean water and adequate healthcare. The counterpoint, however, is not merely rhetorical: satellite technology derived from space programs monitors crop failures, tracks disease spread, and guides aid distribution to disaster zones. The same budget that launches a mission also funds the communication infrastructure enabling coordinated international humanitarian response. The binary choice between space exploration and humanitarian investment is, on closer examination, a false one.",
+    "question": "How does the author structure this passage?",
+    "choices": {
+      "A": "A claim is made, supporting evidence is provided, and a conclusion affirming that claim is reached.",
+      "B": "Two equally valid and irreconcilable positions on space exploration funding are presented without resolution.",
+      "C": "A series of examples of space program benefits is listed and then connected to humanitarian outcomes.",
+      "D": "A plausible opposing argument is acknowledged, countered with evidence, and then identified as a false dilemma."
+    },
+    "correct": "D",
+    "explanation": "The passage: (1) grants a reasonable opposing argument (space funding is a luxury), (2) provides concrete counter-evidence (satellite technology enables humanitarian work), and (3) concludes that the either/or framing is a false dilemma. D maps to this concession-rebuttal-meta-conclusion structure. A misidentifies the opening sentence as the author's own claim — it is the opposing view being granted and then countered. B misidentifies the passage as offering no resolution, when the final sentence explicitly resolves the dilemma by exposing the false binary. C describes the examples in isolation without capturing that they are deployed as part of a counter-argument, and misses the meta-level conclusion about the false dilemma.",
+    "distractor_rationale": {
+      "A": "This results from misreading the opening sentence — which grants the opposing argument — as the author's own thesis, then reading the evidence as support for that thesis rather than as a counter to it.",
+      "B": "This results from reading the two positions presented (against space funding; for it) as equally weighted, when the author's structure privileges the counter-argument and delivers a resolution rather than an impasse.",
+      "C": "This results from focusing on the middle section (satellite applications) as a standalone list of benefits and missing that these examples function as targeted evidence in a structured argument that concludes with a meta-level critique of the original framing.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Data Interpretation",
+    "difficulty": "Hard",
+    "passage": "A nonprofit tracked charitable giving among three donor cohorts over two years. In Year 1, Cohort A comprised 200 donors averaging $400 each, Cohort B comprised 300 donors averaging $200 each, and Cohort C comprised 100 donors averaging $600 each. In Year 2, average giving in each cohort increased by 10%, while cohort sizes remained unchanged. The nonprofit's board used Year 2 total revenue to allocate funding across three programs.",
+    "question": "What was the nonprofit's total charitable revenue in Year 2?",
+    "choices": {
+      "A": "$220,000",
+      "B": "$200,000",
+      "C": "$22,000",
+      "D": "$242,000"
+    },
+    "correct": "A",
+    "explanation": "Year 1 totals: Cohort A = 200 × $400 = $80,000; Cohort B = 300 × $200 = $60,000; Cohort C = 100 × $600 = $60,000; Year 1 total = $200,000. In Year 2, average giving increased by 10% in each cohort while cohort sizes stayed the same, so Year 2 total = $200,000 × 1.10 = $220,000. B ($200,000) results from computing Year 1 correctly but forgetting to apply the 10% increase. C ($22,000) results from a decimal error, dividing the Year 2 total by 10. D ($242,000) results from compounding the 10% increase twice: $200,000 × 1.10 × 1.10 = $242,000.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from correctly computing Year 1 total revenue ($200,000) but forgetting to apply the 10% growth to each cohort's average giving when calculating Year 2 revenue.",
+      "C": "This results from a decimal error — likely dividing the Year 2 total by 10 at some stage of the calculation, producing a figure ten times smaller than the correct answer.",
+      "D": "This results from applying the 10% increase twice — compounding it as if Year 1 grew to Year 2 and Year 2 also grew again — rather than applying it once to arrive at Year 2 from Year 1."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Data Interpretation",
+    "difficulty": "Hard",
+    "passage": "A city's transit authority recorded average daily ridership of 45,000 on bus routes and 30,000 on light rail. The authority announced a light rail capacity expansion and projected that the expansion would attract 20% of current bus riders to switch to light rail. The remaining bus ridership was expected to stay constant. Planners used these projections to estimate post-expansion staffing requirements for each transit mode.",
+    "question": "If the projection is accurate, what would be the average daily ridership on light rail after the capacity expansion?",
+    "choices": {
+      "A": "45,000",
+      "B": "54,000",
+      "C": "39,000",
+      "D": "30,000"
+    },
+    "correct": "C",
+    "explanation": "20% of current bus riders switch to light rail: 0.20 × 45,000 = 9,000 riders shift. New light rail ridership = 30,000 + 9,000 = 39,000. C is correct. A (45,000) results from assuming all bus riders switch to light rail, or from confusing post-expansion light rail ridership with the current bus ridership figure. B (54,000) results from misapplying the 50% capacity expansion to ridership — computing 30,000 × 1.5 = 45,000 and then adding the 9,000 shifted riders. D (30,000) results from reporting the original light rail ridership without adding the riders who shift from bus routes.",
+    "distractor_rationale": {
+      "A": "This results from assuming all bus riders (100%, not 20%) switch to light rail, reporting the current bus ridership as the new light rail total, or confusing the two figures in the passage.",
+      "B": "This results from misapplying the capacity expansion percentage to ridership — treating the 50% capacity increase as a 50% ridership increase (30,000 × 1.5 = 45,000) and then adding the 9,000 shifted riders, when the passage only states that capacity is expanded, not that ridership grows by that percentage.",
+      "C": "N/A",
+      "D": "This results from reporting the original light rail ridership (30,000) as the post-expansion figure, forgetting to add the 9,000 bus riders who are projected to switch to light rail after the expansion."
+    }
+  }
+]

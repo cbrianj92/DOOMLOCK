@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import { supabase } from '../services/supabase';
+import { getDifficultyPreference } from '../services/difficultyPreference';
 import { Question } from '../types';
 
 interface UseQuestionResult {
@@ -18,7 +19,10 @@ const useQuestion = (): UseQuestionResult => {
     setLoading(true);
     setError(null);
 
-    const { data, error: supabaseError } = await supabase.rpc('get_random_question');
+    const difficulty = await getDifficultyPreference();
+    const { data, error: supabaseError } = difficulty !== 'mixed'
+      ? await supabase.rpc('get_random_question', { p_difficulty: difficulty })
+      : await supabase.rpc('get_random_question');
 
     if (supabaseError) {
       setError('Failed to load question. Please try again.');

@@ -1,0 +1,266 @@
+[
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Main Idea",
+    "difficulty": "Easy",
+    "passage": "The gray wolf was nearly eradicated from the American West by the mid-twentieth century, hunted because ranchers feared for their livestock. In 1995, wolves were reintroduced to Yellowstone National Park as part of a federal recovery program. Within a decade, the wolf population had stabilized, and scientists began observing unexpected ecological benefits — reduced overgrazing by elk, regenerated riverbanks, and more diverse plant communities. The reintroduction demonstrated that apex predators play a crucial role in maintaining healthy ecosystems.",
+    "question": "The main idea of the passage is that",
+    "choices": {
+      "A": "wolves were unfairly hunted to near-extinction",
+      "B": "Yellowstone National Park is critical to wildlife conservation",
+      "C": "reintroducing wolves to Yellowstone produced broad ecological benefits",
+      "D": "elk populations were damaging the park's plant communities"
+    },
+    "correct": "C",
+    "explanation": "The passage opens with historical context about wolf decline, describes the 1995 reintroduction, and then focuses on the 'unexpected ecological benefits' that followed. The final sentence underscores the broader conclusion about apex predators and ecosystem health, making C the main idea. A focuses only on the cause of decline, not the passage's central point. B is a claim the passage does not make. D describes only one supporting detail.",
+    "distractor_rationale": {
+      "A": "This results from focusing on the opening sentences about hunting rather than the passage as a whole, treating a background detail as the central argument.",
+      "B": "This results from associating the passage's setting (Yellowstone) with a broad conservation claim the passage does not actually make.",
+      "C": "N/A",
+      "D": "This results from selecting a specific example of ecological benefit (elk overgrazing) rather than the broader conclusion it supports."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Inference",
+    "difficulty": "Easy",
+    "passage": "For most of human history, the night sky was filled with stars. But as electric lighting spread across cities and suburbs in the twentieth century, light pollution dimmed the view for millions of people. Today, two-thirds of the global population cannot see the Milky Way from where they live. Astronomers argue that light pollution does more than obscure the stars — it disrupts nocturnal ecosystems and wastes enormous amounts of energy.",
+    "question": "Based on the passage, it can be inferred that",
+    "choices": {
+      "A": "reducing artificial lighting at night could have multiple positive effects",
+      "B": "most people are unaware that light pollution is a problem",
+      "C": "the Milky Way is only visible in rural areas",
+      "D": "astronomers were responsible for discovering light pollution"
+    },
+    "correct": "A",
+    "explanation": "The passage states that light pollution disrupts nocturnal ecosystems AND wastes energy, so reducing it would benefit ecosystems and save energy — multiple positive effects. B is not supported; the passage does not address public awareness. C overstates the passage: it says two-thirds cannot see the Milky Way from where they live, not that it is only visible in rural areas. D is not mentioned; astronomers are quoted, not credited with discovery.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from inferring beyond the passage — the text describes the problem but says nothing about whether people know about it.",
+      "C": "This results from overgeneralizing the statistic about who cannot see the Milky Way into an absolute geographic claim the passage does not make.",
+      "D": "This results from confusing who is quoted in the passage (astronomers) with who discovered the problem — the passage only attributes a claim, not a discovery."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Vocabulary in Context",
+    "difficulty": "Easy",
+    "passage": "Coral reefs cover less than one percent of the ocean floor but support an estimated twenty-five percent of all marine species. They are often called the 'rainforests of the sea' because of the extraordinary density of life they contain. However, rising ocean temperatures have caused widespread coral bleaching, a phenomenon in which corals expel the algae living in their tissues and turn white. Without the algae, the corals are vulnerable and can die if conditions do not improve within weeks.",
+    "question": "As used in the passage, the word \"vulnerable\" most nearly means",
+    "choices": {
+      "A": "colorless",
+      "B": "at risk",
+      "C": "temporary",
+      "D": "weakened"
+    },
+    "correct": "B",
+    "explanation": "In context, 'vulnerable' describes corals that can die if conditions don't improve — they are exposed to the threat of death. 'At risk' (B) best captures this sense of being endangered by an external threat. A ('colorless') refers to the bleaching effect described earlier, not what vulnerable means. C ('temporary') is not a meaning of vulnerable. D ('weakened') describes reduced strength but misses the key sense of exposure to external danger that 'vulnerable' carries in this context.",
+    "distractor_rationale": {
+      "A": "This results from associating 'vulnerable' with the coral bleaching description earlier in the passage, where corals turn white, rather than attending to the word's actual meaning.",
+      "B": "N/A",
+      "C": "This results from associating the word with the time reference ('within weeks') later in the same sentence rather than with the meaning of 'vulnerable' itself.",
+      "D": "This results from confusing 'vulnerable' (exposed to harm) with 'weakened' (reduced in strength) — a close but imprecise substitution that misses the sense of external threat."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Evidence Support",
+    "difficulty": "Easy",
+    "passage": "Sleep deprivation is increasingly common among teenagers. Studies show that most adolescents need eight to ten hours of sleep per night, but the average teen gets fewer than seven. Researchers have linked insufficient sleep to lower academic performance, increased irritability, and a higher likelihood of making risky decisions. School districts that have pushed back start times to 8:30 a.m. or later report significant improvements in student attendance and grades.",
+    "question": "Which of the following best supports the claim that changing school schedules can benefit students?",
+    "choices": {
+      "A": "Teenagers need eight to ten hours of sleep.",
+      "B": "Sleep deprivation leads to poorer decision-making.",
+      "C": "Most teens sleep fewer than seven hours per night.",
+      "D": "Districts with later start times saw better attendance and grades."
+    },
+    "correct": "D",
+    "explanation": "The claim is specifically that changing school schedules can benefit students. D directly supports this by citing evidence from districts that changed their start times and saw improvements in attendance and grades. A and C describe sleep duration facts, not the effect of schedule changes. B describes a consequence of deprivation, not the impact of altering start times.",
+    "distractor_rationale": {
+      "A": "This results from selecting a factual detail about sleep needs without checking whether it supports the specific claim about schedule changes.",
+      "B": "This results from selecting a consequence of sleep deprivation rather than evidence for the benefit of later start times specifically.",
+      "C": "This results from selecting a statistic about current teen sleep habits rather than evidence linking schedule changes to student benefits.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Author's Purpose",
+    "difficulty": "Easy",
+    "passage": "Each year, millions of tons of plastic enter the world's oceans. Much of it breaks down into tiny particles called microplastics, which have been found in the deepest ocean trenches, inside fish, and even in human blood. Despite growing public awareness, plastic production continues to rise. Scientists warn that at current rates, there could be more plastic in the ocean than fish by weight by 2050. Immediate action — from policy changes to consumer choices — is urgently needed.",
+    "question": "The primary purpose of this passage is to",
+    "choices": {
+      "A": "argue that urgent action is needed to address ocean plastic pollution",
+      "B": "explain the scientific process by which plastic becomes microplastics",
+      "C": "compare the effectiveness of policy changes versus consumer choices",
+      "D": "describe the locations where microplastics have been discovered"
+    },
+    "correct": "A",
+    "explanation": "The passage builds a case — plastic is pervasive, production keeps rising, and scientists project a dire outcome — leading to the final sentence calling for 'immediate action.' This structure is persuasive and argumentative. B is wrong because the passage mentions microplastics but never explains how they form. C is wrong because the passage lists two types of action without comparing them. D identifies a supporting detail, not the overall purpose.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from focusing on the mention of microplastics in the passage and treating a single supporting detail as the author's primary purpose.",
+      "C": "This results from the final sentence listing two types of action and misreading this list as a comparative analysis.",
+      "D": "This results from selecting the specific detail about where microplastics appear rather than the overall argumentative purpose the detail serves."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Text Structure",
+    "difficulty": "Easy",
+    "passage": "The human immune system has two main components: the innate immune system and the adaptive immune system. The innate system responds immediately to any foreign invader, providing a broad, non-specific defense. The adaptive system, however, takes days to activate but produces targeted antibodies against specific pathogens. When a person is vaccinated, they receive a weakened or inactive form of a pathogen, prompting the adaptive system to build lasting immunity without causing illness.",
+    "question": "How is the passage primarily organized?",
+    "choices": {
+      "A": "A problem is introduced, followed by a proposed solution",
+      "B": "A sequence of historical events is presented in chronological order",
+      "C": "Two systems are described and then connected through an application",
+      "D": "A cause-and-effect relationship is traced from beginning to end"
+    },
+    "correct": "C",
+    "explanation": "The passage describes the innate and adaptive immune systems (two systems) and then connects them through the example of vaccination (an application of the adaptive system). C accurately reflects this structure. A is wrong — there is no problem-solution framework. B is wrong — there is no historical chronology. D is wrong — cause and effect is not the primary organizational pattern; the passage is categorically descriptive and then applied.",
+    "distractor_rationale": {
+      "A": "This results from misidentifying the innate system (immediate response) and adaptive system (delayed response) as a problem and its solution rather than as two complementary components.",
+      "B": "This results from assuming that any factual scientific passage is organized chronologically, even when it is structured by category.",
+      "C": "N/A",
+      "D": "This results from focusing on the causal relationship between vaccination and immunity at the end rather than on the overall organizational structure of the full passage."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Data Interpretation",
+    "difficulty": "Easy",
+    "passage": "A survey of 500 high school students asked how many hours per day they spent on social media. Results showed that 15% spent fewer than 1 hour, 35% spent 1–2 hours, 30% spent 2–3 hours, and 20% spent more than 3 hours. Students who spent more than 2 hours daily reported lower satisfaction with their schoolwork compared to students who spent fewer than 2 hours.",
+    "question": "According to the survey data, how many of the 500 students spent 1–2 hours per day on social media?",
+    "choices": {
+      "A": "150",
+      "B": "175",
+      "C": "100",
+      "D": "200"
+    },
+    "correct": "B",
+    "explanation": "35% of the 500 students spent 1–2 hours per day. 0.35 × 500 = 175. A (150) = 30% × 500, the percentage for the 2–3 hour group. C (100) = 20% × 500, the percentage for the more-than-3-hour group. D (200) = 40% × 500, which does not match any group in the data.",
+    "distractor_rationale": {
+      "A": "This results from multiplying 500 by 0.30 — the percentage for the 2–3 hour group — rather than the 1–2 hour group's percentage of 35%.",
+      "B": "N/A",
+      "C": "This results from multiplying 500 by 0.20 — the percentage for the more-than-3-hour group — rather than 35%.",
+      "D": "This results from rounding 35% up to 40% or misreading the percentage before multiplying."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Main Idea",
+    "difficulty": "Easy",
+    "passage": "Throughout the nineteenth century, public libraries were rare, and books were considered luxuries affordable only to the wealthy. Steel magnate Andrew Carnegie changed this by funding the construction of over 2,500 libraries across the English-speaking world between 1883 and 1929. His donations required cities to provide land and operating funds, making each library a community investment. Carnegie believed that access to information was the foundation of individual advancement and democracy.",
+    "question": "The main idea of the passage is that",
+    "choices": {
+      "A": "Andrew Carnegie was one of the wealthiest people of the nineteenth century",
+      "B": "books were too expensive for ordinary people in the 1800s",
+      "C": "communities benefited because Carnegie required them to fund library operations",
+      "D": "Carnegie's library program greatly expanded public access to information"
+    },
+    "correct": "D",
+    "explanation": "The passage describes Carnegie's library program — 2,500 libraries across the English-speaking world — motivated by the belief that information access supports individual advancement and democracy. D captures this main idea. A is implied by his donations but is not the passage's focus. B describes only the opening problem context, not the main point. C highlights one logistical detail of the program rather than its broader significance.",
+    "distractor_rationale": {
+      "A": "This results from inferring Carnegie's wealth from his large-scale donations rather than recognizing that the passage is primarily about the impact of his library program.",
+      "B": "This results from treating the opening context (books as luxury items) as the main idea rather than as background that motivates the real subject of the passage.",
+      "C": "This results from focusing on one operational detail of Carnegie's model rather than the overarching impact of expanding public library access.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Inference",
+    "difficulty": "Easy",
+    "passage": "A town council meeting was called to discuss whether to approve a new shopping center on the edge of town. Local business owners argued it would hurt downtown shops. Environmental advocates warned about increased traffic and runoff into a nearby creek. The town planner noted that property tax revenue from the development could fund school improvements. After three hours of testimony, no vote was taken; the council tabled the decision until the following month.",
+    "question": "Based on the passage, it can be inferred that",
+    "choices": {
+      "A": "the council voted against the shopping center",
+      "B": "the environmental concerns were the most persuasive argument",
+      "C": "the council had not reached agreement by the end of the meeting",
+      "D": "local business owners eventually supported the shopping center"
+    },
+    "correct": "C",
+    "explanation": "The council tabled the decision without voting, which directly implies the members had not reached agreement. A is wrong — no vote was taken, so the council did not vote against; it postponed. B is not supported — the passage presents multiple perspectives but does not indicate which was most persuasive. D contradicts the passage; business owners opposed the development and there is no indication their position changed.",
+    "distractor_rationale": {
+      "A": "This results from misreading 'tabled the decision' as a vote against, rather than recognizing it as a postponement of the vote.",
+      "B": "This results from selecting one side of the debate rather than inferring from the outcome (no vote taken) what the council's overall state was.",
+      "C": "N/A",
+      "D": "This results from misreading the passage — local business owners opposed the development, and nothing in the passage suggests their position changed."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Vocabulary in Context",
+    "difficulty": "Easy",
+    "passage": "Medieval European cities were dense with activity. Merchants, craftspeople, and laborers crowded into narrow streets, and the noise of commerce rarely ceased before nightfall. Yet despite this bustle, social boundaries were carefully maintained. Guild members mixed only with those of their own trade, and nobles held themselves apart from those they considered beneath their station. The city hummed with industry, but it was an industry segmented by strict social hierarchy.",
+    "question": "As used in the passage, the word \"station\" most nearly means",
+    "choices": {
+      "A": "social rank",
+      "B": "physical location",
+      "C": "trade guild",
+      "D": "daily occupation"
+    },
+    "correct": "A",
+    "explanation": "In the phrase 'beneath their station,' nobles are distancing themselves from people of lower social standing. 'Station' here refers to one's position in the social hierarchy — social rank. B ('physical location') is the most common everyday meaning of 'station' but does not fit this social context. C and D are not supported by the sentence; guilds and occupations are mentioned elsewhere but are not what 'station' refers to.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from selecting the most common everyday meaning of 'station' (a physical place) without considering the social hierarchy context in which the word appears.",
+      "C": "This results from associating 'station' with the passage's discussion of guild membership, even though guilds are mentioned separately and are not what 'station' means in this sentence.",
+      "D": "This results from associating 'station' with the passage's discussion of labor and occupations rather than with the social rank context established by the surrounding sentences."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Evidence Support",
+    "difficulty": "Easy",
+    "passage": "The monarch butterfly's annual migration spans more than 3,000 miles, from Canada to oyamel fir forests in central Mexico. Scientists are concerned because the monarch population has declined by more than 80% over the past two decades. Habitat loss, pesticide use, and the decline of milkweed — the only plant on which monarchs lay their eggs — are the primary drivers. Conservation efforts include planting milkweed corridors and restricting pesticide use near migration routes.",
+    "question": "Which statement best supports the claim that milkweed loss is a threat to monarch butterflies?",
+    "choices": {
+      "A": "Monarchs travel more than 3,000 miles to reach Mexico each year.",
+      "B": "Monarchs lay their eggs exclusively on milkweed plants.",
+      "C": "The monarch population has declined by more than 80%.",
+      "D": "Conservation groups are planting milkweed along migration routes."
+    },
+    "correct": "B",
+    "explanation": "The claim is that milkweed loss threatens monarchs. B directly supports this because monarchs depend exclusively on milkweed to reproduce — without it, they cannot lay eggs. A describes the migration route, which is unrelated to the milkweed threat. C shows population decline overall but does not specifically identify milkweed as the cause. D describes a conservation response to the threat rather than evidence that milkweed loss is itself a threat.",
+    "distractor_rationale": {
+      "A": "This results from selecting a notable fact about monarchs rather than checking whether it supports the specific claim about milkweed as a threat to survival.",
+      "B": "N/A",
+      "C": "This results from selecting the overall population decline statistic, which shows monarchs are threatened in general, rather than evidence specifically linking that threat to milkweed loss.",
+      "D": "This results from selecting a conservation response to the milkweed problem rather than evidence that milkweed loss is itself a reproductive threat to monarchs."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Data Interpretation",
+    "difficulty": "Easy",
+    "passage": "A biology class conducted a plant growth experiment. Four groups of ten plants each were grown under different light conditions: continuous darkness, 4 hours of light, 8 hours of light, and 12 hours of light per day. After three weeks, the average heights were 2 cm, 8 cm, 14 cm, and 20 cm, respectively. All other variables — soil type, water amount, and temperature — were held constant throughout the experiment.",
+    "question": "Based on the experiment data, which conclusion is best supported?",
+    "choices": {
+      "A": "Plants grown in total darkness grow taller than expected.",
+      "B": "Plants require exactly 12 hours of light to grow properly.",
+      "C": "Soil type affects plant growth more than light exposure does.",
+      "D": "Greater daily light exposure corresponds to greater plant height."
+    },
+    "correct": "D",
+    "explanation": "The data shows a consistent pattern: 0 hr→2 cm, 4 hr→8 cm, 8 hr→14 cm, 12 hr→20 cm. As daily light increases, average height increases — a direct relationship. D is the conclusion this pattern supports. A is wrong — 2 cm is the lowest growth result, not a surprising one. B overstates the data: more light correlates with more growth, but the data does not establish that exactly 12 hours is required. C contradicts the experiment's design, which held soil constant to isolate light as the variable.",
+    "distractor_rationale": {
+      "A": "This results from misreading the 2 cm result as a surprising positive outcome rather than recognizing it as the lowest growth value across all conditions.",
+      "B": "This results from identifying the highest-growth condition (12 hours) and overgeneralizing it as a fixed requirement rather than interpreting it as one data point in a correlation.",
+      "C": "This results from confusing a controlled variable (soil type was held constant) with a variable shown to influence the outcome — the experiment was designed to isolate light, not soil.",
+      "D": "N/A"
+    }
+  }
+]

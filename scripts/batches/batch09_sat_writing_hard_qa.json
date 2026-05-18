@@ -1,0 +1,222 @@
+[
+  {
+    "exam": "SAT",
+    "subject": "Writing",
+    "skill": "Subject-Verb Agreement",
+    "difficulty": "Hard",
+    "passage": null,
+    "question": "Which choice correctly completes the sentence?\n\nThe decline in sales, combined with rising operational costs, _____ led executives to consider restructuring the company.",
+    "choices": {
+      "A": "have",
+      "B": "has",
+      "C": "are",
+      "D": "were"
+    },
+    "correct": "B",
+    "explanation": "The grammatical subject of the sentence is 'decline,' a singular noun. The phrase 'combined with rising operational costs' is a participial phrase modifying the subject — it does not create a compound subject the way 'and' would. Because the subject remains singular, the singular verb 'has' is required. B is correct. A ('have') and C ('are') are plural. D ('were') is past tense plural. All three treat the participial phrase as if it created a compound subject, which it does not.",
+    "distractor_rationale": {
+      "A": "This results from treating 'combined with rising operational costs' as equivalent to 'and rising operational costs,' making the subject compound and plural — but participial phrases do not create compound subjects the way the coordinating conjunction 'and' does.",
+      "B": "N/A",
+      "C": "This results from the same compound-subject error as A, with the additional error of using the linking verb 'are' where the auxiliary 'has' is appropriate in this perfect-tense construction.",
+      "D": "This results from the compound-subject error and also incorrectly shifts to past tense, even though the context calls for past perfect ('has led')."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Writing",
+    "skill": "Pronoun Agreement",
+    "difficulty": "Hard",
+    "passage": null,
+    "question": "Which choice correctly completes the sentence?\n\nThe panel of judges submitted _____ recommendations after reviewing all submitted works.",
+    "choices": {
+      "A": "their",
+      "B": "one's",
+      "C": "our",
+      "D": "its"
+    },
+    "correct": "D",
+    "explanation": "In American English, collective nouns like 'panel,' 'jury,' 'committee,' and 'team' are treated as singular units and take singular pronouns. 'Its' (D) is the correct singular third-person pronoun for a collective noun functioning as a unit. A ('their') treats 'panel' as plural, which is the convention in British English but not American English. B ('one's') is the indefinite pronoun form used in formal writing to mean 'a person's' — it has no logical connection to 'the panel.' C ('our') is first-person plural, incorrectly placing the speaker inside the panel of judges.",
+    "distractor_rationale": {
+      "A": "This results from treating 'panel of judges' as plural because judges are multiple people, applying the logic that a group of people takes a plural pronoun — which is the British English convention but contradicts American English usage for collective nouns.",
+      "B": "This results from confusing the indefinite pronoun 'one's' (meaning 'a person's' in formal writing) with a third-person collective-noun pronoun — 'one's' does not refer back to a specific noun like 'panel.'",
+      "C": "This results from incorrectly placing the speaker within the panel of judges by using first-person plural 'our,' which would mean the writer is one of the judges — a person shift not supported by the sentence.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Writing",
+    "skill": "Verb Tense",
+    "difficulty": "Hard",
+    "passage": null,
+    "question": "Which choice correctly completes the sentence?\n\nScholars now believe that ancient engineers _____ aqueducts of surprising complexity before the civilization collapsed entirely.",
+    "choices": {
+      "A": "had constructed",
+      "B": "constructed",
+      "C": "have constructed",
+      "D": "were constructing"
+    },
+    "correct": "A",
+    "explanation": "'Before the civilization collapsed entirely' establishes two past events in sequence: the construction of aqueducts and the collapse. The construction was completed before the collapse, so the past perfect ('had constructed') is required to mark the earlier of the two past actions. A is correct. B ('constructed') uses simple past, placing both events at the same level of pastness and failing to indicate which came first. C ('have constructed') is present perfect, which connects a past action to the present — inappropriate in a sentence set entirely in the past. D ('were constructing') uses the past progressive, implying the construction was ongoing at the moment of collapse rather than completed before it.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from using simple past for both the main clause action (construction) and the time marker (collapse), which does not convey that one was completed before the other — past perfect is needed to mark the temporal sequence.",
+      "C": "This results from confusing present perfect ('have constructed') with past perfect ('had constructed'). Present perfect indicates relevance to the present moment; past perfect is needed to sequence two past events.",
+      "D": "This results from using past progressive ('were constructing') to suggest ongoing action at the moment of collapse, when the sentence implies the construction was already finished before the collapse began — a meaning change, not just a tense error."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Writing",
+    "skill": "Verb Tense",
+    "difficulty": "Hard",
+    "passage": null,
+    "question": "Which choice correctly completes the sentence?\n\nThe committee insists that the director _____ the revised budget proposal before the end of the quarter.",
+    "choices": {
+      "A": "reviews",
+      "B": "reviewed",
+      "C": "review",
+      "D": "would review"
+    },
+    "correct": "C",
+    "explanation": "Verbs of requirement, demand, or insistence — such as 'insist,' 'require,' 'demand,' and 'recommend' — are followed by a 'that' clause in which the verb takes the base form (subjunctive mood), regardless of number or person. 'Review' (C) is the base form and is correct. A ('reviews') uses the indicative third-person singular form appropriate for a simple statement of fact, not the subjunctive required after 'insists that.' B ('reviewed') is past tense, which incorrectly implies the reviewing already happened. D ('would review') is conditional, which implies a hypothetical situation rather than an insistence that something be done.",
+    "distractor_rationale": {
+      "A": "This results from applying standard subject-verb agreement (singular subject 'director' → singular verb 'reviews') without recognizing that verbs like 'insist' trigger the subjunctive mood in the following 'that' clause, requiring the base form 'review.'",
+      "B": "This results from selecting past tense, perhaps assuming that 'insists' in the present means the action must have already occurred, when in fact 'insists that X review' is a present demand about a future action.",
+      "C": "N/A",
+      "D": "This results from using the conditional 'would review,' which implies a hypothetical or conditional situation rather than a direct insistence — 'would review' is appropriate for 'If asked, the director would review the proposal,' not for a statement of requirement."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Writing",
+    "skill": "Punctuation",
+    "difficulty": "Hard",
+    "passage": null,
+    "question": "Which choice correctly punctuates the sentence?\n\nThe team identified three critical flaws _____ the data collection method was inconsistent, the sample size was insufficient, and the analysis omitted key variables.",
+    "choices": {
+      "A": "The team identified three critical flaws, the data collection method was inconsistent, the sample size was insufficient, and the analysis omitted key variables.",
+      "B": "The team identified three critical flaws: the data collection method was inconsistent, the sample size was insufficient, and the analysis omitted key variables.",
+      "C": "The team identified three critical flaws; the data collection method was inconsistent, the sample size was insufficient, and the analysis omitted key variables.",
+      "D": "The team identified three critical flaws — the data collection method was inconsistent — the sample size was insufficient, and the analysis omitted key variables."
+    },
+    "correct": "B",
+    "explanation": "A colon is the correct punctuation to introduce a list when the material before the colon is a complete independent clause. 'The team identified three critical flaws' is a complete clause, and the list that follows specifies what those flaws are — a classic colon use case. B is correct. A uses only a comma before the list, creating a comma splice between 'three critical flaws' and the first list item. C uses a semicolon, which is appropriate only between two independent clauses — the material after the semicolon is a list, not an independent clause on its own. D incorrectly places an em dash after 'three critical flaws' and then a second em dash after the first list item, creating an incoherent bracketing structure.",
+    "distractor_rationale": {
+      "A": "This results from using only a comma to separate the introductory clause from the explanatory list — a comma creates a comma splice when two independent clauses meet, and is too weak to formally introduce a following list.",
+      "B": "N/A",
+      "C": "This results from selecting a semicolon, which correctly separates two independent clauses but is inappropriate here because what follows the semicolon is not an independent clause — it is a list of flaws that cannot stand alone without the introductory clause.",
+      "D": "This results from misapplying em dashes, which bracket a single parenthetical element — the opening dash before the first flaw and the closing dash after it create the impression that the first flaw is a parenthetical aside rather than the first item in a three-item list."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Writing",
+    "skill": "Transitions",
+    "difficulty": "Hard",
+    "passage": null,
+    "question": "Which transition best completes the sentence?\n\nThe study confirmed a significant correlation between social support networks and academic performance. _____, correlation does not establish causation — students with stronger support networks may already possess other advantages that independently improve academic outcomes.",
+    "choices": {
+      "A": "For instance",
+      "B": "Similarly",
+      "C": "As a result",
+      "D": "However"
+    },
+    "correct": "D",
+    "explanation": "The first sentence presents a positive finding (a significant correlation). The second sentence qualifies this finding by introducing an important limitation (correlation is not causation). The relationship is concessive or contrastive — 'while this correlation was confirmed, it does not prove cause-and-effect.' 'However' (D) signals this qualification precisely. A ('For instance') introduces an example of the first sentence, but the second sentence is not an example of the correlation finding. B ('Similarly') would add a parallel observation, but the second sentence challenges rather than parallels the first. C ('As a result') would imply the causation limitation is a consequence of the correlation, which misrepresents the logical relationship.",
+    "distractor_rationale": {
+      "A": "This results from misreading the second sentence as an elaborating example of the correlation finding, when it actually introduces a competing interpretation that limits the conclusion one can draw from that finding.",
+      "B": "This results from misidentifying the relationship as parallel or additive — 'similarly' would suggest the second sentence adds another finding in the same direction, when it actually introduces a methodological caveat.",
+      "C": "This results from misidentifying the logical direction — 'as a result' would imply the causation limitation is caused by the correlation finding, when the limitation is a standing principle of research methodology independent of any one study's results.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Writing",
+    "skill": "Sentence Combining",
+    "difficulty": "Hard",
+    "passage": null,
+    "question": "Which of the following best combines the two sentences, preserving their logical relationship?\n\nThe investigation revealed no evidence of fraud. The company was still required to pay substantial fines.",
+    "choices": {
+      "A": "Although the investigation revealed no evidence of fraud, the company was still required to pay substantial fines.",
+      "B": "The investigation revealed no evidence of fraud, so the company was required to pay substantial fines.",
+      "C": "The investigation revealed no evidence of fraud, and therefore the company was required to pay substantial fines.",
+      "D": "The company was required to pay substantial fines, which contradicted what the investigation revealed no evidence of fraud for."
+    },
+    "correct": "A",
+    "explanation": "The two sentences describe a concessive relationship: despite the absence of fraud evidence, fines were still required. 'Although' captures this 'despite X, Y still occurred' structure accurately. A is correct. B ('so') implies the fines were a logical consequence of the investigation finding no fraud — the opposite of the intended relationship. C ('and therefore') similarly implies causation in the wrong direction. D is grammatically awkward, ends with a stranded preposition, and the relative clause 'which contradicted what the investigation revealed no evidence of fraud for' is confusingly constructed.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from using 'so' to join the two sentences, implying that the fines resulted from the finding of no fraud — the opposite logical relationship from the original sentences, which present the fines as unexpected despite the favorable finding.",
+      "C": "This results from using 'therefore' to imply the fines were a logical consequence of the fraud-free finding, when the intended meaning is that the fines were imposed despite, not because of, the clean investigation.",
+      "D": "This results from restructuring the sentence around a relative clause ('which contradicted...') in a way that is both grammatically awkward and logically unclear, ending in a stranded preposition that obscures the original meaning."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Writing",
+    "skill": "Redundancy & Concision",
+    "difficulty": "Hard",
+    "passage": null,
+    "question": "Which choice most concisely and precisely expresses the meaning of the sentence?",
+    "choices": {
+      "A": "Researchers are currently in the process of investigating whether the protein plays a role in the mechanism by which cells regulate their own growth.",
+      "B": "Researchers investigate whether the protein plays a role in cell growth regulation.",
+      "C": "Researchers are investigating whether the protein plays a role in regulating cell growth.",
+      "D": "Researchers currently investigate the protein's possible role in the mechanism of cell growth regulation by cells."
+    },
+    "correct": "C",
+    "explanation": "C uses the present progressive ('are investigating') to convey ongoing research, converts the wordy phrase 'the mechanism by which cells regulate their own growth' into the concise gerund phrase 'regulating cell growth,' and retains 'whether the protein plays a role in' without abbreviating it. A uses 'in the process of investigating' — a wordy substitution for simply 'investigating' — and retains the lengthy clause 'the mechanism by which cells regulate their own growth.' B uses simple present ('investigate') which is acceptable but less natural for ongoing research, and compresses 'regulating cell growth' into the nominalization 'cell growth regulation,' which is slightly less readable. D retains the wordy 'mechanism of cell growth regulation' and adds 'by cells,' which is redundant since cells are the only plausible regulators in this context.",
+    "distractor_rationale": {
+      "A": "This results from retaining two redundancies: 'in the process of investigating' (which simply means 'investigating') and 'the mechanism by which cells regulate their own growth' (which can be compressed to 'regulating cell growth').",
+      "B": "This results from using the simple present 'investigate' rather than the present progressive 'are investigating,' which is less natural for describing ongoing scientific work, and using the nominalization 'cell growth regulation' rather than the more natural gerund phrase 'regulating cell growth.'",
+      "C": "N/A",
+      "D": "This results from retaining 'the mechanism of' as an unnecessarily formal qualifier and appending 'by cells,' which is redundant — cells are already the implied subject of growth regulation in this biological context."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Writing",
+    "skill": "Redundancy & Concision",
+    "difficulty": "Hard",
+    "passage": null,
+    "question": "Which choice most concisely expresses the meaning of the sentence?",
+    "choices": {
+      "A": "The use of advanced technology in medicine has allowed doctors to diagnose diseases that previously went undetected.",
+      "B": "Advanced technology has allowed doctors to diagnose previously undetectable diseases.",
+      "C": "Thanks to advanced technology being used in medicine, diseases that were previously not detected can now be diagnosed by doctors.",
+      "D": "The advent of advanced medical technology has created the ability for the diagnosis of diseases which were previously not detectable."
+    },
+    "correct": "B",
+    "explanation": "B expresses the full meaning in eleven words with no redundancy, using an active verb ('has allowed') and a concise participial adjective ('previously undetectable'). A adds 'the use of... in medicine' as a wordy noun phrase when 'advanced technology' alone suffices in context, and 'went undetected' is slightly more words than 'undetectable.' C uses a passive construction ('can now be diagnosed by doctors'), adds 'that were previously not detected' where 'previously undetectable' suffices, and buries the agent. D uses 'the advent of,' which is a wordy opener, nominalized 'the ability for the diagnosis' instead of the verb 'diagnose,' and the wordy phrase 'were previously not detectable' instead of 'undetectable.'",
+    "distractor_rationale": {
+      "A": "This results from using the wordy noun phrase 'the use of advanced technology in medicine' when 'advanced technology' carries the necessary meaning, and the phrasal verb 'went undetected' where the adjective 'undetectable' is more concise.",
+      "B": "N/A",
+      "C": "This results from using a passive construction ('can now be diagnosed by doctors'), which adds words and buries agency, and replacing the concise adjective 'undetectable' with the wordy clause 'that were previously not detected.'",
+      "D": "This results from using the empty opener 'the advent of,' replacing the verb 'allow doctors to diagnose' with the nominalized 'created the ability for the diagnosis,' and using 'were previously not detectable' rather than the more compressed 'previously undetectable.'"
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Writing",
+    "skill": "Parallel Structure",
+    "difficulty": "Hard",
+    "passage": null,
+    "question": "Which choice correctly completes the sentence, maintaining parallel structure?\n\nThe company's long-term goals include expanding into new markets, _____ its workforce, and achieving carbon neutrality by 2035.",
+    "choices": {
+      "A": "to diversify",
+      "B": "that it diversify",
+      "C": "diversity of",
+      "D": "diversifying"
+    },
+    "correct": "D",
+    "explanation": "The sentence lists three long-term goals as gerunds: 'expanding,' a second item, and 'achieving.' To maintain parallel structure, the missing item must also be a gerund. 'Diversifying' (D) is the gerund form of 'diversify' and matches the form of 'expanding' and 'achieving.' A ('to diversify') is an infinitive, which breaks the gerund pattern. B ('that it diversify') is a subordinate clause — a different grammatical form that disrupts the list's structure and introduces an unnecessary pronoun. C ('diversity of') converts the action into a noun phrase, which does not parallel the verb-form gerunds in the list.",
+    "distractor_rationale": {
+      "A": "This results from using the infinitive 'to diversify,' which is a related verb form and can function in lists, but does not match the gerund pattern ('expanding,' 'achieving') established by the other two items.",
+      "B": "This results from embedding the goal in a subordinate clause ('that it diversify'), which is a grammatically distinct structure from the gerunds in the list and introduces the pronoun 'it' without a clear referent.",
+      "C": "This results from converting 'diversify' into the noun 'diversity' and using it with a following preposition ('of'), creating a noun phrase that cannot grammatically parallel the verb-form gerunds in the list.",
+      "D": "N/A"
+    }
+  }
+]

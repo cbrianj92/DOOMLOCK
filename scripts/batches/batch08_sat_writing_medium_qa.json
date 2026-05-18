@@ -1,0 +1,332 @@
+[
+  {
+    "exam": "SAT",
+    "subject": "Writing",
+    "skill": "Subject-Verb Agreement",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "Which choice correctly completes the sentence?\n\nNeither the supervisor nor the employees _____ aware of the policy changes before the announcement.",
+    "choices": {
+      "A": "was",
+      "B": "am",
+      "C": "is",
+      "D": "are"
+    },
+    "correct": "D",
+    "explanation": "When 'neither...nor' connects two subjects, the verb agrees with the subject closest to it. Here, the subject closest to the verb is 'employees' (plural), so the verb must be plural: 'are.' D is correct. A ('was') agrees with 'supervisor' (the farther subject) rather than the nearer 'employees,' violating the proximity rule. B ('am') is first-person singular and has no grammatical connection to any noun in the sentence. C ('is') is third-person singular and also agrees with the farther noun rather than the nearer plural subject.",
+    "distractor_rationale": {
+      "A": "This results from applying subject-verb agreement to 'supervisor,' the first noun mentioned, rather than to 'employees,' which is the noun nearest to the verb and therefore the one that determines agreement in a 'neither...nor' construction.",
+      "B": "This results from selecting first-person singular ('am'), which has no grammatical connection to any third-person noun in the sentence — a confusion of person rather than number.",
+      "C": "This results from applying singular agreement to 'supervisor' (the first noun) rather than to 'employees' (the nearest noun), and selecting 'is' as the singular form matching 'supervisor,' when the 'neither...nor' rule requires the verb to match the closest subject.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Writing",
+    "skill": "Subject-Verb Agreement",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "Which choice correctly completes the sentence?\n\nAmong the most pressing challenges of the twenty-first century _____ access to clean water.",
+    "choices": {
+      "A": "are",
+      "B": "is",
+      "C": "were",
+      "D": "have been"
+    },
+    "correct": "B",
+    "explanation": "This sentence is inverted — the subject follows the verb. The prepositional phrase 'Among the most pressing challenges of the twenty-first century' is not the subject. The true subject is 'access,' a singular noun, which requires the singular verb 'is.' B is correct. A ('are') treats 'challenges' (a plural noun inside a prepositional phrase) as the subject. C ('were') is past tense and also plural. D ('have been') is plural and uses the present perfect tense without justification.",
+    "distractor_rationale": {
+      "A": "This results from identifying 'challenges' as the subject because it is the most prominent plural noun in the sentence, without recognizing that 'challenges' is inside a prepositional phrase and cannot be the grammatical subject.",
+      "B": "N/A",
+      "C": "This results from the same error as A — treating 'challenges' as the subject — and additionally switching to past tense without any contextual reason to do so.",
+      "D": "This results from treating 'challenges' as the subject, producing a plural verb, and additionally using present perfect tense ('have been') without any signal in the sentence that this tense is appropriate."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Writing",
+    "skill": "Pronoun Agreement",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "Which choice correctly completes the sentence?\n\nThe jury delivered _____ verdict after three days of deliberation.",
+    "choices": {
+      "A": "its",
+      "B": "their",
+      "C": "our",
+      "D": "the jury's own"
+    },
+    "correct": "A",
+    "explanation": "In American English, collective nouns like 'jury,' 'team,' and 'committee' are treated as singular units and take singular pronouns. 'Its' (A) is the correct singular third-person pronoun. B ('their') treats 'jury' as plural, which is the British English convention but not standard American usage. C ('our') incorrectly places the speaker as a member of the jury, shifting to first-person plural. D ('the jury's own') is redundant — if 'the jury' is already the subject of the sentence, repeating it in the pronoun position with 'own' adds words without clarity.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from applying plural agreement to 'jury' because jurors are multiple people, which is logical but contradicts the American English convention that treats collective nouns as grammatically singular.",
+      "C": "This results from shifting to first-person plural 'our,' which would make the writer a member of the jury — a person shift that is both grammatically incorrect and logically impossible in this context.",
+      "D": "This results from using the full noun 'the jury's own' as if a pronoun were not available, but this creates redundancy and unnecessarily repeats the subject of the sentence when 'its' concisely serves the same function."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Writing",
+    "skill": "Pronoun Agreement",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "Which choice best replaces the underlined word to eliminate pronoun ambiguity?\n\nAfter Maria showed the recruiter the portfolio, she was impressed by the quality of the work.",
+    "choices": {
+      "A": "it",
+      "B": "one of them",
+      "C": "the recruiter",
+      "D": "she"
+    },
+    "correct": "C",
+    "explanation": "The original 'she' is ambiguous because both Maria and the recruiter are female — a reader cannot determine which person was impressed. C replaces the ambiguous pronoun with the specific noun 'the recruiter,' eliminating all ambiguity. A ('it') is inappropriate because both referents are people, not objects. B ('one of them') introduces 'them,' a new pronoun with no clear antecedent, and remains vague. D ('she') preserves the original ambiguous pronoun and solves nothing.",
+    "distractor_rationale": {
+      "A": "This results from seeking a grammatically singular pronoun to replace 'she' without recognizing that 'it' is reserved for objects, not people — using 'it' for a person is both ungrammatical and impersonal.",
+      "B": "This results from attempting to distinguish between two female referents with 'one of them,' but 'them' introduces a new ambiguous plural pronoun and 'one of them' remains vague about which person is meant.",
+      "C": "N/A",
+      "D": "This results from leaving the ambiguous pronoun 'she' unchanged, which fails to resolve the problem the question identifies — the reader still cannot determine whether Maria or the recruiter was impressed."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Writing",
+    "skill": "Verb Tense",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "Which choice correctly completes the sentence?\n\nThe architect _____ on this project for five years when the client suddenly canceled the contract.",
+    "choices": {
+      "A": "works",
+      "B": "has worked",
+      "C": "worked",
+      "D": "had been working"
+    },
+    "correct": "D",
+    "explanation": "The sentence describes an ongoing past action (working on the project) that was interrupted by another past event (the client canceling). When a continuous past action was in progress before a specific past interruption, the past perfect progressive ('had been working') is required. D is correct. A ('works') is present tense, inconsistent with the past context. B ('has worked') is present perfect, which connects a past action to the present moment — not appropriate in a sentence that is entirely in the past. C ('worked') is simple past, which does not capture the ongoing, duration-emphasized nature of the action before the interruption.",
+    "distractor_rationale": {
+      "A": "This results from using present tense in a sentence whose context — 'when the client suddenly canceled' — is clearly situated in the past.",
+      "B": "This results from confusing present perfect ('has worked') with past perfect ('had worked'). Present perfect describes past actions relevant to the present; only past perfect (or past perfect progressive) can describe past actions occurring before another past event.",
+      "C": "This results from using simple past ('worked'), which is grammatically acceptable but does not convey the emphasis on continuous duration ('for five years') before the interruption — past perfect progressive is the more precise choice here.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Writing",
+    "skill": "Verb Tense",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "Which choice correctly completes the sentence?\n\nBy next spring, the researchers _____ the data from all three sites and will be ready to publish.",
+    "choices": {
+      "A": "will have collected",
+      "B": "would have collected",
+      "C": "collected",
+      "D": "have collected"
+    },
+    "correct": "A",
+    "explanation": "'By next spring' establishes a specific future point. An action that will be completed before that future point requires the future perfect tense: 'will have collected.' A is correct. B ('would have collected') is the conditional perfect, used for hypothetical past situations ('if X had happened, they would have collected') — not appropriate for a straightforward future completion. C ('collected') is simple past, which conflicts with 'by next spring,' a future time marker. D ('have collected') is present perfect, referring to past actions relevant to the present — not to actions completed before a future deadline.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from confusing future perfect ('will have') with conditional perfect ('would have'), which is used in hypothetical or conditional sentences — structures that the sentence does not contain.",
+      "C": "This results from using simple past tense in a sentence that refers to a future time point ('next spring'), creating a tense contradiction.",
+      "D": "This results from confusing present perfect ('have collected') with future perfect ('will have collected'). Present perfect describes completed past actions; future perfect is required for actions that will be complete before a specified future moment."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Writing",
+    "skill": "Punctuation",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "Which choice correctly joins the two independent clauses?\n\nThe experiment failed to produce the expected results _____ the team decided to reexamine their initial assumptions.",
+    "choices": {
+      "A": "The experiment failed to produce the expected results, the team decided to reexamine their initial assumptions.",
+      "B": "The experiment failed to produce the expected results; therefore, the team decided to reexamine their initial assumptions.",
+      "C": "The experiment failed to produce the expected results, however, the team decided to reexamine their initial assumptions.",
+      "D": "The experiment failed to produce the expected results: the team decided to reexamine their initial assumptions, consequently."
+    },
+    "correct": "B",
+    "explanation": "Both clauses are independent (each has a subject and verb and could stand alone). When joining them with the conjunctive adverb 'therefore' to show cause-and-effect, a semicolon must precede it and a comma must follow it. B is the only option with this correct structure. A is a comma splice — two independent clauses joined by only a comma. C uses 'however' (a conjunctive adverb) after only a comma, which also creates a comma splice — conjunctive adverbs require a semicolon before them. D places 'consequently' at the end of the second clause, which is awkward and unidiomatic, and uses a colon where a semicolon is needed.",
+    "distractor_rationale": {
+      "A": "This results from joining two independent clauses with only a comma — a comma splice. A comma alone cannot join two independent clauses; a coordinating conjunction or semicolon is also needed.",
+      "B": "N/A",
+      "C": "This results from treating 'however' like a coordinating conjunction (which can follow a comma) when it is actually a conjunctive adverb, which requires a semicolon before it rather than a comma.",
+      "D": "This results from using a colon instead of a semicolon before the second clause and placing 'consequently' at the end of the sentence in a non-idiomatic position, rather than using it immediately after the semicolon as a conjunctive adverb."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Writing",
+    "skill": "Punctuation",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "Which choice correctly completes the sentence?\n\nThe only student _____ scored above 95 on every test received the department's highest honor.",
+    "choices": {
+      "A": ", who,",
+      "B": ", which",
+      "C": "who",
+      "D": ", who"
+    },
+    "correct": "C",
+    "explanation": "The clause 'who scored above 95 on every test' is a restrictive relative clause — it identifies which specific student received the honor. Restrictive clauses are essential to the meaning of the sentence and are not set off with commas. C is correct. A adds commas on both sides, making the clause non-restrictive (as if the information were just extra detail), which would imply there is only one student and we already know who they are. B uses 'which' instead of 'who,' but 'which' should refer to things, not people. D adds a comma before the clause but not after, which is inconsistent and incorrect.",
+    "distractor_rationale": {
+      "A": "This results from treating the relative clause as non-restrictive (parenthetical extra information set off by commas), when in fact the clause is restrictive — it identifies which specific student is being discussed and is essential to the meaning.",
+      "B": "This results from using 'which' to refer to a person ('student'), when 'who' or 'whom' should be used for people and 'which' is reserved for objects or animals.",
+      "C": "N/A",
+      "D": "This results from adding a comma before 'who' without adding one after the clause, creating an inconsistent punctuation pattern — if a clause is set off with commas, both a comma before and after are required."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Writing",
+    "skill": "Transitions",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "Which transition best completes the sentence?\n\nThe new medication showed promising results in early trials. _____, further testing on larger populations is needed before it can be approved for widespread use.",
+    "choices": {
+      "A": "For example",
+      "B": "In contrast",
+      "C": "As a result",
+      "D": "Nevertheless"
+    },
+    "correct": "D",
+    "explanation": "The first sentence states a positive finding (promising results). The second acknowledges a limitation that persists despite the positive finding (more testing is still needed). This is a concessive relationship — 'despite the good news, there is still a catch.' 'Nevertheless' signals this: 'the early results are promising; nevertheless, more work remains.' A ('For example') would introduce an illustration of the first sentence, but the second sentence presents a limitation, not an example. B ('In contrast') implies direct opposition, but the limitation is an additional requirement, not a contradiction. C ('As a result') implies the second event was caused by the first, which is backward — the need for further testing is not caused by the promising results.",
+    "distractor_rationale": {
+      "A": "This results from misidentifying the second sentence as an example or elaboration of the first, when it actually introduces a qualifying limitation that persists despite the positive finding.",
+      "B": "This results from misidentifying the relationship as one of direct opposition or contradiction, when the second sentence does not contradict the first — it acknowledges the promising results while adding a qualification.",
+      "C": "This results from misreading the causal direction — 'as a result' would imply that the need for further testing is caused by the promising results, when in fact the limitation exists independently of how the early trials performed.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Writing",
+    "skill": "Transitions",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "Which transition best completes the sentence?\n\nScientists have now mapped the majority of the ocean floor. _____, vast stretches of the deep ocean remain largely unexplored and poorly understood.",
+    "choices": {
+      "A": "Therefore",
+      "B": "Yet",
+      "C": "Similarly",
+      "D": "Namely"
+    },
+    "correct": "B",
+    "explanation": "The first sentence states a significant scientific achievement (mapping most of the ocean floor). The second sentence presents a surprising or counterintuitive limitation (vast areas still unexplored). The relationship is contrastive — 'despite this impressive achievement, much remains unknown.' 'Yet' (B) signals this kind of concessive contrast effectively. A ('Therefore') implies the unexplored regions are a logical consequence of the mapping achievement, which is not the intended relationship. C ('Similarly') would draw a parallel between the two sentences, when they describe different and contrasting ideas. D ('Namely') introduces a specific example or elaboration — the second sentence is a contrast, not a specification of the first.",
+    "distractor_rationale": {
+      "A": "This results from misidentifying the relationship as cause-and-effect — 'therefore' would imply that vast unexplored regions are a result of mapping success, when the two facts are independent and contrasting.",
+      "B": "N/A",
+      "C": "This results from misidentifying the relationship as additive or comparative — 'similarly' would link the two sentences as parallel achievements, when the second sentence actually undercuts the impression of completeness created by the first.",
+      "D": "This results from misidentifying the second sentence as a specification or elaboration of the first, when it instead introduces a contrasting limitation — 'namely' would be appropriate only if the second sentence gave a specific example of the mapping achievement."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Writing",
+    "skill": "Sentence Combining",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "Which of the following best combines the two sentences into a single, clear, and concise sentence?\n\nThe company launched a new product line. The product line targets environmentally conscious consumers.",
+    "choices": {
+      "A": "The company launched a new product line targeting environmentally conscious consumers.",
+      "B": "The company launched a new product line, it targets environmentally conscious consumers.",
+      "C": "Targeting environmentally conscious consumers, the company's product line was newly launched for them.",
+      "D": "The company launched a new product line; the product line it launched targets environmentally conscious consumers."
+    },
+    "correct": "A",
+    "explanation": "A integrates both sentences cleanly by converting 'the product line targets environmentally conscious consumers' into the participial phrase 'targeting environmentally conscious consumers' — concise, grammatical, and unambiguous. B is a comma splice — two independent clauses joined by only a comma. C is awkward and redundant: 'for them' is vague and unnecessary, and the sentence buries the main action. D uses a semicolon correctly but repeats 'the product line' and 'it launched,' creating wordiness without adding clarity.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from joining two independent clauses with only a comma — a comma splice — rather than using a conjunction or restructuring the sentence.",
+      "C": "This results from using a dangling modifier structure that awkwardly places the participial phrase 'targeting environmentally conscious consumers' at the start and then adds the redundant 'for them' at the end, producing a clumsy sentence.",
+      "D": "This results from using a semicolon to join the sentences, which is grammatically acceptable but creates redundancy by repeating 'the product line' and 'it launched' in the second clause when a participial phrase would eliminate that repetition."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Writing",
+    "skill": "Sentence Combining",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "Which of the following best combines the two sentences into a single, clear, and concise sentence?\n\nThe documentary was three hours long. Many viewers found it compelling despite the length.",
+    "choices": {
+      "A": "Although many viewers found it compelling, the documentary was three hours long.",
+      "B": "Being three hours long, many viewers found the documentary compelling nonetheless.",
+      "C": "Despite its length, many viewers found the three-hour documentary compelling.",
+      "D": "The documentary was three hours long, and many viewers found it compelling despite this."
+    },
+    "correct": "C",
+    "explanation": "C integrates both ideas concisely and clearly: the prepositional phrase 'despite its length' captures the first sentence, and 'the three-hour documentary compelling' captures the second, all in one smooth construction. A is grammatically correct but shifts the emphasis — 'although compelling' makes the length sound like the main point, reversing the intended meaning. B has a dangling modifier: 'Being three hours long' modifies 'many viewers,' implying the viewers are three hours long. D uses 'despite this,' in which 'this' is a vague pronoun reference, and the coordinating conjunction 'and' underplays the contrast signaled by 'despite.'",
+    "distractor_rationale": {
+      "A": "This results from restructuring the sentence so that the concessive clause ('although... compelling') comes first, which reverses the emphasis — the original meaning presents the long length as the obstacle and the compelling quality as the surprising outcome.",
+      "B": "This results from placing the participial phrase 'Being three hours long' at the start, which must modify the sentence's subject — 'many viewers' — creating a dangling modifier that implies the viewers, not the documentary, are three hours long.",
+      "C": "N/A",
+      "D": "This results from using the vague pronoun 'this' to refer to the documentary's length and using 'and' (additive) rather than a contrast structure, weakening the logical relationship between the two ideas."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Writing",
+    "skill": "Redundancy & Concision",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "Which choice most concisely expresses the meaning of the sentence without unnecessary repetition?",
+    "choices": {
+      "A": "It is important to note that the study results do not in any way contradict the previously established conclusions.",
+      "B": "Importantly, the study results do not contradict the previously established conclusions in any manner whatsoever.",
+      "C": "Of importance is the fact that the study results do not represent a contradiction to the conclusions that had been established previously.",
+      "D": "The study results do not contradict the previously established conclusions."
+    },
+    "correct": "D",
+    "explanation": "D expresses the complete meaning in nine words without any filler. A uses 'it is important to note that' — an empty introductory frame that adds words without information — and 'in any way,' a redundant intensifier on a negation ('do not' already implies 'in any way'). B adds 'in any manner whatsoever,' which is an even more emphatic redundant intensifier. C replaces the direct verb 'do not contradict' with the wordy phrase 'do not represent a contradiction to,' and uses 'of importance is the fact that' — another empty opener.",
+    "distractor_rationale": {
+      "A": "This results from using the empty introductory frame 'it is important to note that' and adding the redundant intensifier 'in any way,' both of which add length without contributing meaning.",
+      "B": "This results from adding 'in any manner whatsoever' — a reinforcing phrase that is entirely redundant when the sentence already uses the negation 'do not,' which implicitly covers all manners of contradiction.",
+      "C": "This results from replacing the direct verb 'contradict' with the wordy nominal construction 'represent a contradiction to,' and using the empty opener 'of importance is the fact that' to defer the actual subject of the sentence by several words.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Writing",
+    "skill": "Redundancy & Concision",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "Which choice most concisely expresses the meaning of the sentence without unnecessary words?",
+    "choices": {
+      "A": "The new policy will reduce costs and increase efficiency.",
+      "B": "The new policy that has been implemented will bring about reductions in cost and improvements in the efficiency level.",
+      "C": "The new policy, when implemented, will have the effect of reducing costs and will also serve to increase efficiency.",
+      "D": "As a result of the new policy, costs will be reduced in terms of their amount while efficiency will be increased."
+    },
+    "correct": "A",
+    "explanation": "A states the complete meaning in eight words using direct, active verbs. B adds three redundancies: 'that has been implemented' (implied by 'new policy' in context), 'bring about reductions in cost' instead of 'reduce costs,' and 'efficiency level' (level is redundant with efficiency). C adds 'when implemented' (redundant for a 'new policy'), 'have the effect of' instead of simply the verb, and 'will also serve to' before 'increase.' D uses passive voice ('will be reduced,' 'will be increased'), adds the meaningless phrase 'in terms of their amount,' and buries both subjects in wordy constructions.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from adding a relative clause ('that has been implemented') that is unnecessary context, replacing direct verbs with noun-heavy constructions ('bring about reductions'), and appending 'level' to 'efficiency' without adding meaning.",
+      "C": "This results from adding the empty phrases 'when implemented' and 'will have the effect of' before the first verb, and 'will also serve to' before the second verb — circumlocutions that replace simple direct verbs.",
+      "D": "This results from using passive constructions ('will be reduced,' 'will be increased') that bury agency, and inserting 'in terms of their amount' after 'reduced' — a phrase that adds no information since the only thing 'costs' can be reduced in is their amount."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Writing",
+    "skill": "Parallel Structure",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "Which choice correctly completes the sentence, maintaining parallel structure?\n\nThe professor encouraged students to attend lectures regularly, to complete all readings, and _____ office hours whenever they had questions.",
+    "choices": {
+      "A": "visiting",
+      "B": "to visit",
+      "C": "a visit to",
+      "D": "that they visit"
+    },
+    "correct": "B",
+    "explanation": "The sentence lists three things students are encouraged to do, using the infinitive pattern 'to attend,' 'to complete,' and a third item. To maintain parallel structure, the third item must also be an infinitive: 'to visit.' B is correct. A ('visiting') is a gerund — a verb functioning as a noun — which breaks the parallel infinitive pattern. C ('a visit to') is a noun phrase that also breaks the parallel. D ('that they visit') is a subordinate clause that breaks the parallel structure and unnecessarily introduces 'they,' adding a pronoun that duplicates the sentence's already-implied subject.",
+    "distractor_rationale": {
+      "A": "This results from using the gerund 'visiting' — a verb form that functions as a noun — when the parallel structure requires the infinitive 'to visit' to match 'to attend' and 'to complete.'",
+      "B": "N/A",
+      "C": "This results from converting the action into the noun phrase 'a visit to,' which is not only a different part of speech than the verbs it is paired with but also requires a different syntactic structure to complete the thought.",
+      "D": "This results from embedding the action in a subordinate clause ('that they visit') rather than using a simple infinitive, unnecessarily introducing a new subject ('they') and disrupting the infinitive pattern that governs the entire list."
+    }
+  }
+]

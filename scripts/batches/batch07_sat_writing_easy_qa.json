@@ -1,0 +1,222 @@
+[
+  {
+    "exam": "SAT",
+    "subject": "Writing",
+    "skill": "Subject-Verb Agreement",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "Which choice correctly completes the sentence?\n\nThe committee of elected officials _____ to approve the new budget proposal.",
+    "choices": {
+      "A": "have voted",
+      "B": "are voting",
+      "C": "has voted",
+      "D": "were voting"
+    },
+    "correct": "C",
+    "explanation": "The subject of the sentence is 'committee,' a singular collective noun. The prepositional phrase 'of elected officials' is a modifier, not the subject. A singular subject requires a singular verb, so 'has voted' (C) is correct. A ('have voted') and B ('are voting') use plural verb forms that do not agree with the singular subject. D ('were voting') is also plural and additionally uses the past progressive tense inappropriately here.",
+    "distractor_rationale": {
+      "A": "This results from treating 'officials' (the nearest noun) as the subject rather than 'committee,' applying a plural verb to a plural-sounding word inside a prepositional phrase.",
+      "B": "This results from the same subject-identification error as A — selecting a plural verb ('are') because 'officials' is plural — and additionally using present progressive tense unnecessarily.",
+      "C": "N/A",
+      "D": "This results from the same plural-noun confusion as A and B, combined with incorrectly shifting to past progressive tense rather than simple past."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Writing",
+    "skill": "Pronoun Agreement",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "Which choice correctly completes the sentence?\n\nEach of the students must submit _____ own research paper by Friday.",
+    "choices": {
+      "A": "their",
+      "B": "your",
+      "C": "our",
+      "D": "its"
+    },
+    "correct": "A",
+    "explanation": "'Each' is an indefinite pronoun referring to individual people. When the antecedent refers to people and gender is not specified, 'their' is the accepted singular pronoun in standard edited English. B ('your') incorrectly shifts to second person, addressing the reader rather than referring to the students. C ('our') incorrectly shifts to first person plural, which does not refer back to the students. D ('its') is used for objects or animals, not for people.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from confusing the perspective of the sentence — 'your' addresses the reader directly (second person) rather than referring back to 'each of the students' (third person).",
+      "C": "This results from using first person plural 'our,' which would make the speaker a member of the group being described, changing the meaning and person of the sentence inappropriately.",
+      "D": "This results from applying the logic that 'each' is grammatically singular and therefore must use a singular pronoun, but incorrectly selecting 'its' — which is appropriate for objects or animals, not for people."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Writing",
+    "skill": "Verb Tense",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "Which choice correctly completes the sentence?\n\nBy the time the sun rose, the hikers _____ the summit and were beginning their descent.",
+    "choices": {
+      "A": "reached",
+      "B": "reach",
+      "C": "have reached",
+      "D": "had reached"
+    },
+    "correct": "D",
+    "explanation": "The phrase 'by the time the sun rose' signals that reaching the summit happened before the sun rising — two past events in sequence. When one past action is completed before another, English requires the past perfect ('had reached') for the earlier action. D is correct. A ('reached') uses simple past, which does not convey that one action was completed before the other. B ('reach') is present tense, which is inconsistent with the past context. C ('have reached') is present perfect, which refers to actions connected to the present — inappropriate in an entirely past context.",
+    "distractor_rationale": {
+      "A": "This results from using simple past tense ('reached'), which places both actions at the same level of pastness without indicating that one was completed before the other — missing the sequential relationship established by 'by the time.'",
+      "B": "This results from using present tense ('reach') in a sentence that is clearly set in the past, creating a tense inconsistency with 'rose' and 'were beginning.'",
+      "C": "This results from confusing present perfect ('have reached') with past perfect ('had reached'). Present perfect connects a past action to the present moment; past perfect connects two past actions to each other — only past perfect is appropriate here.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Writing",
+    "skill": "Punctuation",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "Which choice uses punctuation correctly?\n\nMy sister _____ a marine biologist _____ has spent three years studying coral reef ecosystems.",
+    "choices": {
+      "A": "— a marine biologist, —",
+      "B": ", a marine biologist,",
+      "C": ": a marine biologist;",
+      "D": "— a marine biologist: —"
+    },
+    "correct": "B",
+    "explanation": "'A marine biologist' is an appositive — a noun phrase that renames or identifies 'my sister.' Appositives are set off from the rest of the sentence with commas. B correctly uses a comma before and after the appositive. A mixes a dash with a comma, which is inconsistent. C uses a colon to introduce the appositive (colons should not interrupt a sentence mid-clause to introduce a renaming phrase) and a semicolon to close it (semicolons separate independent clauses, not appositives). D mixes a dash with a colon, another inconsistent combination.",
+    "distractor_rationale": {
+      "A": "This results from using dashes, which can set off appositives, but then incorrectly switching to a comma for the closing mark — punctuation used to bracket an appositive must be consistent on both sides.",
+      "B": "N/A",
+      "C": "This results from misapplying a colon to introduce an appositive mid-sentence — colons should not interrupt the subject-verb flow of a clause — and using a semicolon to close it, compounding the error.",
+      "D": "This results from using dashes to open the appositive but switching to a colon after it — colons introduce lists or explanations at the end of independent clauses, not after appositives."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Writing",
+    "skill": "Punctuation",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "Which of the following versions of the sentence is punctuated correctly?",
+    "choices": {
+      "A": "The three most important qualities for a leader are honesty, determination, and empathy.",
+      "B": "The three most important qualities for a leader are: honesty, determination, and empathy.",
+      "C": "The three most important qualities for a leader are honesty; determination; and empathy.",
+      "D": "The three most important qualities for a leader are, honesty, determination, and empathy."
+    },
+    "correct": "A",
+    "explanation": "A correctly uses commas to separate items in a series with no additional punctuation needed. B incorrectly inserts a colon after 'are' — colons should not interrupt a verb and its complement when they form a grammatically complete introductory clause only when the clause before the colon is independent. Here 'are' requires what follows to complete it, so no colon is appropriate. C uses semicolons to separate short list items, which is appropriate only when list items themselves contain commas. D incorrectly inserts a comma between the verb 'are' and its direct object, disrupting the sentence structure.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from believing a colon is required whenever a list follows a verb, when in fact a colon should only be used after a complete independent clause — 'the three most important qualities are' requires the list to complete its meaning, so the sentence is not yet independent before the colon.",
+      "C": "This results from using semicolons, which are appropriate to separate complex list items containing internal commas, to separate simple one-word items where regular commas are both correct and sufficient.",
+      "D": "This results from inserting an unnecessary comma between the linking verb 'are' and the first item in the list, disrupting the natural subject-verb-complement structure."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Writing",
+    "skill": "Transitions",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "Which transition word or phrase best completes the sentence?\n\nThe weather forecast predicted heavy rain all weekend. _____, the skies cleared by Saturday morning and the outdoor festival proceeded as planned.",
+    "choices": {
+      "A": "Therefore",
+      "B": "Moreover",
+      "C": "However",
+      "D": "Similarly"
+    },
+    "correct": "C",
+    "explanation": "The second sentence presents an outcome that contradicts the first — clear skies despite a prediction of rain. A contrast transition is needed. 'However' (C) signals that the following information contradicts or qualifies what came before. 'Therefore' (A) implies the second event was a logical result of the first — incorrect, since clear skies are the opposite of what was predicted. 'Moreover' (B) adds supporting information in the same direction — incorrect, since the second sentence contradicts the first. 'Similarly' (D) draws a comparison — incorrect, since the two sentences describe opposite situations.",
+    "distractor_rationale": {
+      "A": "This results from misidentifying the relationship between the sentences as cause-and-effect — 'therefore' would signal that clear skies resulted from the rain forecast, which is logically impossible.",
+      "B": "This results from misidentifying the relationship as additive — 'moreover' would add a second point in the same direction as the first, when the second sentence actually reverses the expectation set by the first.",
+      "C": "N/A",
+      "D": "This results from misidentifying the relationship as comparative — 'similarly' would draw a parallel between the two sentences, when they describe opposite outcomes."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Writing",
+    "skill": "Sentence Combining",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "Which of the following best combines the two sentences into a single, grammatically correct sentence?\n\nThe report was long. It was also difficult to follow.",
+    "choices": {
+      "A": "The report was long, it was also difficult to follow.",
+      "B": "The report was long, but however it was also difficult to follow.",
+      "C": "Being long, the report was also being difficult to follow.",
+      "D": "The report was both long and difficult to follow."
+    },
+    "correct": "D",
+    "explanation": "D combines both ideas cleanly using the correlative conjunction 'both...and,' creating a parallel and concise sentence. A creates a comma splice — two independent clauses joined only by a comma, which is a grammatical error. B is redundant: 'but' and 'however' both signal contrast, and using both together is incorrect. C uses 'being' twice in a clumsy construction that is grammatically awkward and unclear in meaning.",
+    "distractor_rationale": {
+      "A": "This results from joining two independent clauses with only a comma — a comma splice — rather than using a coordinating conjunction, semicolon, or other appropriate connective.",
+      "B": "This results from combining two contrast signals ('but' and 'however') that serve the same function, creating redundancy; only one is needed to join the contrasting ideas.",
+      "C": "This results from using the participial phrase 'being long' awkwardly as a modifier and then repeating the pattern with 'being difficult,' producing a grammatically awkward and unnecessarily wordy construction.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Writing",
+    "skill": "Redundancy & Concision",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "Which choice most concisely expresses the meaning of the sentence without unnecessary repetition?",
+    "choices": {
+      "A": "The reason for the delay was due to the fact that the shipment arrived late.",
+      "B": "The delay was caused by the late shipment.",
+      "C": "The shipment being late was the cause behind the reason for the delay.",
+      "D": "Due to the late arrival of the shipment, a delay was caused to occur."
+    },
+    "correct": "B",
+    "explanation": "B expresses the complete meaning in eight words with no redundancy. A contains two redundancies: 'the reason... was due to' (either 'the reason was' or 'was due to' alone suffices) and 'the fact that' (an unnecessary phrase). C layers 'cause' and 'reason' together redundantly. D is wordy — 'due to the late arrival of the shipment' is longer than 'caused by the late shipment,' and 'a delay was caused to occur' adds 'to occur' unnecessarily.",
+    "distractor_rationale": {
+      "A": "This results from using 'the reason was due to the fact that' — a construction that combines three ways of expressing causation ('reason,' 'due to,' 'the fact that') when only one is needed.",
+      "B": "N/A",
+      "C": "This results from using both 'cause' and 'reason' to describe the same relationship and nesting them ('the cause behind the reason'), creating circular redundancy.",
+      "D": "This results from using a passive and wordy construction ('a delay was caused to occur') that adds the meaningless filler 'to occur' and buries the subject in an unnecessarily long prepositional phrase."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Writing",
+    "skill": "Redundancy & Concision",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "Which choice most concisely expresses the meaning without redundancy?",
+    "choices": {
+      "A": "The scientist concluded that the experiment was successful.",
+      "B": "The scientist came to the final conclusion that the experiment was a success that was achieved.",
+      "C": "In the opinion of the scientist, it was her conclusion that the experiment achieved a successful outcome.",
+      "D": "The scientist, who conducted the experiment, reached the conclusion that the results were successful in their outcome."
+    },
+    "correct": "A",
+    "explanation": "A communicates the complete idea in eight concise words. B is redundant: 'came to the final conclusion' uses four words to say 'concluded,' and 'a success that was achieved' adds 'that was achieved' without new meaning. C uses 'in the opinion of' and 'it was her conclusion' to express a single idea — that she concluded — in eleven unnecessary words before reaching the point. D adds 'who conducted the experiment' (unnecessary background), replaces 'concluded' with 'reached the conclusion that,' and appends 'in their outcome' after 'successful' without adding meaning.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from replacing the single verb 'concluded' with the wordy phrase 'came to the final conclusion' and adding 'that was achieved' after 'success,' both of which add length without additional meaning.",
+      "C": "This results from stacking introductory phrases ('in the opinion of the scientist, it was her conclusion') to express what 'the scientist concluded' says in three words, inflating sentence length without adding information.",
+      "D": "This results from adding a relative clause ('who conducted the experiment') that is already implied by context, replacing 'concluded' with the longer 'reached the conclusion that,' and appending the redundant phrase 'in their outcome' after 'successful.'"
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Writing",
+    "skill": "Parallel Structure",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "Which choice correctly completes the sentence, maintaining parallel structure?\n\nThe new exercise program will help you build strength, improve endurance, and _____ your flexibility.",
+    "choices": {
+      "A": "to increase",
+      "B": "an increase in",
+      "C": "increase",
+      "D": "increasing"
+    },
+    "correct": "C",
+    "explanation": "The sentence lists three things the program will help you do: 'build,' 'improve,' and a third verb. To maintain parallel structure, all three items must use the same grammatical form — here, a base-form verb. 'Increase' (C) matches 'build' and 'improve.' A ('to increase') introduces an infinitive that breaks the parallel pattern established by the other two verbs. B ('an increase in') switches from a verb to a noun phrase, breaking parallel structure. D ('increasing') uses a gerund (verb acting as a noun), which also breaks the parallel verb structure.",
+    "distractor_rationale": {
+      "A": "This results from using the infinitive form 'to increase,' which feels natural as a goal-oriented phrase but breaks the grammatical parallel with the base verbs 'build' and 'improve' that precede it.",
+      "B": "This results from converting the action into a noun phrase ('an increase in'), which shifts from the verb structure used in the rest of the list and introduces a preposition that would require restructuring the rest of the sentence.",
+      "C": "N/A",
+      "D": "This results from using the gerund 'increasing,' which functions as a noun rather than a verb in this context, breaking the parallel pattern of base-form verbs ('build,' 'improve') established earlier in the list."
+    }
+  }
+]

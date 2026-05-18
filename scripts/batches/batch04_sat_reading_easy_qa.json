@@ -1,0 +1,332 @@
+[
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Main Idea",
+    "difficulty": "Easy",
+    "passage": "Honeybees are essential contributors to agricultural systems worldwide. Through pollination, bees transfer pollen from one flower to another, enabling plants to produce fruit and seeds. Without bees, approximately one-third of the world's food supply would be at risk. In recent decades, honeybee populations have declined due to pesticide exposure, habitat loss, and disease. Farmers and scientists have begun implementing practices such as reducing pesticide use and planting wildflower corridors to support bee recovery.",
+    "question": "What is the main idea of this passage?",
+    "choices": {
+      "A": "Honeybees are the only animals capable of pollinating crops.",
+      "B": "Declining honeybee populations threaten food supplies, prompting conservation efforts.",
+      "C": "Pesticides are the single leading cause of bee population decline worldwide.",
+      "D": "Scientists have recently discovered a cure for the diseases affecting honeybees."
+    },
+    "correct": "B",
+    "explanation": "The passage covers three connected ideas: bees' importance to food production, the decline in their populations due to multiple causes, and the conservation efforts now underway. B is the only choice that captures all three elements. A is incorrect because the passage never claims bees are the only pollinators. C overstates the role of pesticides — the passage lists multiple causes. D contradicts the passage, which describes ongoing efforts, not a discovered cure.",
+    "distractor_rationale": {
+      "A": "This results from misreading 'essential' as 'exclusive.' The passage states bees are critical contributors but never claims they are the only pollinators capable of supporting crops.",
+      "B": "N/A",
+      "C": "This results from focusing on a single detail (pesticide exposure) and elevating it to the primary cause, ignoring that the passage also lists habitat loss and disease.",
+      "D": "This results from misreading the passage's description of recovery efforts as evidence that a cure has been found, when in fact only preventive practices are described."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Main Idea",
+    "difficulty": "Easy",
+    "passage": "For most of the twentieth century, public libraries served primarily as places to borrow printed books. Today, however, libraries have transformed into community hubs offering digital resources, computer access, tutoring programs, and meeting spaces for local groups. Many libraries now lend tools, seeds, and even museum passes. This evolution reflects the library's enduring mission: to connect people with the information and resources they need, adapting to each generation's changing demands.",
+    "question": "Which of the following best states the main idea of the passage?",
+    "choices": {
+      "A": "Public libraries have expanded their services to meet modern needs while maintaining their core mission.",
+      "B": "Libraries are replacing printed books entirely with digital resources as technology advances.",
+      "C": "Modern libraries have abandoned their original purpose of lending books to the public.",
+      "D": "Libraries now focus exclusively on providing internet access rather than academic resources."
+    },
+    "correct": "A",
+    "explanation": "The passage describes how libraries have added many new services (digital resources, tools, tutoring) while preserving their original mission to connect people with what they need. A captures both the expansion and the continuity of purpose. B is incorrect because the passage describes additions, not replacements. C directly contradicts the passage, which says the mission 'endures.' D overstates by claiming libraries focus 'exclusively' on internet access, which is only one of many services mentioned.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from focusing on the contrast between printed books and digital resources and incorrectly concluding that one has replaced the other, rather than reading that both now coexist.",
+      "C": "This results from misreading the shift in focus as an abandonment of the original purpose, when the passage explicitly states the mission endures.",
+      "D": "This results from picking a single example (computer access) and overgeneralizing it as the library's sole modern focus, ignoring the many other services described."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Inference",
+    "difficulty": "Easy",
+    "passage": "Maria arrived at the community garden early each morning, before the summer heat became oppressive. She kept a detailed notebook recording which plants thrived in partial shade and which wilted without full sunlight. When her neighbor Miguel planted tomatoes along the fence line one spring, Maria paused, studied the fence's shadow, and quietly moved her own seedlings three rows to the east without saying a word.",
+    "question": "What can be reasonably inferred about why Maria moved her seedlings?",
+    "choices": {
+      "A": "Maria wanted to avoid competition with Miguel's tomatoes for soil nutrients.",
+      "B": "Maria was following the community garden's official row assignment rules.",
+      "C": "Maria recognized that the fence's shadow would deprive her seedlings of adequate sunlight.",
+      "D": "Maria disliked Miguel and wanted to distance her garden plot from his."
+    },
+    "correct": "C",
+    "explanation": "The passage establishes that Maria carefully tracks which plants need full sunlight. When Miguel plants along the fence line, she 'studies the fence's shadow' before moving her seedlings eastward — away from the shadow. This directly supports the inference that she anticipated the shadow reducing sunlight for her plants. A is possible in general but the passage describes her examining the shadow, not the soil. B has no textual support. D is purely speculative with nothing in the passage suggesting personal conflict.",
+    "distractor_rationale": {
+      "A": "This results from applying general gardening knowledge (nutrient competition between nearby plants) without noticing that the passage specifically describes Maria studying the fence's shadow, not the soil.",
+      "B": "This results from inventing an external explanation (rules) not mentioned anywhere in the passage, rather than inferring from the character's observed behavior.",
+      "C": "N/A",
+      "D": "This results from reading emotional conflict into the phrase 'without saying a word,' when the passage provides no evidence of a negative relationship between Maria and Miguel."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Inference",
+    "difficulty": "Easy",
+    "passage": "Jaden checked the clock repeatedly during his chemistry exam. He had studied diligently for three weeks, completing every practice problem and rewriting his notes twice. As he flipped to the last page, he felt his confidence drain — the final three questions covered a reaction type his teacher had mentioned only once in passing. He stared at them, tapping his pencil against the desk.",
+    "question": "What can most reasonably be inferred from Jaden's behavior at the end of the exam?",
+    "choices": {
+      "A": "Jaden had not studied adequately for the exam.",
+      "B": "Jaden was confident he would still earn a high score on the exam.",
+      "C": "Jaden planned to ask his teacher for extra credit after the exam.",
+      "D": "Jaden was uncertain how to answer the final questions despite his thorough preparation."
+    },
+    "correct": "D",
+    "explanation": "The passage establishes that Jaden prepared extensively (three weeks of study, all practice problems, rewritten notes), which rules out A. At the end, his 'confidence drain[s]' because the final questions cover material taught only briefly — directly supporting D. B is contradicted by 'felt his confidence drain.' C is speculation with no textual support. D is the only inference supported by both his thorough preparation and his sudden uncertainty at unfamiliar material.",
+    "distractor_rationale": {
+      "A": "This results from misreading Jaden's final struggle as evidence of poor preparation, when the passage explicitly states he studied diligently for three weeks and completed all practice problems.",
+      "B": "This results from ignoring the phrase 'felt his confidence drain,' which directly contradicts the idea that Jaden remained confident.",
+      "C": "This results from inventing a character motivation (requesting extra credit) that is not hinted at anywhere in the passage.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Vocabulary in Context",
+    "difficulty": "Easy",
+    "passage": "The museum's restoration team worked meticulously to preserve the ancient manuscript. Each fragile page was treated with a special solution that halted further deterioration. The conservators were cautious and deliberate — a single careless motion could cause irreparable damage. Over eighteen months, they managed to stabilize the document, ensuring that scholars would be able to study it for generations to come.",
+    "question": "As used in the passage, the word \"stabilize\" most nearly means",
+    "choices": {
+      "A": "prevent further deterioration",
+      "B": "digitize for electronic storage",
+      "C": "transfer to a new secure location",
+      "D": "authenticate the document's origin"
+    },
+    "correct": "A",
+    "explanation": "In this context, the team spent eighteen months treating the manuscript to halt deterioration. 'Stabilize' is the result of that treatment — stopping the damage so the document can be studied long-term. A matches this context. B (digitizing) is never mentioned. C (transferring) is not indicated by the passage. D (authenticating origin) describes a verification process unrelated to preservation work described here.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from associating museum preservation work with modern digital archiving, a related but distinct process not mentioned in the passage.",
+      "C": "This results from confusing 'stabilize' with relocation, a plausible museum action that is not described or implied here.",
+      "D": "This results from confusing 'stabilize' with authentication, another museum process that applies to verifying origin rather than halting physical decay."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Vocabulary in Context",
+    "difficulty": "Easy",
+    "passage": "The environmental report described the river's current condition as tenuous. Five years earlier, industrial runoff had devastated aquatic life, reducing fish populations by nearly eighty percent. Recent cleanup efforts had allowed some species to return, but the ecosystem remained fragile. Biologists monitoring the river cautioned that any new source of pollution could quickly reverse the progress that had been made.",
+    "question": "As used in the passage, the word \"tenuous\" most nearly means",
+    "choices": {
+      "A": "thriving",
+      "B": "heavily polluted",
+      "C": "fragile",
+      "D": "stagnant"
+    },
+    "correct": "C",
+    "explanation": "The passage describes the river as 'tenuous' and then immediately clarifies that 'the ecosystem remained fragile' — the passage itself provides a synonym. Biologists warn that any new pollution could reverse progress, reinforcing that the recovery is precarious and easily disrupted. A (thriving) is the opposite of what is described. B (heavily polluted) describes the past state, not the current one. D (stagnant) implies no change, but the passage describes ongoing recovery.",
+    "distractor_rationale": {
+      "A": "This results from misreading the recovery efforts as a sign that the river is now doing well, when the passage explicitly warns the recovery remains fragile.",
+      "B": "This results from applying the description of the river's past state (after industrial runoff) to its current condition, ignoring that cleanup efforts have produced partial recovery.",
+      "C": "N/A",
+      "D": "This results from confusing 'tenuous' with the idea of no movement or change, when the passage describes an active but unstable recovery process."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Evidence Support",
+    "difficulty": "Easy",
+    "passage": "Solar energy adoption has accelerated dramatically over the past decade. Installation costs have fallen by more than seventy percent since 2010, making solar panels affordable for a wider range of homeowners. Government incentives, including federal tax credits, have further reduced out-of-pocket expenses. In 2023 alone, over four million American households added solar panels to their homes, reflecting both economic and environmental motivations.",
+    "question": "A student argues that declining installation costs are the primary reason solar energy adoption has increased. Which statement from the passage best supports this claim?",
+    "choices": {
+      "A": "Government incentives, including federal tax credits, have further reduced out-of-pocket expenses.",
+      "B": "Installation costs have fallen by more than seventy percent since 2010, making solar panels affordable for a wider range of homeowners.",
+      "C": "Solar energy adoption has accelerated dramatically over the past decade.",
+      "D": "Over four million American households added solar panels to their homes in 2023."
+    },
+    "correct": "B",
+    "explanation": "The student's claim is specifically that declining costs drove adoption. B directly states that costs fell 70% and explicitly connects that drop to affordability for more homeowners — the clearest causal link to the claim. A describes tax credits, which is a separate factor, not declining installation costs. C merely restates the trend (adoption increased) without explaining why. D shows the scale of adoption but does not identify any cause.",
+    "distractor_rationale": {
+      "A": "This results from confusing two different cost-reduction mechanisms. Tax credits reduce out-of-pocket costs but are a separate factor from falling installation costs, which is what the student's claim is specifically about.",
+      "B": "N/A",
+      "C": "This results from selecting the sentence that introduces the topic (adoption increased) rather than the sentence that provides evidence for the specific cause being argued (cost decline).",
+      "D": "This results from selecting the most impressive-sounding statistic (four million households) without recognizing that it shows the effect of adoption, not the cause the student is trying to support."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Evidence Support",
+    "difficulty": "Easy",
+    "passage": "The town of Millbrook introduced a new recycling program in March. Residents were given color-coded bins for paper, glass, and plastic. Within six months, the amount of waste sent to the landfill dropped by thirty-five percent. Local officials credited the clear bin system with reducing resident confusion about what could and could not be recycled.",
+    "question": "A student claims the recycling program succeeded because it made sorting easier for residents. Which detail from the passage best supports this claim?",
+    "choices": {
+      "A": "The town introduced the program in March.",
+      "B": "Residents received color-coded bins for paper, glass, and plastic.",
+      "C": "The amount of waste sent to the landfill dropped by thirty-five percent within six months.",
+      "D": "Local officials credited the clear bin system with reducing resident confusion about what could be recycled."
+    },
+    "correct": "D",
+    "explanation": "The student's claim is that the program succeeded because sorting became easier. D directly states that officials attributed success to the bin system reducing confusion — this is an explicit causal explanation matching the student's claim. A (timing of the program) is irrelevant to why it worked. B (describing the bins) shows a feature of the program but does not explain that it reduced confusion. C (landfill drop) shows the outcome but not the reason.",
+    "distractor_rationale": {
+      "A": "This results from selecting a basic fact about the program (its start date) that has no connection to why it succeeded.",
+      "B": "This results from selecting the sentence that describes the bins without recognizing that the question asks for evidence of an effect (reduced confusion), not just a description of the program feature.",
+      "C": "This results from selecting the strongest-sounding outcome statistic (35% reduction) without recognizing that the question asks for evidence of the cause (easier sorting), not the result.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Author's Purpose",
+    "difficulty": "Easy",
+    "passage": "Many students believe that reading speed is the most important factor in academic success. However, research consistently shows that comprehension and retention matter far more than how quickly a student finishes a text. A student who reads slowly but understands deeply will outperform one who skims rapidly but retains little. Slowing down to process information actively is not a weakness — it is a skill.",
+    "question": "The author's primary purpose in writing this passage is to",
+    "choices": {
+      "A": "challenge the assumption that reading speed determines academic success",
+      "B": "teach students specific techniques for increasing their reading speed",
+      "C": "summarize recent research studies on student reading habits",
+      "D": "persuade students to enroll in reading comprehension courses"
+    },
+    "correct": "A",
+    "explanation": "The passage opens by naming a common belief (reading speed is most important) and then systematically counters it with evidence and reasoning. The final sentence reframes slow reading as a skill, reinforcing the challenge to the assumption. A captures this structure. B is incorrect because no speed techniques are offered. C overstates the research component — research is cited but not summarized in detail. D is incorrect because no courses are mentioned or recommended.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from misreading a passage that argues against speed obsession as a passage that teaches how to improve speed — the opposite of the author's intent.",
+      "C": "This results from noting the reference to research and overgeneralizing it as the passage's primary purpose, when research is used briefly to support a larger argument rather than being summarized in detail.",
+      "D": "This results from recognizing the persuasive tone of the passage but inventing a specific call to action (enrolling in courses) that the author never makes."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Author's Purpose",
+    "difficulty": "Easy",
+    "passage": "Monarch butterflies travel up to three thousand miles each year in one of nature's most remarkable migrations. Beginning in late summer, millions of monarchs from across North America converge on a small region of central Mexico, where they overwinter in oyamel fir forests. Scientists are still working to understand how monarchs navigate using a time-compensated sun compass and magnetic fields. Each spring, successive generations make the return journey north.",
+    "question": "The author's primary purpose in writing this passage is to",
+    "choices": {
+      "A": "argue that monarch butterflies should receive stronger legal protections",
+      "B": "explain how scientists have fully decoded monarch butterfly navigation",
+      "C": "describe the monarch butterfly's migration and highlight what remains scientifically unknown",
+      "D": "warn readers about the environmental threats facing monarch butterfly populations"
+    },
+    "correct": "C",
+    "explanation": "The passage describes the migration route, overwintering location, and return journey while noting that scientists are 'still working to understand' the navigation mechanism. C accurately captures both the descriptive content and the acknowledgment of remaining scientific questions. A (legal protection argument) is never made. B directly contradicts the passage — scientists have not 'fully decoded' navigation; they are still studying it. D (threats) is not addressed anywhere in the passage.",
+    "distractor_rationale": {
+      "A": "This results from associating a passage about an impressive animal migration with the common conservation argument for protecting such species, which is a topic the author does not raise.",
+      "B": "This results from misreading 'scientists are still working to understand' as confirmation that understanding is complete, when the phrase explicitly states the opposite.",
+      "C": "N/A",
+      "D": "This results from assuming a passage about a species' impressive behavior must be warning about threats to that species, when the passage makes no mention of population decline or danger."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Text Structure",
+    "difficulty": "Easy",
+    "passage": "Before refrigeration, communities relied on several strategies to preserve food. Salting and smoking meat prevented bacterial growth, while root cellars maintained cool temperatures year-round for storing vegetables. Canning, developed in the early nineteenth century, extended the shelf life of fruits and vegetables by sealing them in airtight containers. Each of these methods solved the same fundamental problem: how to keep food edible long after it was harvested or slaughtered.",
+    "question": "How is this passage primarily organized?",
+    "choices": {
+      "A": "A single preservation method is described in complete detail from beginning to end.",
+      "B": "Multiple food preservation methods are listed and described, unified by a shared purpose.",
+      "C": "Two competing theories about food preservation are presented and evaluated.",
+      "D": "Events in the history of food science are arranged in strict chronological order."
+    },
+    "correct": "B",
+    "explanation": "The passage introduces three distinct methods (salting/smoking, root cellars, canning) and then explicitly states they all solve 'the same fundamental problem.' This list-with-unifying-theme structure matches B perfectly. A is wrong because multiple methods are described, not one. C is wrong because the passage presents complementary techniques, not competing theories. D is wrong because although canning is given a date, salting and root cellars are not placed in a timeline — the structure is not primarily chronological.",
+    "distractor_rationale": {
+      "A": "This results from remembering only the final method (canning) discussed most recently and concluding the passage focused on one topic, rather than recognizing that three distinct methods were each described.",
+      "B": "N/A",
+      "C": "This results from confusing a list of different methods with a debate between competing theories, when the passage presents all three methods as equally valid solutions.",
+      "D": "This results from noticing the one date given (canning in the early nineteenth century) and concluding the entire passage is chronological, when the other methods are presented without any dates or time sequence."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Text Structure",
+    "difficulty": "Easy",
+    "passage": "Deforestation in tropical regions has accelerated soil erosion significantly. When tree cover is removed, rainwater strikes the ground directly rather than being absorbed gradually through leaf litter. Without roots to hold the soil in place, nutrients are washed away into rivers. As a result, farmland near former forest areas often becomes barren within a few years, leaving communities without reliable agricultural land.",
+    "question": "Which best describes the organizational structure of this passage?",
+    "choices": {
+      "A": "A problem is introduced and multiple solutions are proposed.",
+      "B": "Two opposing viewpoints about deforestation are compared.",
+      "C": "Historical examples of deforestation are presented in time order.",
+      "D": "A cause is identified and its effects are traced step by step."
+    },
+    "correct": "D",
+    "explanation": "The passage begins with deforestation (the cause) and then traces a step-by-step chain: rain hits bare ground → roots gone → nutrients wash away → farmland becomes barren. Each sentence builds on the previous effect, creating a classic cause-and-effect chain. A is wrong because no solutions are offered. B is wrong because only one perspective is presented, with no counterargument. C is wrong because no historical examples or dates are given.",
+    "distractor_rationale": {
+      "A": "This results from expecting passages about environmental problems to include solutions, when this passage traces consequences without proposing any remedies.",
+      "B": "This results from assuming a passage about a controversial topic like deforestation must present multiple viewpoints, when this passage argues a single causal chain without acknowledging any counterarguments.",
+      "C": "This results from confusing a logical cause-and-effect sequence with a historical timeline, when the passage describes a process rather than specific historical events.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Data Interpretation",
+    "difficulty": "Easy",
+    "passage": "A school surveyed 200 students about their preferred study location. Results showed that 40% preferred studying at home, 30% preferred the school library, 20% preferred a coffee shop, and 10% preferred other locations. The school used these results to justify extending library hours by one hour on weekday evenings.",
+    "question": "Based on the data in the passage, how many students in the survey preferred studying at the school library?",
+    "choices": {
+      "A": "60",
+      "B": "40",
+      "C": "80",
+      "D": "30"
+    },
+    "correct": "A",
+    "explanation": "30% of students preferred the library. To find the number: 30% × 200 = 0.30 × 200 = 60 students. B (40) represents 20% of 200, which is the coffee shop figure. C (80) represents 40% of 200, which is the home preference figure. D (30) is the percentage itself reported as a count, without multiplying by the total number of survey participants.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from selecting the coffee shop percentage (20%) and converting it correctly to a count (20% × 200 = 40), but reading the wrong row of data from the passage.",
+      "C": "This results from selecting the home preference percentage (40%) and converting it correctly to a count (40% × 200 = 80), but reading the wrong row of data from the passage.",
+      "D": "This results from reading the library percentage (30%) and reporting it directly as the count without multiplying by the total number of students surveyed."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Data Interpretation",
+    "difficulty": "Easy",
+    "passage": "A local park tracked visitor attendance across four seasons. Spring recorded 1,200 visitors. Summer attendance was triple the spring figure. Fall attendance was half of the summer total. Winter had the fewest visitors, with only 400 recorded. Park managers used this data to schedule maintenance crews and assign seasonal staffing levels throughout the year.",
+    "question": "According to the data in the passage, how many visitors attended the park in the fall?",
+    "choices": {
+      "A": "600",
+      "B": "1,200",
+      "C": "1,800",
+      "D": "3,600"
+    },
+    "correct": "C",
+    "explanation": "First find summer attendance: triple the spring figure = 3 × 1,200 = 3,600. Then find fall: half of summer = 3,600 ÷ 2 = 1,800. C is correct. A (600) results from halving spring attendance instead of summer attendance. B (1,200) is the spring figure, not fall. D (3,600) is the summer figure — the student correctly computed summer but stopped one step early.",
+    "distractor_rationale": {
+      "A": "This results from applying 'half' to spring attendance (1,200 ÷ 2 = 600) rather than first finding summer and then halving that figure.",
+      "B": "This results from reporting the spring attendance figure (1,200) as the fall figure, either misreading the passage or skipping the two-step calculation.",
+      "C": "N/A",
+      "D": "This results from correctly computing summer attendance (3 × 1,200 = 3,600) but stopping there and reporting the summer figure as the fall figure, forgetting to halve it."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Reading",
+    "skill": "Main Idea",
+    "difficulty": "Easy",
+    "passage": "Sleep is not simply a period of inactivity. During sleep, the brain consolidates memories, clears metabolic waste, and regulates hormones critical to mood and immune function. Studies show that adults who sleep fewer than seven hours per night are significantly more likely to experience weight gain, cognitive decline, and increased cardiovascular risk. Despite widespread awareness of these risks, many adults routinely sacrifice sleep for work and leisure activities.",
+    "question": "What is the main idea of this passage?",
+    "choices": {
+      "A": "Most adults are unaware of the health risks associated with insufficient sleep.",
+      "B": "Sleep is an active, essential biological process with serious health consequences when neglected.",
+      "C": "The brain performs more cognitive work at night than it does during waking hours.",
+      "D": "Cardiovascular disease is the most serious health consequence of chronic sleep deprivation."
+    },
+    "correct": "B",
+    "explanation": "The passage argues from its opening line ('not simply inactivity') that sleep is active and essential, then lists health functions performed during sleep, and concludes with consequences of neglecting it. B integrates all of these elements. A is directly contradicted by 'widespread awareness of these risks.' C is an unsupported inference — the passage does not compare cognitive workload between night and day. D focuses on only one of three health consequences listed (weight gain, cognitive decline, cardiovascular risk) and presents it as the most serious, which the passage does not claim.",
+    "distractor_rationale": {
+      "A": "This results from misreading the final sentence, which states there is widespread awareness of risks, as evidence that awareness is lacking rather than that behavior contradicts existing knowledge.",
+      "B": "N/A",
+      "C": "This results from misinterpreting the description of brain activity during sleep as a claim that the brain works harder at night than during the day, a comparison the passage never makes.",
+      "D": "This results from selecting one consequence (cardiovascular risk) from a list of three and incorrectly elevating it to the status of the passage's main claim, when the passage treats all three consequences equally."
+    }
+  }
+]

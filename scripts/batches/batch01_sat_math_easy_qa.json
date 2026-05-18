@@ -1,0 +1,332 @@
+[
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Linear Equations",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "If 4x + 6 = 30, what is the value of x?",
+    "choices": {
+      "A": "24",
+      "B": "9",
+      "C": "6",
+      "D": "7.5"
+    },
+    "correct": "C",
+    "explanation": "Subtract 6 from both sides to get 4x = 24, then divide both sides by 4 to get x = 6.",
+    "distractor_rationale": {
+      "A": "This results from finding 4x = 24 but stopping there, reporting 24 as the answer instead of dividing by 4.",
+      "B": "This results from adding 6 to both sides instead of subtracting: 4x = 30 + 6 = 36, so x = 9.",
+      "C": "N/A",
+      "D": "This results from dividing 30 by 4 before isolating the variable term: 30 ÷ 4 = 7.5."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Linear Equations",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "A plumber charges a flat fee of $50 plus $25 for each hour of work. A customer's total bill was $175. How many hours did the plumber work?",
+    "choices": {
+      "A": "5",
+      "B": "7",
+      "C": "2.5",
+      "D": "3"
+    },
+    "correct": "A",
+    "explanation": "Set up the equation: 50 + 25h = 175. Subtract 50 from both sides: 25h = 125. Divide by 25: h = 5 hours.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from dividing the total bill by the hourly rate while ignoring the flat fee: 175 ÷ 25 = 7.",
+      "C": "This results from correctly subtracting the flat fee (175 - 50 = 125) but then dividing by the flat fee amount instead of the hourly rate: 125 ÷ 50 = 2.5.",
+      "D": "This results from swapping the two charges, using $50 as the hourly rate: (175 - 25) ÷ 50 = 3."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Systems of Equations",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "In the system of equations x + y = 10 and x - y = 4, what is the value of x?",
+    "choices": {
+      "A": "3",
+      "B": "14",
+      "C": "6",
+      "D": "7"
+    },
+    "correct": "D",
+    "explanation": "Add the two equations: (x + y) + (x - y) = 10 + 4, giving 2x = 14. Divide both sides by 2: x = 7. Substituting back confirms y = 3.",
+    "distractor_rationale": {
+      "A": "This is the value of y, not x. After finding x = 7, substituting back gives y = 10 - 7 = 3, but the question asks for x.",
+      "B": "This results from adding the two equations to get 2x = 14 but forgetting to divide by 2, reporting x = 14.",
+      "C": "This results from subtracting the two constants directly (10 - 4 = 6), misinterpreting the system as solvable by simple arithmetic on the given numbers.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Inequalities",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "Which of the following represents all values of x that satisfy 3x - 6 > 9?",
+    "choices": {
+      "A": "x > 1",
+      "B": "x > 3",
+      "C": "x > 5",
+      "D": "x < 5"
+    },
+    "correct": "C",
+    "explanation": "Add 6 to both sides: 3x > 15. Divide both sides by 3 (a positive number, so the inequality direction stays the same): x > 5.",
+    "distractor_rationale": {
+      "A": "This results from subtracting 6 from the right side instead of adding it: 3x > 9 - 6 = 3, so x > 1.",
+      "B": "This results from dropping the constant term without moving it to the right side, treating the inequality as 3x > 9 and dividing to get x > 3.",
+      "C": "N/A",
+      "D": "This results from correctly solving to x > 5 but then reversing the inequality sign without multiplying or dividing by a negative number."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Quadratics",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "What are the solutions to x^2 - 7x + 12 = 0?",
+    "choices": {
+      "A": "x = -3 and x = -4",
+      "B": "x = 3 and x = 4",
+      "C": "x = 3 and x = -4",
+      "D": "x = 6 and x = 2"
+    },
+    "correct": "B",
+    "explanation": "Factor the quadratic: (x - 3)(x - 4) = 0. Setting each factor equal to zero gives x - 3 = 0 or x - 4 = 0, so x = 3 or x = 4.",
+    "distractor_rationale": {
+      "A": "This results from using the signs of the constant factors directly rather than reversing them: writing x = -3 and x = -4 instead of +3 and +4.",
+      "B": "N/A",
+      "C": "This results from correctly finding one root (x = 3) but incorrectly negating the other (x = -4 instead of x = 4).",
+      "D": "This results from finding two numbers that multiply to 12 but incorrectly pairing 6 and 2, which sum to 8 not 7. The correct pair is 3 and 4."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Quadratics",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "If f(x) = x^2 + 3x - 4, what is the value of f(2)?",
+    "choices": {
+      "A": "14",
+      "B": "4",
+      "C": "10",
+      "D": "6"
+    },
+    "correct": "D",
+    "explanation": "Substitute x = 2: f(2) = (2)^2 + 3(2) - 4 = 4 + 6 - 4 = 6.",
+    "distractor_rationale": {
+      "A": "This results from treating the constant -4 as +4: 4 + 6 + 4 = 14.",
+      "B": "This results from forgetting to square x, using 2 instead of 4 for the x^2 term: 2 + 6 - 4 = 4.",
+      "C": "This results from ignoring the constant -4 entirely and computing only the first two terms: 4 + 6 = 10.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Functions",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "The function g is defined by g(x) = 4x - 3. What is the value of g(5)?",
+    "choices": {
+      "A": "17",
+      "B": "23",
+      "C": "8",
+      "D": "20"
+    },
+    "correct": "A",
+    "explanation": "Substitute x = 5: g(5) = 4(5) - 3 = 20 - 3 = 17.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from adding 3 instead of subtracting: 4(5) + 3 = 23.",
+      "C": "This results from misreading the function as g(x) = 4(x - 3) and computing 4(5 - 3) = 4(2) = 8.",
+      "D": "This results from computing 4(5) = 20 but forgetting to subtract 3."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Ratios & Proportions",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "A recipe calls for 3 cups of flour for every 2 cups of sugar. If a baker uses 9 cups of flour, how many cups of sugar are needed?",
+    "choices": {
+      "A": "4.5",
+      "B": "3",
+      "C": "6",
+      "D": "8"
+    },
+    "correct": "C",
+    "explanation": "Set up the proportion: 3/2 = 9/x. Cross-multiply: 3x = 18. Divide by 3: x = 6 cups of sugar.",
+    "distractor_rationale": {
+      "A": "This results from dividing the flour amount by 2 instead of setting up a proportion: 9 ÷ 2 = 4.5.",
+      "B": "This results from finding the scale factor (9 ÷ 3 = 3) but reporting that factor as the answer instead of multiplying it by the original sugar amount: 3 × 2 = 6.",
+      "C": "N/A",
+      "D": "This results from additive reasoning: flour increased from 3 to 9, a difference of 6, so the student added 6 to the sugar amount: 2 + 6 = 8."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Ratios & Proportions",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "In a class, the ratio of boys to girls is 3:5. If there are 40 girls in the class, how many boys are there?",
+    "choices": {
+      "A": "8",
+      "B": "24",
+      "C": "15",
+      "D": "120"
+    },
+    "correct": "B",
+    "explanation": "The ratio 3:5 means every 5 ratio units represent girls. Since 40 girls = 5 units, each unit = 8. Boys = 3 units = 3 × 8 = 24.",
+    "distractor_rationale": {
+      "A": "This is one ratio unit (40 ÷ 5 = 8), not the number of boys. The student found the unit value but forgot to multiply by the boys' ratio number (3).",
+      "B": "N/A",
+      "C": "This results from treating 40 as the total number of students rather than just the girls: 40 ÷ (3 + 5) = 5 per unit, then 3 × 5 = 15.",
+      "D": "This results from multiplying the number of girls directly by the boys' ratio value without dividing: 40 × 3 = 120."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Percentages",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "What is 35% of 80?",
+    "choices": {
+      "A": "35",
+      "B": "2.8",
+      "C": "45",
+      "D": "28"
+    },
+    "correct": "D",
+    "explanation": "Convert 35% to a decimal by dividing by 100: 0.35. Multiply: 0.35 × 80 = 28.",
+    "distractor_rationale": {
+      "A": "This results from reporting the percentage value itself (35) without performing any multiplication.",
+      "B": "This results from dividing by 1,000 instead of 100 when converting the percent to a decimal: 0.035 × 80 = 2.8.",
+      "C": "This results from subtracting 35 from 80 as if both were plain integers: 80 - 35 = 45.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Percentages",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "A jacket originally costs $80 and is on sale for $64. By what percent was the price reduced?",
+    "choices": {
+      "A": "20%",
+      "B": "25%",
+      "C": "80%",
+      "D": "16%"
+    },
+    "correct": "A",
+    "explanation": "The price dropped by $80 - $64 = $16. Percent reduction = (16 ÷ 80) × 100 = 20%.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from dividing the discount by the sale price instead of the original price: 16 ÷ 64 = 0.25 = 25%.",
+      "C": "This results from finding what percent the sale price is of the original (64 ÷ 80 = 0.80 = 80%), which answers the wrong question.",
+      "D": "This results from reporting the dollar amount of the discount ($16) directly as a percent without dividing by the original price."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Statistics & Data",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "A student received scores of 72, 85, 90, 68, and 80 on five tests. What is the mean (average) of these scores?",
+    "choices": {
+      "A": "80",
+      "B": "395",
+      "C": "79",
+      "D": "22"
+    },
+    "correct": "C",
+    "explanation": "Sum all five scores: 72 + 85 + 90 + 68 + 80 = 395. Divide by the number of scores: 395 ÷ 5 = 79.",
+    "distractor_rationale": {
+      "A": "This is the median, not the mean. When sorted (68, 72, 80, 85, 90), the middle value is 80, but the question asks for the mean.",
+      "B": "This is the sum of all five scores (395) but the student forgot to divide by 5 to find the average.",
+      "C": "N/A",
+      "D": "This is the range of the data (90 - 68 = 22), not the mean. The student calculated the wrong measure of data."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Geometry",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "A rectangle has a length of 12 centimeters and a width of 5 centimeters. What is the perimeter of the rectangle, in centimeters?",
+    "choices": {
+      "A": "60",
+      "B": "17",
+      "C": "29",
+      "D": "34"
+    },
+    "correct": "D",
+    "explanation": "Perimeter of a rectangle = 2(length + width) = 2(12 + 5) = 2(17) = 34 centimeters.",
+    "distractor_rationale": {
+      "A": "This is the area (12 × 5 = 60), not the perimeter. The student multiplied the dimensions instead of using the perimeter formula.",
+      "B": "This results from adding length and width once (12 + 5 = 17) without multiplying by 2 to account for both pairs of sides.",
+      "C": "This results from adding only three sides (12 + 12 + 5 = 29), omitting the second width.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Geometry",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "In triangle ABC, angle A measures 47 degrees and angle B measures 63 degrees. What is the measure of angle C, in degrees?",
+    "choices": {
+      "A": "110",
+      "B": "70",
+      "C": "133",
+      "D": "250"
+    },
+    "correct": "B",
+    "explanation": "The interior angles of a triangle always sum to 180 degrees. Angle C = 180 - 47 - 63 = 70 degrees.",
+    "distractor_rationale": {
+      "A": "This is the sum of the two known angles (47 + 63 = 110), which the student reported as the third angle instead of subtracting from 180.",
+      "B": "N/A",
+      "C": "This results from subtracting only one of the two known angles from 180: 180 - 47 = 133, ignoring angle B.",
+      "D": "This results from using 360 degrees instead of 180 degrees as the triangle angle sum: 360 - 47 - 63 = 250."
+    }
+  },
+  {
+    "exam": "SAT",
+    "subject": "Math",
+    "skill": "Word Problems",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "A car travels at a constant speed of 60 miles per hour. How many miles will the car travel in 2.5 hours?",
+    "choices": {
+      "A": "150",
+      "B": "24",
+      "C": "62.5",
+      "D": "120"
+    },
+    "correct": "A",
+    "explanation": "Distance = rate × time = 60 × 2.5 = 150 miles.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from dividing speed by time instead of multiplying: 60 ÷ 2.5 = 24.",
+      "C": "This results from adding speed and time instead of multiplying: 60 + 2.5 = 62.5.",
+      "D": "This results from rounding 2.5 hours down to 2, ignoring the extra half hour: 60 × 2 = 120."
+    }
+  }
+]

@@ -1,0 +1,398 @@
+[
+  {
+    "exam": "ACT",
+    "subject": "Math",
+    "skill": "Linear Equations",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "A taxi charges a flat fee of $3.00 plus $0.75 per mile. If a rider's total fare was $12.00, how many miles was the trip?",
+    "choices": {
+      "A": "16",
+      "B": "9",
+      "C": "15",
+      "D": "12"
+    },
+    "correct": "D",
+    "explanation": "Set up the equation: 3 + 0.75m = 12. Subtract 3 from both sides: 0.75m = 9. Divide by 0.75: m = 12 miles.",
+    "distractor_rationale": {
+      "A": "This results from dividing the total fare by the per-mile rate without subtracting the flat fee first: 12 ÷ 0.75 = 16.",
+      "B": "This results from correctly subtracting the flat fee (0.75m = 9) but reporting 9 as the number of miles rather than dividing by 0.75.",
+      "C": "This results from rounding the per-mile rate up to $0.80 and dividing: 9 ÷ 0.80 = 11.25, then rounding — or from some similar approximation error.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Math",
+    "skill": "Linear Equations",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "The perimeter of a rectangle is 54 cm. The length is 3 more than twice the width. What is the width of the rectangle, in centimeters?",
+    "choices": {
+      "A": "8",
+      "B": "19",
+      "C": "9",
+      "D": "24"
+    },
+    "correct": "A",
+    "explanation": "Let w = width and l = length. From the perimeter: 2l + 2w = 54, so l + w = 27. From the relationship: l = 2w + 3. Substituting: (2w + 3) + w = 27, giving 3w + 3 = 27, so 3w = 24 and w = 8.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from correctly finding w = 8 and then computing l = 2(8) + 3 = 19, but reporting l (the length) instead of w (the width).",
+      "C": "This results from ignoring the constant (+3) in the length expression and treating l = 2w, giving 3w = 27 and w = 9.",
+      "D": "This results from correctly computing 3w = 24 but reporting 24 as the answer without completing the final division by 3."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Math",
+    "skill": "Systems of Equations",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "If 3x - 2y = 10 and x + 2y = 6, what is the value of x + y?",
+    "choices": {
+      "A": "6",
+      "B": "5",
+      "C": "4",
+      "D": "1"
+    },
+    "correct": "B",
+    "explanation": "Add the two equations: (3x - 2y) + (x + 2y) = 10 + 6, giving 4x = 16, so x = 4. Substitute into x + 2y = 6: 4 + 2y = 6, so 2y = 2, y = 1. Therefore x + y = 4 + 1 = 5.",
+    "distractor_rationale": {
+      "A": "This results from reporting the constant from the second equation (6) as the answer, rather than solving the system and computing x + y.",
+      "B": "N/A",
+      "C": "This results from finding x = 4 and stopping, reporting x alone rather than x + y.",
+      "D": "This results from finding y = 1 and stopping, reporting y alone rather than x + y."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Math",
+    "skill": "Systems of Equations",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "A store sold a total of 30 pens and notebooks. Pens cost $2 each and notebooks cost $5 each. Total sales were $84. How many notebooks were sold?",
+    "choices": {
+      "A": "22",
+      "B": "24",
+      "C": "8",
+      "D": "12"
+    },
+    "correct": "C",
+    "explanation": "Let p = pens and n = notebooks. System: p + n = 30 and 2p + 5n = 84. From the first equation: p = 30 - n. Substituting: 2(30 - n) + 5n = 84 → 60 - 2n + 5n = 84 → 3n = 24 → n = 8.",
+    "distractor_rationale": {
+      "A": "This results from finding n = 8 and then computing the number of pens (30 - 8 = 22), but reporting p instead of n.",
+      "B": "This results from correctly setting up 3n = 24 but reporting 24 as the answer without dividing by 3.",
+      "C": "N/A",
+      "D": "This results from dividing the total revenue by the sum of the two prices: 84 ÷ (2 + 5) = 84 ÷ 7 = 12."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Math",
+    "skill": "Inequalities",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "A factory requires that its machines produce at least 200 units per week but no more than 350 units per week. Which inequality correctly represents the acceptable production range, where p is the number of units?",
+    "choices": {
+      "A": "p ≥ 200",
+      "B": "p ≤ 350",
+      "C": "200 < p < 350",
+      "D": "200 ≤ p ≤ 350"
+    },
+    "correct": "D",
+    "explanation": "'At least 200' means p ≥ 200 (200 is included). 'No more than 350' means p ≤ 350 (350 is included). Both constraints must hold simultaneously, giving the compound inequality 200 ≤ p ≤ 350.",
+    "distractor_rationale": {
+      "A": "This results from capturing only the lower bound (at least 200) and ignoring the upper limit of 350.",
+      "B": "This results from capturing only the upper bound (no more than 350) and ignoring the lower requirement of 200.",
+      "C": "This results from using strict inequalities (< and >) rather than inclusive inequalities (≤ and ≥), which would exclude the values 200 and 350 — but the words 'at least' and 'no more than' include the endpoints.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Math",
+    "skill": "Quadratics",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "What are the solutions to x² - 4 = 0?",
+    "choices": {
+      "A": "x = 2 or x = -2",
+      "B": "x = 4 only",
+      "C": "x = -4 only",
+      "D": "x = 2 only"
+    },
+    "correct": "A",
+    "explanation": "Add 4 to both sides: x² = 4. Taking the square root of both sides yields two solutions: x = 2 or x = -2. Both values satisfy the original equation.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from moving -4 to the right side without taking the square root, treating x² = 4 as x = 4.",
+      "C": "This results from keeping the negative sign on 4 when moving it: treating the equation as x = -4.",
+      "D": "This results from taking only the positive square root and ignoring that a square root has both positive and negative solutions."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Math",
+    "skill": "Quadratics",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "Which of the following is a factor of x² + 3x - 10?",
+    "choices": {
+      "A": "(x + 2)",
+      "B": "(x - 2)",
+      "C": "(x - 5)",
+      "D": "(x + 10)"
+    },
+    "correct": "B",
+    "explanation": "To factor x² + 3x - 10, find two numbers that multiply to -10 and add to 3. Those numbers are +5 and -2: (x + 5)(x - 2). So (x - 2) is a factor.",
+    "distractor_rationale": {
+      "A": "This results from using +2 instead of -2 as one of the roots: (x - 5)(x + 2) = x² - 3x - 10, not x² + 3x - 10.",
+      "B": "N/A",
+      "C": "This results from using -5 as a root: (x + 2)(x - 5) = x² - 3x - 10, again the wrong trinomial.",
+      "D": "This results from treating the constant term (+10) as a root, giving the factor (x - 10) but incorrectly selecting (x + 10)."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Math",
+    "skill": "Functions",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "If f(x) = 2x + 1 and g(x) = x², what is the value of f(g(3))?",
+    "choices": {
+      "A": "7",
+      "B": "49",
+      "C": "19",
+      "D": "81"
+    },
+    "correct": "C",
+    "explanation": "Evaluate from the inside out: g(3) = 3² = 9. Then f(9) = 2(9) + 1 = 18 + 1 = 19.",
+    "distractor_rationale": {
+      "A": "This results from computing f(3) directly — 2(3) + 1 = 7 — without first applying g, treating f(g(3)) as f(3).",
+      "B": "This results from computing g(f(3)) instead of f(g(3)): f(3) = 7, then g(7) = 7² = 49.",
+      "C": "N/A",
+      "D": "This results from applying g twice: g(g(3)) = g(9) = 9² = 81, rather than applying f to the result of g(3)."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Math",
+    "skill": "Functions",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "The function h(x) = -x² + 6x - 5 has a maximum value. What is that maximum value?",
+    "choices": {
+      "A": "3",
+      "B": "5",
+      "C": "6",
+      "D": "4"
+    },
+    "correct": "D",
+    "explanation": "The parabola opens downward (negative leading coefficient), so the vertex is a maximum. The x-coordinate of the vertex is x = -b / (2a) = -6 / (2 × -1) = 3. The maximum value is h(3) = -(3²) + 6(3) - 5 = -9 + 18 - 5 = 4.",
+    "distractor_rationale": {
+      "A": "This results from reporting the x-coordinate of the vertex (x = 3) as the maximum value rather than evaluating h(3).",
+      "B": "This results from reporting the absolute value of the constant term (|-5| = 5) as the maximum, perhaps confusing the y-intercept magnitude with the vertex value.",
+      "C": "This results from using the incorrect vertex formula x = -b/a instead of x = -b/(2a): -6 / -1 = 6.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Math",
+    "skill": "Ratios & Proportions",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "A saltwater mixture contains salt and water in a ratio of 1:4. If the mixture contains 10 cups total, how many cups of salt are in the mixture?",
+    "choices": {
+      "A": "2",
+      "B": "8",
+      "C": "4",
+      "D": "5"
+    },
+    "correct": "A",
+    "explanation": "The ratio 1:4 means 1 part salt to 4 parts water, for a total of 5 parts. Each part = 10 ÷ 5 = 2 cups. Salt = 1 × 2 = 2 cups.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from computing the amount of water rather than salt: 4 parts × 2 cups per part = 8 cups — the question asked for salt.",
+      "C": "This results from treating the ratio number 4 directly as the amount of salt, without dividing the total into 5 parts first.",
+      "D": "This results from dividing the total mixture by 2 (the number of components in the ratio) rather than by 5 (the sum of the ratio parts): 10 ÷ 2 = 5."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Math",
+    "skill": "Percentages",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "A laptop originally costs $800. It is first discounted by 20%, and then a 10% sales tax is applied to the discounted price. What is the final price?",
+    "choices": {
+      "A": "$720",
+      "B": "$704",
+      "C": "$640",
+      "D": "$576"
+    },
+    "correct": "B",
+    "explanation": "Step 1 — Apply the 20% discount: $800 × 0.80 = $640. Step 2 — Apply the 10% tax to the discounted price: $640 × 1.10 = $704.",
+    "distractor_rationale": {
+      "A": "This results from applying both percentages to the original price separately and combining incorrectly: $800 - (20% of $800) + (10% of $800) = $800 - $160 + $80 = $720.",
+      "B": "N/A",
+      "C": "This results from correctly applying the 20% discount but forgetting to apply the 10% sales tax, stopping at $640.",
+      "D": "This results from applying both the discount and the tax as reductions: $800 × 0.80 × 0.90 = $576 — subtracting the tax (×0.90) rather than adding it (×1.10)."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Math",
+    "skill": "Statistics & Data",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "A class of 20 students had a mean exam score of 72. One student's score was incorrectly recorded as 52 and then corrected to 92. What is the new class mean?",
+    "choices": {
+      "A": "92",
+      "B": "76",
+      "C": "74",
+      "D": "72"
+    },
+    "correct": "C",
+    "explanation": "Original total = 72 × 20 = 1,440. Corrected total = 1,440 - 52 + 92 = 1,480. New mean = 1,480 ÷ 20 = 74. Equivalently, the score increased by 40, raising the mean by 40/20 = 2 points: 72 + 2 = 74.",
+    "distractor_rationale": {
+      "A": "This results from replacing the class mean with the corrected individual score (92), which confuses a single data point with the class average.",
+      "B": "This results from dividing the 40-point score increase by 10 rather than 20 (the class size): 72 + 40/10 = 72 + 4 = 76.",
+      "C": "N/A",
+      "D": "This results from believing that correcting one score does not change the class mean, leaving the answer as 72."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Math",
+    "skill": "Statistics & Data",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "A data set has a mean of 50 and a standard deviation of 8. What is the z-score of a data value of 34?",
+    "choices": {
+      "A": "-0.5",
+      "B": "2",
+      "C": "16",
+      "D": "-2"
+    },
+    "correct": "D",
+    "explanation": "The z-score formula is z = (x - μ) / σ, where x is the data value, μ is the mean, and σ is the standard deviation. z = (34 - 50) / 8 = -16 / 8 = -2. The negative sign indicates the value is below the mean.",
+    "distractor_rationale": {
+      "A": "This results from dividing by the wrong value — perhaps using 32 or another number — to get a z-score of -0.5 rather than correctly dividing -16 by 8.",
+      "B": "This results from correctly computing the magnitude (16/8 = 2) but omitting the negative sign, ignoring that 34 is below the mean.",
+      "C": "This results from computing only the numerator of the z-score formula (34 - 50 = -16) and reporting 16 without completing the division by σ = 8 and without the sign.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Math",
+    "skill": "Geometry",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "Two parallel lines are cut by a transversal. One of the angles formed measures 65°. What is the measure of the alternate interior angle?",
+    "choices": {
+      "A": "65°",
+      "B": "115°",
+      "C": "25°",
+      "D": "130°"
+    },
+    "correct": "A",
+    "explanation": "When two parallel lines are cut by a transversal, alternate interior angles are congruent (equal in measure). Therefore, the alternate interior angle also measures 65°.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from computing the supplementary angle (co-interior or consecutive interior angle) rather than the alternate interior angle: 180° - 65° = 115°.",
+      "C": "This results from computing the complementary angle instead: 90° - 65° = 25°.",
+      "D": "This results from doubling the original angle: 2 × 65° = 130°, perhaps confusing the relationship between alternate interior and vertically opposite angles in a non-parallel context."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Math",
+    "skill": "Geometry",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "A cylinder has a radius of 3 and a height of 10. What is the volume of the cylinder? (Use π ≈ 3.14)",
+    "choices": {
+      "A": "94.2",
+      "B": "282.6",
+      "C": "188.4",
+      "D": "28.26"
+    },
+    "correct": "B",
+    "explanation": "Volume of a cylinder = πr²h = 3.14 × (3²) × 10 = 3.14 × 9 × 10 = 3.14 × 90 = 282.6.",
+    "distractor_rationale": {
+      "A": "This results from forgetting to square the radius: 3.14 × 3 × 10 = 94.2.",
+      "B": "N/A",
+      "C": "This results from computing the lateral surface area (2πrh) instead of the volume: 2 × 3.14 × 3 × 10 = 188.4.",
+      "D": "This results from computing πr² without multiplying by the height: 3.14 × 9 = 28.26."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Math",
+    "skill": "Word Problems",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "Jordan has $240 in savings and earns $15 per hour at her job. She wants to buy a computer that costs $390. At minimum, how many additional hours must she work to afford the computer?",
+    "choices": {
+      "A": "26",
+      "B": "16",
+      "C": "10",
+      "D": "42"
+    },
+    "correct": "C",
+    "explanation": "Jordan needs $390 - $240 = $150 more. Hours needed = $150 ÷ $15 per hour = 10 hours.",
+    "distractor_rationale": {
+      "A": "This results from dividing the full cost of the computer by the hourly wage, ignoring existing savings: $390 ÷ $15 = 26.",
+      "B": "This results from dividing the savings by the hourly wage instead of the remaining amount needed: $240 ÷ $15 = 16.",
+      "C": "N/A",
+      "D": "This results from adding the savings and the cost and then dividing by the wage: ($240 + $390) ÷ $15 = $630 ÷ $15 = 42."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Math",
+    "skill": "Trigonometry",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "In a right triangle, one acute angle measures 30°. If the hypotenuse has a length of 10, what is the length of the side opposite the 30° angle?",
+    "choices": {
+      "A": "5√3",
+      "B": "10√3",
+      "C": "10/√3",
+      "D": "5"
+    },
+    "correct": "D",
+    "explanation": "sin(30°) = opposite / hypotenuse. Since sin(30°) = 0.5, the opposite side = 0.5 × 10 = 5.",
+    "distractor_rationale": {
+      "A": "This results from computing the adjacent side (using cos(30°) = √3/2) rather than the opposite side: 10 × (√3/2) = 5√3.",
+      "B": "This results from multiplying the hypotenuse by √3 directly without applying the correct trigonometric ratio: 10√3.",
+      "C": "This results from dividing the hypotenuse by √3 instead of using the sin(30°) = 1/2 ratio: 10/√3.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Math",
+    "skill": "Trigonometry",
+    "difficulty": "Medium",
+    "passage": null,
+    "question": "In a right triangle, tan(θ) = 3/4. What is the value of sin(θ)?",
+    "choices": {
+      "A": "3/5",
+      "B": "4/5",
+      "C": "3/4",
+      "D": "4/3"
+    },
+    "correct": "A",
+    "explanation": "tan(θ) = opposite/adjacent = 3/4. So the opposite side = 3 and adjacent = 4. Using the Pythagorean theorem: hypotenuse = √(3² + 4²) = √25 = 5. Therefore, sin(θ) = opposite/hypotenuse = 3/5.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from computing cos(θ) instead of sin(θ): cos(θ) = adjacent/hypotenuse = 4/5.",
+      "C": "This results from reporting the original tan(θ) value as if it were sin(θ), without first finding the hypotenuse.",
+      "D": "This results from inverting the tangent ratio — computing adjacent/opposite = 4/3 — rather than first finding the hypotenuse and then computing sin(θ)."
+    }
+  }
+]

@@ -1,0 +1,266 @@
+[
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Data Representation",
+    "difficulty": "Easy",
+    "passage": "A researcher measured the average height of sunflower plants grown under four different watering frequencies over six weeks. Plants watered daily averaged 48 cm. Plants watered every two days averaged 54 cm. Plants watered every three days averaged 51 cm. Plants watered every four days averaged 39 cm. All plants received the same amount of soil nutrients and sunlight. Each group contained 10 plants.",
+    "question": "According to the data, which watering frequency produced the tallest average plant height?",
+    "choices": {
+      "A": "Daily (every 1 day)",
+      "B": "Every 3 days",
+      "C": "Every 4 days",
+      "D": "Every 2 days"
+    },
+    "correct": "D",
+    "explanation": "The data show average heights of 48 cm (daily), 54 cm (every 2 days), 51 cm (every 3 days), and 39 cm (every 4 days). The highest average — 54 cm — belongs to the every-2-days group. D is correct. A (daily, 48 cm) is second. B (every 3 days, 51 cm) is second-highest but not the tallest. C (every 4 days, 39 cm) produced the shortest plants.",
+    "distractor_rationale": {
+      "A": "This results from assuming more frequent watering always produces better growth and selecting daily watering, when the data show that plants watered every two days grew tallest.",
+      "B": "This results from confusing the second-highest average height (51 cm, every 3 days) with the highest, or from assuming a mid-frequency schedule produces the best results.",
+      "C": "This results from selecting the least frequent watering schedule, which actually produced the shortest plants (39 cm) — the opposite of the highest average.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Research Summaries",
+    "difficulty": "Easy",
+    "passage": "A team of environmental scientists investigated the effect of road salt on roadside soil. They collected soil samples at three distances from a salted highway: 2 meters, 10 meters, and 50 meters. Sodium chloride (NaCl) concentrations were measured in parts per million (ppm). At 2 meters, the average was 1,850 ppm; at 10 meters, 420 ppm; and at 50 meters, 38 ppm. The study was conducted in late winter, shortly after road salt application.",
+    "question": "Based on the research summary, what general trend did the scientists observe?",
+    "choices": {
+      "A": "Sodium chloride concentration increased as distance from the highway increased.",
+      "B": "Sodium chloride concentration decreased as distance from the highway increased.",
+      "C": "Sodium chloride concentration was highest at 50 meters from the highway.",
+      "D": "Sodium chloride concentration was unaffected by distance from the highway."
+    },
+    "correct": "B",
+    "explanation": "The data show NaCl concentration decreasing from 1,850 ppm at 2 meters to 420 ppm at 10 meters to 38 ppm at 50 meters — a consistent decline as distance from the highway increases. B correctly describes this trend. A reverses the observed direction. C misidentifies the lowest-concentration site (50 meters, 38 ppm) as the highest. D ignores the large differences between the three measurements.",
+    "distractor_rationale": {
+      "A": "This results from reversing the observed trend — the data show NaCl concentration decreasing with distance from the highway, not increasing.",
+      "B": "N/A",
+      "C": "This results from misreading the data and selecting the site with the lowest concentration (38 ppm at 50 meters) as having the highest concentration.",
+      "D": "This results from ignoring the large differences between the three measurement locations and incorrectly concluding that distance has no effect on salt concentration."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Graph Interpretation",
+    "difficulty": "Easy",
+    "passage": "A student measured the boiling point of water at different altitudes. At sea level (0 m), water boiled at 100°C. At 1,000 m, water boiled at 96.7°C. At 2,000 m, it boiled at 93.4°C. At 3,000 m, it boiled at 90.0°C. The student recorded one measurement at each altitude using the same thermometer and heating apparatus.",
+    "question": "Based on the data, what is the approximate boiling point of water at 1,500 meters altitude?",
+    "choices": {
+      "A": "approximately 95°C",
+      "B": "approximately 100°C",
+      "C": "approximately 88°C",
+      "D": "approximately 80°C"
+    },
+    "correct": "A",
+    "explanation": "The boiling point at 1,000 m is 96.7°C and at 2,000 m is 93.4°C. At 1,500 m — the midpoint — interpolating between these two values gives approximately 95.0°C. A is correct. B (100°C) is the sea-level value and does not account for altitude's effect. C (88°C) is too low, closer to values below 3,000 m. D (80°C) is far outside the data range and cannot be supported by interpolation.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from reporting the boiling point at sea level without recognizing that boiling point decreases with altitude, and failing to interpolate between the 1,000 m and 2,000 m data points.",
+      "C": "This results from interpolating incorrectly and selecting a value closer to or below the 3,000 m reading (90°C) rather than the midpoint between the 1,000 m and 2,000 m measurements.",
+      "D": "This results from extrapolating well below the observed trend without justification — 80°C falls far outside the range covered by the data."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Drawing Conclusions",
+    "difficulty": "Easy",
+    "passage": "A biology class tested whether temperature affects enzyme activity. They added identical amounts of amylase to starch solutions held at 10°C, 20°C, 37°C, and 60°C. After 10 minutes, they measured how much starch remained. At 10°C, 90% starch remained. At 20°C, 65% remained. At 37°C, 15% remained. At 60°C, 82% remained.",
+    "question": "Which conclusion is best supported by the data?",
+    "choices": {
+      "A": "Amylase functions equally well at all temperatures tested.",
+      "B": "Higher temperatures always increase enzyme activity.",
+      "C": "Amylase is most active near 37°C and loses activity at both lower and higher temperatures.",
+      "D": "Amylase works best at 60°C because heat speeds up chemical reactions."
+    },
+    "correct": "C",
+    "explanation": "At 37°C only 15% starch remained — meaning amylase broke down 85% of it, indicating peak activity. At 60°C, 82% remained, showing far less breakdown than at 37°C. This pattern indicates amylase performs best near 37°C and is less effective at both lower temperatures and at 60°C (where high heat likely disrupts the enzyme). C is correct. A ignores the large differences. B contradicts the 60°C result. D directly contradicts the 60°C data.",
+    "distractor_rationale": {
+      "A": "This results from not comparing the starch remaining percentages and incorrectly concluding there is no meaningful difference in enzyme performance across temperatures.",
+      "B": "This results from applying the general rule that higher temperatures speed up reactions without recognizing that extreme heat denatures enzymes, causing activity to drop — as shown by the 60°C result.",
+      "C": "N/A",
+      "D": "This results from applying the general chemistry rule that heat accelerates reactions and selecting 60°C, without accounting for the data showing much less starch breakdown at 60°C than at 37°C."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Data Representation",
+    "difficulty": "Easy",
+    "passage": "A wildlife biologist tracked the number of deer observed at five survey sites along a river corridor during morning surveys over one week. Site 1: 12 deer. Site 2: 7 deer. Site 3: 18 deer. Site 4: 5 deer. Site 5: 23 deer. The biologist recorded all sightings between 6:00 and 9:00 a.m. using standardized transect methods.",
+    "question": "What was the total number of deer counted across all five sites?",
+    "choices": {
+      "A": "55",
+      "B": "60",
+      "C": "45",
+      "D": "65"
+    },
+    "correct": "D",
+    "explanation": "Total = 12 + 7 + 18 + 5 + 23 = 65 deer. D is correct. A (55) results from misreading Site 5 as 13 instead of 23. B (60) results from substituting a wrong value for one site, such as reading Site 5 as 18 instead of 23. C (45) results from omitting Site 5 entirely or from significant misreading of multiple values.",
+    "distractor_rationale": {
+      "A": "This results from misreading Site 5 as 13 instead of 23 (losing the tens digit) and summing 12 + 7 + 18 + 5 + 13 = 55.",
+      "B": "This results from substituting Site 5's value of 23 with 18 — the same as Site 3 — and summing 12 + 7 + 18 + 5 + 18 = 60.",
+      "C": "This results from omitting Site 5 entirely and summing only the first four sites: 12 + 7 + 18 + 5 = 42, or from multiple misreadings that reduce the total.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Variable Identification",
+    "difficulty": "Easy",
+    "passage": "A student tested whether the color of light affects plant growth. She grew 30 bean plants under identical conditions except for light color: 10 plants under red LED lights, 10 under blue LED lights, and 10 under white LED lights. Lights were on 12 hours per day. Soil type, water amount, and temperature were kept constant, and all plants started at the same height. She measured average plant height after 4 weeks.",
+    "question": "What is the independent variable in this experiment?",
+    "choices": {
+      "A": "The height of the plants after 4 weeks",
+      "B": "The color of the light used",
+      "C": "The amount of water given to each plant",
+      "D": "The number of plants in each group"
+    },
+    "correct": "B",
+    "explanation": "The independent variable is the factor the experimenter deliberately changes to test its effect. The student changed the color of the light (red, blue, white) while keeping everything else constant. B is correct. A is the dependent variable — the measured outcome. C is a controlled variable — it was held constant. D is an aspect of the experimental design (group size) but is not the variable being manipulated.",
+    "distractor_rationale": {
+      "A": "This results from confusing the dependent variable (the outcome being measured — plant height) with the independent variable (the factor being deliberately changed).",
+      "B": "N/A",
+      "C": "This results from selecting a controlled variable (water amount was held constant throughout the experiment) rather than the factor that was intentionally varied.",
+      "D": "This results from selecting a characteristic of the experimental design (10 plants per group) rather than the factor being manipulated across groups."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Research Summaries",
+    "difficulty": "Easy",
+    "passage": "Researchers studied the effect of study session length on memory retention. Forty college students were divided into two groups. Group 1 studied for 60 consecutive minutes. Group 2 studied the same material in three 20-minute sessions with 10-minute breaks between each session. Both groups were tested 24 hours later. Group 1 averaged 68% on the test. Group 2 averaged 79% on the test.",
+    "question": "Based on the research summary, which group performed better on the 24-hour memory test?",
+    "choices": {
+      "A": "Group 2, which studied in three shorter sessions with breaks",
+      "B": "Group 1, which studied for 60 consecutive minutes",
+      "C": "Both groups performed equally well",
+      "D": "Neither group retained most of the material tested"
+    },
+    "correct": "A",
+    "explanation": "Group 2 averaged 79% and Group 1 averaged 68%, an 11-percentage-point difference. Group 2 performed better. A is correct. B reverses the result. C ignores the meaningful difference between the scores. D misinterprets the data — both groups retained substantial material, and the question asks which performed better, not whether either group failed.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from assuming that a longer, uninterrupted study session produces better retention, which contradicts the actual scores reported in the passage.",
+      "C": "This results from ignoring the 11-percentage-point difference between the two groups and incorrectly concluding both performed identically.",
+      "D": "This results from misinterpreting 68% and 79% as inadequate retention and ignoring that the question asks which group performed better, not whether either group failed."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Graph Interpretation",
+    "difficulty": "Easy",
+    "passage": "A meteorology class recorded daily high temperatures for one week. Monday: 72°F, Tuesday: 68°F, Wednesday: 65°F, Thursday: 71°F, Friday: 78°F, Saturday: 83°F, Sunday: 80°F. Students graphed these values as a line graph and identified the day with the largest single-day temperature increase compared to the previous day.",
+    "question": "Based on the data, on which day did the temperature show the largest increase from the previous day?",
+    "choices": {
+      "A": "Tuesday",
+      "B": "Thursday",
+      "C": "Friday",
+      "D": "Saturday"
+    },
+    "correct": "C",
+    "explanation": "Day-over-day changes: Mon→Tue = −4°F; Tue→Wed = −3°F; Wed→Thu = +6°F; Thu→Fri = +7°F; Fri→Sat = +5°F; Sat→Sun = −3°F. The largest single-day increase was Thursday to Friday: +7°F. C (Friday) is correct. A (Tuesday) shows a decrease of 4°F. B (Thursday) shows an increase of +6°F, the second-largest. D (Saturday) shows +5°F, less than Friday.",
+    "distractor_rationale": {
+      "A": "This results from selecting Tuesday without calculating the day-over-day change — Tuesday was 4°F lower than Monday, representing a decrease, not an increase.",
+      "B": "This results from selecting Thursday, which showed the second-largest increase (+6°F from Wednesday to Thursday), without recognizing that the Thursday-to-Friday jump of +7°F was larger.",
+      "C": "N/A",
+      "D": "This results from selecting Saturday, which showed a 5°F increase from Friday, without comparing all day-to-day changes and recognizing Friday's 7°F jump from Thursday was the largest."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Experimental Design",
+    "difficulty": "Easy",
+    "passage": "A nutrition researcher wanted to test whether drinking a glass of orange juice every morning improves immune function. She recruited 50 volunteers. All 50 drank orange juice every morning for 8 weeks. At the end of the study, 38 participants reported fewer colds than the previous year. The researcher concluded that morning orange juice boosts immunity.",
+    "question": "What is the most significant flaw in this experimental design?",
+    "choices": {
+      "A": "The study lasted only 8 weeks, which is too short to measure immune function.",
+      "B": "Orange juice was chosen because it contains vitamin C, which is already known to support immunity.",
+      "C": "The participants self-reported their cold frequency, which may be inaccurate.",
+      "D": "The study lacked a control group of participants who did not drink orange juice."
+    },
+    "correct": "D",
+    "explanation": "Without a control group, there is no basis for comparison — there is no way to know whether participants who did not drink orange juice would have had a similar or better improvement. Every other design choice is secondary to this fundamental flaw. A addresses duration, a secondary concern. B questions the choice of intervention, not the design structure. C identifies a measurement concern but one that affects accuracy, not the absence of a comparison group.",
+    "distractor_rationale": {
+      "A": "This results from questioning the study duration rather than the more fundamental structural flaw — without a control group, no duration of study can support a causal conclusion.",
+      "B": "This results from questioning whether orange juice was an appropriate intervention rather than identifying the design flaw that prevents any causal conclusion about orange juice's effect.",
+      "C": "This results from identifying a legitimate but secondary concern about measurement accuracy — self-reporting introduces bias, but the more critical flaw is the absence of any control group for comparison.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Drawing Conclusions",
+    "difficulty": "Easy",
+    "passage": "A physics student measured how high a rubber ball bounced after being dropped from four heights onto a hardwood floor. Drop height 50 cm → bounce height 30 cm. Drop 100 cm → bounce 62 cm. Drop 150 cm → bounce 93 cm. Drop 200 cm → bounce 125 cm. The experiment was repeated three times at each height and averaged.",
+    "question": "Based on the data, which conclusion is best supported?",
+    "choices": {
+      "A": "The ball's bounce height equals exactly half the drop height at all distances.",
+      "B": "The ball's bounce height is approximately proportional to the drop height.",
+      "C": "The ball bounces higher from 200 cm only because of air resistance acting on it.",
+      "D": "The ball loses no energy when it bounces off the hardwood floor."
+    },
+    "correct": "B",
+    "explanation": "The ratios of bounce to drop height are: 30/50 = 0.60, 62/100 = 0.62, 93/150 = 0.62, 125/200 = 0.625. These ratios are approximately constant, indicating that bounce height is roughly proportional to drop height. B is correct. A is wrong — the ratio is about 62%, not exactly 50%. C introduces air resistance, which the experiment never tested. D is wrong — the ball consistently bounces to about 62% of drop height, indicating it loses approximately 38% of its energy each time.",
+    "distractor_rationale": {
+      "A": "This results from misreading the data — the ball bounces approximately 60–63% of the drop height, not exactly 50%, and no data point shows a bounce equal to half the drop.",
+      "B": "N/A",
+      "C": "This results from introducing an explanation (air resistance) that the experiment never tested or controlled, attributing the height difference to a specific untested cause.",
+      "D": "This results from confusing consistent proportionality (the ball bounces ~62% of drop height) with complete energy conservation — the consistent loss of ~38% per bounce indicates energy is not conserved."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Conflicting Viewpoints",
+    "difficulty": "Easy",
+    "passage": "Two scientists disagree about whether vitamin D supplements prevent respiratory infections. Scientist 1 argues that vitamin D plays a critical role in immune regulation and that populations in northern latitudes — where sunlight is limited — have both lower vitamin D levels and higher rates of respiratory infections. Scientist 2 argues that the correlation between latitude and infection rates could reflect other factors such as indoor crowding during winter rather than vitamin D levels specifically.",
+    "question": "Which statement best describes Scientist 2's main objection to Scientist 1's argument?",
+    "choices": {
+      "A": "That the correlation between latitude and infection rates could have an alternative explanation unrelated to vitamin D",
+      "B": "That people in northern latitudes do not actually have lower vitamin D levels than those in southern regions",
+      "C": "That vitamin D plays no role in the immune system under any circumstances",
+      "D": "That respiratory infections are more common in summer than in winter, contradicting Scientist 1's seasonal claim"
+    },
+    "correct": "A",
+    "explanation": "Scientist 2's objection is that the geographic correlation Scientist 1 cites (latitude → infection rate) could be explained by indoor crowding in winter, not by vitamin D deficiency. A accurately captures this alternative explanation argument. B misrepresents Scientist 2, who does not dispute the vitamin D measurement. C overstates Scientist 2's position — Scientist 2 questions whether the correlation proves causation, not whether vitamin D has any immune role. D describes a claim neither scientist makes.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from misreading Scientist 2's argument as challenging the underlying vitamin D measurements, when Scientist 2 actually accepts the geographic pattern and disputes only what causes it.",
+      "C": "This results from overstating Scientist 2's objection — Scientist 2 questions whether latitude correlates with vitamin D deficiency as a cause, not whether vitamin D has any immune function at all.",
+      "D": "This results from inventing a seasonal argument that neither scientist makes in the passage — neither discusses summer versus winter infection patterns explicitly."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Science",
+    "skill": "Unit Analysis",
+    "difficulty": "Easy",
+    "passage": "A chemistry student needs to convert a reaction rate from millimoles per minute (mmol/min) to millimoles per hour (mmol/hr). The measured reaction rate is 4.5 mmol/min. There are 60 minutes in one hour. The student must multiply or divide by the appropriate conversion factor to express the rate in the new unit.",
+    "question": "What is the reaction rate expressed in mmol/hr?",
+    "choices": {
+      "A": "0.075 mmol/hr",
+      "B": "4.5 mmol/hr",
+      "C": "270 mmol/hr",
+      "D": "45 mmol/hr"
+    },
+    "correct": "C",
+    "explanation": "To convert from mmol/min to mmol/hr, multiply by 60 min/hr: 4.5 mmol/min × 60 min/hr = 270 mmol/hr. A (0.075) results from dividing by 60 instead of multiplying — treating the conversion as going in the wrong direction. B (4.5) results from reporting the original value unchanged without converting. D (45) results from multiplying by 10 instead of 60.",
+    "distractor_rationale": {
+      "A": "This results from dividing 4.5 by 60 rather than multiplying — incorrectly treating minutes as a larger unit than hours when performing the conversion.",
+      "B": "This results from reporting the original rate in mmol/min as if it were already in mmol/hr, without performing the unit conversion.",
+      "C": "N/A",
+      "D": "This results from multiplying by 10 instead of 60, perhaps from misremembering the number of minutes in an hour or from a decimal place error."
+    }
+  }
+]

@@ -1,0 +1,266 @@
+[
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Main Idea",
+    "difficulty": "Hard",
+    "passage": "The term 'wilderness' implies land untouched by human activity, yet virtually no such place exists. Indigenous peoples managed most of what Europeans called 'pristine' forests for thousands of years through controlled burns, selective harvesting, and intentional planting. When these communities were displaced, the forests that Europeans encountered appeared 'wild' only because the human stewards who had shaped them were gone. The concept of wilderness, historians argue, is itself a cultural artifact — a projection of European attitudes onto land whose history Europeans did not recognize.",
+    "question": "The central argument of the passage is that",
+    "choices": {
+      "A": "Indigenous peoples caused significant ecological damage to North American forests",
+      "B": "European settlers deliberately suppressed knowledge of Indigenous land management",
+      "C": "wilderness preservation is the most important conservation goal of the twenty-first century",
+      "D": "the concept of 'wilderness' as untouched nature obscures a long history of active human land management"
+    },
+    "correct": "D",
+    "explanation": "The passage dismantles the concept of wilderness by showing that land Europeans called pristine was actively managed by Indigenous peoples. The final sentence makes the argument explicit: wilderness is a 'cultural artifact.' D captures this central claim. A contradicts the passage, which presents Indigenous land management as constructive. B attributes deliberate suppression where the passage describes a failure of cultural recognition. C introduces a conservation prescription the passage never makes.",
+    "distractor_rationale": {
+      "A": "This results from misreading 'managing' forests through burns and harvesting as causing ecological damage — a reversal of the passage's framing, which presents Indigenous stewardship as actively shaping ecosystems constructively.",
+      "B": "This results from inferring deliberate suppression from the passage's discussion of European non-recognition, when the passage attributes this to a failure of cultural understanding rather than intentional concealment.",
+      "C": "This results from associating the passage's subject matter (wilderness) with a conservation policy argument the passage never makes — the passage is analytical and historical, not prescriptive.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Inference",
+    "difficulty": "Hard",
+    "passage": "Economists studying lottery winners expected to find lasting improvements in life satisfaction. Most studies, however, show that within one to two years, winners return to roughly the same level of happiness they reported before their windfall. Notably, winners also lose their ability to take pleasure in smaller everyday joys — a phenomenon psychologists call 'hedonic adaptation.' One longitudinal study found that lottery winners were no happier than accident victims who had lost the use of their legs, a finding researchers described as deeply counterintuitive.",
+    "question": "Based on the passage, it can be inferred that",
+    "choices": {
+      "A": "people should avoid entering lotteries because they ultimately cause unhappiness",
+      "B": "happiness is less affected by dramatic changes in fortune than many people assume",
+      "C": "accident victims reported higher life satisfaction than lottery winners in most studies",
+      "D": "economists and psychologists reached identical conclusions about the effects of windfalls"
+    },
+    "correct": "B",
+    "explanation": "The passage's central finding — that winners return to baseline happiness and lose pleasure in smaller joys — implies that dramatic positive changes in fortune do not permanently elevate happiness. B correctly infers this. A overstates and introduces a prescriptive claim the passage never makes, and the passage says winners return to baseline, not that they become unhappy. C misreads the comparison: the study found winners were 'no happier than' accident victims — equal, not lower. D is wrong — researchers found the results 'counterintuitive,' implying economists' expectations were contradicted.",
+    "distractor_rationale": {
+      "A": "This results from extending the passage's findings into a prescriptive recommendation and overstating the outcome — returning to baseline happiness is not the same as becoming unhappy.",
+      "B": "N/A",
+      "C": "This results from misreading 'no happier than' as meaning lottery winners scored lower than accident victims, when the phrase indicates the groups were approximately equal.",
+      "D": "This results from noting that economists and psychologists are both mentioned and inferring they agreed, when the passage implies economists' expectations were contradicted — hence the results were 'counterintuitive.'"
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Vocabulary in Context",
+    "difficulty": "Hard",
+    "passage": "The senator's speech was praised for its rhetorical facility — she moved effortlessly between technical policy language, accessible analogies, and moments of personal reflection, never losing her audience or her argument. Her critics, who had hoped to find the policy substance thin beneath the elegant delivery, came away grudgingly conceding that the content matched the form. In political debate, the ability to make complex positions comprehensible without oversimplifying them is rarer than it appears.",
+    "question": "As used in the passage, the word \"facility\" most nearly means",
+    "choices": {
+      "A": "skill and ease",
+      "B": "a physical building",
+      "C": "technical jargon",
+      "D": "persuasive emotional appeal"
+    },
+    "correct": "A",
+    "explanation": "In the phrase 'rhetorical facility,' the word describes the senator's ability to move effortlessly between different modes of communication — skill and ease with language. A is correct. B ('a physical building') is the most common everyday meaning of 'facility' but is clearly inapplicable to speech-making. C ('technical jargon') names one of the styles the senator uses, not a definition of 'facility.' D ('persuasive emotional appeal') captures one dimension of rhetoric but not the broader, technique-neutral meaning of ease and competence.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from selecting the most common everyday meaning of 'facility' (a physical place) without considering the rhetorical context in which the word appears.",
+      "C": "This results from associating 'rhetorical facility' with the passage's mention of 'technical policy language,' treating one example of the senator's range as the definition of the word.",
+      "D": "This results from associating 'rhetorical facility' with emotional persuasion — a component of rhetoric — rather than recognizing that 'facility' refers to overall skill and ease across all modes of communication."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Evidence Support",
+    "difficulty": "Hard",
+    "passage": "Some historians contend that the printing press's role in the Protestant Reformation has been exaggerated. They point out that literacy rates in sixteenth-century Europe were low, that many early printed texts were in Latin rather than vernacular languages, and that the Church itself quickly adopted print technology to distribute counter-Reformation materials. Revisionists argue that oral networks, sermons, and local community structures were at least as important as print in spreading reformist ideas.",
+    "question": "Which evidence would most directly challenge the revisionist historians' argument?",
+    "choices": {
+      "A": "The Catholic Church published more books than Protestant reformers in the sixteenth century.",
+      "B": "Many early printed texts were written in Latin rather than accessible vernacular languages.",
+      "C": "Woodcut illustrations in printed pamphlets allowed illiterate audiences to engage with reformist content.",
+      "D": "Sermons and oral communication remained the primary means of spreading ideas even after the printing press."
+    },
+    "correct": "C",
+    "explanation": "The revisionists argue print was overrated partly because most people were illiterate and texts were in Latin. C directly undermines both objections simultaneously: woodcut illustrations let illiterate audiences access printed materials, showing print reached beyond literate, Latin-reading audiences. A would support the revisionists (the Church adopted print quickly). B supports their argument about Latin inaccessibility. D confirms the revisionists' position about oral networks being dominant.",
+    "distractor_rationale": {
+      "A": "This results from selecting a fact about Church print adoption that reinforces the revisionist claim — that print was not uniquely Protestant — rather than undermining it.",
+      "B": "This results from selecting a detail that directly supports one of the revisionists' own arguments (Latin texts were inaccessible), which is evidence for their position, not against it.",
+      "C": "N/A",
+      "D": "This results from selecting evidence that confirms the revisionists' argument about the primacy of oral networks, which would strengthen rather than challenge their position."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Author's Purpose",
+    "difficulty": "Hard",
+    "passage": "Scientific papers routinely open with statements like 'it is well established that...' followed by citations to prior literature. But a closer look reveals that many of these citations, when tracked down, either do not support the claim made or are themselves citing papers that make the same unsupported claim. Researchers have called this phenomenon 'citation amnesia' — the uncritical recycling of assertions that over time acquire the appearance of established fact through sheer repetition rather than accumulated evidence.",
+    "question": "The author's primary purpose in this passage is to",
+    "choices": {
+      "A": "defend the practice of citing prior literature as essential to scientific credibility",
+      "B": "explain the peer review process and its role in catching citation errors",
+      "C": "argue that all scientific knowledge should be treated with skepticism",
+      "D": "expose a structural weakness in how scientific consensus is sometimes built and cited"
+    },
+    "correct": "D",
+    "explanation": "The passage identifies 'citation amnesia' — a specific, named flaw in how claims can accumulate the appearance of authority through repetition rather than evidence. D accurately describes the author's purpose: identifying a structural weakness in scientific communication. A directly contradicts the passage's critical stance toward citation practices. B introduces peer review, which the passage never discusses. C is far too sweeping — the passage critiques one specific practice, not the validity of scientific knowledge in general.",
+    "distractor_rationale": {
+      "A": "This results from inverting the passage's argument — the author critiques uncritical citation as a weakness, not defends citation as an essential practice.",
+      "B": "This results from inferring that a passage about citation errors must discuss the mechanism for catching them (peer review), when the passage never mentions peer review at all.",
+      "C": "This results from extending the passage's targeted critique of citation habits into a blanket skepticism toward all science — a far broader claim than the author makes.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Text Structure",
+    "difficulty": "Hard",
+    "passage": "The history of the bicycle's impact on women's freedom is often summarized by Susan B. Anthony's 1896 remark that cycling had 'done more to emancipate women than anything else.' But this account omits crucial context: early cycling was expensive and limited to wealthier women; dress reform advocates used the bicycle as a political argument long before most women could afford one; and the cultural backlash — including medical claims that cycling would ruin women's health — was severe. The story is real but more complicated than the quote suggests.",
+    "question": "How does the passage develop its argument?",
+    "choices": {
+      "A": "It presents a timeline of events in women's emancipation and assigns credit to various causes.",
+      "B": "It introduces a widely cited claim and then complicates it by providing context that qualifies its meaning.",
+      "C": "It argues that Susan B. Anthony's view on cycling was historically incorrect.",
+      "D": "It compares the impact of cycling on women across different socioeconomic classes to reach a conclusion."
+    },
+    "correct": "B",
+    "explanation": "The passage introduces the well-known Anthony quote and then systematically adds context that complicates it — cost barriers, political instrumentalization, and backlash — before concluding the story is 'real but more complicated.' B accurately captures this structure. A is wrong — no timeline of emancipation is presented. C misrepresents the passage, which affirms the emancipation story is 'real,' not incorrect. D describes only one of several complicating factors and misidentifies it as the passage's organizing principle.",
+    "distractor_rationale": {
+      "A": "This results from noting that the passage covers historical context and inferring a chronological timeline structure, when the passage is actually organized around introducing and then qualifying a single popular claim.",
+      "B": "N/A",
+      "C": "This results from misreading the passage's complication of the Anthony narrative as a refutation — the passage explicitly states the emancipation story is 'real,' meaning true but incomplete, not false.",
+      "D": "This results from focusing on the class-access detail (expensive cycling limited to wealthier women) as the passage's central organizing structure, when it is only one of three complicating factors introduced."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Data Interpretation",
+    "difficulty": "Hard",
+    "passage": "A transportation agency studied ridership on a commuter rail line over twelve months after introducing new express service. Monthly average ridership before the change was 42,000 trips. After the change, ridership for the first four months averaged 48,000 trips, the next four months averaged 55,000 trips, and the final four months averaged 61,000 trips. The agency calculated the percent increase between each consecutive four-month period to track adoption momentum.",
+    "question": "What was the approximate percent increase in average monthly ridership from the second four-month period to the third four-month period?",
+    "choices": {
+      "A": "11%",
+      "B": "15%",
+      "C": "27%",
+      "D": "45%"
+    },
+    "correct": "A",
+    "explanation": "The second period averaged 55,000 trips and the third averaged 61,000. Percent increase = (61,000 − 55,000) ÷ 55,000 = 6,000 ÷ 55,000 ≈ 10.9%, approximately 11%. B (15%) results from computing the first-to-second period increase: (55,000 − 48,000) ÷ 48,000 ≈ 14.6%. C (27%) results from computing the first-to-third period increase: (61,000 − 48,000) ÷ 48,000 ≈ 27%. D (45%) results from comparing the third period to the pre-change baseline: (61,000 − 42,000) ÷ 42,000 ≈ 45%.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from computing the percent increase between the first and second four-month periods (48,000 to 55,000 ≈ 15%) rather than the second to the third.",
+      "C": "This results from computing the percent increase from the first four-month period (48,000) to the third (61,000) — spanning two periods — rather than from the second (55,000) to the third (61,000).",
+      "D": "This results from computing the increase from the original pre-change baseline (42,000) to the third four-month period (61,000), which spans the entire period rather than just the second-to-third segment."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Main Idea",
+    "difficulty": "Hard",
+    "passage": "Climate models consistently underestimated the speed of Arctic sea ice loss until researchers identified that the models failed to capture the ice-albedo feedback loop. As sea ice melts, it exposes dark ocean water that absorbs more solar radiation than reflective ice, warming the water further and accelerating additional melting. By incorporating this feedback into models, scientists produced projections that aligned more closely with observed rates. The episode illustrates how climate modeling is an iterative process in which observed reality continually refines theoretical predictions.",
+    "question": "The central idea of the passage is that",
+    "choices": {
+      "A": "Arctic sea ice is melting faster than scientists are willing to acknowledge",
+      "B": "climate models are fundamentally unreliable tools for predicting environmental change",
+      "C": "climate modeling improves through iterative correction when theoretical predictions are compared against observed outcomes",
+      "D": "the ice-albedo feedback loop is the single most important driver of Arctic warming"
+    },
+    "correct": "C",
+    "explanation": "The passage describes a modeling failure, identifies its cause (a missing feedback loop), shows how adding it improved projections, and concludes that this illustrates modeling as an 'iterative process' of refinement through comparison with reality. C captures this full arc. A adds an unwarranted motivation (unwillingness) the passage does not state. B contradicts the passage, which demonstrates models improving. D elevates the feedback loop — a supporting detail — into a claim about primacy the passage does not make.",
+    "distractor_rationale": {
+      "A": "This results from misreading the initial underestimation as stemming from unwillingness to acknowledge data, when the passage describes it as a technical modeling gap that scientists actively identified and corrected.",
+      "B": "This results from focusing on the initial model failure and ignoring the passage's central point — that the failure was identified and corrected, demonstrating how iterative modeling improves over time.",
+      "C": "N/A",
+      "D": "This results from treating the ice-albedo feedback loop — the explanatory mechanism in the passage — as the passage's central claim rather than as an example illustrating the broader principle of iterative model refinement."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Inference",
+    "difficulty": "Hard",
+    "passage": "Sociologists studying online communities observe that highly moderated platforms retain users longer and report higher satisfaction than minimally moderated ones. Yet the same researchers note a paradox: heavy moderation requires constant human judgment that is inherently inconsistent, and users who feel their content was removed unfairly are among the most vocal critics of the very platforms they continue to use. Platforms find themselves between two failure modes: too little moderation drives away most users; too much drives away some of the most engaged ones.",
+    "question": "Based on the passage, which of the following can be inferred?",
+    "choices": {
+      "A": "Platforms should prioritize retaining highly engaged users over casual ones.",
+      "B": "Inconsistent moderation is the primary cause of dissatisfaction across all online platforms.",
+      "C": "Sociologists recommend that platforms shift to automated content moderation.",
+      "D": "No moderation level allows platforms to avoid all major trade-offs simultaneously."
+    },
+    "correct": "D",
+    "explanation": "The passage presents two failure modes — too little moderation drives away most users; too much drives away highly engaged ones — implying no level of moderation eliminates all costs. D is the direct inference. A goes beyond the passage, which describes engaged users as critics but offers no platform strategy recommendation. B overstates — inconsistency is identified as a problem within heavy moderation specifically, not the primary cause of all dissatisfaction everywhere. C is not stated; the passage mentions human judgment but never discusses automation.",
+    "distractor_rationale": {
+      "A": "This results from inferring a platform strategy recommendation from the description of engaged users as vocal critics, when the passage is analytical rather than prescriptive.",
+      "B": "This results from generalizing the observation that inconsistent heavy moderation creates vocal critics into a sweeping claim about all dissatisfaction on all platforms — a far broader conclusion than the passage supports.",
+      "C": "This results from inferring that since human moderation is described as inconsistent, the passage must be pointing toward automation as a solution — a conclusion the passage never draws.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Vocabulary in Context",
+    "difficulty": "Hard",
+    "passage": "The architect's portfolio revealed a singular sensibility — every project, regardless of scale or budget, bore the same commitment to material honesty, spatial clarity, and the relationship between built form and natural light. Critics debated whether this consistency reflected philosophical conviction or a failure to adapt to different contexts, but none could dispute that her buildings were immediately recognizable. In a profession prone to stylistic drift, her unwavering approach had made her one of the most distinctive voices of her generation.",
+    "question": "As used in the passage, the word \"singular\" most nearly means",
+    "choices": {
+      "A": "unusual to the point of being strange",
+      "B": "distinctive and unified in character",
+      "C": "solitary or lone",
+      "D": "extraordinarily talented"
+    },
+    "correct": "B",
+    "explanation": "In context, 'a singular sensibility' describes an architectural vision that is coherent and consistent across all projects — distinctive and unified. B is correct. A ('unusual to the point of being strange') is a pejorative shade that 'singular' can carry, but the passage's tone is admiring, not critical. C ('solitary or lone') captures the mathematical meaning of singular (one, alone) but does not apply to a design philosophy spanning many projects. D ('extraordinarily talented') is something the passage implies about the architect but is not what 'singular' means as a descriptor of sensibility.",
+    "distractor_rationale": {
+      "A": "This results from selecting the pejorative connotation of 'singular' (eccentric or odd) without recognizing that the passage's admiring tone signals a positive meaning.",
+      "B": "N/A",
+      "C": "This results from selecting the literal, numerical sense of 'singular' (one, alone) — as in a single occurrence — which does not apply to the description of a design philosophy expressed across an entire portfolio.",
+      "D": "This results from inferring the architect's exceptional talent from the passage and substituting that inference for the actual meaning of 'singular' as applied to a sensibility or style."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Evidence Support",
+    "difficulty": "Hard",
+    "passage": "Behavioral economists find that workers save significantly more when employers enroll them automatically in retirement plans and require active opt-out rather than voluntary opt-in. Critics argue this 'nudge' approach is paternalistic and undermines personal financial autonomy. Advocates respond that auto-enrollment only changes the default — it does not restrict choice — and that opt-in models fail millions of workers who intend to save but never complete enrollment. A 2019 national study found auto-enrollment increased plan participation by 40 percentage points among previously eligible but unenrolled workers.",
+    "question": "Which evidence would best counter the critics' claim that auto-enrollment is paternalistic?",
+    "choices": {
+      "A": "Auto-enrollment does not eliminate any choices — workers retain full freedom to opt out at any time.",
+      "B": "Auto-enrollment increases plan participation by 40 percentage points.",
+      "C": "Traditional opt-in models show lower participation rates than auto-enrollment models.",
+      "D": "Workers who intend to save often fail to complete enrollment paperwork under opt-in systems."
+    },
+    "correct": "A",
+    "explanation": "The critics' specific claim is that auto-enrollment is 'paternalistic' and 'undermines personal financial autonomy.' A directly rebuts this by showing that no choice is removed — workers retain full freedom to opt out — so autonomy is fully preserved. B shows the approach is effective but does not address the autonomy objection. C is the same effectiveness argument and does not engage with paternalism. D explains why defaults matter behaviorally but does not counter the claim that changing the default overrides individual agency.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from selecting the most dramatic quantitative evidence in the passage (the 40-point increase) without checking whether it addresses the critics' specific objection, which concerns autonomy rather than effectiveness.",
+      "C": "This results from selecting a general comparison of participation rates — which shows auto-enrollment works better — rather than a response to the critics' claim that it overrides individual choice.",
+      "D": "This results from selecting the behavioral explanation for why defaults matter (people fail to enroll) rather than a direct counter to the claim that changing the default is itself an act of paternalism."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Reading",
+    "skill": "Data Interpretation",
+    "difficulty": "Hard",
+    "passage": "An education researcher tracked reading scores for students in three instructional programs over two school years. Program 1 students improved from an average of 64 to 78. Program 2 students improved from 70 to 81. Program 3 students improved from 58 to 75. The researcher noted that both absolute improvement and starting level matter when comparing program effectiveness, and calculated percent improvement for each program.",
+    "question": "Which program produced the greatest percent improvement in average reading scores?",
+    "choices": {
+      "A": "Program 1",
+      "B": "Program 2",
+      "C": "Program 3",
+      "D": "Programs 1 and 3 equally"
+    },
+    "correct": "C",
+    "explanation": "Percent improvement = (new − old) ÷ old × 100. Program 1: (78 − 64) ÷ 64 ≈ 21.9%. Program 2: (81 − 70) ÷ 70 ≈ 15.7%. Program 3: (75 − 58) ÷ 58 ≈ 29.3%. Program 3 (≈29%) had the greatest percent improvement despite not reaching the highest final score. A (Program 1) is second at ≈22%. B (Program 2) achieved the highest final score but the smallest percent improvement because it started from the highest base. D is wrong because Program 3's percent (29%) substantially exceeds Program 1's (22%).",
+    "distractor_rationale": {
+      "A": "This results from selecting Program 1 because it shows the second-largest absolute gain (14 points) without dividing by the starting score — Program 3's 17-point gain from a lower base of 58 produces a larger percent improvement.",
+      "B": "This results from selecting Program 2 because it achieves the highest final average score (81), confusing the endpoint with percent change — Program 2 actually shows the smallest percent improvement because it started from the highest base (70).",
+      "C": "N/A",
+      "D": "This results from noting that Programs 1 and 3 have similar absolute gains (14 vs. 17 points) and assuming this makes them equivalent, without accounting for their different starting points (64 vs. 58) which produce different percent improvements."
+    }
+  }
+]

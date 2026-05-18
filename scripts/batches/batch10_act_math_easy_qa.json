@@ -1,0 +1,266 @@
+[
+  {
+    "exam": "ACT",
+    "subject": "Math",
+    "skill": "Linear Equations",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "If 3x + 9 = 24, what is the value of x?",
+    "choices": {
+      "A": "11",
+      "B": "8",
+      "C": "5",
+      "D": "15"
+    },
+    "correct": "C",
+    "explanation": "Subtract 9 from both sides: 3x = 15. Divide both sides by 3: x = 5.",
+    "distractor_rationale": {
+      "A": "This results from adding 9 to both sides instead of subtracting: 3x = 24 + 9 = 33, then x = 33 ÷ 3 = 11.",
+      "B": "This results from dividing 24 by 3 without first subtracting 9 — treating the equation as 3x = 24 and computing 24 ÷ 3 = 8.",
+      "C": "N/A",
+      "D": "This results from correctly computing 3x = 15 but reporting 15 as the answer without completing the final step of dividing by 3."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Math",
+    "skill": "Systems of Equations",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "If 2x + y = 11 and x - y = 1, what is the value of x?",
+    "choices": {
+      "A": "4",
+      "B": "7",
+      "C": "3",
+      "D": "12"
+    },
+    "correct": "A",
+    "explanation": "Add the two equations: (2x + y) + (x - y) = 11 + 1, giving 3x = 12, so x = 4. Substituting back: 2(4) + y = 11, so y = 3.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from adding x and y after finding x = 4 and y = 3, reporting 4 + 3 = 7 instead of just x.",
+      "C": "This is the value of y, not x. After substituting x = 4, y = 11 - 8 = 3, but the question asks for x.",
+      "D": "This results from correctly adding the equations to get 3x = 12 but reporting 12 as the answer without dividing by 3."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Math",
+    "skill": "Inequalities",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "Which of the following represents all values of x that satisfy 2x - 4 > 8?",
+    "choices": {
+      "A": "x > 2",
+      "B": "x < 6",
+      "C": "x > 4",
+      "D": "x > 6"
+    },
+    "correct": "D",
+    "explanation": "Add 4 to both sides: 2x > 12. Divide both sides by 2 (a positive number, so the inequality direction stays the same): x > 6.",
+    "distractor_rationale": {
+      "A": "This results from dividing 8 by 4 directly — confusing the constant being added or subtracted with the coefficient — to get x > 2.",
+      "B": "This results from correctly solving to get x > 6 but reversing the inequality sign, producing x < 6.",
+      "C": "This results from solving 2x > 8 without first adding 4 to both sides, treating the -4 as if it were not present.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Math",
+    "skill": "Quadratics",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "What are the solutions to x² - 5x + 6 = 0?",
+    "choices": {
+      "A": "x = -2 and x = -3",
+      "B": "x = 2 and x = 3",
+      "C": "x = 2 and x = -3",
+      "D": "x = 6 and x = -1"
+    },
+    "correct": "B",
+    "explanation": "Factor the quadratic: find two numbers that multiply to 6 and add to -5. Those numbers are -2 and -3. So (x - 2)(x - 3) = 0, giving x = 2 or x = 3.",
+    "distractor_rationale": {
+      "A": "This results from using the signs of the constant factors directly rather than reversing them: writing x = -2 and x = -3 instead of +2 and +3.",
+      "B": "N/A",
+      "C": "This results from finding one root correctly (x = 2) but incorrectly negating the other (x = -3 instead of x = 3).",
+      "D": "This results from finding two numbers that add to 5 (6 + (-1) = 5) and multiply to -6 rather than +6, using the wrong sign on the constant term."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Math",
+    "skill": "Functions",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "If f(x) = 3x² - 2, what is the value of f(2)?",
+    "choices": {
+      "A": "4",
+      "B": "14",
+      "C": "10",
+      "D": "22"
+    },
+    "correct": "C",
+    "explanation": "Substitute x = 2: f(2) = 3(2²) - 2 = 3(4) - 2 = 12 - 2 = 10.",
+    "distractor_rationale": {
+      "A": "This results from failing to square x before multiplying by 3: 3(2) - 2 = 6 - 2 = 4.",
+      "B": "This results from treating the constant as positive instead of negative: 3(4) + 2 = 12 + 2 = 14.",
+      "C": "N/A",
+      "D": "This results from cubing x instead of squaring it: 3(2³) - 2 = 3(8) - 2 = 24 - 2 = 22."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Math",
+    "skill": "Ratios & Proportions",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "A car travels 180 miles on 6 gallons of fuel. How many miles per gallon does the car get?",
+    "choices": {
+      "A": "30",
+      "B": "186",
+      "C": "174",
+      "D": "1,080"
+    },
+    "correct": "A",
+    "explanation": "Miles per gallon = total miles ÷ total gallons = 180 ÷ 6 = 30 mpg.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from adding miles and gallons instead of dividing: 180 + 6 = 186.",
+      "C": "This results from subtracting gallons from miles instead of dividing: 180 - 6 = 174.",
+      "D": "This results from multiplying miles by gallons instead of dividing: 180 × 6 = 1,080."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Math",
+    "skill": "Percentages",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "A shirt originally costs $40 and is on sale for 25% off. What is the sale price?",
+    "choices": {
+      "A": "$10",
+      "B": "$50",
+      "C": "$32",
+      "D": "$30"
+    },
+    "correct": "D",
+    "explanation": "25% of $40 = 0.25 × 40 = $10 discount. Sale price = $40 - $10 = $30. Alternatively, the sale price is 75% of the original: 0.75 × $40 = $30.",
+    "distractor_rationale": {
+      "A": "This results from reporting the discount amount ($10) as the final price rather than subtracting it from the original price.",
+      "B": "This results from adding the 25% discount to the original price instead of subtracting it: $40 + $10 = $50.",
+      "C": "This results from computing 80% of the original price (keeping 80% instead of 75%): 0.80 × $40 = $32.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Math",
+    "skill": "Statistics & Data",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "The quiz scores of 5 students are 60, 75, 80, 80, and 85. What is the mode of the scores?",
+    "choices": {
+      "A": "76",
+      "B": "80",
+      "C": "25",
+      "D": "85"
+    },
+    "correct": "B",
+    "explanation": "The mode is the value that appears most frequently. The score 80 appears twice; all other scores appear once. Therefore, the mode is 80.",
+    "distractor_rationale": {
+      "A": "This results from computing the mean (average) instead of the mode: (60 + 75 + 80 + 80 + 85) ÷ 5 = 380 ÷ 5 = 76.",
+      "B": "N/A",
+      "C": "This results from computing the range (the difference between the highest and lowest scores) instead of the mode: 85 - 60 = 25.",
+      "D": "This results from reporting the highest score instead of the mode, confusing the mode with the maximum value."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Math",
+    "skill": "Geometry",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "A right triangle has legs of length 6 and 8. What is the length of the hypotenuse?",
+    "choices": {
+      "A": "10",
+      "B": "14",
+      "C": "100",
+      "D": "48"
+    },
+    "correct": "A",
+    "explanation": "Use the Pythagorean theorem: a² + b² = c². So 6² + 8² = 36 + 64 = 100. The hypotenuse c = √100 = 10.",
+    "distractor_rationale": {
+      "A": "N/A",
+      "B": "This results from adding the two legs instead of applying the Pythagorean theorem: 6 + 8 = 14.",
+      "C": "This results from correctly computing a² + b² = 100 but reporting 100 as the hypotenuse length without taking the square root.",
+      "D": "This results from multiplying the two legs together (6 × 8 = 48), which gives the area of a rectangle rather than the hypotenuse."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Math",
+    "skill": "Geometry",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "A circle has a radius of 5. What is the area of the circle? (Use π ≈ 3.14)",
+    "choices": {
+      "A": "31.4",
+      "B": "15.7",
+      "C": "78.5",
+      "D": "25"
+    },
+    "correct": "C",
+    "explanation": "Area of a circle = πr². Substituting: 3.14 × (5²) = 3.14 × 25 = 78.5.",
+    "distractor_rationale": {
+      "A": "This results from computing the circumference (2πr) instead of the area: 2 × 3.14 × 5 = 31.4.",
+      "B": "This results from computing πr (not squaring the radius): 3.14 × 5 = 15.7.",
+      "C": "N/A",
+      "D": "This results from reporting r² (the radius squared) without multiplying by π: 5² = 25."
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Math",
+    "skill": "Word Problems",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "At a bakery, muffins cost $2.00 each and cookies cost $1.50 each. Sarah buys 3 muffins and 4 cookies. What is the total cost?",
+    "choices": {
+      "A": "$14.00",
+      "B": "$6.00",
+      "C": "$18.00",
+      "D": "$12.00"
+    },
+    "correct": "D",
+    "explanation": "Cost of muffins: 3 × $2.00 = $6.00. Cost of cookies: 4 × $1.50 = $6.00. Total: $6.00 + $6.00 = $12.00.",
+    "distractor_rationale": {
+      "A": "This results from using $2.00 for both items instead of $1.50 for cookies: 3 × $2 + 4 × $2 = $6 + $8 = $14.",
+      "B": "This results from computing only the cost of the muffins (3 × $2 = $6) and forgetting to include the cost of the cookies.",
+      "C": "This results from using $3.00 instead of $1.50 for cookies (doubling the cookie price): 3 × $2 + 4 × $3 = $6 + $12 = $18.",
+      "D": "N/A"
+    }
+  },
+  {
+    "exam": "ACT",
+    "subject": "Math",
+    "skill": "Trigonometry",
+    "difficulty": "Easy",
+    "passage": null,
+    "question": "In a right triangle, angle θ has an opposite side of length 3 and a hypotenuse of length 5. What is the value of sin(θ)?",
+    "choices": {
+      "A": "0.75",
+      "B": "0.6",
+      "C": "0.8",
+      "D": "1.67"
+    },
+    "correct": "B",
+    "explanation": "The sine of an angle in a right triangle equals opposite ÷ hypotenuse. sin(θ) = 3 ÷ 5 = 0.6.",
+    "distractor_rationale": {
+      "A": "This results from computing opposite ÷ adjacent instead of opposite ÷ hypotenuse. The adjacent side = √(5² - 3²) = √16 = 4, giving 3 ÷ 4 = 0.75, which is tan(θ) rather than sin(θ).",
+      "B": "N/A",
+      "C": "This results from computing adjacent ÷ hypotenuse, which gives cos(θ), not sin(θ): 4 ÷ 5 = 0.8.",
+      "D": "This results from inverting the ratio — computing hypotenuse ÷ opposite (5 ÷ 3 ≈ 1.67) rather than opposite ÷ hypotenuse."
+    }
+  }
+]

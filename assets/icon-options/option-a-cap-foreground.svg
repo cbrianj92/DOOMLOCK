@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Shackle arc -->
+  <path d="M 172 278 L 172 222 C 172 138 340 138 340 222 L 340 278"
+        fill="none" stroke="white" stroke-width="44" stroke-linecap="round"/>
+
+  <!-- Lock body -->
+  <rect x="136" y="262" width="240" height="182" rx="22" fill="white"/>
+
+  <!-- Keyhole -->
+  <circle cx="256" cy="338" r="22" fill="#1a3a5c"/>
+  <rect x="244" y="336" width="24" height="44" rx="5" fill="#1a3a5c"/>
+
+  <!-- Graduation cap brim -->
+  <rect x="178" y="100" width="156" height="22" rx="5" fill="#2E75B6"/>
+  <!-- Cap top (triangle, apex up) -->
+  <polygon points="256,58 178,100 334,100" fill="#2E75B6"/>
+  <!-- Tassel line -->
+  <line x1="334" y1="100" x2="350" y2="142" stroke="#2E75B6" stroke-width="9" stroke-linecap="round"/>
+  <!-- Tassel ball -->
+  <circle cx="350" cy="152" r="11" fill="#2E75B6"/>
+</svg>
