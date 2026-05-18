@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import {
   ActivityIndicator,
-  SafeAreaView,
+  KeyboardAvoidingView,
   StyleSheet,
   Text,
   TextInput,
   TouchableOpacity,
   View,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { BorderRadius, Colors, Spacing, Typography } from '../constants';
 import { signIn, signUp } from '../services/auth';
 
@@ -64,7 +65,7 @@ const AuthScreen: React.FC<Props> = ({ onComplete }) => {
 
   if (confirmationSent) {
     return (
-      <SafeAreaView style={styles.safe}>
+      <SafeAreaView style={styles.safe} edges={['top', 'bottom']}>
         <View style={styles.container}>
           <Text style={styles.logo}>DOOMLOCK</Text>
           <Text style={styles.heading}>Check Your Email</Text>
@@ -86,7 +87,8 @@ const AuthScreen: React.FC<Props> = ({ onComplete }) => {
   }
 
   return (
-    <SafeAreaView style={styles.safe}>
+    <SafeAreaView style={styles.safe} edges={['top', 'bottom']}>
+      <KeyboardAvoidingView style={styles.keyboardView} behavior="height">
       <View style={styles.container}>
         <View style={styles.header}>
           <Text style={styles.logo}>DOOMLOCK</Text>
@@ -143,6 +145,7 @@ const AuthScreen: React.FC<Props> = ({ onComplete }) => {
           </Text>
         </TouchableOpacity>
       </View>
+      </KeyboardAvoidingView>
     </SafeAreaView>
   );
 };
@@ -151,6 +154,9 @@ const styles = StyleSheet.create({
   safe: {
     flex: 1,
     backgroundColor: Colors.background,
+  },
+  keyboardView: {
+    flex: 1,
   },
   container: {
     flex: 1,

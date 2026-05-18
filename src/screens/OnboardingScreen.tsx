@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import {
   AppState,
   AppStateStatus,
@@ -42,6 +43,8 @@ const OnboardingScreen: React.FC<Props> = ({ onComplete }) => {
   const [termsAccepted, setTermsAccepted] = useState(false);
   const [showRestrictedWarning, setShowRestrictedWarning] = useState(false);
   const [permissionFailed, setPermissionFailed] = useState(false);
+  const { bottom } = useSafeAreaInsets();
+  const containerStyle = [styles.container, { paddingBottom: Spacing.lg + bottom }];
   const appStateRef = useRef(AppState.currentState);
   const wentToSettingsRef = useRef(false);
 
@@ -111,7 +114,7 @@ const OnboardingScreen: React.FC<Props> = ({ onComplete }) => {
   if (step === 0) {
     if (underAgeLocked) {
       return (
-        <View style={styles.container}>
+        <View style={containerStyle}>
           <Text style={styles.heading}>Sorry!</Text>
           <Text style={styles.body}>
             Doomlock is for students aged 13 and up. We're sorry, but you're not
@@ -127,7 +130,7 @@ const OnboardingScreen: React.FC<Props> = ({ onComplete }) => {
     }
 
     return (
-      <View style={styles.container}>
+      <View style={containerStyle}>
         <Text style={styles.heading}>Before You Start</Text>
         <Text style={styles.body}>
           Doomlock is for students aged 13 and older. Please enter your year of
@@ -162,7 +165,7 @@ const OnboardingScreen: React.FC<Props> = ({ onComplete }) => {
   // Step 1: Terms acceptance
   if (step === 1) {
     return (
-      <View style={styles.container}>
+      <View style={containerStyle}>
         <Text style={styles.heading}>One Last Thing</Text>
         <Text style={styles.body}>Please confirm before we continue.</Text>
         <TouchableOpacity
@@ -213,7 +216,7 @@ const OnboardingScreen: React.FC<Props> = ({ onComplete }) => {
   // Step 2: Welcome
   if (step === 2) {
     return (
-      <View style={styles.container}>
+      <View style={containerStyle}>
         <View style={styles.heroSection}>
           <Text style={styles.logo}>DOOMLOCK</Text>
           <Text style={styles.tagline}>Turn screen time into study time.</Text>
@@ -228,7 +231,7 @@ const OnboardingScreen: React.FC<Props> = ({ onComplete }) => {
   // Step 3: How it works
   if (step === 3) {
     return (
-      <View style={styles.container}>
+      <View style={containerStyle}>
         <Text style={styles.heading}>How It Works</Text>
         <View style={styles.itemsContainer}>
           <View style={styles.howItWorksItem}>
@@ -264,7 +267,7 @@ const OnboardingScreen: React.FC<Props> = ({ onComplete }) => {
   if (step === 4) {
     if (permissionFailed) {
       return (
-        <View style={styles.container}>
+        <View style={containerStyle}>
           <Text style={styles.heading}>Having Trouble?</Text>
           {IS_SAMSUNG ? (
             <>
@@ -350,7 +353,7 @@ const OnboardingScreen: React.FC<Props> = ({ onComplete }) => {
 
     if (showRestrictedWarning) {
       return (
-        <View style={styles.container}>
+        <View style={containerStyle}>
           {IS_SAMSUNG ? (
             <>
               <Text style={styles.heading}>One Extra Step for Samsung</Text>
@@ -417,7 +420,7 @@ const OnboardingScreen: React.FC<Props> = ({ onComplete }) => {
     }
 
     return (
-      <View style={styles.container}>
+      <View style={containerStyle}>
         <Text style={styles.heading}>One Permission to Enable</Text>
         <Text style={styles.body}>
           Doomlock uses Android's Accessibility Service to recognize when you
@@ -445,7 +448,7 @@ const OnboardingScreen: React.FC<Props> = ({ onComplete }) => {
 
   // Step 5: Blocked apps confirmation
   return (
-    <View style={styles.container}>
+    <View style={containerStyle}>
       <Text style={styles.heading}>Your Study Triggers</Text>
       <Text style={styles.body}>
         Opening any of these apps will prompt a quick SAT practice question:
