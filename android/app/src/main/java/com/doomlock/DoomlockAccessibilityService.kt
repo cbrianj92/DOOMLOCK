@@ -63,6 +63,10 @@ class DoomlockAccessibilityService : AccessibilityService() {
     }
 
     private fun launchDoomlock() {
+        // Write entry point flag so JS can distinguish an intercepted launch
+        val prefs = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+        prefs.edit().putString(ENTRY_POINT_KEY, "overlay_triggered").apply()
+
         val intent = Intent(this, MainActivity::class.java)
         intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_SINGLE_TOP
         startActivity(intent)
@@ -74,8 +78,15 @@ class DoomlockAccessibilityService : AccessibilityService() {
         if (delay > 0) {
             Log.d(TAG, "Scheduling expiry launch in ${delay}ms")
             expiryRunnable = Runnable {
-                Log.d(TAG, "Unlock expired — launching Doomlock")
-                launchDoomlock()
+                val currentPackage = rootInActiveWindow?.packageName?.toString()
+                val expiryPrefs = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+                val blockedPackages = expiryPrefs.getStringSet(BLOCKED_PACKAGES_KEY, emptySet()) ?: emptySet()
+                if (currentPackage != null && currentPackage in blockedPackages) {
+                    Log.d(TAG, "Unlock expired on blocked app $currentPackage — launching Doomlock")
+                    launchDoomlock()
+                } else {
+                    Log.d(TAG, "Unlock expired but user not on blocked app ($currentPackage) — skipping launch")
+                }
             }
             handler.postDelayed(expiryRunnable!!, delay)
         }
@@ -92,6 +103,7 @@ class DoomlockAccessibilityService : AccessibilityService() {
         const val PREFS_NAME = "DoomlockPrefs"
         const val UNLOCK_EXPIRY_KEY = "unlock_expiry"
         const val BLOCKED_PACKAGES_KEY = "blocked_packages"
+        const val ENTRY_POINT_KEY = "entry_point"
 
         @Volatile
         var instance: DoomlockAccessibilityService? = null

@@ -36,6 +36,20 @@ class BlockingModule(reactContext: ReactApplicationContext) :
     }
 
     @ReactMethod
+    fun getAndClearEntryPoint(promise: Promise) {
+        try {
+            val prefs = reactApplicationContext.getSharedPreferences(
+                DoomlockAccessibilityService.PREFS_NAME, Context.MODE_PRIVATE
+            )
+            val entryPoint = prefs.getString(DoomlockAccessibilityService.ENTRY_POINT_KEY, null)
+            prefs.edit().remove(DoomlockAccessibilityService.ENTRY_POINT_KEY).apply()
+            promise.resolve(entryPoint)
+        } catch (e: Exception) {
+            promise.reject("ERROR", e.message)
+        }
+    }
+
+    @ReactMethod
     fun updateBlockedPackages(blockedPackages: ReadableArray) {
         val packages = mutableSetOf<String>()
         for (i in 0 until blockedPackages.size()) {

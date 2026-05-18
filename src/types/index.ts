@@ -1,7 +1,10 @@
 export interface Question {
   id: string;
+  exam: string;
   subject: string;
+  skill: string;
   difficulty: 'easy' | 'medium' | 'hard';
+  passage: string | null;
   question_text: string;
   option_a: string;
   option_b: string;

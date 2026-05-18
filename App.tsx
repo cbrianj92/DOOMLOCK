@@ -1,43 +1,100 @@
-import React, { useEffect, useRef } from 'react';
-import { Alert, AppState, AppStateStatus } from 'react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import React, { useEffect, useState } from 'react';
+import { StyleSheet, View } from 'react-native';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import AuthScreen from './src/screens/AuthScreen';
+import OnboardingScreen from './src/screens/OnboardingScreen';
+import ProgressScreen from './src/screens/ProgressScreen';
+import SettingsScreen from './src/screens/SettingsScreen';
 import QuestionScreen from './src/screens/QuestionScreen';
-import {
-  isAccessibilityServiceEnabled,
-  openAccessibilitySettings,
-  syncBlockedPackages,
-} from './src/services/blocking';
+import { getSession } from './src/services/auth';
+import { supabase } from './src/services/supabase';
+import { syncBlockedPackages } from './src/services/blocking';
+import { getAndClearNativeEntryPoint, logSession } from './src/services/session';
+import TabBar, { Tab } from './src/components/TabBar';
+
+const ONBOARDING_KEY = 'doomlock_onboarding_complete';
+
+type AppStatus = 'loading' | 'onboarding' | 'auth' | 'main';
 
 function App() {
-  const appState = useRef(AppState.currentState);
+  const [status, setStatus] = useState<AppStatus>('loading');
+  const [activeTab, setActiveTab] = useState<Tab>('practice');
 
-  const initBlocking = async () => {
-    const enabled = await isAccessibilityServiceEnabled();
-    if (!enabled) {
-      Alert.alert(
-        'Accessibility Access Required',
-        'Doomlock needs Accessibility access to monitor and block apps. Tap Continue, then enable Doomlock under Installed Apps.',
-        [{ text: 'Continue', onPress: openAccessibilitySettings }]
-      );
-    } else {
+  useEffect(() => {
+    checkAppState();
+  }, []);
+
+  useEffect(() => {
+    const { data: { subscription } } = supabase.auth.onAuthStateChange(event => {
+      if (event === 'SIGNED_OUT') {
+        setStatus('auth');
+      }
+    });
+    return () => subscription.unsubscribe();
+  }, []);
+
+  const checkAppState = async () => {
+    const onboardingDone = await AsyncStorage.getItem(ONBOARDING_KEY);
+    if (!onboardingDone) {
+      setStatus('onboarding');
+      return;
+    }
+    const session = await getSession();
+    if (session) {
       await syncBlockedPackages();
+      // Determine entry point: check if the accessibility service flagged this launch
+      const nativeEntryPoint = await getAndClearNativeEntryPoint();
+      const entryPoint = nativeEntryPoint === 'overlay_triggered'
+        ? 'overlay_triggered'
+        : 'direct_open';
+      logSession(entryPoint); // fire and forget
+      setStatus('main');
+    } else {
+      setStatus('auth');
     }
   };
 
-  useEffect(() => {
-    initBlocking();
+  const handleOnboardingComplete = async () => {
+    await AsyncStorage.setItem(ONBOARDING_KEY, 'true');
+    await syncBlockedPackages();
+    setStatus('auth');
+  };
 
-    const subscription = AppState.addEventListener('change', (nextState: AppStateStatus) => {
-      if (appState.current.match(/inactive|background/) && nextState === 'active') {
-        initBlocking();
-      }
-      appState.current = nextState;
-    });
+  const handleAuthComplete = async () => {
+    await syncBlockedPackages();
+    logSession('direct_open');
+    setStatus('main');
+  };
 
-    return () => subscription.remove();
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  if (status === 'loading') {
+    return null;
+  }
 
-  return <QuestionScreen />;
+  if (status === 'onboarding') {
+    return <OnboardingScreen onComplete={handleOnboardingComplete} />;
+  }
+
+  if (status === 'auth') {
+    return <AuthScreen onComplete={handleAuthComplete} />;
+  }
+
+  return (
+    <SafeAreaProvider>
+      <View style={styles.root}>
+        {activeTab === 'practice' && <QuestionScreen />}
+        {activeTab === 'progress' && <ProgressScreen />}
+        {activeTab === 'settings' && <SettingsScreen />}
+        <TabBar activeTab={activeTab} onTabChange={setActiveTab} />
+      </View>
+    </SafeAreaProvider>
+  );
 }
+
+const styles = StyleSheet.create({
+  root: {
+    flex: 1,
+  },
+});
 
 export default App;

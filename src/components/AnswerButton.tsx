@@ -25,7 +25,7 @@ const AnswerButton: React.FC<Props> = ({ letter, text, onPress, selected, disabl
           {LABEL[letter]}
         </Text>
       </View>
-      <Text style={[styles.text, selected && styles.textSelected]} numberOfLines={3}>
+      <Text style={[styles.text, selected && styles.textSelected]}>
         {text}
       </Text>
     </TouchableOpacity>
