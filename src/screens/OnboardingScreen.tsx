@@ -269,31 +269,32 @@ const OnboardingScreen: React.FC<Props> = ({ onComplete }) => {
           {IS_SAMSUNG ? (
             <>
               <Text style={styles.body}>
-                Samsung restricts accessibility permissions by default. You need
-                to unlock them first:
+                Samsung requires these steps in order — the three-dot menu only
+                appears after you've tried to enable Doomlock in Accessibility
+                first:
               </Text>
               <View style={styles.stepsList}>
                 <Text style={styles.stepItem}>
-                  1. Open Settings → Apps → Doomlock
-                </Text>
-                <Text style={styles.stepItem}>
-                  2. Tap the ⋮ menu in the top right corner
+                  1. Settings → Accessibility → Installed apps → find Doomlock
+                  → try to turn it on
                 </Text>
                 <Text style={styles.stepNote}>
-                  Don't see the three-dot menu? Go back one screen and open
-                  Doomlock again — it can take a moment to appear on Samsung
-                  devices.
+                  You'll see "For your security, this setting is unavailable."
+                  Tap OK — this unlocks the next step.
                 </Text>
                 <Text style={styles.stepItem}>
-                  3. Tap "Allow restricted settings"
+                  2. Settings → Apps → Doomlock → ⋮ (three dots, top right) →
+                  "Allow restricted settings"
                 </Text>
                 <Text style={styles.stepItem}>
-                  4. Go back to Accessibility → Installed services
-                </Text>
-                <Text style={styles.stepItem}>
-                  5. Find Doomlock and turn it on
+                  3. Go back to Accessibility → Installed apps → enable Doomlock
                 </Text>
               </View>
+              <Text style={styles.stepNote}>
+                On newer Samsung devices (Galaxy S24, Fold 6, Flip 6): first
+                disable Auto Blocker under Settings → Security &amp; Privacy,
+                then follow the steps above.
+              </Text>
             </>
           ) : IS_XIAOMI ? (
             <>
@@ -354,28 +355,30 @@ const OnboardingScreen: React.FC<Props> = ({ onComplete }) => {
             <>
               <Text style={styles.heading}>One Extra Step for Samsung</Text>
               <Text style={styles.body}>
-                Samsung blocks accessibility permissions by default. Do this
-                first, then we'll open the right settings screen:
+                Samsung requires these steps in order. Tap the button below
+                first — we'll open Accessibility Settings for you.
               </Text>
               <View style={styles.stepsList}>
                 <Text style={styles.stepItem}>
-                  1. Settings → Apps → Doomlock
-                </Text>
-                <Text style={styles.stepItem}>
-                  2. Tap ⋮ (three dots, top right)
+                  1. Find Doomlock and try to turn it on
                 </Text>
                 <Text style={styles.stepNote}>
-                  Don't see the three-dot menu? Go back one screen and open
-                  Doomlock again — it can take a moment to appear on Samsung
-                  devices.
+                  You'll see "For your security, this setting is unavailable."
+                  Tap OK — this unlocks the next step.
                 </Text>
                 <Text style={styles.stepItem}>
-                  3. Tap "Allow restricted settings"
+                  2. Go to Settings → Apps → Doomlock → ⋮ (three dots, top
+                  right) → "Allow restricted settings"
                 </Text>
                 <Text style={styles.stepItem}>
-                  4. Come back here, then tap the button below
+                  3. Go back to Accessibility → Installed apps → enable Doomlock
                 </Text>
               </View>
+              <Text style={styles.stepNote}>
+                On newer Samsung devices (Galaxy S24, Fold 6, Flip 6): first
+                disable Auto Blocker under Settings → Security &amp; Privacy,
+                then follow the steps above.
+              </Text>
             </>
           ) : (
             <>
@@ -400,7 +403,7 @@ const OnboardingScreen: React.FC<Props> = ({ onComplete }) => {
           <TouchableOpacity
             style={[styles.button, styles.buttonSpaced]}
             onPress={handleOpenSettings}>
-            <Text style={styles.buttonText}>Got it — Open Settings</Text>
+            <Text style={styles.buttonText}>Open Accessibility Settings</Text>
           </TouchableOpacity>
           <TouchableOpacity
             style={styles.secondaryButton}
@@ -604,7 +607,6 @@ const styles = StyleSheet.create({
     color: Colors.textLight,
     fontStyle: 'italic',
     lineHeight: 19,
-    paddingLeft: 12,
   },
   button: {
     backgroundColor: Colors.primary,
