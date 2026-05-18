@@ -279,6 +279,11 @@ const OnboardingScreen: React.FC<Props> = ({ onComplete }) => {
                 <Text style={styles.stepItem}>
                   2. Tap the ⋮ menu in the top right corner
                 </Text>
+                <Text style={styles.stepNote}>
+                  Don't see the three-dot menu? Go back one screen and open
+                  Doomlock again — it can take a moment to appear on Samsung
+                  devices.
+                </Text>
                 <Text style={styles.stepItem}>
                   3. Tap "Allow restricted settings"
                 </Text>
@@ -358,6 +363,11 @@ const OnboardingScreen: React.FC<Props> = ({ onComplete }) => {
                 </Text>
                 <Text style={styles.stepItem}>
                   2. Tap ⋮ (three dots, top right)
+                </Text>
+                <Text style={styles.stepNote}>
+                  Don't see the three-dot menu? Go back one screen and open
+                  Doomlock again — it can take a moment to appear on Samsung
+                  devices.
                 </Text>
                 <Text style={styles.stepItem}>
                   3. Tap "Allow restricted settings"
@@ -587,6 +597,14 @@ const styles = StyleSheet.create({
     fontSize: 14,
     color: Colors.text,
     lineHeight: 22,
+  },
+  stepNote: {
+    ...Typography.body,
+    fontSize: 13,
+    color: Colors.textLight,
+    fontStyle: 'italic',
+    lineHeight: 19,
+    paddingLeft: 12,
   },
   button: {
     backgroundColor: Colors.primary,
