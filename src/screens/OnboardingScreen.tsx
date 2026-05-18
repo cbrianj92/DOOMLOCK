@@ -2,9 +2,13 @@ import React, { useEffect, useRef, useState } from 'react';
 import {
   AppState,
   AppStateStatus,
+  BackHandler,
+  Linking,
+  Platform,
   ScrollView,
   StyleSheet,
   Text,
+  TextInput,
   TouchableOpacity,
   View,
 } from 'react-native';
@@ -15,17 +19,34 @@ import {
   openAccessibilitySettings,
 } from '../services/blocking';
 
+const platformConstants = Platform.constants as unknown as Record<string, string>;
+const brand = (platformConstants.Brand || '').toLowerCase();
+const mfr = (platformConstants.Manufacturer || '').toLowerCase();
+const IS_SAMSUNG = brand.includes('samsung') || mfr.includes('samsung');
+const IS_XIAOMI =
+  brand.includes('xiaomi') ||
+  brand.includes('redmi') ||
+  brand.includes('poco') ||
+  mfr.includes('xiaomi');
+
 interface Props {
   onComplete: () => void;
 }
 
 const OnboardingScreen: React.FC<Props> = ({ onComplete }) => {
+  // Steps: 0=age gate, 1=terms, 2=welcome, 3=how it works, 4=accessibility, 5=blocked apps
   const [step, setStep] = useState(0);
+  const [birthYear, setBirthYear] = useState('');
+  const [birthYearError, setBirthYearError] = useState('');
+  const [underAgeLocked, setUnderAgeLocked] = useState(false);
+  const [termsAccepted, setTermsAccepted] = useState(false);
+  const [showRestrictedWarning, setShowRestrictedWarning] = useState(false);
+  const [permissionFailed, setPermissionFailed] = useState(false);
   const appStateRef = useRef(AppState.currentState);
+  const wentToSettingsRef = useRef(false);
 
-  // On step 2, auto-advance when the user grants accessibility permission
   useEffect(() => {
-    if (step !== 2) return;
+    if (step !== 4) return;
 
     const subscription = AppState.addEventListener(
       'change',
@@ -34,9 +55,15 @@ const OnboardingScreen: React.FC<Props> = ({ onComplete }) => {
           appStateRef.current.match(/inactive|background/) &&
           nextState === 'active'
         ) {
-          const enabled = await isAccessibilityServiceEnabled();
-          if (enabled) {
-            setStep(3);
+          if (wentToSettingsRef.current) {
+            wentToSettingsRef.current = false;
+            const enabled = await isAccessibilityServiceEnabled();
+            if (enabled) {
+              setStep(5);
+            } else {
+              setShowRestrictedWarning(false);
+              setPermissionFailed(true);
+            }
           }
         }
         appStateRef.current = nextState;
@@ -46,27 +73,160 @@ const OnboardingScreen: React.FC<Props> = ({ onComplete }) => {
     return () => subscription.remove();
   }, [step]);
 
-  // Skip accessibility step if permission is already granted
   const advanceFromHowItWorks = async () => {
     const enabled = await isAccessibilityServiceEnabled();
-    setStep(enabled ? 3 : 2);
+    setStep(enabled ? 5 : 4);
   };
 
+  const handleOpenSettings = () => {
+    wentToSettingsRef.current = true;
+    setShowRestrictedWarning(false);
+    openAccessibilitySettings();
+  };
+
+  const handleEnablePress = () => {
+    if ((IS_SAMSUNG || IS_XIAOMI) && !permissionFailed) {
+      setShowRestrictedWarning(true);
+    } else {
+      handleOpenSettings();
+    }
+  };
+
+  const handleAgeSubmit = () => {
+    const year = parseInt(birthYear, 10);
+    const currentYear = new Date().getFullYear();
+    if (isNaN(year) || year < 1900 || year > currentYear) {
+      setBirthYearError('Please enter a valid birth year.');
+      return;
+    }
+    if (currentYear - year < 13) {
+      setUnderAgeLocked(true);
+      return;
+    }
+    setBirthYearError('');
+    setStep(1);
+  };
+
+  // Step 0: Age gate
   if (step === 0) {
+    if (underAgeLocked) {
+      return (
+        <View style={styles.container}>
+          <Text style={styles.heading}>Sorry!</Text>
+          <Text style={styles.body}>
+            Doomlock is for students aged 13 and up. We're sorry, but you're not
+            eligible to use the app at this time.
+          </Text>
+          <TouchableOpacity
+            style={[styles.button, styles.buttonSpaced]}
+            onPress={() => BackHandler.exitApp()}>
+            <Text style={styles.buttonText}>Close App</Text>
+          </TouchableOpacity>
+        </View>
+      );
+    }
+
+    return (
+      <View style={styles.container}>
+        <Text style={styles.heading}>Before You Start</Text>
+        <Text style={styles.body}>
+          Doomlock is for students aged 13 and older. Please enter your year of
+          birth to continue.
+        </Text>
+        <Text style={styles.inputLabel}>Year of Birth</Text>
+        <TextInput
+          style={styles.yearInput}
+          value={birthYear}
+          onChangeText={text => {
+            setBirthYear(text);
+            setBirthYearError('');
+          }}
+          placeholder="e.g. 2008"
+          keyboardType="number-pad"
+          maxLength={4}
+          returnKeyType="done"
+          onSubmitEditing={handleAgeSubmit}
+        />
+        {birthYearError ? (
+          <Text style={styles.errorText}>{birthYearError}</Text>
+        ) : null}
+        <TouchableOpacity
+          style={[styles.button, styles.buttonSpaced]}
+          onPress={handleAgeSubmit}>
+          <Text style={styles.buttonText}>Continue</Text>
+        </TouchableOpacity>
+      </View>
+    );
+  }
+
+  // Step 1: Terms acceptance
+  if (step === 1) {
+    return (
+      <View style={styles.container}>
+        <Text style={styles.heading}>One Last Thing</Text>
+        <Text style={styles.body}>Please confirm before we continue.</Text>
+        <TouchableOpacity
+          style={styles.checkboxRow}
+          onPress={() => setTermsAccepted(prev => !prev)}
+          activeOpacity={0.7}>
+          <View style={[styles.checkbox, termsAccepted && styles.checkboxChecked]}>
+            {termsAccepted && <Text style={styles.checkmark}>✓</Text>}
+          </View>
+          <Text style={styles.checkboxLabel}>
+            {'I am 13 or older and agree to the '}
+            <Text
+              style={styles.link}
+              onPress={() =>
+                Linking.openURL(
+                  'https://cbrianj92.github.io/DOOMLOCK/terms.html',
+                )
+              }>
+              Terms of Service
+            </Text>
+            {' and '}
+            <Text
+              style={styles.link}
+              onPress={() =>
+                Linking.openURL(
+                  'https://cbrianj92.github.io/DOOMLOCK/privacy-policy.html',
+                )
+              }>
+              Privacy Policy
+            </Text>
+            .
+          </Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={[
+            styles.button,
+            styles.buttonSpaced,
+            !termsAccepted && styles.buttonDisabled,
+          ]}
+          onPress={() => termsAccepted && setStep(2)}
+          disabled={!termsAccepted}>
+          <Text style={styles.buttonText}>Continue</Text>
+        </TouchableOpacity>
+      </View>
+    );
+  }
+
+  // Step 2: Welcome
+  if (step === 2) {
     return (
       <View style={styles.container}>
         <View style={styles.heroSection}>
           <Text style={styles.logo}>DOOMLOCK</Text>
           <Text style={styles.tagline}>Turn screen time into study time.</Text>
         </View>
-        <TouchableOpacity style={styles.button} onPress={() => setStep(1)}>
+        <TouchableOpacity style={styles.button} onPress={() => setStep(3)}>
           <Text style={styles.buttonText}>Get Started</Text>
         </TouchableOpacity>
       </View>
     );
   }
 
-  if (step === 1) {
+  // Step 3: How it works
+  if (step === 3) {
     return (
       <View style={styles.container}>
         <Text style={styles.heading}>How It Works</Text>
@@ -74,19 +234,22 @@ const OnboardingScreen: React.FC<Props> = ({ onComplete }) => {
           <View style={styles.howItWorksItem}>
             <Text style={styles.itemTitle}>Open an app on your list</Text>
             <Text style={styles.itemBody}>
-              Doomlock pauses you for a quick SAT practice question before you scroll.
+              Doomlock pauses you for a quick SAT practice question before you
+              scroll.
             </Text>
           </View>
           <View style={styles.howItWorksItem}>
             <Text style={styles.itemTitle}>Answer the question</Text>
             <Text style={styles.itemBody}>
-              Correct earns more access time. Wrong shows the explanation — you still get access.
+              Correct earns more access time. Wrong shows the explanation — you
+              still get access.
             </Text>
           </View>
           <View style={styles.howItWorksItem}>
             <Text style={styles.itemTitle}>One question per session</Text>
             <Text style={styles.itemBody}>
-              Once you've answered, all your apps stay accessible until the study window ends.
+              Once you've answered, all your apps stay accessible until the study
+              window ends.
             </Text>
           </View>
         </View>
@@ -97,7 +260,149 @@ const OnboardingScreen: React.FC<Props> = ({ onComplete }) => {
     );
   }
 
-  if (step === 2) {
+  // Step 4: Accessibility permission
+  if (step === 4) {
+    if (permissionFailed) {
+      return (
+        <View style={styles.container}>
+          <Text style={styles.heading}>Having Trouble?</Text>
+          {IS_SAMSUNG ? (
+            <>
+              <Text style={styles.body}>
+                Samsung restricts accessibility permissions by default. You need
+                to unlock them first:
+              </Text>
+              <View style={styles.stepsList}>
+                <Text style={styles.stepItem}>
+                  1. Open Settings → Apps → Doomlock
+                </Text>
+                <Text style={styles.stepItem}>
+                  2. Tap the ⋮ menu in the top right corner
+                </Text>
+                <Text style={styles.stepItem}>
+                  3. Tap "Allow restricted settings"
+                </Text>
+                <Text style={styles.stepItem}>
+                  4. Go back to Accessibility → Installed services
+                </Text>
+                <Text style={styles.stepItem}>
+                  5. Find Doomlock and turn it on
+                </Text>
+              </View>
+            </>
+          ) : IS_XIAOMI ? (
+            <>
+              <Text style={styles.body}>
+                On Xiaomi/MIUI, accessibility is in a non-standard location:
+              </Text>
+              <View style={styles.stepsList}>
+                <Text style={styles.stepItem}>
+                  1. Open Settings → Additional Settings
+                </Text>
+                <Text style={styles.stepItem}>2. Tap Accessibility</Text>
+                <Text style={styles.stepItem}>
+                  3. Find Doomlock and enable it
+                </Text>
+                <Text style={styles.stepItem}>
+                  4. If Doomlock is grayed out, go to Battery → App battery
+                  saver → Doomlock → No restrictions
+                </Text>
+              </View>
+            </>
+          ) : (
+            <>
+              <Text style={styles.body}>
+                Here's how to enable the permission manually:
+              </Text>
+              <View style={styles.stepsList}>
+                <Text style={styles.stepItem}>
+                  1. Open your device Settings
+                </Text>
+                <Text style={styles.stepItem}>
+                  2. Search for "Accessibility"
+                </Text>
+                <Text style={styles.stepItem}>
+                  3. Find "Installed apps" or "Downloaded apps"
+                </Text>
+                <Text style={styles.stepItem}>
+                  4. Find Doomlock and toggle it on
+                </Text>
+                <Text style={styles.stepItem}>
+                  5. Confirm the warning dialog that appears
+                </Text>
+              </View>
+            </>
+          )}
+          <TouchableOpacity
+            style={[styles.button, styles.buttonSpaced]}
+            onPress={handleOpenSettings}>
+            <Text style={styles.buttonText}>Try Again — Open Settings</Text>
+          </TouchableOpacity>
+        </View>
+      );
+    }
+
+    if (showRestrictedWarning) {
+      return (
+        <View style={styles.container}>
+          {IS_SAMSUNG ? (
+            <>
+              <Text style={styles.heading}>One Extra Step for Samsung</Text>
+              <Text style={styles.body}>
+                Samsung blocks accessibility permissions by default. Do this
+                first, then we'll open the right settings screen:
+              </Text>
+              <View style={styles.stepsList}>
+                <Text style={styles.stepItem}>
+                  1. Settings → Apps → Doomlock
+                </Text>
+                <Text style={styles.stepItem}>
+                  2. Tap ⋮ (three dots, top right)
+                </Text>
+                <Text style={styles.stepItem}>
+                  3. Tap "Allow restricted settings"
+                </Text>
+                <Text style={styles.stepItem}>
+                  4. Come back here, then tap the button below
+                </Text>
+              </View>
+            </>
+          ) : (
+            <>
+              <Text style={styles.heading}>One Extra Step for Xiaomi</Text>
+              <Text style={styles.body}>
+                On Xiaomi/MIUI, accessibility settings are under Additional
+                Settings, not the main menu:
+              </Text>
+              <View style={styles.stepsList}>
+                <Text style={styles.stepItem}>
+                  1. Settings → Additional Settings → Accessibility
+                </Text>
+                <Text style={styles.stepItem}>
+                  2. Find Doomlock and enable it
+                </Text>
+                <Text style={styles.stepItem}>
+                  3. Confirm the warning dialog
+                </Text>
+              </View>
+            </>
+          )}
+          <TouchableOpacity
+            style={[styles.button, styles.buttonSpaced]}
+            onPress={handleOpenSettings}>
+            <Text style={styles.buttonText}>Got it — Open Settings</Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            style={styles.secondaryButton}
+            onPress={handleOpenSettings}>
+            <Text style={styles.secondaryButtonText}>
+              Skip — take me straight to Settings
+            </Text>
+          </TouchableOpacity>
+        </View>
+      );
+    }
+
     return (
       <View style={styles.container}>
         <Text style={styles.heading}>One Permission to Enable</Text>
@@ -111,18 +416,21 @@ const OnboardingScreen: React.FC<Props> = ({ onComplete }) => {
         </Text>
         <TouchableOpacity
           style={[styles.button, styles.buttonSpaced]}
-          onPress={openAccessibilitySettings}>
+          onPress={handleEnablePress}>
           <Text style={styles.buttonText}>Enable in Settings</Text>
         </TouchableOpacity>
         <Text style={styles.hint}>
-          In Settings, find Doomlock under Installed Apps and turn it on. This
-          screen will advance automatically.
+          {IS_SAMSUNG
+            ? "Samsung requires one extra step — tap above and we'll walk you through it."
+            : IS_XIAOMI
+            ? "Xiaomi devices use a non-standard path — tap above and we'll guide you."
+            : 'In Settings, find Doomlock under Installed Apps and turn it on. This screen will advance automatically.'}
         </Text>
       </View>
     );
   }
 
-  // Step 3: Blocked apps confirmation
+  // Step 5: Blocked apps confirmation
   return (
     <View style={styles.container}>
       <Text style={styles.heading}>Your Study Triggers</Text>
@@ -182,6 +490,67 @@ const styles = StyleSheet.create({
   bodySpaced: {
     marginTop: Spacing.sm,
   },
+  inputLabel: {
+    ...Typography.body,
+    fontWeight: '600',
+    color: Colors.text,
+    marginTop: Spacing.lg,
+    marginBottom: Spacing.xs,
+  },
+  yearInput: {
+    borderWidth: 1,
+    borderColor: '#dde3ea',
+    borderRadius: BorderRadius.button,
+    paddingHorizontal: Spacing.md,
+    paddingVertical: Spacing.sm,
+    ...Typography.body,
+    fontSize: 18,
+    color: Colors.text,
+  },
+  errorText: {
+    ...Typography.body,
+    fontSize: 13,
+    color: Colors.error,
+    marginTop: Spacing.xs,
+  },
+  checkboxRow: {
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    marginTop: Spacing.lg,
+    gap: Spacing.sm,
+  },
+  checkbox: {
+    width: 22,
+    height: 22,
+    borderWidth: 2,
+    borderColor: Colors.primary,
+    borderRadius: 4,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: 2,
+    flexShrink: 0,
+  },
+  checkboxChecked: {
+    backgroundColor: Colors.primary,
+  },
+  checkmark: {
+    color: Colors.background,
+    fontSize: 14,
+    fontWeight: 'bold',
+  },
+  checkboxLabel: {
+    ...Typography.body,
+    flex: 1,
+    color: Colors.text,
+    lineHeight: 24,
+  },
+  link: {
+    color: Colors.accent,
+    textDecorationLine: 'underline',
+  },
+  buttonDisabled: {
+    opacity: 0.4,
+  },
   itemsContainer: {
     flex: 1,
     justifyContent: 'center',
@@ -205,6 +574,20 @@ const styles = StyleSheet.create({
     fontSize: 14,
     color: Colors.text,
   },
+  stepsList: {
+    marginTop: Spacing.md,
+    marginBottom: Spacing.sm,
+    backgroundColor: '#f8f9fa',
+    borderRadius: BorderRadius.card,
+    padding: Spacing.md,
+    gap: Spacing.xs,
+  },
+  stepItem: {
+    ...Typography.body,
+    fontSize: 14,
+    color: Colors.text,
+    lineHeight: 22,
+  },
   button: {
     backgroundColor: Colors.primary,
     borderRadius: BorderRadius.button,
@@ -217,6 +600,17 @@ const styles = StyleSheet.create({
   buttonText: {
     ...Typography.button,
     color: Colors.background,
+  },
+  secondaryButton: {
+    paddingVertical: Spacing.sm,
+    alignItems: 'center',
+    marginTop: Spacing.xs,
+  },
+  secondaryButtonText: {
+    ...Typography.body,
+    fontSize: 14,
+    color: Colors.textLight,
+    textDecorationLine: 'underline',
   },
   hint: {
     ...Typography.body,
