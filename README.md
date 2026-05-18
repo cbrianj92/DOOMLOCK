@@ -1,97 +1,77 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Doomlock
 
-# Getting Started
+Block social media apps until you answer a real SAT or ACT practice question. Every correct answer earns screen time. Study more. Scroll less.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+**Platform:** Android (React Native) — iOS planned for a future phase.
 
-## Step 1: Start Metro
+---
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+## Repo Structure
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+```
+/android        Native Android project (Kotlin, Gradle)
+                  BlockingModule.kt                   — JS bridge to write blocked app list to SharedPreferences
+                  DoomlockAccessibilityService.kt     — intercepts blocked app opens, manages unlock timer
 
-```sh
-# Using npm
-npm start
+/src
+  /screens      Full-screen React Native components
+                  QuestionScreen.tsx                  — core question/answer/banking UI
+                  OnboardingScreen.tsx                — first-run setup flow
+                  AuthScreen.tsx                      — sign up / log in (Supabase Auth)
+                  ProgressScreen.tsx                  — answer history, accuracy, subject breakdown
+                  SettingsScreen.tsx                  — blocked app toggles, difficulty selection
+                  SubjectSelectionScreen.tsx          — Pro subject picker (SAT/ACT subjects)
 
-# OR using Yarn
-yarn start
+  /components   Reusable UI pieces
+                  AnswerButton.tsx                    — answer choice row
+                  TabBar.tsx                          — bottom navigation (Practice / Progress / Settings)
+                  Timer.tsx                           — countdown display for active unlock window
+
+  /services     External integrations and AsyncStorage wrappers
+                  supabase.ts                         — Supabase client setup
+                  auth.ts                             — session helpers
+                  blocking.ts                         — syncs blocked app list to native layer
+                  blockedApps.ts                      — AsyncStorage CRUD for blocked app list
+                  cohort.ts                           — A/B/C cohort assignment for unlock durations
+                  difficultyPreference.ts             — AsyncStorage CRUD for difficulty setting
+                  flagQuestion.ts                     — writes to question_flags table
+                  progress.ts                         — saves and queries progress records
+                  proFeatures.ts                      — logs Pro feature taps for analytics
+                  session.ts                          — entry point detection (direct vs accessibility-triggered)
+
+  /hooks        Custom React hooks
+                  useQuestion.ts                      — fetches a random question from Supabase
+                  useUnlock.ts                        — manages global unlock timer state
+
+  /utils        Helper functions
+                  formatTime.ts                       — ms to m:ss display string
+
+  /types        TypeScript type definitions
+  /constants    Colors, spacing, typography, timing values
+
+/scripts        Question bank tooling — see scripts/README.md
+/docs           GitHub Pages landing page — see docs/README.md
+/assets         Icons and design option files
 ```
 
-## Step 2: Build and run your app
+---
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+## Tech Stack
 
-### Android
+- **React Native 0.85** (TypeScript, bare CLI — no Expo)
+- **Supabase** — PostgreSQL database + Auth
+- **Android Accessibility Service** — app blocking (required for Android 14+)
+- **AsyncStorage + SharedPreferences** — shared unlock timer state between JS and native
 
-```sh
-# Using npm
-npm run android
+## Dev Setup
 
-# OR using Yarn
-yarn android
+Requires Node.js, Java 17, Android Studio, and Android SDK. See the [React Native environment setup docs](https://reactnative.dev/docs/set-up-your-environment).
+
+```bash
+npm install
+npx react-native run-android
 ```
 
-### iOS
+## Question Bank
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
-
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
-
-```sh
-bundle install
-```
-
-Then, and every time you update your native dependencies, run:
-
-```sh
-bundle exec pod install
-```
-
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
-
-```sh
-# Using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
-
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+289 AI-generated SAT/ACT practice questions across Math, Reading, Writing, English, and Science at Easy, Medium, and Hard difficulty. Already seeded in Supabase. See [`/scripts`](scripts/README.md) if the database needs to be rebuilt.
