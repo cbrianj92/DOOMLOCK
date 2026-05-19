@@ -72,11 +72,19 @@ function App() {
   }
 
   if (status === 'onboarding') {
-    return <OnboardingScreen onComplete={handleOnboardingComplete} />;
+    return (
+      <SafeAreaProvider>
+        <OnboardingScreen onComplete={handleOnboardingComplete} />
+      </SafeAreaProvider>
+    );
   }
 
   if (status === 'auth') {
-    return <AuthScreen onComplete={handleAuthComplete} />;
+    return (
+      <SafeAreaProvider>
+        <AuthScreen onComplete={handleAuthComplete} />
+      </SafeAreaProvider>
+    );
   }
 
   return (
