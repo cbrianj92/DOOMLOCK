@@ -160,7 +160,8 @@ export default ComponentName;
 Source of truth: `supabase/migrations/` (baseline captured from the live
 project on 2026-11-22). Any schema change = a new migration file in that
 folder, applied to the live project, committed in the same PR.
-- Project ref: `qarrsjolwnhmoqtcikmc` (Free plan — pauses after ~7 days idle)
+- Project ref: `qarrsjolwnhmoqtcikmc` (Free plan — pauses after ~7 days idle;
+  `.github/workflows/supabase-keepalive.yml` pings it Mon + Thu to prevent that)
 - Tables: questions, users (beta cohort A/B/C), progress, session_log,
   pro_feature_taps, question_flags, deletion_requests, beta_signups — all RLS
 - `get_random_question(p_difficulty text default null)` returns one random question
