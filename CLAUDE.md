@@ -28,7 +28,10 @@ per cycle, never two in a row.
 - **App blocking approach**: Android Accessibility Service, NOT Usage Stats API.
   Android 14+ blocks activity launches from background services — accessibility 
   services are exempt. Requires user to enable in Settings → Accessibility.
-  Use `typeAllMask` + `android:isAccessibilityTool="true"` for API 34+ compatibility.
+  Do NOT set `android:isAccessibilityTool="true"` — Doomlock is not an accessibility
+  tool under Google Play policy. Requires an in-app prominent disclosure + consent
+  screen and a Play Console Accessibility declaration. Sideloaded APKs hit Android
+  13+ "restricted settings"; test accessibility onboarding via a Play testing track.
 - **Timer expiry**: Scheduled via `Handler.postDelayed` inside the accessibility 
   service so it can launch Doomlock mid-session from the service context.
 - **Shared state**: Unlock expiry written to both AsyncStorage (JS) and 
