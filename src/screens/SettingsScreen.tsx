@@ -185,6 +185,12 @@ const SettingsScreen: React.FC = () => {
           <Text style={styles.deleteHintEmail}>support@doomlock.app</Text> to
           request deletion.
         </Text>
+        <Text style={styles.legalNote}>
+          Doomlock is not affiliated with or endorsed by the College Board or
+          ACT, Inc. SAT® is a registered trademark of the College Board. ACT®
+          is a registered trademark of ACT, Inc. All practice questions are
+          original.
+        </Text>
       </ScrollView>
 
       <Modal
@@ -332,6 +338,13 @@ const styles = StyleSheet.create({
     ...Typography.body,
     fontWeight: '600',
     color: Colors.error,
+  },
+  legalNote: {
+    ...Typography.body,
+    fontSize: 12,
+    color: Colors.textLight,
+    marginTop: Spacing.lg,
+    lineHeight: 18,
   },
   deleteHint: {
     ...Typography.body,
