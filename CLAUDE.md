@@ -50,12 +50,33 @@ per cycle, never two in a row.
   - Facebook: `com.facebook.katana`
   - Reddit: `com.reddit.frontpage`
 
-## Current Build State
-Steps 1–9 complete. Core mechanic is fully working and tested on emulator.
-- Question screen fetches from Supabase, validates answers, shows explanations
-- Unlock timer persists across app closes (AsyncStorage + SharedPreferences)
-- Accessibility service blocks apps on window change AND kicks user out mid-session when timer expires
+## Development Workflow — GitHub Only (since Nov 2026)
+There is no local dev machine. All work happens in Claude sessions that
+commit to this repo; GitHub Actions builds the app.
+- `.github/workflows/android-build.yml` runs on every push and PR:
+  typecheck, lint, Jest, then `assembleRelease` + `bundleRelease`.
+- Pushes to `main` publish the APK + AAB to the `latest-build`
+  GitHub release (prerelease). Install the APK straight from a phone;
+  upload the AAB to Play Console.
+- `versionCode` = the workflow run number (passed as `-PversionCode`).
+- Release signing key lives ONLY in repo secrets
+  (`ANDROID_KEYSTORE_BASE64`, `ANDROID_KEYSTORE_PASSWORD`, alias `doomlock`).
+  Never commit a keystore. Without the secrets, release builds are
+  signed with the debug key.
+- Verify changes by checking the Actions run, not by assuming they work.
+  Real-device behavior (accessibility onboarding, blocking) still needs
+  a human test on a phone.
+
+## Current Build State (Nov 2026)
+MVP (all 12 steps) + pre-beta build complete; paused May 19, 2026.
+- Banking mechanic (30-min cap), question flagging, Settings tab
+  (blocked-app toggles + difficulty), 289 SAT/ACT questions seeded
+- Under-13 age gate, account deletion, "Pro coming soon" on subject selection
+- Samsung accessibility-onboarding fix shipped but NOT verified on a real device
+- Open question: Accessibility Service alone vs. adding VPN-based blocking
+  as a fallback for Samsung/Xiaomi
 - GitHub: github.com/cbrianj92/DOOMLOCK (note: repo name is uppercase)
+- Landing page, Privacy Policy, Terms served from `docs/` via GitHub Pages
 
 ## Folder Structure — Always Follow This
 ```
@@ -152,8 +173,9 @@ progress table:
 - questions: anon + authenticated read (questions are not sensitive)
 - progress: authenticated read/insert own rows only
 - `get_random_question()` SQL function returns one random question
-- 4 seed questions loaded (Math ×2, Reading ×1, Writing ×1)
-- Auth not yet wired up — progress table unused until step 11
+- Also live (not shown above): question_flags, deletion_requests tables
+- NOTE: schema SQL is not yet in the repo — it was run by hand in the
+  Supabase dashboard. Planned: export it to `supabase/` as migrations.
 
 ## MVP Build Order — Follow This Sequence
 1. ✅ Folder structure setup
@@ -165,9 +187,9 @@ progress table:
 7. ✅ Answer validation + explanation display
 8. ✅ Unlock timer (global state)
 9. ✅ App blocking integration
-10. ⬜ Onboarding flow
-11. ⬜ Auth (sign up / log in)
-12. ⬜ Progress screen
+10. ✅ Onboarding flow
+11. ✅ Auth (sign up / log in)
+12. ✅ Progress screen
 
 ## Session Rules — Follow These Every Session
 - Read this file before doing anything

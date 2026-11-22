@@ -1,0 +1,97 @@
+# Builds Doomlock in the cloud so no local dev machine is needed.
+# - Every push / PR: typecheck, lint, test, and build a release APK + AAB
+# - Pushes to main: also publish the APK to the "latest-build" GitHub release
+#   so it can be downloaded and installed straight from a phone
+name: Android build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: android-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Typecheck
+        run: npx tsc --noEmit
+      - name: Lint
+        run: npm run lint
+      - name: Test
+        run: npm test -- --ci
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+      - uses: gradle/actions/setup-gradle@v4
+
+      # Release signing key lives only in GitHub secrets, never in the repo.
+      # If the secrets are missing, the build falls back to the debug key.
+      - name: Write release keystore
+        env:
+          KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+        run: |
+          if [ -z "$KEYSTORE_BASE64" ]; then
+            echo "::warning::No release keystore secret set — signing with the debug key"
+            exit 0
+          fi
+          echo "$KEYSTORE_BASE64" | base64 -d > android/app/doomlock-release.keystore
+          cat > android/app/keystore.properties <<EOF
+          storeFile=doomlock-release.keystore
+          storePassword=$KEYSTORE_PASSWORD
+          keyAlias=doomlock
+          keyPassword=$KEYSTORE_PASSWORD
+          EOF
+
+      - name: Build APK and AAB
+        working-directory: android
+        run: ./gradlew assembleRelease bundleRelease -PversionCode=${{ github.run_number }} --no-daemon
+
+      - name: Rename outputs
+        run: |
+          mkdir -p out
+          cp android/app/build/outputs/apk/release/app-release.apk out/doomlock-build-${{ github.run_number }}.apk
+          cp android/app/build/outputs/bundle/release/app-release.aab out/doomlock-build-${{ github.run_number }}.aab
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: doomlock-build-${{ github.run_number }}
+          path: out/
+
+      - name: Publish to latest-build release
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete latest-build --yes --cleanup-tag 2>/dev/null || true
+          gh release create latest-build out/* \
+            --prerelease \
+            --title "Latest build (#${{ github.run_number }})" \
+            --notes "Built from ${{ github.sha }}. Install the .apk on your phone; upload the .aab to Play Console."
