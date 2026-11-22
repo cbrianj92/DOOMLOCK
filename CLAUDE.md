@@ -156,26 +156,16 @@ export default ComponentName;
 - Progress is tracked per user in Supabase after every answer
 - Supabase auth gates all data access — user must be logged in
 
-## Supabase Schema (live)
-```
-questions table:
-  id, subject, difficulty, question_text, 
-  option_a, option_b, option_c, option_d,
-  correct_answer, explanation, created_at
-
-users table: (handled by Supabase Auth)
-
-progress table:
-  id, user_id, question_id, is_correct, 
-  answered_at, unlock_duration_granted
-```
-- RLS enabled on both tables
-- questions: anon + authenticated read (questions are not sensitive)
-- progress: authenticated read/insert own rows only
-- `get_random_question()` SQL function returns one random question
-- Also live (not shown above): question_flags, deletion_requests tables
-- NOTE: schema SQL is not yet in the repo — it was run by hand in the
-  Supabase dashboard. Planned: export it to `supabase/` as migrations.
+## Supabase Schema
+Source of truth: `supabase/migrations/` (baseline captured from the live
+project on 2026-11-22). Any schema change = a new migration file in that
+folder, applied to the live project, committed in the same PR.
+- Project ref: `qarrsjolwnhmoqtcikmc` (Free plan — pauses after ~7 days idle)
+- Tables: questions, users (beta cohort A/B/C), progress, session_log,
+  pro_feature_taps, question_flags, deletion_requests, beta_signups — all RLS
+- `get_random_question(p_difficulty text default null)` returns one random question
+- Question content lives in `scripts/batches/*.json` (289 questions),
+  loaded with `npm run seed`
 
 ## MVP Build Order — Follow This Sequence
 1. ✅ Folder structure setup
