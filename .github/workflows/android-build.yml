@@ -1,6 +1,6 @@
 # Builds Doomlock in the cloud so no local dev machine is needed.
 # - Every push / PR: typecheck, lint, test, and build a release APK + AAB
-# - Pushes to main: also publish the APK to the "latest-build" GitHub release
+# - Pushes and manual runs on main: also publish the APK to the "latest-build" GitHub release
 #   so it can be downloaded and installed straight from a phone
 name: Android build
 
@@ -86,7 +86,7 @@ jobs:
           path: out/
 
       - name: Publish to latest-build release
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
