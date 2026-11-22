@@ -50,7 +50,7 @@ const QuestionScreen: React.FC<Props> = ({
   });
   const progressIdRef = useRef<string | null>(null);
   const [showRating, setShowRating] = useState(false);
-  const [ratingDismissed, setRatingDismissed] = useState(false);
+  const [_ratingDismissed, setRatingDismissed] = useState(false);
 
   // Banking state (non-practice only)
   const [streakCount, setStreakCount] = useState(1);
